@@ -1,0 +1,833 @@
+[
+  {
+    "goal": {
+      "id": "1",
+      "title": "End poverty in all its forms everywhere",
+      "indicators": [
+        
+        {
+          "id": "1-1-1",
+          "title": "Number of people using the social assistance portal",
+          "description": "",
+          "keywords": "",
+          "href": "/en/1-1-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "1-2-1",
+          "title": "Number of repair cafes, community workshops and ReUse shops in Treptow-Köpenick",
+          "description": "",
+          "keywords": "",
+          "href": "/en/1-2-1",
+          "status": "complete"
+        },
+        {
+          "id": "1-3-1",
+          "title": "At-risk-of poverty rate in Treptow-Köpenick",
+          "description": "",
+          "keywords": "",
+          "href": "/en/1-3-1",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "2",
+      "title": "End hunger, achieve food security and improved nutrition and promote sustainable agriculture",
+      "indicators": [
+        
+        {
+          "id": "2-1-1",
+          "title": "Publicly accessible fruit trees and kitchen gardens",
+          "description": "",
+          "keywords": "",
+          "href": "/en/2-1-1",
+          "status": "complete"
+        },
+        {
+          "id": "2-2-1",
+          "title": "Fair certified food in Berlin's school catering system",
+          "description": "",
+          "keywords": "",
+          "href": "/en/2-2-1",
+          "status": "complete"
+        },
+        {
+          "id": "2-3-1",
+          "title": "Kilograms of food rescued (foodsharing)",
+          "description": "",
+          "keywords": "",
+          "href": "/en/2-3-1",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "3",
+      "title": "Ensure healthy lives and promote well-being for all at all ages",
+      "indicators": [
+        
+        {
+          "id": "3-1-1",
+          "title": "City cycling - Number of people participating",
+          "description": "",
+          "keywords": "",
+          "href": "/en/3-1-1",
+          "status": "complete"
+        },
+        {
+          "id": "3-1-2",
+          "title": "City cycling - Kilometers ridden by bicycle",
+          "description": "",
+          "keywords": "",
+          "href": "/en/3-1-2",
+          "status": "complete"
+        },
+        {
+          "id": "3-1-3",
+          "title": "City cycling – Kilograms of CO2 saved",
+          "description": "",
+          "keywords": "",
+          "href": "/en/3-1-3",
+          "status": "complete"
+        },
+        {
+          "id": "3-2-1",
+          "title": "Relative noise pollution in Treptow-Köpenick (Environmental justice)",
+          "description": "",
+          "keywords": "",
+          "href": "/en/3-2-1",
+          "status": "complete"
+        },
+        {
+          "id": "3-3-1",
+          "title": "Relative air pollution in Treptow-Köpenick (Environmental justice)",
+          "description": "",
+          "keywords": "",
+          "href": "/en/3-3-1",
+          "status": "complete"
+        },
+        {
+          "id": "3-3-2",
+          "title": "Air pollution limits in Treptow-Köpenick",
+          "description": "",
+          "keywords": "",
+          "href": "/en/3-3-2",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "4",
+      "title": "Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all",
+      "indicators": [
+        
+        {
+          "id": "4-1-1",
+          "title": "Number of schools participating in learning conferences per year",
+          "description": "",
+          "keywords": "",
+          "href": "/en/4-1-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-2-1",
+          "title": "Number of training courses offered on 'Education for Sustainable Development' (ESD) for educational staff at schools in Treptow-Köpenick",
+          "description": "",
+          "keywords": "",
+          "href": "/en/4-2-1",
+          "status": "complete"
+        },
+        {
+          "id": "4-3-1",
+          "title": "Number of adult education center (VHS) courses on global learning, education for sustainable development (ESD) and SDGs",
+          "description": "",
+          "keywords": "",
+          "href": "/en/4-3-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-4-1",
+          "title": "To be defined",
+          "description": "",
+          "keywords": "",
+          "href": "/en/4-4-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "4-5-1",
+          "title": "Project participants of the project 'Environmental School in Europe - International Sustainability School“",
+          "description": "",
+          "keywords": "",
+          "href": "/en/4-5-1",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "5",
+      "title": "Achieve gender equality and empower all women and girls",
+      "indicators": [
+        
+        {
+          "id": "5-1-1",
+          "title": "Number of schools participating in the project day",
+          "description": "",
+          "keywords": "",
+          "href": "/en/5-1-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-2-1",
+          "title": "Number of trainings offered by the district office on gender-sensitive language use",
+          "description": "",
+          "keywords": "",
+          "href": "/en/5-2-1",
+          "status": "complete"
+        },
+        {
+          "id": "5-3-1",
+          "title": "Number of projects, contact points and counseling services for girls and young women in Treptow-Köpenick",
+          "description": "",
+          "keywords": "",
+          "href": "/en/5-3-1",
+          "status": "complete"
+        },
+        {
+          "id": "5-4-1",
+          "title": "Proportion of women in management positions in the public sector",
+          "description": "",
+          "keywords": "",
+          "href": "/en/5-4-1",
+          "status": "complete"
+        },
+        {
+          "id": "5-5-1",
+          "title": "Proportion of women in the Treptow-Köpenick district assembly (BVV)",
+          "description": "",
+          "keywords": "",
+          "href": "/en/5-5-1",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "6",
+      "title": "Ensure availability and sustainable management of water and sanitation for all",
+      "indicators": [
+        
+        {
+          "id": "6-1-1",
+          "title": "Saprobity (organic load) and trophicity (nutrient load) of the Müggelsee lake",
+          "description": "",
+          "keywords": "",
+          "href": "/en/6-1-1",
+          "status": "complete"
+        },
+        {
+          "id": "6-2-1",
+          "title": "Number of extracurricular institutions for nature and environmental education / education for sustainable development (ESD)",
+          "description": "",
+          "keywords": "",
+          "href": "/en/6-2-1",
+          "status": "complete"
+        },
+        {
+          "id": "6-3-1",
+          "title": "Bathing water quality of the bathing sites within the district Treptow-Köpenick",
+          "description": "",
+          "keywords": "",
+          "href": "/en/6-3-1",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "7",
+      "title": "Ensure access to affordable, reliable, sustainable and modern energy for all",
+      "indicators": [
+        
+        {
+          "id": "7-1-1",
+          "title": "To be defined",
+          "description": "",
+          "keywords": "",
+          "href": "/en/7-1-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "7-2-1",
+          "title": "Number of photovoltaic systems on district-owned buildings",
+          "description": "",
+          "keywords": "",
+          "href": "/en/7-2-1",
+          "status": "complete"
+        },
+        {
+          "id": "7-2-2",
+          "title": "Electricity generation on district-owned buildings (kWh/year)",
+          "description": "",
+          "keywords": "",
+          "href": "/en/7-2-2",
+          "status": "complete"
+        },
+        {
+          "id": "7-3-1",
+          "title": "Photovoltaics - Total installations in the district",
+          "description": "",
+          "keywords": "",
+          "href": "/en/7-3-1",
+          "status": "complete"
+        },
+        {
+          "id": "7-3-2",
+          "title": "Photovoltaics - Electricity supply in the district",
+          "description": "",
+          "keywords": "",
+          "href": "/en/7-3-2",
+          "status": "complete"
+        },
+        {
+          "id": "7-3-3",
+          "title": "Solar thermal energy - Total installations in the district",
+          "description": "",
+          "keywords": "",
+          "href": "/en/7-3-3",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "8",
+      "title": "Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all",
+      "indicators": [
+        
+        {
+          "id": "8-1-1",
+          "title": "Number of companies in Treptow-Köpenick that have a valid 'Common Good Balance' certificate",
+          "description": "",
+          "keywords": "",
+          "href": "/en/8-1-1",
+          "status": "complete"
+        },
+        {
+          "id": "8-2-1",
+          "title": "Number of participants in the mentoring program",
+          "description": "",
+          "keywords": "",
+          "href": "/en/8-2-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-2-2",
+          "title": "Proportion of applicants with immigration history",
+          "description": "",
+          "keywords": "",
+          "href": "/en/8-2-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-3-1",
+          "title": "Proportion of employees with immigration history",
+          "description": "",
+          "keywords": "",
+          "href": "/en/8-3-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-3-2",
+          "title": "Proportion of employees with immigration history in management positions in the local administration",
+          "description": "",
+          "keywords": "",
+          "href": "/en/8-3-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-4-1",
+          "title": "Number of municipal institutions in Treptow-Köpenick that have a valid 'Common Good Balance' certificate",
+          "description": "",
+          "keywords": "",
+          "href": "/en/8-4-1",
+          "status": "complete"
+        },
+        {
+          "id": "8-5-1",
+          "title": "Gross hourly earnings and earnings gaps between women and men (Gender Pay Gap unadjusted)",
+          "description": "",
+          "keywords": "",
+          "href": "/en/8-5-1",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "9",
+      "title": "Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation",
+      "indicators": [
+        
+        {
+          "id": "9-1-1",
+          "title": "Number of charging stations for e-cars",
+          "description": "",
+          "keywords": "",
+          "href": "/en/9-1-1",
+          "status": "complete"
+        },
+        {
+          "id": "9-1-2",
+          "title": "Electricity consumption at electric charging stations",
+          "description": "",
+          "keywords": "",
+          "href": "/en/9-1-2",
+          "status": "complete"
+        },
+        {
+          "id": "9-2-1",
+          "title": "Number of public facilities with free WLAN access",
+          "description": "",
+          "keywords": "",
+          "href": "/en/9-2-1",
+          "status": "complete"
+        },
+        {
+          "id": "9-3-1",
+          "title": "Broadband availability Mbit/s in %.",
+          "description": "",
+          "keywords": "",
+          "href": "/en/9-3-1",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "10",
+      "title": "Reduce inequality within and among countries",
+      "indicators": [
+        
+        {
+          "id": "10-1-1",
+          "title": "Proportion of multilingual information materials",
+          "description": "",
+          "keywords": "",
+          "href": "/en/10-1-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-2-1",
+          "title": "Number of training courses offered within the district administration",
+          "description": "",
+          "keywords": "",
+          "href": "/en/10-2-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-3-1",
+          "title": "Number of companies conducting a Common Good Balance in Treptow-Köpenick",
+          "description": "",
+          "keywords": "",
+          "href": "/en/10-3-1",
+          "status": "complete"
+        },
+        {
+          "id": "10-4-1",
+          "title": "Gini coefficient of equivalent income in Treptow-Köpenick",
+          "description": "",
+          "keywords": "",
+          "href": "/en/10-4-1",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "11",
+      "title": "Make cities and human settlements inclusive, safe, resilient and sustainable",
+      "indicators": [
+        
+        {
+          "id": "11-1-1",
+          "title": "Number of cargo bikes that can be borrowed free of charge in the district",
+          "description": "",
+          "keywords": "",
+          "href": "/en/11-1-1",
+          "status": "complete"
+        },
+        {
+          "id": "11-1-2",
+          "title": "Number of cargo bike rentals",
+          "description": "",
+          "keywords": "",
+          "href": "/en/11-1-2",
+          "status": "complete"
+        },
+        {
+          "id": "11-2-1",
+          "title": "Number of pick-up points for community-supported agriculture (CSA) products",
+          "description": "",
+          "keywords": "",
+          "href": "/en/11-2-1",
+          "status": "complete"
+        },
+        {
+          "id": "11-2-2",
+          "title": "Number of beekeepers in the district",
+          "description": "",
+          "keywords": "",
+          "href": "/en/11-2-2",
+          "status": "complete"
+        },
+        {
+          "id": "11-2-3",
+          "title": "Number of bee colonies in the district",
+          "description": "",
+          "keywords": "",
+          "href": "/en/11-2-3",
+          "status": "complete"
+        },
+        {
+          "id": "11-3-1",
+          "title": "Number of tree patrons",
+          "description": "",
+          "keywords": "",
+          "href": "/en/11-3-1",
+          "status": "complete"
+        },
+        {
+          "id": "11-4-1",
+          "title": "Frequency of means of transportation used on routes in Treptow-Köpenick",
+          "description": "",
+          "keywords": "",
+          "href": "/en/11-4-1",
+          "status": "complete"
+        },
+        {
+          "id": "11-5-1",
+          "title": "Sports, leisure and recreation space in Treptow-Köpenick",
+          "description": "",
+          "keywords": "",
+          "href": "/en/11-5-1",
+          "status": "complete"
+        },
+        {
+          "id": "11-5-2",
+          "title": "Total supply of public green spaces",
+          "description": "",
+          "keywords": "",
+          "href": "/en/11-5-2",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "12",
+      "title": "Ensure sustainable consumption and production patterns",
+      "indicators": [
+        
+        {
+          "id": "12-1-1",
+          "title": "Number of training courses on sustainable and fair procurement per year",
+          "description": "",
+          "keywords": "",
+          "href": "/en/12-1-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-2-1",
+          "title": "Number of parishes that are part of the Fairtrade Town campaign",
+          "description": "",
+          "keywords": "",
+          "href": "/en/12-2-1",
+          "status": "complete"
+        },
+        {
+          "id": "12-2-2",
+          "title": "Number of parishes with 'Fair Parish' certification in the district",
+          "description": "",
+          "keywords": "",
+          "href": "/en/12-2-2",
+          "status": "complete"
+        },
+        {
+          "id": "12-3-1",
+          "title": "Status of certification of the municipality as a Fairtrade Town",
+          "description": "",
+          "keywords": "",
+          "href": "/en/12-3-1",
+          "status": "complete"
+        },
+        {
+          "id": "12-4-1",
+          "title": "Number of fair trade schools in Treptow-Köpenick",
+          "description": "",
+          "keywords": "",
+          "href": "/en/12-4-1",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "13",
+      "title": "Take urgent action to combat climate change and its impacts",
+      "indicators": [
+        
+        {
+          "id": "13-1-1",
+          "title": "Full-time equivalents for climate protection management",
+          "description": "",
+          "keywords": "",
+          "href": "/en/13-1-1",
+          "status": "complete"
+        },
+        {
+          "id": "13-1-2",
+          "title": "Municipal Climate Protection Index",
+          "description": "",
+          "keywords": "",
+          "href": "/en/13-1-2",
+          "status": "complete"
+        },
+        {
+          "id": "13-2-1",
+          "title": "Average weekday bicycle traffic at the Treptow-Köpenick Kaisersteg counting station",
+          "description": "",
+          "keywords": "",
+          "href": "/en/13-2-1",
+          "status": "complete"
+        },
+        {
+          "id": "13-2-2",
+          "title": "Number of cargo bikes that can be borrowed free of charge in the district",
+          "description": "",
+          "keywords": "",
+          "href": "/en/13-2-2",
+          "status": "complete"
+        },
+        {
+          "id": "13-2-3",
+          "title": "Kilometers of bike freeways in the district",
+          "description": "",
+          "keywords": "",
+          "href": "/en/13-2-3",
+          "status": "complete"
+        },
+        {
+          "id": "13-3-1",
+          "title": "CO2 emissions from final energy consumption (polluter balance)",
+          "description": "",
+          "keywords": "",
+          "href": "/en/13-3-1",
+          "status": "complete"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "14",
+      "title": "Conserve and sustainably use the oceans, seas and marine resources for sustainable development",
+      "indicators": [
+        
+        {
+          "id": "14-1-1",
+          "title": "Red list classification of fish species occurring in Berlin waters",
+          "description": "",
+          "keywords": "",
+          "href": "/en/14-1-1",
+          "status": "complete"
+        },
+        {
+          "id": "14-2-1",
+          "title": "Number of residents attending ranger consultation hours",
+          "description": "",
+          "keywords": "",
+          "href": "/en/14-2-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "14-3-1",
+          "title": "To be defined",
+          "description": "",
+          "keywords": "",
+          "href": "/en/14-3-1",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "15",
+      "title": "Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss",
+      "indicators": [
+        
+        {
+          "id": "15-1-1",
+          "title": "Municipal Climate Adaptation Index",
+          "description": "",
+          "keywords": "",
+          "href": "/en/15-1-1",
+          "status": "complete"
+        },
+        {
+          "id": "15-2-1",
+          "title": "Number of participations of the district in meetings and events of the biodiversity network per year",
+          "description": "",
+          "keywords": "",
+          "href": "/en/15-2-1",
+          "status": "complete"
+        },
+        {
+          "id": "15-3-1",
+          "title": "Nature reserves and protected landscape areas (area in ha)",
+          "description": "",
+          "keywords": "",
+          "href": "/en/15-3-1",
+          "status": "complete"
+        },
+        {
+          "id": "15-4-1",
+          "title": "To be defined",
+          "description": "",
+          "keywords": "",
+          "href": "/en/15-4-1",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "16",
+      "title": "Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels",
+      "indicators": [
+        
+        {
+          "id": "16-1-1",
+          "title": "Number of participatory events on the topic of SDGs organized by the Treptow-Köpenick district office per year",
+          "description": "",
+          "keywords": "",
+          "href": "/en/16-1-1",
+          "status": "complete"
+        },
+        {
+          "id": "16-2-1",
+          "title": "Number of interfaith events per year",
+          "description": "",
+          "keywords": "",
+          "href": "/en/16-2-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-3-1",
+          "title": "Number of racist, anti-Semitic, homophobic and right-wing extremist incidents per year in Treptow-Köpenick",
+          "description": "",
+          "keywords": "",
+          "href": "/en/16-3-1",
+          "status": "complete"
+        },
+        {
+          "id": "16-4-1",
+          "title": "Number of structures for citizen participation and actor networking in the district region profiles",
+          "description": "",
+          "keywords": "",
+          "href": "/en/16-4-1",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "17",
+      "title": "Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development",
+      "indicators": [
+        
+        {
+          "id": "17-1-1",
+          "title": "Number of events on the subject of city partnerships organized by the Treptow-Köpenick district administration per year",
+          "description": "",
+          "keywords": "",
+          "href": "/en/17-1-1",
+          "status": "complete"
+        },
+        {
+          "id": "17-2-1",
+          "title": "Quantity of fair trade coffee packages sold (Treptow-Köpenicker Bohne)",
+          "description": "",
+          "keywords": "",
+          "href": "/en/17-2-1",
+          "status": "complete"
+        },
+        {
+          "id": "17-3-1",
+          "title": "City partnerships",
+          "description": "",
+          "keywords": "",
+          "href": "/en/17-3-1",
+          "status": "complete"
+        },
+        {
+          "id": "17-3-2",
+          "title": "Community projects and partnerships",
+          "description": "",
+          "keywords": "",
+          "href": "/en/17-3-2",
+          "status": "complete"
+        },
+        {
+          "id": "17-3-3",
+          "title": "School partnerships",
+          "description": "",
+          "keywords": "",
+          "href": "/en/17-3-3",
+          "status": "complete"
+        },
+        {
+          "id": "17-3-4",
+          "title": "Other civil society projects",
+          "description": "",
+          "keywords": "",
+          "href": "/en/17-3-4",
+          "status": "complete"
+        },
+        {
+          "id": "17-3-5",
+          "title": "Fair trade",
+          "description": "",
+          "keywords": "",
+          "href": "/en/17-3-5",
+          "status": "complete"
+        },
+        {
+          "id": "17-4-1",
+          "title": "One world projects and partnerships in the Treptow-Köpenick district",
+          "description": "",
+          "keywords": "",
+          "href": "/en/17-4-1",
+          "status": "complete"
+        },
+        {
+          "id": "17-5-1",
+          "title": "To be defined",
+          "description": "",
+          "keywords": "",
+          "href": "/en/17-5-1",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-6-1",
+          "title": "Public spending on development cooperation (Official Development Assistance, ODA)",
+          "description": "",
+          "keywords": "",
+          "href": "/en/17-6-1",
+          "status": "notstarted"
+        }]
+    }
+  }]

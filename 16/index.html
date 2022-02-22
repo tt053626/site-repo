@@ -8,7 +8,7 @@
 
 
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="de" class="no-js">
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -20,7 +20,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://sdgs-treptow-koepenick.github.io/DataTK/en',
+  remoteDataBaseUrl: 'https://sdgs-treptow-koepenick.github.io/DataTK/de',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -47,7 +47,7 @@ var opensdg = {
     this.dataDisplayAlterations.push(callback);
   },
 
-  language: 'en',
+  language: 'de',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -112,7 +112,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Goal 16 - Peace and justice - strong institutions - Indicators For The Sustainable Development Goals</title>
+    <title>Ziel 16 - Frieden, Gerechtigkeit und starke Institutionen - Indikatoren für die nachhaltigen Entwicklungsziele</title>
 
 
 
@@ -140,7 +140,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20220222171859">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20220222175216">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -154,15 +154,15 @@ var translations = {
         
 
     </head>
-<body class="language-en
+<body class="language-de
 layout-goal-by-target-vertical
 ">
 <!-- <div class="container"> -->
 
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+<script>translations['header'] = {"alpha":"Alpha-Version","default_contrast":"Standard kontrast","disable_high_contrast":"Hoher Kontrast deaktivieren","disclaimer":"Diese Seite befindet sich im Entwicklungsstadium.Wir freuen uns über Ihre <a href=\"mailto:%email_address\">Kommentare</a>.","enable_high_contrast":"Aktivieren Sie hohen Kontrast","high_contrast":"Hoher kontrast","skip_link":"Zum Hauptinhalt springen","tag_line":"17 Ziele, um unsere Welt zu verändern","toggle_menu":"Menü umschalten. Klicken Sie darauf, um das Menü zu erweitern oder zu reduzieren.","toggle_search":"Umschalten der Suche. Klicken Sie darauf, um die Suchleiste ein- oder auszublenden."};</script>
 
-  <a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+  <a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Zum Hauptinhalt springen</a>
   
 
 <div style="position: sticky; position: -webkit-sticky; top: 15px; z-index:3; background: white;">
@@ -187,7 +187,7 @@ layout-goal-by-target-vertical
 
                   <div id="SDGlogo">
                         <a class="navbar-brand" href="/" id="home">
-    <img src="/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+    <img src="/assets/img/SDG_logo.png" alt="Ziele für Nachhaltige Entwicklung - 17 Ziele, um unsere Welt zu verändern" />
 </a>
                   </div>
                   
@@ -196,9 +196,9 @@ layout-goal-by-target-vertical
                               left: -15px;
                               font-size: 130%;
                               padding-bottom: 15px;">
-                    Monitoring of the <br>
-                    Municipal Sustainability Strategy <br>
-                    Treptow Köpenick
+                                Monitoring der <br>
+                                Kommunalen Nachhaltigkeitsstrategie <br>
+                                Treptow Köpenick 
                   </h1>
                   
 
@@ -212,9 +212,9 @@ layout-goal-by-target-vertical
         <div class="search-and-desktop-widgets" style="display: inline-flex; ">
           <div id="search" class="menu-target">
   <form action="/search/">
-    <label class="sr-only" for="indicator_search">Search</label>
-    <input type="text" name="q" id="indicator_search" title="Search" /><!--
-    --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search">Suche</label>
+    <input type="text" name="q" id="indicator_search" title="Suche" /><!--
+    --><button aria-label="Suche" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -230,11 +230,11 @@ layout-goal-by-target-vertical
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li class="language-option-de">
-            <a href="/de/16/">
-              Deutsch
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Deutsch</span>
+      <span class="language-abbreviation">de</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+    <ul class="dropdown-menu"><li class="language-option-en">
+            <a href="/en/16/">
+              English
             </a>
           </li></ul>
   </div>
@@ -249,15 +249,15 @@ layout-goal-by-target-vertical
         <div class="navbar navbar-default menu-without-widgets" id="main-nav">
           <ul class="top-level">
     <li id="menuToggle"
-        aria-label="Menu toggle. Click to expand or collapse the menu."
+        aria-label="Menü umschalten. Klicken Sie darauf, um das Menü zu erweitern oder zu reduzieren."
         aria-haspopup="true">
-        <button data-target="menu-mobile" aria-expanded="false">Menu</button>
+        <button data-target="menu-mobile" aria-expanded="false">Menü</button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/goals">Goals</a>
+    <a href="/goals">Ziele</a>
 </li><li class="nav-link ">
-    <a href="/reporting-status">Reporting Status</a>
+    <a href="/reporting-status">Berichtsstatus</a>
 </li><li class="nav-link ">
-    <a href="/about">About</a>
+    <a href="/about">Über uns</a>
 </li><li class="nav-link ">
     <a href="/faq">FAQ</a>
 </li><li class="language-toggle-menu-header">
@@ -271,11 +271,11 @@ layout-goal-by-target-vertical
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li class="language-option-de">
-            <a href="/de/16/">
-              Deutsch
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Deutsch</span>
+      <span class="language-abbreviation">de</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+    <ul class="dropdown-menu"><li class="language-option-en">
+            <a href="/en/16/">
+              English
             </a>
           </li></ul>
   </div>
@@ -288,8 +288,8 @@ layout-goal-by-target-vertical
 
 
     <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Disable high contrast"
-           aria-label="Disable high contrast"
+        <a title="Hoher Kontrast deaktivieren"
+           aria-label="Hoher Kontrast deaktivieren"
            data-contrast-switch-to="default"
            href="javascript:void(0)"
            data-on="click"
@@ -300,8 +300,8 @@ data-event-label="default"
         >A</a>
     </li>
     <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Enable high contrast"
-           aria-label="Enable high contrast"
+        <a title="Aktivieren Sie hohen Kontrast"
+           aria-label="Aktivieren Sie hohen Kontrast"
            data-contrast-switch-to="high"
            href="javascript:void(0)"
            data-on="click"
@@ -318,14 +318,14 @@ data-event-label="high"
 
     </li>
     <li id="searchToggle"
-        aria-label="Search toggle. Click to expand or collapse the search bar."
+        aria-label="Umschalten der Suche. Klicken Sie darauf, um die Suchleiste ein- oder auszublenden."
         aria-haspopup="true">
-        <button data-target="search-mobile" aria-expanded="false">Search</button>
+        <button data-target="search-mobile" aria-expanded="false">Suche</button>
         <div id="search-mobile" class="menu-target">
   <form action="/search/">
-    <label class="sr-only" for="indicator_search-mobile">Search</label>
-    <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
-    --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search-mobile">Suche</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="Suche" /><!--
+    --><button aria-label="Suche" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -333,11 +333,11 @@ data-event-label="high"
 </ul>
 
           <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
-    <a href="/goals">Goals</a>
+    <a href="/goals">Ziele</a>
 </li><li class="nav-link ">
-    <a href="/reporting-status">Reporting Status</a>
+    <a href="/reporting-status">Berichtsstatus</a>
 </li><li class="nav-link ">
-    <a href="/about">About</a>
+    <a href="/about">Über uns</a>
 </li><li class="nav-link ">
     <a href="/faq">FAQ</a>
 </li>
@@ -357,7 +357,25 @@ data-event-label="high"
     <div class="row">
       <div class="Image">
         
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/16.png" alt="Peace and justice - strong institutions - Goal 16" id="goal-16"  />
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <img src="/assets/img/goals/de/16.png" alt="Frieden, Gerechtigkeit und starke Institutionen - Ziel 16" id="goal-16"  />
+        
         
         
         
@@ -392,26 +410,26 @@ data-event-label="high"
 
 <ol class="breadcrumb" style="margin-left: 2px">
 <!--    <li> <a href="/faq"></a></li>-->
-    <li ><a href="/">Home</a></li>
-    <li class="active">Goal 16</li>
+    <li ><a href="/">Startseite</a></li>
+    <li class="active">Ziel 16</li>
 </ol>
 <h1 class="goal-titles goal-16" style="font-weight: 900">
-    Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels
+    Friedliche und inklusive Gesellschaften für eine nachhaltige Entwicklung fördern, allen Menschen Zugang zur Justiz ermöglichen und leistungsfähige, rechenschaftspflichtige und inklusive Institutionen auf allen Ebenen aufbauen
 </h1>
 
 
 
     <div class="container" style="margin-left: -12px">
-        <h2>Targets and indicators</h2>
+        <h2>Ziele und Indikatoren</h2>
 
         
         
         
         <div class="row no-gutters goal-target-and-indicators">
             <h3 class="goal-target">
-                <span class="target-number"><span class="sr-only">Target</span> 16.1</span>
+                <span class="target-number"><span class="sr-only">Unterziel</span> 16.1</span>
             </h3>
-            <span class="target-name">Measure - Improving participation for the implementation of the Sustainable Development Goals</span>
+            <span class="target-name">Maßnahme - Verbesserung der Partizipation zur Umsetzung der Sustainable Development Goals</span>
             
 
             
@@ -420,17 +438,17 @@ data-event-label="high"
 
             <div class="goal-indicator">
                 <h4>
-                    <span class="indicator-number"><span class="sr-only">Indicator</span> 16.1.1</span>
+                    <span class="indicator-number"><span class="sr-only">Indikator</span> 16.1.1</span>
                 </h4>
                 
-                <span class="indicator-name"><a href="/16-1-1">Number of participatory events on the topic of SDGs organized by the Treptow-Köpenick district office per year</a></span>
-                <span class="sr-only">Indicator status</span>
+                <span class="indicator-name"><a href="/16-1-1">Anzahl der partizipativen Veranstaltungen zum Thema SDGs des Bezirksamts Treptow-Köpenick pro Jahr</a></span>
+                <span class="sr-only">Status des Indikators</span>
                 
 
 
 
 <span class="status complete">
-    <span class="status-inner">Reported</span>
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -448,9 +466,9 @@ data-event-label="high"
         
         <div class="row no-gutters goal-target-and-indicators">
             <h3 class="goal-target">
-                <span class="target-number"><span class="sr-only">Target</span> 16.2</span>
+                <span class="target-number"><span class="sr-only">Unterziel</span> 16.2</span>
             </h3>
-            <span class="target-name">Measure - Build interfaith dialogue through events such as exhibitions, film and cooking evenings, language cafes, intercultural gardens, repair cafes</span>
+            <span class="target-name">Maßnahme - Den interreligiösen Dialog aufbauen durch Veranstaltungen wie Ausstellungen, Film- und Kochabende, Sprachcafes, interkulturelle Gärten, Repaircafes</span>
             
 
             
@@ -459,17 +477,17 @@ data-event-label="high"
 
             <div class="goal-indicator">
                 <h4>
-                    <span class="indicator-number"><span class="sr-only">Indicator</span> 16.2.1</span>
+                    <span class="indicator-number"><span class="sr-only">Indikator</span> 16.2.1</span>
                 </h4>
                 
-                <span class="indicator-name"><a href="/16-2-1">Number of interfaith events per year</a></span>
-                <span class="sr-only">Indicator status</span>
+                <span class="indicator-name"><a href="/16-2-1">Anzahl der interreligiösen Veranstaltungen pro Jahr</a></span>
+                <span class="sr-only">Status des Indikators</span>
                 
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Datenquellenanalyse</span>
 </span>
 
 
@@ -487,9 +505,9 @@ data-event-label="high"
         
         <div class="row no-gutters goal-target-and-indicators">
             <h3 class="goal-target">
-                <span class="target-number"><span class="sr-only">Target</span> 16.3</span>
+                <span class="target-number"><span class="sr-only">Unterziel</span> 16.3</span>
             </h3>
-            <span class="target-name">SDG indicator - Number of racist, anti-Semitic, homophobic, and extreme right-wing incidents</span>
+            <span class="target-name">SDG-Indikator - Anzahl rassistisch, antisemitisch, homophob, und rechtsextrem geprägter Vorfälle</span>
             
 
             
@@ -498,17 +516,17 @@ data-event-label="high"
 
             <div class="goal-indicator">
                 <h4>
-                    <span class="indicator-number"><span class="sr-only">Indicator</span> 16.3.1</span>
+                    <span class="indicator-number"><span class="sr-only">Indikator</span> 16.3.1</span>
                 </h4>
                 
-                <span class="indicator-name"><a href="/16-3-1">Number of racist, anti-Semitic, homophobic and right-wing extremist incidents per year in Treptow-Köpenick</a></span>
-                <span class="sr-only">Indicator status</span>
+                <span class="indicator-name"><a href="/16-3-1">Anzahl der rassistisch, antisemitisch, homophob und rechtsextrem geprägter Vorfälle pro Jahr in Treptow-Köpenick</a></span>
+                <span class="sr-only">Status des Indikators</span>
                 
 
 
 
 <span class="status complete">
-    <span class="status-inner">Reported</span>
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -526,9 +544,9 @@ data-event-label="high"
         
         <div class="row no-gutters goal-target-and-indicators">
             <h3 class="goal-target">
-                <span class="target-number"><span class="sr-only">Target</span> 16.4</span>
+                <span class="target-number"><span class="sr-only">Unterziel</span> 16.4</span>
             </h3>
-            <span class="target-name">SDG indicator - Informal citizen participation</span>
+            <span class="target-name">SDG-Indikator - Informelle Bürgerbeteiligung</span>
             
 
             
@@ -537,17 +555,17 @@ data-event-label="high"
 
             <div class="goal-indicator">
                 <h4>
-                    <span class="indicator-number"><span class="sr-only">Indicator</span> 16.4.1</span>
+                    <span class="indicator-number"><span class="sr-only">Indikator</span> 16.4.1</span>
                 </h4>
                 
-                <span class="indicator-name"><a href="/16-4-1">Number of structures for citizen participation and actor networking in the district region profiles</a></span>
-                <span class="sr-only">Indicator status</span>
+                <span class="indicator-name"><a href="/16-4-1">Anzahl der Strukturen der Bürgerbeteiligung und Akteursvernetzung in den Bezirksregionenprofilen</a></span>
+                <span class="sr-only">Status des Indikators</span>
                 
 
 
 
 <span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+    <span class="status-inner">Datenquellenanalyse</span>
 </span>
 
 
@@ -568,8 +586,8 @@ data-event-label="high"
     <div class="row">
         <div id="text">
             
-            <h2 style="margin-bottom: 20px ; font-size: 20pt; font-weight: 700;" align="center"  ><b> Discover more SDGS</b></h2>
-            <h4 style="margin-bottom: 10px; color: #adadad;" align="center">Click on the individual goals to view the data <br> of our local sustainable development indicators.</h4>
+            <h2 style="margin-bottom: 20px ; font-size: 20pt; font-weight: 700;" align="center"  ><b> Entdecke mehr SDGS</b></h2>
+            <h4 style="margin-bottom: 10px; color: #adadad;" align="center">Klicken Sie auf die einzelnen Ziele, um die Daten unserer lokalen <br> Indikatoren für nachhaltige Entwicklung anzuzeigen.</h4>
             
         </div>
         <div class="col-xs-11 col-md-10 col-centered">
@@ -578,153 +596,155 @@ data-event-label="high"
                     
                     <div class="item active">
                         <div class="carousel-col">
-                            <a href="/1">
-                                <img src="/assets/img/goals/en/1.png" class="block img-responsive"
-                                     alt="Keine Armut - Goal 1" id="goal1b"
+                            <a href="/de/1/">
+                                <img src="/assets/img/goals/de/1.png" class="block img-responsive"
+                                     alt="Keine Armut - Goal 1" id="goal1"
                                 />
                             </a>
                         </div>
                     </div>
                     <div class="item">
                         <div class="carousel-col">
-                            <a href="/2">
-                                <img src="/assets/img/goals/en/2.png" class="block img-responsive"
-                                     alt="Kein hunger - Goal 2" id="goal2b"
+                            <a href="/de/2">
+                                <img src="/assets/img/goals/de/2.png" class="block img-responsive"
+                                     alt="Kein hunger - Goal 2" id="goal2"
                                 />
                             </a>
                         </div>
                     </div>
                     <div class="item">
                         <div class="carousel-col">
-                            <a href="/3">
-                                <img src="/assets/img/goals/en/3.png" class="block img-responsive"
-                                     alt="Gesundheit und Wohlergehen - Goal 3" id="goal3b"
+                            <a href="/de/3">
+                                <img src="/assets/img/goals/de/3.png" class="block img-responsive"
+                                     alt="Gesundheit und Wohlergehen - Goal 3" id="goal3"
                                 />
                             </a>
                         </div>
                     </div>
                     <div class="item">
                         <div class="carousel-col">
-                            <a href="/4">
-                                <img src="/assets/img/goals/en/4.png" class="block img-responsive"
-                                     alt="Hochwertige Bildung - Goal 4" id="goal4b"
+                            <a href="/de/4">
+                                <img src="/assets/img/goals/de/4.png" class="block img-responsive"
+                                     alt="Hochwertige Bildung - Goal 4" id="goal4"
                                 />
                             </a>
                         </div>
                     </div>
                     <div class="item">
                         <div class="carousel-col">
-                            <a href="/5">
-                                <img src="/assets/img/goals/en/5.png" class="block img-responsive"
-                                     alt="Geschlechtergleichheit - Goal 5" id="goal5b"
+                            <a href="/de/5">
+                                <img src="/assets/img/goals/de/5.png" class="block img-responsive"
+                                     alt="Geschlechtergleichheit - Goal 5" id="goal5"
+                                />
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="carousel-col">
+                            <a href="/de/6">
+                                <img src="/assets/img/goals/de/6.png" class="block img-responsive"
+                                     alt="Sauberes Wasser und Sanitäreinrichtungen - Goal 6" id="goal6"
+                                />
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="carousel-col">
+                            <a href="/de/7">
+                                <img src="/assets/img/goals/de/7.png" class="block img-responsive"
+                                     alt="Affordable and clean energy - Goal 7" id="goal7"
                                 />
                             </a>
                         </div>
                     </div>
                     <div class="item">
                         <div class="carousel-col">
-                            <a href="/6">
-                                <img src="/assets/img/goals/en/6.png" class="block img-responsive"
-                                     alt="Sauberes Wasser und Sanitäreinrichtungen - Goal 6" id="goal6b"
+                            <a href="/de/8">
+                                <img src="/assets/img/goals/de/8.png" class="block img-responsive"
+                                     alt="Bezahlbare und saubere Energie - Goal 8" id="goal8"
                                 />
                             </a>
                         </div>
                     </div>
                     <div class="item">
                         <div class="carousel-col">
-                            <a href="/7">
-                                <img src="/assets/img/goals/en/7.png" class="block img-responsive"
-                                     alt="Affordable and clean energy - Goal 7" id="goal7b"
+                            <a href="/de/9">
+                                <img src="/assets/img/goals/de/9.png" class="block img-responsive"
+                                     alt="Industry, innovation and infrastructure - Goal 9" id="goal9"
                                 />
                             </a>
                         </div>
                     </div>
                     <div class="item">
                         <div class="carousel-col">
-                            <a href="/8">
-                                <img src="/assets/img/goals/en/8.png" class="block img-responsive"
-                                     alt="Bezahlbare und saubere Energie - Goal 8" id="goal8b"
+                            <a href="/de/10">
+                                <img src="/assets/img/goals/de/10.png" class="block img-responsive"
+                                     alt="Weniger Ungleichheiten - Goal 10" id="goal10"
                                 />
                             </a>
                         </div>
                     </div>
                     <div class="item">
                         <div class="carousel-col">
-                            <a href="/9">
-                                <img src="/assets/img/goals/en/9.png" class="block img-responsive"
-                                     alt="Industry, innovation and infrastructure - Goal 9" id="goal9b"
+                            <a href="/de/11">
+                                <img src="/assets/img/goals/de/11.png" class="block img-responsive"
+                                     alt="Nachhaltige Städte und Gemeinden - Goal 11" id="goal11"
                                 />
                             </a>
                         </div>
                     </div>
                     <div class="item">
                         <div class="carousel-col">
-                            <a href="/10">
-                                <img src="/assets/img/goals/en/10.png" class="block img-responsive"
-                                     alt="Weniger Ungleichheiten - Goal 10" id="goal10b"
+                            <a href="/de/12">
+                                <img src="/assets/img/goals/de/12.png" class="block img-responsive"
+                                     alt="Nachhaltiger Konsum und Produktion - Goal 12" id="goal12"
                                 />
                             </a>
                         </div>
                     </div>
                     <div class="item">
                         <div class="carousel-col">
-                            <a href="/11">
-                                <img src="/assets/img/goals/en/11.png" class="block img-responsive"
-                                     alt="Nachhaltige Städte und Gemeinden - Goal 11" id="goal11b"
+                            <a href="/de/13">
+                                <img src="/assets/img/goals/de/13.png" class="block img-responsive"
+                                     alt="Massnahmen zum Klimaschutz- Goal 13" id="goal13"
                                 />
                             </a>
                         </div>
                     </div>
                     <div class="item">
                         <div class="carousel-col">
-                            <a href="/12">
-                                <img src="/assets/img/goals/en/12.png" class="block img-responsive"
-                                     alt="Nachhaltiger Konsum und Produktion - Goal 12" id="goal12b"
+                            <a href="/de/14">
+                                <img src="/assets/img/goals/de/14.png" class="block img-responsive"
+                                     alt="Leben unter Wasser - Goal 14" id="goal14"
                                 />
                             </a>
                         </div>
                     </div>
                     <div class="item">
                         <div class="carousel-col">
-                            <a href="/13">
-                                <img src="/assets/img/goals/en/13.png" class="block img-responsive"
-                                     alt="Massnahmen zum Klimaschutz- Goal 13" id="goal13b"
+                            <a href="/de/15">
+                                <img src="/assets/img/goals/de/15.png" class="block img-responsive"
+                                     alt="Leben am Land - Goal 15" id="goal15"
                                 />
                             </a>
                         </div>
                     </div>
                     <div class="item">
                         <div class="carousel-col">
-                            <a href="/14">
-                                <img src="/assets/img/goals/en/14.png" class="block img-responsive"
-                                     alt="Leben unter Wasser - Goal 14" id="goal14b"
+                            <a href="/de/16">
+                                <img src="/assets/img/goals/de/16.png" class="block img-responsive"
+                                     alt="Frieden, Gerechtigkeit und starke institutionen - Goal 16" id="goal16"
                                 />
                             </a>
                         </div>
                     </div>
                     <div class="item">
                         <div class="carousel-col">
-                            <a href="/15">
-                                <img src="/assets/img/goals/en/15.png" class="block img-responsive"
-                                     alt="Leben am Land - Goal 15" id="goal15b"
-                                />
-                            </a>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="carousel-col">
-                            <a href="/16">
-                                <img src="/assets/img/goals/en/16.png" class="block img-responsive"
-                                     alt="Frieden, Gerechtigkeit und starke institutionen - Goal 16" id="goal16b"
-                                />
-                            </a>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="carousel-col">
-                            <a href="/17">
-                                <img src="/assets/img/goals/en/17.png" class="block img-responsive"
-                                     alt="Partnerschaften zur erreischung der Ziele- Goal 17" id="goal17b"
+                            <a href="/de/17">
+                                <img src="/assets/img/goals/de/17.png" class="block img-responsive"
+                                     alt="Partnerschaften zur erreischung der Ziele- Goal 17" id="goal17"
                                 />
                             </a>
                         </div>
@@ -792,7 +812,7 @@ data-event-label="high"
             <div class="col-xs-12">
                 <div id="kooperation" >
                     
-                    <p>Our project partners</p>
+                    <p>Unsere Projektpartner</p>
                     
                 </div>
             </div>
@@ -808,28 +828,28 @@ data-event-label="high"
             <div class="col-xs-3" style="width: 20%;">
                 <div id="bilder2" style="background-color:white">
                     
-                    <a href="https://www.bmz.de/en" target="_blank" ><img src="/assets/img/logo_BMZ.png" alt="bmz" width="400" height="400" class="img-responsive" style="max-width: 100%;"></a>
+                    <a href="https://www.bmz.de/de" target="_blank" ><img src="/assets/img/logo_BMZ.png" alt="bmz" width="400" height="400" class="img-responsive" style="max-width: 100%;"></a>
                     
                 </div>
             </div>
             <div class="col-xs-3" style="width: 20%;">
                 <div id="bilder3" style="background-color:white;">
                     
-                    <a href="https://www.engagement-global.de/homepage.html" target="_blank" ><img src="/assets/img/logo_engagement-global_skew.png" alt="engagement_global1" width="400" height="400" class="img-responsive" style="max-width: 100%;"></a>
+                    <a href="https://www.engagement-global.de/" target="_blank" ><img src="/assets/img/logo_engagement-global_skew.png" alt="engagement_global1" width="400" height="400" class="img-responsive" style="max-width: 100%;"></a>
                     
                 </div>
             </div>
             <div class="col-xs-3" style="width: 20%;">
                 <div id="bilder5" style="background-color:white;">
                     
-                    <a href="https://skew.engagement-global.de/home.html" target="_blank" ><img src="/assets/img/logo_engagement-global_service-stelle.png" alt="engagement_global2" width="400" height="400" class="img-responsive" style="max-width: 100%;"></a>
+                    <a href="https://skew.engagement-global.de/" target="_blank" ><img src="/assets/img/logo_engagement-global_service-stelle.png" alt="engagement_global2" width="400" height="400" class="img-responsive" style="max-width: 100%;"></a>
                     
                 </div>
             </div>
             <div class="col-xs-3" style="width: 20%;">
                 <div id="bilder4" style="background-color:white;position: absolute;margin-top: -20px; ">
                     
-                    <a href="https://www.htw-berlin.de/en/" target="_blank" ><img src="/assets/img/logo_htw.jpg" alt="htw_berlin" width="400" height="400" class="img-responsive" ></a>
+                    <a href="https://www.htw-berlin.de" target="_blank" ><img src="/assets/img/logo_htw.jpg" alt="htw_berlin" width="400" height="400" class="img-responsive" ></a>
                     
                 </div>
             </div>
@@ -845,13 +865,13 @@ data-event-label="high"
                             <a href="https://sdgs-treptow-koepenick.github.io/DataTK/en/zip/all_indicators.zip" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Download</a>
                         </li>
                         <li style="color:white;margin: 15px;font-weight: bold;">
-                            <a href="mailto:nachhaltigkeit@ba-tk.berlin.de" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Contact us</a>
+                            <a href="mailto:nachhaltigkeit@ba-tk.berlin.de" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Kontakt</a>
                         </li>
                         <li style="color:white;margin: 15px;font-weight: bold;">
-                            <a href="http://sdgs-treptow-koepenick.github.io/SDGTK/de/about/cookies-and-privacy/" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Imprint</a>
+                            <a href="http://sdgs-treptow-koepenick.github.io/SDGTK/de/about/cookies-and-privacy/" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Impressum</a>
                         </li>
                         <li style="color:white;margin: 15px;font-weight: bold;">
-                            <a href="https://sdgs-treptow-koepenick.github.io/SDGTK/guidance/" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Technical references</a>
+                            <a href="https://sdgs-treptow-koepenick.github.io/SDGTK/de/guidance/" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Technische Hinweise</a>
                         </li>
                         
                         </ul>
@@ -866,7 +886,7 @@ data-event-label="high"
                     <ul style="text-align: center;"
                     
                     <li style="color:white;margin: 15px;font-weight: bold;">
-                        <a href="https://open-sdg.org/" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;" >This website was created with Open SDG</a>
+                        <a href="https://open-sdg.org/" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;" >Diese Webseite wurde mit Open SDG erstellt</a>
                     </li>
                     
                 </ul>
@@ -896,17 +916,17 @@ data-event-label="high"
 
 
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'hide';</script>
+    translations['general']['hide'] = 'ausblenden';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = 'Suche';</script>
 
-<script src='/assets/js/sdg.js?v=20220222171859'></script>
+<script src='/assets/js/sdg.js?v=20220222175216'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20220222171859"></script><script>
+    <script src="/assets/js/custom.js?v=20220222175216"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

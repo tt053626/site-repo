@@ -131,7 +131,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20220222171859">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20220222175216">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -177,7 +177,7 @@ layout-news
                               align-items: center;">
 
                   <div id="SDGlogo">
-                        <a class="navbar-brand" href="/de/" id="home">
+                        <a class="navbar-brand" href="/" id="home">
     <img src="/assets/img/SDG_logo.png" alt="Ziele für Nachhaltige Entwicklung - 17 Ziele, um unsere Welt zu verändern" />
 </a>
                   </div>
@@ -202,7 +202,7 @@ layout-news
       <div class="container">
         <div class="search-and-desktop-widgets" style="display: inline-flex; ">
           <div id="search" class="menu-target">
-  <form action="/de/search/">
+  <form action="/search/">
     <label class="sr-only" for="indicator_search">Suche</label>
     <input type="text" name="q" id="indicator_search" title="Suche" /><!--
     --><button aria-label="Suche" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -224,7 +224,7 @@ layout-news
       <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Deutsch</span>
       <span class="language-abbreviation">de</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li class="language-option-en">
-            <a href="/news/">
+            <a href="/en/de/news/">
               English
             </a>
           </li></ul>
@@ -244,13 +244,13 @@ layout-news
         aria-haspopup="true">
         <button data-target="menu-mobile" aria-expanded="false">Menü</button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/de/goals">Ziele</a>
+    <a href="/goals">Ziele</a>
 </li><li class="nav-link ">
-    <a href="/de/reporting-status">Berichtsstatus</a>
+    <a href="/reporting-status">Berichtsstatus</a>
 </li><li class="nav-link ">
-    <a href="/de/about">Über uns</a>
+    <a href="/about">Über uns</a>
 </li><li class="nav-link ">
-    <a href="/de/faq">FAQ</a>
+    <a href="/faq">FAQ</a>
 </li><li class="language-toggle-menu-header">
     
 
@@ -265,7 +265,7 @@ layout-news
       <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Deutsch</span>
       <span class="language-abbreviation">de</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li class="language-option-en">
-            <a href="/news/">
+            <a href="/en/de/news/">
               English
             </a>
           </li></ul>
@@ -313,7 +313,7 @@ data-event-label="high"
         aria-haspopup="true">
         <button data-target="search-mobile" aria-expanded="false">Suche</button>
         <div id="search-mobile" class="menu-target">
-  <form action="/de/search/">
+  <form action="/search/">
     <label class="sr-only" for="indicator_search-mobile">Suche</label>
     <input type="text" name="q" id="indicator_search-mobile" title="Suche" /><!--
     --><button aria-label="Suche" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -324,13 +324,13 @@ data-event-label="high"
 </ul>
 
           <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
-    <a href="/de/goals">Ziele</a>
+    <a href="/goals">Ziele</a>
 </li><li class="nav-link ">
-    <a href="/de/reporting-status">Berichtsstatus</a>
+    <a href="/reporting-status">Berichtsstatus</a>
 </li><li class="nav-link ">
-    <a href="/de/about">Über uns</a>
+    <a href="/about">Über uns</a>
 </li><li class="nav-link ">
-    <a href="/de/faq">FAQ</a>
+    <a href="/faq">FAQ</a>
 </li>
 
 </ul>
@@ -366,7 +366,7 @@ data-event-label="high"
     </div>
     
     <ul class="post-categories small-text"><li>
-                <a href="/de/categories/#Events" title="Alle Beiträge in der Kategorie „Events“ anzeigen">Events</a></li></ul>
+                <a href="/categories/#Events" title="Alle Beiträge in der Kategorie „Events“ anzeigen">Events</a></li></ul>
     
 </article>
 
@@ -380,7 +380,7 @@ data-event-label="high"
     
       
       <li>
-        <a href="/de/categories/#Events" title="Alle Beiträge in der Kategorie „Events“ anzeigen">Events</a>
+        <a href="/categories/#Events" title="Alle Beiträge in der Kategorie „Events“ anzeigen">Events</a>
       </li>
     
   </ul>
@@ -543,12 +543,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/assets/js/sdg.js?v=20220222171859'></script>
+<script src='/assets/js/sdg.js?v=20220222175216'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20220222171859"></script><script>
+    <script src="/assets/js/custom.js?v=20220222175216"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
