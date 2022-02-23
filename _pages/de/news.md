@@ -2,7 +2,7 @@
 layout: news
 title: Neuigkeiten und Veranstaltungen
 language: de
-permalink: /de/news/
+permalink: /news/
 
 ---
 
