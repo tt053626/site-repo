@@ -2,7 +2,7 @@
 
 title: Über uns
 language: de
-permalink: /de/about/
+permalink: /about/
 layout: page
 
 ---

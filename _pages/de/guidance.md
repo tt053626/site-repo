@@ -2,7 +2,7 @@
 
 title: Technische Hinweise
 language: de
-permalink: /de/guidance/
+permalink: /guidance/
 layout: page
 
 ---

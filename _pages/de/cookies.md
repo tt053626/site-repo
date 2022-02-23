@@ -2,7 +2,7 @@
 layout: page
 title: Cookies and privacy
 language: de
-permalink: /de/about/cookies-and-privacy/
+permalink: /about/cookies-and-privacy/
 
 ---
 
