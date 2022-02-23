@@ -4,5 +4,5 @@ language: de
 permalink: /categories/
 title: Categories
 ---
-## Posts by Category
-Here is a list of posts, grouped by category:
+## Beiträge geordnet nach Kategorien
+Hier ist die Liste von Beiträge geordnet nach Kategorien:
