@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de" class="no-js">
+<html lang="en" class="no-js">
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://sdgs-treptow-koepenick.github.io/DataTK/de',
+  remoteDataBaseUrl: 'https://sdgs-treptow-koepenick.github.io/DataTK/en',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -38,7 +38,7 @@ var opensdg = {
     this.dataDisplayAlterations.push(callback);
   },
 
-  language: 'de',
+  language: 'en',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -103,7 +103,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Categories - Indikatoren für die nachhaltigen Entwicklungsziele</title>
+    <title>Cookies and privacy - Indicators For The Sustainable Development Goals</title>
 
 
 
@@ -131,7 +131,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20220223110340">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20220223111852">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -145,15 +145,15 @@ var translations = {
         
 
     </head>
-<body class="language-de
-layout-categories
+<body class="language-en
+layout-page
 ">
 <!-- <div class="container"> -->
 
 
-<script>translations['header'] = {"alpha":"Alpha-Version","default_contrast":"Standard kontrast","disable_high_contrast":"Hoher Kontrast deaktivieren","disclaimer":"Diese Seite befindet sich im Entwicklungsstadium.Wir freuen uns über Ihre <a href=\"mailto:%email_address\">Kommentare</a>.","enable_high_contrast":"Aktivieren Sie hohen Kontrast","high_contrast":"Hoher kontrast","skip_link":"Zum Hauptinhalt springen","tag_line":"17 Ziele, um unsere Welt zu verändern","toggle_menu":"Menü umschalten. Klicken Sie darauf, um das Menü zu erweitern oder zu reduzieren.","toggle_search":"Umschalten der Suche. Klicken Sie darauf, um die Suchleiste ein- oder auszublenden."};</script>
+<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
 
-  <a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Zum Hauptinhalt springen</a>
+  <a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
   
 
 <div style="position: sticky; position: -webkit-sticky; top: 15px; z-index:3; background: white;">
@@ -177,8 +177,8 @@ layout-categories
                               align-items: center;">
 
                   <div id="SDGlogo">
-                        <a class="navbar-brand" href="/" id="home">
-    <img src="/assets/img/SDG_logo.png" alt="Ziele für Nachhaltige Entwicklung - 17 Ziele, um unsere Welt zu verändern" />
+                        <a class="navbar-brand" href="/en/" id="home">
+    <img src="/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
 </a>
                   </div>
                   
@@ -187,9 +187,9 @@ layout-categories
                               left: -15px;
                               font-size: 130%;
                               padding-bottom: 15px;">
-                                Monitoring der <br>
-                                Kommunalen Nachhaltigkeitsstrategie <br>
-                                Treptow Köpenick 
+                    Monitoring of the <br>
+                    Municipal Sustainability Strategy <br>
+                    Treptow Köpenick
                   </h1>
                   
 
@@ -202,10 +202,10 @@ layout-categories
       <div class="container">
         <div class="search-and-desktop-widgets" style="display: inline-flex; ">
           <div id="search" class="menu-target">
-  <form action="/search/">
-    <label class="sr-only" for="indicator_search">Suche</label>
-    <input type="text" name="q" id="indicator_search" title="Suche" /><!--
-    --><button aria-label="Suche" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  <form action="/en/search/">
+    <label class="sr-only" for="indicator_search">Search</label>
+    <input type="text" name="q" id="indicator_search" title="Search" /><!--
+    --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -221,11 +221,11 @@ layout-categories
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Deutsch</span>
-      <span class="language-abbreviation">de</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li class="language-option-en">
-            <a href="/en/de/categories/">
-              English
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
+      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+    <ul class="dropdown-menu"><li class="language-option-de">
+            <a href="/about/cookies-and-privacy/">
+              Deutsch
             </a>
           </li></ul>
   </div>
@@ -240,17 +240,17 @@ layout-categories
         <div class="navbar navbar-default menu-without-widgets" id="main-nav">
           <ul class="top-level">
     <li id="menuToggle"
-        aria-label="Menü umschalten. Klicken Sie darauf, um das Menü zu erweitern oder zu reduzieren."
+        aria-label="Menu toggle. Click to expand or collapse the menu."
         aria-haspopup="true">
-        <button data-target="menu-mobile" aria-expanded="false">Menü</button>
+        <button data-target="menu-mobile" aria-expanded="false">Menu</button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/goals">Ziele</a>
+    <a href="/en/goals">Goals</a>
 </li><li class="nav-link ">
-    <a href="/reporting-status">Berichtsstatus</a>
+    <a href="/en/reporting-status">Reporting Status</a>
 </li><li class="nav-link ">
-    <a href="/about">Über uns</a>
+    <a href="/en/about">About</a>
 </li><li class="nav-link ">
-    <a href="/faq">FAQ</a>
+    <a href="/en/faq">FAQ</a>
 </li><li class="language-toggle-menu-header">
     
 
@@ -262,11 +262,11 @@ layout-categories
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Deutsch</span>
-      <span class="language-abbreviation">de</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li class="language-option-en">
-            <a href="/en/de/categories/">
-              English
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
+      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+    <ul class="dropdown-menu"><li class="language-option-de">
+            <a href="/about/cookies-and-privacy/">
+              Deutsch
             </a>
           </li></ul>
   </div>
@@ -279,8 +279,8 @@ layout-categories
 
 
     <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Hoher Kontrast deaktivieren"
-           aria-label="Hoher Kontrast deaktivieren"
+        <a title="Disable high contrast"
+           aria-label="Disable high contrast"
            data-contrast-switch-to="default"
            href="javascript:void(0)"
            data-on="click"
@@ -291,8 +291,8 @@ data-event-label="default"
         >A</a>
     </li>
     <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Aktivieren Sie hohen Kontrast"
-           aria-label="Aktivieren Sie hohen Kontrast"
+        <a title="Enable high contrast"
+           aria-label="Enable high contrast"
            data-contrast-switch-to="high"
            href="javascript:void(0)"
            data-on="click"
@@ -309,14 +309,14 @@ data-event-label="high"
 
     </li>
     <li id="searchToggle"
-        aria-label="Umschalten der Suche. Klicken Sie darauf, um die Suchleiste ein- oder auszublenden."
+        aria-label="Search toggle. Click to expand or collapse the search bar."
         aria-haspopup="true">
-        <button data-target="search-mobile" aria-expanded="false">Suche</button>
+        <button data-target="search-mobile" aria-expanded="false">Search</button>
         <div id="search-mobile" class="menu-target">
-  <form action="/search/">
-    <label class="sr-only" for="indicator_search-mobile">Suche</label>
-    <input type="text" name="q" id="indicator_search-mobile" title="Suche" /><!--
-    --><button aria-label="Suche" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  <form action="/en/search/">
+    <label class="sr-only" for="indicator_search-mobile">Search</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
+    --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -324,13 +324,13 @@ data-event-label="high"
 </ul>
 
           <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
-    <a href="/goals">Ziele</a>
+    <a href="/en/goals">Goals</a>
 </li><li class="nav-link ">
-    <a href="/reporting-status">Berichtsstatus</a>
+    <a href="/en/reporting-status">Reporting Status</a>
 </li><li class="nav-link ">
-    <a href="/about">Über uns</a>
+    <a href="/en/about">About</a>
 </li><li class="nav-link ">
-    <a href="/faq">FAQ</a>
+    <a href="/en/faq">FAQ</a>
 </li>
 
 </ul>
@@ -342,29 +342,105 @@ data-event-label="high"
 
 
 
-<div id="main-content" class="container" role="main">
-  <div class="row">
-    <div class="col-xs-12">
-      <h2 id="posts-by-category">Posts by Category</h2>
-<p>Here is a list of posts, grouped by category:</p>
 
-      
-        <div class="archive-group">
-          
-          <div id="#Events">
-            <h4 class="category-head">Events</h4>
-            <a name="Events"></a>
-            
-            
-            <article class="archive-item">
-              <time datetime="2022-02-19T00:00:00+00:00" itemprop="datePublished">Feb 19, 2022</time> - <a href="/test-post-1/">Website Launch</a>
-            </article>
-            
-          </div>
-        </div>
-      
+
+<div id="main-content" class="container" role="main">
+    <div>
+        <h1>Cookies and privacy</h1>
+        
+            <h1 id="impressum">Impressum</h1>
+
+<h2 id="publisher">Publisher</h2>
+<p>The publisher of this website is the district office Treptow-Köpenick of Berlin.</p>
+
+<h3 id="legal-form">Legal form</h3>
+<p>Behörde, Organ der juristischen Person des öffentlichen Rechts</p>
+
+<h3 id="address">Address</h3>
+<p>Bezirksamt Treptow-Köpenick von Berlin
+Büro Bezirksbürgermeister
+Rudower Chaussee 4
+12489 Berlin</p>
+
+<h3 id="postal-address">Postal address</h3>
+<p>Bezirksamt Treptow-Köpenick von Berlin						                           <br />
+PF: 910240										           <br />
+12414 Berlin</p>
+
+<h3 id="contact">Contact</h3>
+<p>Telephone: +49 (030) 90297 - 2351
+E-mail: nachhaltigkeit@ba-tk.berlin.de</p>
+
+<h3 id="editorial-office">Editorial office</h3>
+<p>E-mail: nachhaltigkeit@ba-tk.berlin.de</p>
+
+<h3 id="contentproduction">Content/Production</h3>
+<p>Treptow-Köpenick District Office and HTW Berlin</p>
+
+<h3 id="sales-tax-identification-number">Sales tax identification number</h3>
+<p>DE 814 554 323</p>
+
+<h3 id="hosting">Hosting</h3>
+<p>GitHub</p>
+
+<h1 id="the-following-is-a-description-of-what-data-is-collected-when-you-use-this-website-and-what-it-is-used-for">The following is a description of what data is collected when you use this website and what it is used for.</h1>
+
+<h2 id="user-information">User information</h2>
+<p>This website uses cookies and JavaScript tracking code to gather anonymous information about visitors’ usage patterns, in order to improve the navigation of the site, the presentation of its content and the quality of its services.</p>
+
+<p>The information collected does not include personal details such as your name, age, telephone number, postal address or email address, nor does it allow personal identification of a user.</p>
+
+<h2 id="cookies">Cookies</h2>
+<p>When we provide services, we want to make them easy, useful and reliable.</p>
+
+<p>Where services are delivered on the internet, this sometimes involves placing small amounts of information on your device, for example, computer or mobile phone.</p>
+
+<p>These include small files known as cookies. They cannot be used to identify you personally.</p>
+
+<p>These pieces of information are used to improve services for you through, for example:</p>
+
+<ul>
+  <li>enabling a service to recognise your device so you don’t have to give the same information several times during one task</li>
+  <li>recognising that you may already have given a username and password so you don’t need to do it for every web page requested</li>
+  <li>measuring how many people are using services, so they can be made easier to use and there’s enough capacity to ensure they are fast</li>
+</ul>
+
+<p>You can manage these small files yourself and learn more about them through <a href="https://www.aboutcookies.org/">internet browser cookies – what they are and how to manage them</a>.</p>
+
+<h2 id="our-use-of-cookies">Our use of cookies</h2>
+<p>Important information about this list of cookies:</p>
+
+<p>This list may not always be complete. It will be regularly updated as further information is gathered from other companies and organisations that we work with.</p>
+
+<p>Cookies for retaining active state of accessibility services:</p>
+
+<ul>
+  <li>contrast</li>
+</ul>
+
+<p>Cookies for measuring use of services:</p>
+
+<ul>
+  <li>_ga</li>
+  <li>_gid</li>
+  <li>_gat</li>
+</ul>
+
+<p>By understanding how people use our website, we can improve the information provided. We gather this data using Google Analytics.</p>
+
+<h2 id="external-links">External links</h2>
+<p>This site may contain links to other sites.</p>
+
+<p>ONS is not responsible for the privacy practices or the content of such websites.</p>
+
+<h2 id="security">Security</h2>
+<p>This website has security measures in place to protect the loss, misuse, and alteration of the information under our control.</p>
+
+<h2 id="contacting-the-website">Contacting the website</h2>
+<p>If you have any questions about this privacy statement, the practices of this site, or your dealings with this website, you can <a href="mailto:nachhaltigkeit@ba-tk.berlin.de">contact us</a>.</p>
+
+        
     </div>
-  </div>
 </div>
 
 <style>
@@ -410,7 +486,7 @@ data-event-label="high"
             <div class="col-xs-12">
                 <div id="kooperation" >
                     
-                    <p>Unsere Projektpartner</p>
+                    <p>Our project partners</p>
                     
                 </div>
             </div>
@@ -426,28 +502,28 @@ data-event-label="high"
             <div class="col-xs-3" style="width: 20%;">
                 <div id="bilder2" style="background-color:white">
                     
-                    <a href="https://www.bmz.de/de" target="_blank" ><img src="/assets/img/logo_BMZ.png" alt="bmz" width="400" height="400" class="img-responsive" style="max-width: 100%;"></a>
+                    <a href="https://www.bmz.de/en" target="_blank" ><img src="/assets/img/logo_BMZ.png" alt="bmz" width="400" height="400" class="img-responsive" style="max-width: 100%;"></a>
                     
                 </div>
             </div>
             <div class="col-xs-3" style="width: 20%;">
                 <div id="bilder3" style="background-color:white;">
                     
-                    <a href="https://www.engagement-global.de/" target="_blank" ><img src="/assets/img/logo_engagement-global_skew.png" alt="engagement_global1" width="400" height="400" class="img-responsive" style="max-width: 100%;"></a>
+                    <a href="https://www.engagement-global.de/homepage.html" target="_blank" ><img src="/assets/img/logo_engagement-global_skew.png" alt="engagement_global1" width="400" height="400" class="img-responsive" style="max-width: 100%;"></a>
                     
                 </div>
             </div>
             <div class="col-xs-3" style="width: 20%;">
                 <div id="bilder5" style="background-color:white;">
                     
-                    <a href="https://skew.engagement-global.de/" target="_blank" ><img src="/assets/img/logo_engagement-global_service-stelle.png" alt="engagement_global2" width="400" height="400" class="img-responsive" style="max-width: 100%;"></a>
+                    <a href="https://skew.engagement-global.de/home.html" target="_blank" ><img src="/assets/img/logo_engagement-global_service-stelle.png" alt="engagement_global2" width="400" height="400" class="img-responsive" style="max-width: 100%;"></a>
                     
                 </div>
             </div>
             <div class="col-xs-3" style="width: 20%;">
                 <div id="bilder4" style="background-color:white;position: absolute;margin-top: -20px; ">
                     
-                    <a href="https://www.htw-berlin.de" target="_blank" ><img src="/assets/img/logo_htw.jpg" alt="htw_berlin" width="400" height="400" class="img-responsive" ></a>
+                    <a href="https://www.htw-berlin.de/en/" target="_blank" ><img src="/assets/img/logo_htw.jpg" alt="htw_berlin" width="400" height="400" class="img-responsive" ></a>
                     
                 </div>
             </div>
@@ -463,13 +539,13 @@ data-event-label="high"
                             <a href="https://sdgs-treptow-koepenick.github.io/DataTK/en/zip/all_indicators.zip" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Download</a>
                         </li>
                         <li style="color:white;margin: 15px;font-weight: bold;">
-                            <a href="mailto:nachhaltigkeit@ba-tk.berlin.de" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Kontakt</a>
+                            <a href="mailto:nachhaltigkeit@ba-tk.berlin.de" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Contact us</a>
                         </li>
                         <li style="color:white;margin: 15px;font-weight: bold;">
-                            <a href="http://sdgs-treptow-koepenick.github.io/SDGTK/de/about/cookies-and-privacy/" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Impressum</a>
+                            <a href="http://sdgs-treptow-koepenick.github.io/SDGTK/de/about/cookies-and-privacy/" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Imprint</a>
                         </li>
                         <li style="color:white;margin: 15px;font-weight: bold;">
-                            <a href="https://sdgs-treptow-koepenick.github.io/SDGTK/de/guidance/" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Technische Hinweise</a>
+                            <a href="https://sdgs-treptow-koepenick.github.io/SDGTK/guidance/" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Technical references</a>
                         </li>
                         
                         </ul>
@@ -484,7 +560,7 @@ data-event-label="high"
                     <ul style="text-align: center;"
                     
                     <li style="color:white;margin: 15px;font-weight: bold;">
-                        <a href="https://open-sdg.org/" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;" >Diese Webseite wurde mit Open SDG erstellt</a>
+                        <a href="https://open-sdg.org/" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;" >This website was created with Open SDG</a>
                     </li>
                     
                 </ul>
@@ -514,17 +590,17 @@ data-event-label="high"
 
 
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'ausblenden';</script>
+    translations['general']['hide'] = 'hide';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Suche';</script>
+    translations['search']['search'] = 'Search';</script>
 
-<script src='/assets/js/sdg.js?v=20220223110340'></script>
+<script src='/assets/js/sdg.js?v=20220223111852'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20220223110340"></script><script>
+    <script src="/assets/js/custom.js?v=20220223111852"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

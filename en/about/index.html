@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de" class="no-js">
+<html lang="en" class="no-js">
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://sdgs-treptow-koepenick.github.io/DataTK/de',
+  remoteDataBaseUrl: 'https://sdgs-treptow-koepenick.github.io/DataTK/en',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -38,7 +38,7 @@ var opensdg = {
     this.dataDisplayAlterations.push(callback);
   },
 
-  language: 'de',
+  language: 'en',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -103,7 +103,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Cookies and privacy - Indikatoren für die nachhaltigen Entwicklungsziele</title>
+    <title>About - Indicators For The Sustainable Development Goals</title>
 
 
 
@@ -131,7 +131,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20220223110340">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20220223111852">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -145,15 +145,15 @@ var translations = {
         
 
     </head>
-<body class="language-de
+<body class="language-en
 layout-page
 ">
 <!-- <div class="container"> -->
 
 
-<script>translations['header'] = {"alpha":"Alpha-Version","default_contrast":"Standard kontrast","disable_high_contrast":"Hoher Kontrast deaktivieren","disclaimer":"Diese Seite befindet sich im Entwicklungsstadium.Wir freuen uns über Ihre <a href=\"mailto:%email_address\">Kommentare</a>.","enable_high_contrast":"Aktivieren Sie hohen Kontrast","high_contrast":"Hoher kontrast","skip_link":"Zum Hauptinhalt springen","tag_line":"17 Ziele, um unsere Welt zu verändern","toggle_menu":"Menü umschalten. Klicken Sie darauf, um das Menü zu erweitern oder zu reduzieren.","toggle_search":"Umschalten der Suche. Klicken Sie darauf, um die Suchleiste ein- oder auszublenden."};</script>
+<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
 
-  <a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Zum Hauptinhalt springen</a>
+  <a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
   
 
 <div style="position: sticky; position: -webkit-sticky; top: 15px; z-index:3; background: white;">
@@ -177,8 +177,8 @@ layout-page
                               align-items: center;">
 
                   <div id="SDGlogo">
-                        <a class="navbar-brand" href="/" id="home">
-    <img src="/assets/img/SDG_logo.png" alt="Ziele für Nachhaltige Entwicklung - 17 Ziele, um unsere Welt zu verändern" />
+                        <a class="navbar-brand" href="/en/" id="home">
+    <img src="/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
 </a>
                   </div>
                   
@@ -187,9 +187,9 @@ layout-page
                               left: -15px;
                               font-size: 130%;
                               padding-bottom: 15px;">
-                                Monitoring der <br>
-                                Kommunalen Nachhaltigkeitsstrategie <br>
-                                Treptow Köpenick 
+                    Monitoring of the <br>
+                    Municipal Sustainability Strategy <br>
+                    Treptow Köpenick
                   </h1>
                   
 
@@ -202,10 +202,10 @@ layout-page
       <div class="container">
         <div class="search-and-desktop-widgets" style="display: inline-flex; ">
           <div id="search" class="menu-target">
-  <form action="/search/">
-    <label class="sr-only" for="indicator_search">Suche</label>
-    <input type="text" name="q" id="indicator_search" title="Suche" /><!--
-    --><button aria-label="Suche" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  <form action="/en/search/">
+    <label class="sr-only" for="indicator_search">Search</label>
+    <input type="text" name="q" id="indicator_search" title="Search" /><!--
+    --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -221,11 +221,11 @@ layout-page
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Deutsch</span>
-      <span class="language-abbreviation">de</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li class="language-option-en">
-            <a href="/en/de/about/cookies-and-privacy/">
-              English
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
+      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+    <ul class="dropdown-menu"><li class="language-option-de">
+            <a href="/about/">
+              Deutsch
             </a>
           </li></ul>
   </div>
@@ -240,17 +240,17 @@ layout-page
         <div class="navbar navbar-default menu-without-widgets" id="main-nav">
           <ul class="top-level">
     <li id="menuToggle"
-        aria-label="Menü umschalten. Klicken Sie darauf, um das Menü zu erweitern oder zu reduzieren."
+        aria-label="Menu toggle. Click to expand or collapse the menu."
         aria-haspopup="true">
-        <button data-target="menu-mobile" aria-expanded="false">Menü</button>
+        <button data-target="menu-mobile" aria-expanded="false">Menu</button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/goals">Ziele</a>
+    <a href="/en/goals">Goals</a>
 </li><li class="nav-link ">
-    <a href="/reporting-status">Berichtsstatus</a>
+    <a href="/en/reporting-status">Reporting Status</a>
 </li><li class="nav-link ">
-    <a href="/about">Über uns</a>
+    <a href="/en/about">About</a>
 </li><li class="nav-link ">
-    <a href="/faq">FAQ</a>
+    <a href="/en/faq">FAQ</a>
 </li><li class="language-toggle-menu-header">
     
 
@@ -262,11 +262,11 @@ layout-page
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Deutsch</span>
-      <span class="language-abbreviation">de</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li class="language-option-en">
-            <a href="/en/de/about/cookies-and-privacy/">
-              English
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
+      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+    <ul class="dropdown-menu"><li class="language-option-de">
+            <a href="/about/">
+              Deutsch
             </a>
           </li></ul>
   </div>
@@ -279,8 +279,8 @@ layout-page
 
 
     <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Hoher Kontrast deaktivieren"
-           aria-label="Hoher Kontrast deaktivieren"
+        <a title="Disable high contrast"
+           aria-label="Disable high contrast"
            data-contrast-switch-to="default"
            href="javascript:void(0)"
            data-on="click"
@@ -291,8 +291,8 @@ data-event-label="default"
         >A</a>
     </li>
     <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Aktivieren Sie hohen Kontrast"
-           aria-label="Aktivieren Sie hohen Kontrast"
+        <a title="Enable high contrast"
+           aria-label="Enable high contrast"
            data-contrast-switch-to="high"
            href="javascript:void(0)"
            data-on="click"
@@ -309,14 +309,14 @@ data-event-label="high"
 
     </li>
     <li id="searchToggle"
-        aria-label="Umschalten der Suche. Klicken Sie darauf, um die Suchleiste ein- oder auszublenden."
+        aria-label="Search toggle. Click to expand or collapse the search bar."
         aria-haspopup="true">
-        <button data-target="search-mobile" aria-expanded="false">Suche</button>
+        <button data-target="search-mobile" aria-expanded="false">Search</button>
         <div id="search-mobile" class="menu-target">
-  <form action="/search/">
-    <label class="sr-only" for="indicator_search-mobile">Suche</label>
-    <input type="text" name="q" id="indicator_search-mobile" title="Suche" /><!--
-    --><button aria-label="Suche" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  <form action="/en/search/">
+    <label class="sr-only" for="indicator_search-mobile">Search</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
+    --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -324,13 +324,13 @@ data-event-label="high"
 </ul>
 
           <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
-    <a href="/goals">Ziele</a>
+    <a href="/en/goals">Goals</a>
 </li><li class="nav-link ">
-    <a href="/reporting-status">Berichtsstatus</a>
+    <a href="/en/reporting-status">Reporting Status</a>
 </li><li class="nav-link ">
-    <a href="/about">Über uns</a>
+    <a href="/en/about">About</a>
 </li><li class="nav-link ">
-    <a href="/faq">FAQ</a>
+    <a href="/en/faq">FAQ</a>
 </li>
 
 </ul>
@@ -346,78 +346,30 @@ data-event-label="high"
 
 <div id="main-content" class="container" role="main">
     <div>
-        <h1>Cookies and privacy</h1>
+        <h1>About</h1>
         
-            <h1 id="impressum">Impressum</h1>
+            <p>The Berlin district of Treptow-Köpenick has long been concerned with sustainable development at the municipal level. As early as 2004, the “Local Agenda 21 Treptow-Köpenick” was adopted, which included a mission statement and a procedure for implementing sustainable development in the district of Treptow-Köpenick. 
+From 2018 to 2020, this mission statement was revised, aligning it with the United Nations’ Agenda 2030 and its 17 global Sustainable Development Goals (SDGs). <br /></p>
 
-<h2 id="herausgeber">Herausgeber</h2>
+<p>All of this took place in a practice-oriented and participatory process with various actors in the district, who were able to network and develop concrete measures in a total of 8 workshops. The first workshop was already held in September 2018, while the last one unfortunately had to be postponed until September 2020 due to the Covid-19 pandemic. Each workshop followed a similar pattern: after a presentation by topic mentors, general ideas for achieving the respective SDG were first collected from all participants. This collection of ideas was then taken up in small groups and translated into concrete measures. <br /></p>
 
-<p>Herausgeber dieser Website ist das Bezirksamt Treptow-Köpenick von Berlin.</p>
+<p>The result is a municipal sustainability strategy that was adopted in 2021 and, in addition to the concrete measures, also includes an indicator-based monitoring. 
+This monitoring is published here, in a web-based format. <br /></p>
 
-<h3 id="rechtsform">Rechtsform:</h3>
-<p>Behörde, Organ der juristischen Person des öffentlichen Rechts</p>
+<p>The monitoring system consists of two areas: The “measure indicators” are intended to make the results and effects of the adopted measures visible, while the “SDG indicators” represent more comprehensive data for the achievement of the Agenda 2030 goals at the district level. 
+The “measure indicators” were derived directly from the adopted measures. Here you can also find a lot of data which was provided by different actors of the district. Without these data collaborations, it would be difficult to map the adopted measures. 
+The selection of the more general, district-wide SDG indicators, on the other hand, was based primarily on common sustainability indicators (widely used in the literature), which were then placed in the context of Treptow-Köpenick’s sustainability strategy. Official data is primarily used here. <br /></p>
 
-<h3 id="hausanschrift">Hausanschrift:</h3>
-<p>Bezirksamt Treptow-Köpenick von Berlin
-Büro Bezirksbürgermeister
-Rudower Chaussee 4
-12489 Berlin</p>
+<p>The website itself is based on the Open-SDG platform and was further developed in cooperation with students of the HTW Berlin. Many thanks therefore go to: Marlene Bueltemann, Grace Dodi, Lucia Feddersen, Christina Gottschalk, Neslihan Kilic, Mia Lohe, Mahulome Pede and Hatice Pinar. <br /></p>
 
-<h3 id="postanschrift">Postanschrift:</h3>
-<p>Bezirksamt Treptow-Köpenick von Berlin						                           <br />
-PF: 910240										           <br />
-12414 Berlin</p>
+<p>Prof. Florian Koch, Sarah Beyer and Chih-Yu Chen from HTW Berlin were involved in the scientific support of the project. <br /></p>
 
-<h3 id="kontakt">Kontakt</h3>
-<p>Telefon: +49 (030) 90297 – 2351
-E-Mail: nachhaltigkeit@ba-tk.berlin.de</p>
+<p>The person responsible for the Treptow-Köpenick district office is Dennis Lumme, the municipal development policy officer. <br /></p>
 
-<h3 id="redaktion">Redaktion:</h3>
-<p>E-Mail: nachhaltigkeit@ba-tk.berlin.de</p>
+<p>Harald Oehlerking was responsible for the design of the sustainability strategy. <br /></p>
 
-<h3 id="inhalteproduktion">Inhalte/Produktion:</h3>
-<p>Bezirksamt Treptow-Köpenick und HTW</p>
+<p>The entire project was funded by the “Servicestelle Kommunen in der Einen Welt” as part of the INDIKON and DATAKON projects.</p>
 
-<h3 id="umsatzsteuer-identifikationsnummer">Umsatzsteuer-Identifikationsnummer</h3>
-<p>DE 814 554 323</p>
-
-<h3 id="hosting">Hosting:</h3>
-<p>GitHub</p>
-
-<h2 id="haftungsausschluss">Haftungsausschluss</h2>
-<p>Die Inhalte dieser Website werden mit größtmöglicher Sorgfalt recherchiert und implementiert. Fehler im Bearbeitungsvorgang sind dennoch nicht auszuschließen. Hinweise und Korrekturen senden Sie bitte an unsere E-Mail-Adresse: nachhaltigkeit@ba-tk.berlin.de.
-Eine Haftung für die Richtigkeit, Vollständigkeit und Aktualität dieser Website kann trotz sorgfältiger Prüfung nicht übernommen werden. Das Bezirksamt Treptow-Köpenick übernimmt insbesondere keinerlei Haftung für eventuelle Schäden oder Konsequenzen, die durch die direkte oder indirekte Nutzung der angebotenen Inhalte entstehen.
-Neben den eigenen Inhalten bietet das Bezirksamt Treptow-Köpenick Querverweise („externe Links“) auf die von anderen Anbietern bereitgehaltenen Inhalte. Die fremden Inhalte stammen weder vom Bezirksamt Treptow-Köpenick noch hat es die Möglichkeit, den Inhalt von Seiten Dritter zu beeinflussen. Die Inhalte fremder Seiten, auf die das Bezirksamt Treptow-Köpenick mittels Links hinweist, spiegeln nicht die Meinung des Bezirksamtes Treptow-Köpenick wider, sondern dienen lediglich der Information und der Darstellung von Zusammenhängen. Das Bezirksamt Treptow-Köpenick haftet nicht für fremde Inhalte, auf die es lediglich im oben genannten Sinne hinweist. Die Verantwortlichkeit liegt alleine bei dem Anbieter der Inhalte. Bei Nutzungsausfällen der Website wegen technischer oder organisatorischer Störungen bestehen keinerlei Ansprüche - gleich welcher Art - gegen das Bezirksamt Treptow-Köpenick.</p>
-
-<h2 id="datenschutz">Datenschutz</h2>
-<p>Das Bezirksamt Treptow-Köpenick nimmt den Schutz Ihrer Privat- und Persönlichkeitssphäre ernst und beachtet die datenschutzrechtlichen Bestimmungen. Ihr coppyright allgemeinVertrauen ist uns wichtig!
-Mit diesen Hinweisen kommen wir unseren Informationspflichten nach Artikel 13 der Datenschutz-Grundverordnung (DS-GVO) bei der Erhebung personenbezogener Daten nach. Beim Zugriff auf die SDG-Online Plattform werden vom Bezirksamt Treptow- Köpenick keine personenbezogenen Daten erhoben.
-Sie nutzen allerdings die Dienste des Anbieters GitHub. Die Datenschutzerklärung von GitHub finden Sie unter https://help.github.com/en/articles/github-privacy-statement.
-Wir haben technische und organisatorische Maßnahmen getroffen, die sicherstellen, dass die Vorschriften über den Datenschutz sowohl von uns als auch von unserem Dienstleister beachtet werden. In diesem Zusammenhang weisen wir daraufhin, dass die Daten von GitHub in den USA verarbeitet werden können.
-Als Website-Besucher werden technische Informationen, auch die IP-Adresse, erfasst: diese kann ggf. ein personenbezogenes Datum sein.
-Im Zuge der Weiterentwicklung unserer Website können auch Änderungen dieser Datenschutzerklärung erforderlich werden. Daher empfehlen wir Ihnen, sich diese Erklärung regelmäßig durchzulesen.</p>
-
-<h2 id="personenbezogene-daten">Personenbezogene Daten</h2>
-<p>Personenbezogene Daten sind Informationen zu Ihrer Person, wie zum Beispiel Ihr Name, Adresse, Postanschrift oder auch Ihr Nutzerverhalten, wenn dies nicht anonymisiert wird. Informationen, die nicht mit Ihrer Identität in Verbindung gebracht werden, fallen nicht darunter.</p>
-
-<h2 id="einsatz-von-cookies">Einsatz von Cookies</h2>
-<p>Auf diesen Seiten kommen Cookies zum Einsatz. Diese sind zur optimalen Bereitstellung unseres Internetangebots technisch erforderlich. Der Einsatz dieser Cookies erfolgt auf der Grundlage des Art. 6 Absatz 1 lit. e DS-GVO in Verbindung mit § 3 Bundesdatenschutzgesetz (BDSG).
-Die meisten Internetbrowser sind so eingestellt, dass sie Cookies automatisch akzeptieren. Sie können das Speichern von Cookies jedoch deaktivieren oder Ihren Browser so einstellen, dass Cookies nur für die Dauer der jeweiligen Verbindung zum Internet gespeichert werden. Sollten Sie eine Browsererweiterung nutzen, die die Ablage unserer Cookies verhindert, respektieren wir dies selbstverständlich. Cookies werden in diesem Fall nicht abgelegt. Wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich werden nutzen können.</p>
-
-<h2 id="anfragen-per-e-mail-oder-telefon">Anfragen per E-Mail oder Telefon</h2>
-<p>Wenn Sie Ihre Anfragen per E-Mail oder Telefon an uns richten, werden Ihre Angaben zur Beantwortung der Anfrage in unserem Kundenmanagement gespeichert. Dies erfolgt in Erfüllung unserer öffentlichen Aufgaben nach Artikel 6 Absatz 1 lit. e) DS-GVO in Verbindung mit § 3 BDSG. Sollte eine Anfrage kostenpflichtig sein, werden Sie darauf per E-Mail hingewiesen, es sei denn Ihre Anfrage enthält im Einzelfall bereits eine konkrete Bestellung mit den erforderlichen Vertragsbestandteilen. Die Verarbeitung basiert sodann auf Artikel 6 Absatz 1 lit. b) DS-GVO. Ihnen stehen ebenso die jeweils einschlägigen untenstehenden Rechte zu.</p>
-
-<h2 id="weitergabe-personenbezogener-daten-an-dritte">Weitergabe personenbezogener Daten an Dritte</h2>
-<p>Daten, die beim Zugriff auf das Internet-Angebot vom Bezirksamt Treptow-Köpenick protokolliert worden sind, werden an Dritte nur übermittelt, soweit wir gesetzlich oder durch Gerichtsentscheidung dazu verpflichtet sind oder die Weitergabe im Falle von Angriffen auf die Internet-Infrastruktur vom Bezirksamt Treptow-Köpenick zu Rechts- oder Strafverfolgung erforderlich ist. Eine Weitergabe zu anderen nichtkommerziellen oder zu kommerziellen Zwecken erfolgt nicht.</p>
-
-<h2 id="minderjährigenschutz">Minderjährigenschutz</h2>
-<p>Personen unter 18 Jahren sollten ohne Zustimmung der Eltern oder Erziehungsberechtigten keine personenbezogenen Daten an uns übermitteln. Wir fordern keine personenbezogenen Daten von Kindern und Jugendlichen an. Wissentlich sammeln wir solche Daten nicht und geben sie auch nicht weiter.</p>
-
-<h2 id="links-zu-websites-anderer-anbieter">Links zu Websites anderer Anbieter</h2>
-<p>Unser Online-Angebot enthält Links zu Websites anderer Anbieter. Wir haben keinen Einfluss darauf, dass diese Anbieter die Datenschutzbestimmungen einhalten.</p>
-
-<h2 id="copyright">Copyright</h2>
-<p>Bei Verwendung unserer Daten empfiehlt es sich, auf die Ausbringung der Copyright-Angaben auf der jeweiligen Seite zu achten und im Bedarfsfalle die unter Datenquelle genannten Copyright-Inhaber zu kontaktieren.</p>
 
         
     </div>
@@ -466,7 +418,7 @@ Die meisten Internetbrowser sind so eingestellt, dass sie Cookies automatisch ak
             <div class="col-xs-12">
                 <div id="kooperation" >
                     
-                    <p>Unsere Projektpartner</p>
+                    <p>Our project partners</p>
                     
                 </div>
             </div>
@@ -482,28 +434,28 @@ Die meisten Internetbrowser sind so eingestellt, dass sie Cookies automatisch ak
             <div class="col-xs-3" style="width: 20%;">
                 <div id="bilder2" style="background-color:white">
                     
-                    <a href="https://www.bmz.de/de" target="_blank" ><img src="/assets/img/logo_BMZ.png" alt="bmz" width="400" height="400" class="img-responsive" style="max-width: 100%;"></a>
+                    <a href="https://www.bmz.de/en" target="_blank" ><img src="/assets/img/logo_BMZ.png" alt="bmz" width="400" height="400" class="img-responsive" style="max-width: 100%;"></a>
                     
                 </div>
             </div>
             <div class="col-xs-3" style="width: 20%;">
                 <div id="bilder3" style="background-color:white;">
                     
-                    <a href="https://www.engagement-global.de/" target="_blank" ><img src="/assets/img/logo_engagement-global_skew.png" alt="engagement_global1" width="400" height="400" class="img-responsive" style="max-width: 100%;"></a>
+                    <a href="https://www.engagement-global.de/homepage.html" target="_blank" ><img src="/assets/img/logo_engagement-global_skew.png" alt="engagement_global1" width="400" height="400" class="img-responsive" style="max-width: 100%;"></a>
                     
                 </div>
             </div>
             <div class="col-xs-3" style="width: 20%;">
                 <div id="bilder5" style="background-color:white;">
                     
-                    <a href="https://skew.engagement-global.de/" target="_blank" ><img src="/assets/img/logo_engagement-global_service-stelle.png" alt="engagement_global2" width="400" height="400" class="img-responsive" style="max-width: 100%;"></a>
+                    <a href="https://skew.engagement-global.de/home.html" target="_blank" ><img src="/assets/img/logo_engagement-global_service-stelle.png" alt="engagement_global2" width="400" height="400" class="img-responsive" style="max-width: 100%;"></a>
                     
                 </div>
             </div>
             <div class="col-xs-3" style="width: 20%;">
                 <div id="bilder4" style="background-color:white;position: absolute;margin-top: -20px; ">
                     
-                    <a href="https://www.htw-berlin.de" target="_blank" ><img src="/assets/img/logo_htw.jpg" alt="htw_berlin" width="400" height="400" class="img-responsive" ></a>
+                    <a href="https://www.htw-berlin.de/en/" target="_blank" ><img src="/assets/img/logo_htw.jpg" alt="htw_berlin" width="400" height="400" class="img-responsive" ></a>
                     
                 </div>
             </div>
@@ -519,13 +471,13 @@ Die meisten Internetbrowser sind so eingestellt, dass sie Cookies automatisch ak
                             <a href="https://sdgs-treptow-koepenick.github.io/DataTK/en/zip/all_indicators.zip" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Download</a>
                         </li>
                         <li style="color:white;margin: 15px;font-weight: bold;">
-                            <a href="mailto:nachhaltigkeit@ba-tk.berlin.de" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Kontakt</a>
+                            <a href="mailto:nachhaltigkeit@ba-tk.berlin.de" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Contact us</a>
                         </li>
                         <li style="color:white;margin: 15px;font-weight: bold;">
-                            <a href="http://sdgs-treptow-koepenick.github.io/SDGTK/de/about/cookies-and-privacy/" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Impressum</a>
+                            <a href="http://sdgs-treptow-koepenick.github.io/SDGTK/de/about/cookies-and-privacy/" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Imprint</a>
                         </li>
                         <li style="color:white;margin: 15px;font-weight: bold;">
-                            <a href="https://sdgs-treptow-koepenick.github.io/SDGTK/de/guidance/" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Technische Hinweise</a>
+                            <a href="https://sdgs-treptow-koepenick.github.io/SDGTK/guidance/" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Technical references</a>
                         </li>
                         
                         </ul>
@@ -540,7 +492,7 @@ Die meisten Internetbrowser sind so eingestellt, dass sie Cookies automatisch ak
                     <ul style="text-align: center;"
                     
                     <li style="color:white;margin: 15px;font-weight: bold;">
-                        <a href="https://open-sdg.org/" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;" >Diese Webseite wurde mit Open SDG erstellt</a>
+                        <a href="https://open-sdg.org/" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;" >This website was created with Open SDG</a>
                     </li>
                     
                 </ul>
@@ -570,17 +522,17 @@ Die meisten Internetbrowser sind so eingestellt, dass sie Cookies automatisch ak
 
 
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'ausblenden';</script>
+    translations['general']['hide'] = 'hide';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Suche';</script>
+    translations['search']['search'] = 'Search';</script>
 
-<script src='/assets/js/sdg.js?v=20220223110340'></script>
+<script src='/assets/js/sdg.js?v=20220223111852'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20220223110340"></script><script>
+    <script src="/assets/js/custom.js?v=20220223111852"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
