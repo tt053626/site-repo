@@ -2,7 +2,7 @@
 
 title: Häufig gestellte Fragen
 language: de
-permalink: /de/faq/
+permalink: /faq/
 layout: page
 
 ---
