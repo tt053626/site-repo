@@ -3,7 +3,7 @@
 layout: page
 title: Cookies and privacy
 language: en
-permalink: /about/cookies-and-privacy/
+permalink: /en/about/cookies-and-privacy/
 
 ---
 
