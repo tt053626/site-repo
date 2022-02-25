@@ -3360,9 +3360,29 @@ header .container {
   header .container .navbar-default {
     border: none; }
 
+.header-menu-left-aligned h1.header {
+  font-size: 130%; }
 @media screen and (max-width: 768px) {
   .header-menu-left-aligned {
-    height: 120px; } }
+    height: 120px; }
+    .header-menu-left-aligned h1.header {
+      font-size: 130%; } }
+@media screen and (max-width: 465px) {
+  .header-menu-left-aligned {
+    height: 120px; }
+    .header-menu-left-aligned .navbar-brand {
+      min-width: 5em;
+      max-width: 6em; }
+    .header-menu-left-aligned h1.header {
+      font-size: 110%;
+      margin-left: 1.5em; } }
+@media screen and (max-width: 380px) {
+  .header-menu-left-aligned .navbar-brand {
+    min-width: 4.5em;
+    max-width: 6em; }
+  .header-menu-left-aligned h1.header {
+    font-size: 110%;
+    margin-left: 1.7em; } }
 .header-menu-left-aligned .search-and-desktop-widgets {
   float: right;
   display: none; }
@@ -3376,14 +3396,6 @@ header .container {
         position: relative;
         left: 20px;
         margin-right: 10px; } }
-  @media screen and (min-width: 992px) {
-    .header-menu-left-aligned .search-and-desktop-widgets {
-      display: block;
-      position: relative;
-      top: 60px; }
-      .header-menu-left-aligned .search-and-desktop-widgets #SDGlogo {
-        height: auto;
-        width: 12%; } }
   @media screen and (min-width: 768px) and (max-width: 991px) {
     .header-menu-left-aligned .search-and-desktop-widgets {
       display: block; }
@@ -3407,6 +3419,14 @@ header .container {
         min-width: 340px; }
         .header-menu-left-aligned .search-and-desktop-widgets #search button {
           display: inline-flex; } }
+  @media screen and (min-width: 992px) {
+    .header-menu-left-aligned .search-and-desktop-widgets {
+      display: block;
+      position: relative;
+      top: 60px; }
+      .header-menu-left-aligned .search-and-desktop-widgets #SDGlogo {
+        height: auto;
+        width: 12%; } }
   .header-menu-left-aligned .search-and-desktop-widgets #search {
     margin-top: 0;
     margin-bottom: 0; }
@@ -3418,6 +3438,28 @@ header .container {
 .leaflet-container {
   z-index: 1; }
 
+@media screen and (min-width: 992px) {
+  #SDGlogo {
+    height: auto;
+    width: 12%; } }
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .fa-search {
+    position: relative;
+    top: 5px;
+    left: 5px; }
+
+  #search-bar-on-page-btn .fa-search {
+    position: relative;
+    top: 0px;
+    left: 0px; }
+
+  #main-nav {
+    width: 340px; }
+
+  #SDGlogo {
+    height: auto;
+    width: 15%;
+    padding-right: 0%; } }
 @media screen and (max-width: 768px) {
   #search-mobile-btn {
     width: 33px; }
@@ -3425,6 +3467,9 @@ header .container {
   h1 {
     font-size: 180%;
     text-align: left; }
+
+  p {
+    font-size: 95%; }
 
   #SDGlogo {
     height: auto;
@@ -3456,28 +3501,29 @@ header .container {
       top: -15px;
       bottom: 10px;
       right: 5px; } }
-@media screen and (min-width: 768px) and (max-width: 991px) {
-  .fa-search {
-    position: relative;
-    top: 5px;
-    left: 5px; }
+@media screen and (max-width: 485px) {
+  h1 {
+    font-size: 165%;
+    font-weight: 500;
+    text-align: left; }
 
-  #search-bar-on-page-btn .fa-search {
-    position: relative;
-    top: 0px;
-    left: 0px; }
+  p {
+    font-size: 90%; }
 
-  #main-nav {
-    width: 340px; }
+  h2 {
+    font-size: 130%;
+    font-weight: 500; }
 
-  #SDGlogo {
-    height: auto;
-    width: 15%;
-    padding-right: 0%; } }
-@media screen and (min-width: 992px) {
-  #SDGlogo {
-    height: auto;
-    width: 12%; } }
+  h4 {
+    font-size: 70%; } }
+@media screen and (max-width: 340px) {
+  h1 {
+    font-size: 160%;
+    font-weight: 500;
+    text-align: left; }
+
+  p {
+    font-size: 87%; } }
 #banner {
   background: white url("../img/sdgbg.png") top left repeat-x;
   padding-top: 15px; }
