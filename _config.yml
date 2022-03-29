@@ -111,12 +111,12 @@ menu:
 footer_menu:
   - path: https://sdgs-treptow-koepenick.github.io/DataTK/en/zip/all_indicators.zip
     translation_key: Download
-  - path: mailto:{{site.email_contacts.functional}}
+  - path: mailto:nachhaltigkeit@ba-tk.berlin.de
     translation_key: menu.contact_us
-  - path: #
-    translation_key: Impressum
   - path: /about/cookies-and-privacy/
-    translation_key: menu.cookies
+    translation_key: Impressum
+#   - path: /about/cookies-and-privacy/
+#     translation_key: menu.cookies
   - path: /guidance
     translation_key: menu.guidance
 
