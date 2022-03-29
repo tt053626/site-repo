@@ -129,12 +129,18 @@
                             {% for item in site.footer_menu %}
                                 {%- assign item_path = item.path | t -%}
                                 <li style="color:white;margin: 15px;font-weight: bold;">
-                                    {%- assign item_path_first = item_path | slice: 0 %}
-                                    {%- if item_path_first == '/' -%}
-                                        {%- assign item_path = item_path | slice: 1, item_path.size -%}
-                                    {%- endif -%}
-                                    <a href="{{ page.baseurl }}{{ item_path }}" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">{{ item.translation_key | t }}</a>
-                                </li>
+                                    {% if item_path contains "all_indicators" %}
+                                        <a href="{{ item_path }}" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">{{ item.translation_key | t }}</a>
+                                        {% elsif item_path contains ":" %}
+                                        <a href="{{ item_path }}" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">{{ item.translation_key | t }}</a>
+                                    {% else %}
+                                        {%- assign item_path_first = item_path | slice: 0 %}
+                                        {%- if item_path_first == '/' -%}
+                                            {%- assign item_path = item_path | slice: 1, item_path.size -%}
+                                        {%- endif -%}
+                                        <a href="{{ page.baseurl }}{{ item_path }}" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">{{ item.translation_key | t }}</a>
+                                    {% endif %}
+                                    </li>
                             {% endfor %}
                         {% endif %}
                         {% if site.environment == 'staging' and site.site_config_form.enabled %}
