@@ -125,32 +125,17 @@
             <div class="col-xs-12">
                 <div id="footerLinks" style="background-color:#19486a;color:white;padding: 10px;margin-bottom: 1px;">
                     <ul style="text-align: center;">
-                        {% if page.language == 'de' %}
-                        <li style="color:white;margin: 15px;font-weight: bold;">
-                            <a href="https://sdgs-treptow-koepenick.github.io/DataTK/en/zip/all_indicators.zip" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Download</a>
-                        </li>
-                        <li style="color:white;margin: 15px;font-weight: bold;">
-                            <a href="mailto:nachhaltigkeit@ba-tk.berlin.de" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Kontakt</a>
-                        </li>
-                        <li style="color:white;margin: 15px;font-weight: bold;">
-                            <a href="http://sdgs-treptow-koepenick.github.io/SDGTK/about/cookies-and-privacy/" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Impressum</a>
-                        </li>
-                        <li style="color:white;margin: 15px;font-weight: bold;">
-                            <a href="https://sdgs-treptow-koepenick.github.io/SDGTK/guidance/" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Technische Hinweise</a>
-                        </li>
-                        {% else %}
-                        <li style="color:white;margin: 15px;font-weight: bold;">
-                            <a href="https://sdgs-treptow-koepenick.github.io/DataTK/en/zip/all_indicators.zip" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Download</a>
-                        </li>
-                        <li style="color:white;margin: 15px;font-weight: bold;">
-                            <a href="mailto:nachhaltigkeit@ba-tk.berlin.de" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Contact us</a>
-                        </li>
-                        <li style="color:white;margin: 15px;font-weight: bold;">
-                            <a href="http://sdgs-treptow-koepenick.github.io/SDGTK/en/about/cookies-and-privacy/" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Imprint</a>
-                        </li>
-                        <li style="color:white;margin: 15px;font-weight: bold;">
-                            <a href="https://sdgs-treptow-koepenick.github.io/SDGTK/en/guidance/" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Technical references</a>
-                        </li>
+                        {% if site.footer_menu %}
+                            {% for item in site.footer_menu %}
+                                {%- assign item_path = item.path | t -%}
+                                <li style="color:white;margin: 15px;font-weight: bold;">
+                                    {%- assign item_path_first = item_path | slice: 0 %}
+                                    {%- if item_path_first == '/' -%}
+                                        {%- assign item_path = item_path | slice: 1, item_path.size -%}
+                                    {%- endif -%}
+                                    <a href="{{ page.baseurl }}{{ item_path }}" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">{{ item.translation_key | t }}</a>
+                                </li>
+                            {% endfor %}
                         {% endif %}
                         {% if site.environment == 'staging' and site.site_config_form.enabled %}
                         <li style="color:white;margin: 15px;font-weight: bold;"><a
