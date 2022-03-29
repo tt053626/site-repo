@@ -118,7 +118,7 @@ footer_menu:
 #   - path: /about/cookies-and-privacy/
 #     translation_key: menu.cookies
   - path: /guidance
-    translation_key: menu.guidance
+    translation_key: menu.Technical references
 
 
 
