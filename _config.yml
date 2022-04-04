@@ -114,9 +114,9 @@ footer_menu:
   - path: mailto:nachhaltigkeit@ba-tk.berlin.de
     translation_key: menu.contact_us
   - path: /about/cookies-and-privacy/
-    translation_key: Impressum
+    translation_key: menu.cookies
 #   - path: /about/cookies-and-privacy/
-#     translation_key: menu.cookies
+#     translation_key: Impressum
   - path: /guidance
     translation_key: menu.guidance
 
