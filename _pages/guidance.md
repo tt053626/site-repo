@@ -1,5 +1,5 @@
 ---
-title: Guidance
+title: Technical references
 language: en
 permalink: /en/guidance/
 layout: page
