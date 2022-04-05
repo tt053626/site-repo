@@ -1,13 +1,11 @@
 ---
 
 layout: page
-title: Cookies and privacy
+title: Legal Notice
 language: en
 permalink: /en/about/cookies-and-privacy/
 
 ---
-
-# Impressum
 
 ## Publisher
 The publisher of this website is the district office Treptow-Köpenick of Berlin. 
