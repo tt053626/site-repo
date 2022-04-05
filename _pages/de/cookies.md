@@ -1,12 +1,10 @@
 ---
 layout: page
-title: Cookies and privacy
+title: Impressum
 language: de
 permalink: /about/cookies-and-privacy/
 
 ---
-
-# Impressum
 
 ## Herausgeber
 
