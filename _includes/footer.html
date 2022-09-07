@@ -138,7 +138,7 @@
                                         {%- if item_path_first == '/' -%}
                                             {%- assign item_path = item_path | slice: 1, item_path.size -%}
                                         {%- endif -%}
-                                        <a href="{{ page.baseurl }}{{ item_path }}" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">{{ item.translation_key | t }}</a>
+                                        <a href="{{ page.baseurl }}{{ item_path }}" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">{{ item.translation_key | t }}</a>
                                     {% endif %}
                                     </li>
                             {% endfor %}
