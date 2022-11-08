@@ -4,7 +4,7 @@
 # baseurl with the name of this repository
 baseurl: "/site-repo"
 # URL of data repository
-remote_data_prefix: "https://tt053626.github.io/data-repo/"
+remote_data_prefix: "https://mapetersen.github.io/data-repo/"
 
 # URL for the "Edit Data" button on indicators.
 data_edit_url: http://prose.io/#sdgs-treptow-koepenick/DataTK/edit/develop/data/indicator_[id].csv
