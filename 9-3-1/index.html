@@ -136,7 +136,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site-repo/assets/css/style.css?v=20221108082926">
+        <link rel="stylesheet" href="/site-repo/assets/css/style.css?v=20221108143527">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -508,12 +508,7 @@ data-event-label="high"
 
 <div class="row" id="page-content">
     <div class="col-xs-12">
-        <p>Der Indikator bildet die private Breitbandverfügbarkeit im Bezirk Treptow-Köpenick ab.
-Die jeweilige Verfügbarkeit (Mbit/s) wird dabei in Prozent der versorgten Haushalte angegeben.
-Die Daten wurden vom Breitbandatlas zur Verfügung gestellt und stammen vom 16. April 2021.</p>
-
-<p>Mehr Informationen zum Breitbandatlas finden sich hier: <br />
-<a href="https://www.bmvi.de/DE/Themen/Digitales/Breitbandausbau/Breitbandatlas-Karte/start.html">https://www.bmvi.de/DE/Themen/Digitales/Breitbandausbau/Breitbandatlas-Karte/start.html</a></p>
+        <p>The indicator shows private broadband availability in the Treptow-Köpenick district. The respective availability (Mbit/s) is given as a percentage of the households covered. The data was provided by the Broadband Atlas and is dated April 16, 2021. More information on the Broadband Atlas can be found here: <br /> <a href="https://www.bmvi.de/DE/Themen/Digitales/Breitbandausbau/Breitbandatlas-Karte/start.html">https://www.bmvi.de/DE/Themen/Digitales/Breitbandausbau/Breitbandatlas-Karte/start.html</a></p>
 
     </div>
 </div>
@@ -541,7 +536,7 @@ Die Daten wurden vom Breitbandatlas zur Verfügung gestellt und stammen vom 16. 
      data-country="Treptow-Köpenick"
      data-charttitle="Breitband Verfügbarkeit Mbit/s in %"
      data-charttitles="null"
-     data-measurementunit="Verfügbarkeit in Prozent"
+     data-measurementunit="Availability in percent"
      data-xaxislabel=""
      data-showdata="true"
      data-graphtype="bar"
@@ -606,7 +601,7 @@ Die Daten wurden vom Breitbandatlas zur Verfügung gestellt und stammen vom 16. 
     <p>Geographische Abdeckung: Treptow-Köpenick</p>
     
     
-    <p>Einheit: Verfügbarkeit in Prozent</p>
+    <p>Einheit: Availability in percent</p>
     
     
   </div>
@@ -907,7 +902,7 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>Einheit:</dt>
-        <dd>Verfügbarkeit in Prozent</dd>
+        <dd>Availability in percent</dd>
         
 
         
@@ -953,7 +948,7 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
         <dt>Einheit:</dt>
-        <dd>Verfügbarkeit in Prozent</dd>
+        <dd>Availability in percent</dd>
         
 
         
@@ -1069,7 +1064,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Einheit </th>
         <td>
           
-            <p>Verfügbarkeit in Prozent</p>
+            <p>Availability in percent</p>
 
           
         </td>
@@ -1367,7 +1362,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Einheit </th>
         <td>
           
-            <p>Verfügbarkeit in Prozent</p>
+            <p>Availability in percent</p>
 
           
         </td>
@@ -2401,12 +2396,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/site-repo/assets/js/sdg.js?v=20221108082926'></script>
+<script src='/site-repo/assets/js/sdg.js?v=20221108143527'></script>
 
 
     
     
-    <script src="/site-repo/assets/js/custom.js?v=20221108082926"></script><script>
+    <script src="/site-repo/assets/js/custom.js?v=20221108143527"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
