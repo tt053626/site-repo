@@ -13,7 +13,6 @@ metadata_edit_url: http://prose.io/#sdgs-treptow-koepenick/DataTK/edit/develop/m
 
 languages:
   - de
-  - en
 
 
 # Tell the Remote Theme plugin to use the Open SDG platform (Jekyll theme).
