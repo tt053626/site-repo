@@ -3155,6 +3155,11 @@ h1.header {
 body.contrast-high .goal-banner img {
   background-color: black !important; }
 
+/*#2.2 indicator page */
+#data-main-section {
+  height: 775px;
+  background: white; }
+
 /* goal-navigation-bottom */
 #contain {
   margin: auto;
