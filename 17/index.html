@@ -125,7 +125,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site-repo/assets/css/style.css?v=20230214222909">
+        <link rel="stylesheet" href="/site-repo/assets/css/style.css?v=20230217211159">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -165,12 +165,13 @@ layout-goal
 
             <nav class="navbar navbar-expand-lg navbar-light flex-wrap align-items-center" id="narbar-container"> 
 
-                <a class="navbar-brand" href="/site-repo/" id="home">
-    <img src="/site-repo/assets/img/SDG_logo.png" alt="Ziele für Nachhaltige Entwicklung - 17 Ziele, um unsere Welt zu verändern" />
+                <!-- change image src on mouse hover to have darken effect-->
+
+<a class="navbar-brand" href="/site-repo/" id="home" aria-label="" title="">
+    <img src="/site-repo/assets/img/SDG_logo.png"
+    onmouseover="this.src='/site-repo/assets/img/SDG_logo_focus.png'"
+    onmouseout="this.src='/site-repo/assets/img/SDG_logo.png'" alt="Ziele für Nachhaltige Entwicklung - 17 Ziele, um unsere Welt zu verändern"/>
 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
 
                 
                 <h1 class="header">
@@ -179,6 +180,10 @@ layout-goal
                     Kommune X
                 </h1>
                 
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
                 <div class="d-flex flex-wrap w-100 justify-content-between"  id="navigation-search-bar">
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -337,7 +342,7 @@ data-event-label="high"
             </h3>
           </div>
           <div class="col goal-page-target-name">
-            <span class="target-name">Maßnahme - Städtepartnerschaften bekannter machen</span>
+            <span class="target-name">Die Mobilisierung einheimischer Ressourcen verstärken, einschließlich durch internationale Unterstützung für die Entwicklungsländer, um die nationalen Kapazitäten zur Erhebung von Steuern und anderen Abgaben zu verbessern</span>
           </div>
           
       </div>
@@ -357,7 +362,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/17-1-1">Anzahl der Aktivitäten mit Partnerstädten und Veranstaltungen zum Thema Städtepartnerschaften des Bezirksamts Treptow-Köpenick pro Jahr</a></span>
+              <span class="indicator-name"><a href="/site-repo/17-1-1">Total government revenue as a proportion of GDP, by source</a></span>
               
 
 
@@ -369,8 +374,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -397,7 +402,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/17-1-2">Anteil des Haushaltsbudgets, das durch inländische Steuern finanziert wird</a></span>
+              <span class="indicator-name"><a href="/site-repo/17-1-2">Proportion of domestic budget funded by domestic taxes</a></span>
               
 
 
@@ -409,8 +414,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -432,7 +437,7 @@ data-event-label="high"
             </h3>
           </div>
           <div class="col goal-page-target-name">
-            <span class="target-name">Maßnahme - Treptow-Köpenicker Bohne - Fairer Kaffee aus Cajamarca als eigene Mischung anbieten (Verkauf / Cafe)</span>
+            <span class="target-name">Sicherstellen, dass die entwickelten Länder ihre Zusagen im Bereich der öffentlichen Entwicklungshilfe voll einhalten, einschließlich der von vielen entwickelten Ländern eingegangenen Verpflichtung, die Zielvorgabe von 0,7 Prozent ihres Bruttonationaleinkommens für öffentliche Entwicklungshilfe zugunsten der Entwicklungsländer und 0,15 bis 0,20 Prozent zugunsten der am wenigsten entwickelten Länder zu erreichen; den Gebern öffentlicher Entwicklungshilfe wird nahegelegt, die Bereitstellung von mindestens 0,20 Prozent ihres Bruttonationaleinkommens zugunsten der am wenigsten entwickelten Länder als Zielsetzung zu erwägen</span>
           </div>
           
       </div>
@@ -452,7 +457,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/17-2-1">Menge verkaufter Packungen Fairtrade Kaffee 'Treptow-Köpenicker Bohne' pro Jahr</a></span>
+              <span class="indicator-name"><a href="/site-repo/17-2-1">Net official development assistance, total and to least developed countries, as a proportion of the Organization for Economic Cooperation and Development (OECD) Development Assistance Committee donors’ gross national income (GNI)</a></span>
               
 
 
@@ -464,8 +469,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -487,7 +492,7 @@ data-event-label="high"
             </h3>
           </div>
           <div class="col goal-page-target-name">
-            <span class="target-name">SDG-Indikator - Partnerschaften mit Ländern des globalen Südens</span>
+            <span class="target-name">Zusätzliche finanzielle Mittel aus verschiedenen Quellen für die Entwicklungsländer mobilisieren</span>
           </div>
           
       </div>
@@ -507,7 +512,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/17-3-1">Städtepartnerschaften</a></span>
+              <span class="indicator-name"><a href="/site-repo/17-3-1">Additional financial resources mobilized for developing countries from multiple sources</a></span>
               
 
 
@@ -519,8 +524,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -547,7 +552,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/17-3-2">Gemeindeprojekte und -partnerschaften</a></span>
+              <span class="indicator-name"><a href="/site-repo/17-3-2">Volume of remittances (in United States dollars) as a proportion of total GDP</a></span>
               
 
 
@@ -559,8 +564,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -582,7 +587,7 @@ data-event-label="high"
             </h3>
           </div>
           <div class="col goal-page-target-name">
-            <span class="target-name">SDG-Indikator - Entwicklungspolitisch engagierte Initiativen, Gruppen und Vereine</span>
+            <span class="target-name">Den Entwicklungsländern dabei behilflich sein, durch eine koordinierte Politik zur Förderung der Schuldenfinanzierung, der Entschuldung beziehungsweise der Umschuldung die langfristige Tragfähigkeit der Verschuldung zu erreichen, und das Problem der Auslandsverschuldung hochverschuldeter armer Länder angehen, um die Überschuldung zu verringern</span>
           </div>
           
       </div>
@@ -602,7 +607,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/17-4-1">Eine-Welt-Projekte und Partnerschaften im Bezirk Treptow-Köpenick</a></span>
+              <span class="indicator-name"><a href="/site-repo/17-4-1">Debt service as a proportion of exports of goods and services</a></span>
               
 
 
@@ -614,8 +619,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -637,7 +642,7 @@ data-event-label="high"
             </h3>
           </div>
           <div class="col goal-page-target-name">
-            <span class="target-name">SDG-Indikator - Weltläden</span>
+            <span class="target-name">Investitionsförderungssysteme für die am wenigsten entwickelten Länder beschließen und umsetzen</span>
           </div>
           
       </div>
@@ -657,7 +662,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/17-5-1">Noch zu definieren</a></span>
+              <span class="indicator-name"><a href="/site-repo/17-5-1">Number of countries that adopt and implement investment promotion regimes for developing countries, including the least developed countries</a></span>
               
 
 
@@ -669,8 +674,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -692,7 +697,7 @@ data-event-label="high"
             </h3>
           </div>
           <div class="col goal-page-target-name">
-            <span class="target-name">SDG-Indikator - Öffentliche Ausgaben für Entwicklungszusammenarbeit (Official Development Assistance, ODA)</span>
+            <span class="target-name">Die regionale und internationale Nord-Süd- und Süd-Süd-Zusammenarbeit und Dreieckskooperation im Bereich Wissenschaft, Technologie und Innovation und den Zugang dazu verbessern und den Austausch von Wissen zu einvernehmlich festgelegten Bedingungen verstärken, unter anderem durch eine bessere Abstimmung zwischen den vorhandenen Mechanismen, insbesondere auf Ebene der Vereinten Nationen, und durch einen globalen Mechanismus zur Technologieförderung</span>
           </div>
           
       </div>
@@ -712,7 +717,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/17-6-1">Öffentliche Ausgaben für Entwicklungszusammenarbeit (Official Development Assistance, ODA)</a></span>
+              <span class="indicator-name"><a href="/site-repo/17-6-1">Fixed Internet broadband subscriptions per 100 inhabitants, by speed</a></span>
               
 
 
@@ -724,8 +729,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -767,7 +772,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/17-7-1">Gesamtbetrag der für Entwicklungsländer genehmigten Mittel zur Förderung der Entwicklung, des Transfers, der öffentlichen Bereitstellung und der Verbreitung umweltfreundlicher Technologien</a></span>
+              <span class="indicator-name"><a href="/site-repo/17-7-1">Total amount of funding for developing countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies</a></span>
               
 
 
@@ -779,8 +784,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -822,7 +827,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/17-8-1">Anteil der Einzelpersonen, die das Internet nutzen</a></span>
+              <span class="indicator-name"><a href="/site-repo/17-8-1">Proportion of individuals using the Internet</a></span>
               
 
 
@@ -834,8 +839,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -877,7 +882,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/17-9-1">Dollar-Wert der finanziellen und technischen Zusammenarbeit (einschließlich durch Nord-Süd-, Süd-Süd- und Dreieckskooperationen) mit Entwicklungsländern</a></span>
+              <span class="indicator-name"><a href="/site-repo/17-9-1">Dollar value of financial and technical assistance (including through North-South, South‑South and triangular cooperation) committed to developing countries</a></span>
               
 
 
@@ -889,8 +894,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -932,7 +937,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/17-10-1">Weltweit gewichtete durchschnittliche Zollsätze</a></span>
+              <span class="indicator-name"><a href="/site-repo/17-10-1">Worldwide weighted tariff-average</a></span>
               
 
 
@@ -944,8 +949,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -987,7 +992,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/17-11-1">Anteil der Entwicklungsländer und der am wenigsten entwickelten Länder an den weltweiten Exporten</a></span>
+              <span class="indicator-name"><a href="/site-repo/17-11-1">Developing countries’ and least developed countries’ share of global exports</a></span>
               
 
 
@@ -999,8 +1004,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -1042,7 +1047,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/17-12-1">Durchschnittliche Zölle für Entwicklungsländer, am wenigsten entwickelte Länder und kleine Inselentwicklungsländer</a></span>
+              <span class="indicator-name"><a href="/site-repo/17-12-1">Weighted average tariffs faced by developing countries, least developed countries and small island developing States</a></span>
               
 
 
@@ -1054,8 +1059,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -1097,7 +1102,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/17-13-1">Makroökonomisches Dashboard</a></span>
+              <span class="indicator-name"><a href="/site-repo/17-13-1">Macroeconomic Dashboard</a></span>
               
 
 
@@ -1109,8 +1114,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -1152,7 +1157,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/17-14-1">Anzahl der Staaten mit Mechanismen zur Verbesserung der Politikkohärenz bezogen auf nachhaltige Entwicklung</a></span>
+              <span class="indicator-name"><a href="/site-repo/17-14-1">Number of countries with mechanisms in place to enhance policy coherence of sustainable development</a></span>
               
 
 
@@ -1207,7 +1212,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/17-15-1">Umfang der Nutzung ländereigener Ergebnisrahmenwerke und Planungsinstrumente durch  Anbieter von Entwicklungszusammenarbeit</a></span>
+              <span class="indicator-name"><a href="/site-repo/17-15-1">Extent of use of country-owned results frameworks and planning tools by providers of development cooperation</a></span>
               
 
 
@@ -1219,8 +1224,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -1262,7 +1267,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/17-16-1">Anzahl der Staaten, die Fortschritte bei der Kontrolle der Multi-Stakeholder-Entwicklungswirksamkeit, die das Erreichen der Ziele für nachhaltige Entwicklung unterstützen, berichten</a></span>
+              <span class="indicator-name"><a href="/site-repo/17-16-1">Number of countries reporting progress in multi-stakeholder development effectiveness monitoring frameworks that support the achievement of the sustainable development goals</a></span>
               
 
 
@@ -1274,8 +1279,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -1317,7 +1322,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/17-17-1">Betrag an US-Dollar, der für (a) öffentlich-private Partnerschaften und (b) zivilgesellschaftliche Partnerschaften zugesagt wurde</a></span>
+              <span class="indicator-name"><a href="/site-repo/17-17-1">Amount in United States dollars committed to public-private partnerships for infrastructure</a></span>
               
 
 
@@ -1329,8 +1334,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -1384,8 +1389,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -1412,7 +1417,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/17-18-2">Anzahl der Staaten mit einer nationalen statistischen Gesetzgebung im Einklang mit den Grundprinzipien der amtlichen Statistik</a></span>
+              <span class="indicator-name"><a href="/site-repo/17-18-2">Number of countries that have national statistical legislation that complies with the Fundamental Principles of Official Statistics</a></span>
               
 
 
@@ -1424,8 +1429,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -1452,7 +1457,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/17-18-3">Anzahl der Staaten mit einem nationalen statistischen Plan, der vollständig finanziert ist und umgesetzt wird, nach Quelle der Finanzierung</a></span>
+              <span class="indicator-name"><a href="/site-repo/17-18-3">Number of countries with a national statistical plan that is fully funded and under implementation, by source of funding</a></span>
               
 
 
@@ -1507,7 +1512,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/17-19-1">Dollar-Wert aller zur Verfügung gestellten Ressourcen zur Stärkung der statistischen Kapazität in Entwicklungsländern</a></span>
+              <span class="indicator-name"><a href="/site-repo/17-19-1">Dollar value of all resources made available to strengthen statistical capacity in developing countries</a></span>
               
 
 
@@ -1519,8 +1524,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -1547,7 +1552,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/17-19-2">Anteil der Staaten, die (a) in den letzten 10 Jahren mindestens eine Bevölkerungs- und Wohnungszählung durchgeführt haben und (b) 100% bei der Geburtenregistrierung sowie 80% bei der Registrierung der Sterbefälle erreicht haben</a></span>
+              <span class="indicator-name"><a href="/site-repo/17-19-2">Proportion of countries that (a) have conducted at least one population and housing census in the last 10 years; and (b) have achieved 100 per cent birth registration and 80 per cent death registration</a></span>
               
 
 
@@ -1559,8 +1564,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -1758,7 +1763,7 @@ data-event-label="high"
             <div class="col-xs-3" id="footer-binder">
                 <div id="bilder3" style="background-color:white;">
                     
-                    <a href="https://www.engagement-global.de/" target="_blank" ><img src="/site-repo/assets/img/logo_eg.png" alt="engagement_global1" id="footer-binder-image" class="img-responsive"></a>
+                    <a href="https://www.engagement-global.de/" id="footer-binder-href" target="_blank" ><img src="/site-repo/assets/img/logo_eg.png" alt="engagement_global1" id="footer-binder-image" class="img-responsive"></a>
                     
                 </div>
             </div>
@@ -1766,7 +1771,7 @@ data-event-label="high"
                 <div id="bilder5" style="background-color:white;">
                     
                     <h5 style="margin-top: 3%; margin-bottom: 2%;">mit ihrer</h5>
-                    <a href="https://skew.engagement-global.de/" target="_blank" ><img src="/site-repo/assets/img/logo_skew_de.png" alt="engagement_global2" id="footer-binder-image" class="img-responsive"></a>
+                    <a href="https://skew.engagement-global.de/" id="footer-binder-href" target="_blank" ><img src="/site-repo/assets/img/logo_skew_de.png" alt="engagement_global2" id="footer-binder-image" class="img-responsive"></a>
                     
                 </div>
             </div>
@@ -1774,19 +1779,19 @@ data-event-label="high"
                 <div id="bilder2" style="background-color:white">
                     
                     <h5 style="margin-top: 2.5%; margin-bottom: 0%">im Auftrag des</h5>
-                    <a href="https://www.bmz.de/de" target="_blank" ><img src="/site-repo/assets/img/logo_BMZ.png" alt="bmz" id="footer-binder-image" class="img-responsive"></a>
+                    <a href="https://www.bmz.de/de" id="footer-binder-href" target="_blank" ><img src="/site-repo/assets/img/logo_BMZ.png" alt="bmz" id="footer-binder-image" class="img-responsive"></a>
                     
                 </div>
             </div>
             <div class="col-xs-3" id="footer-binder">
                 <div id="bilder" style="background-color:white;">
-                    <a href="http://www.berlin.de/ba-treptow-koepenick/" target="_blank" ><img src="/site-repo/assets/img/logo_tk.png" alt="treptow_koepenick" id="footer-binder-image" class="img-responsive"></a>
+                    <a href="http://www.berlin.de/ba-treptow-koepenick/" id="footer-binder-href" target="_blank" ><img src="/site-repo/assets/img/logo_tk.png" alt="treptow_koepenick" id="footer-binder-image" class="img-responsive"></a>
                 </div>
             </div>
             <div class="col-xs-3" id="footer-binder">
                 <div id="bilder4" style="background-color:white;">
                     
-                    <a href="https://www.htw-berlin.de" target="_blank" ><img src="/site-repo/assets/img/logo_htw.png" alt="htw_berlin" id="footer-binder-image" class="img-responsive"></a>
+                    <a href="https://www.htw-berlin.de" id="footer-binder-href" target="_blank"><img src="/site-repo/assets/img/logo_htw.png" alt="htw_berlin" id="footer-binder-image" class="img-responsive"></a>
                     
                 </div>
             </div>
@@ -1829,7 +1834,7 @@ data-event-label="high"
                     <ul style="text-align: center;"
                     
                     <li style="color:white;margin: 15px;font-weight: bold;">
-                        <a href="https://open-sdg.org/" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;" >Diese Webseite wurde mit Open SDG erstellt</a>
+                        <a href="https://open-sdg.org/" id="footerende-href" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;" >Diese Webseite wurde mit Open SDG erstellt</a>
                     </li>
                     
                 </ul>
@@ -1864,12 +1869,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/site-repo/assets/js/sdg.js?v=20230214222909'></script>
+<script src='/site-repo/assets/js/sdg.js?v=20230217211159'></script>
 
 
     
     
-    <script src="/site-repo/assets/js/custom.js?v=20230214222909"></script><script>
+    <script src="/site-repo/assets/js/custom.js?v=20230217211159"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

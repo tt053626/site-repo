@@ -125,7 +125,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site-repo/assets/css/style.css?v=20230214222909">
+        <link rel="stylesheet" href="/site-repo/assets/css/style.css?v=20230217211159">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -165,12 +165,13 @@ layout-goal
 
             <nav class="navbar navbar-expand-lg navbar-light flex-wrap align-items-center" id="narbar-container"> 
 
-                <a class="navbar-brand" href="/site-repo/en/" id="home">
-    <img src="/site-repo/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+                <!-- change image src on mouse hover to have darken effect-->
+
+<a class="navbar-brand" href="/site-repo/en/" id="home" aria-label="" title="">
+    <img src="/site-repo/assets/img/SDG_logo.png"
+    onmouseover="this.src='/site-repo/assets/img/SDG_logo_focus.png'"
+    onmouseout="this.src='/site-repo/assets/img/SDG_logo.png'" alt="Sustainable Development Goals - 17 Goals to Transform our World"/>
 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
 
                 
                 <h1 class="header">
@@ -179,6 +180,10 @@ layout-goal
                     Kommune X
                 </h1>
                 
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
                 <div class="d-flex flex-wrap w-100 justify-content-between"  id="navigation-search-bar">
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -369,8 +374,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+<span class="status complete">
+    <span class="status-inner">Reported</span>
 </span>
 
 
@@ -409,8 +414,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+<span class="status complete">
+    <span class="status-inner">Reported</span>
 </span>
 
 
@@ -452,7 +457,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/en/4-2-1">Proportion of children aged 24-59 months who are developmentally on track in health, learning and psychosocial well-being, by sex</a></span>
+              <span class="indicator-name"><a href="/site-repo/en/4-2-1">Proportion of children aged 24-59 months who are developmentally on track in health, learning and psychosocial well-being, by sexi</a></span>
               
 
 
@@ -464,8 +469,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+<span class="status complete">
+    <span class="status-inner">Reported</span>
 </span>
 
 
@@ -504,8 +509,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+<span class="status complete">
+    <span class="status-inner">Reported</span>
 </span>
 
 
@@ -547,7 +552,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/en/4-3-1">Participation rate of youth and adults in formal and non-formal education and training in the previous 12 months, by sex</a></span>
+              <span class="indicator-name"><a href="/site-repo/en/4-3-1">Participation rate of youth and adults in formal and non-formal education and training in the previous 12 months, by sex</a></span>
               
 
 
@@ -559,8 +564,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+<span class="status complete">
+    <span class="status-inner">Reported</span>
 </span>
 
 
@@ -614,8 +619,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+<span class="status complete">
+    <span class="status-inner">Reported</span>
 </span>
 
 
@@ -669,8 +674,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+<span class="status complete">
+    <span class="status-inner">Reported</span>
 </span>
 
 
@@ -724,8 +729,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+<span class="status complete">
+    <span class="status-inner">Reported</span>
 </span>
 
 
@@ -779,8 +784,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+<span class="status complete">
+    <span class="status-inner">Reported</span>
 </span>
 
 
@@ -834,8 +839,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+<span class="status complete">
+    <span class="status-inner">Reported</span>
 </span>
 
 
@@ -889,8 +894,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+<span class="status complete">
+    <span class="status-inner">Reported</span>
 </span>
 
 
@@ -932,7 +937,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/en/4-c-1">Proportion of teachers with the minimum required qualifications, by education level</a></span>
+              <span class="indicator-name"><a href="/site-repo/en/4-c-1">Proportion of teachers with the minimum required qualifications, by education leveli</a></span>
               
 
 
@@ -944,8 +949,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Exploring data sources</span>
+<span class="status complete">
+    <span class="status-inner">Reported</span>
 </span>
 
 
@@ -1143,7 +1148,7 @@ data-event-label="high"
             <div class="col-xs-3" id="footer-binder">
                 <div id="bilder3" style="background-color:white;">
                     
-                    <a href="https://www.engagement-global.de/homepage.html" target="_blank" ><img src="/site-repo/assets/img/logo_eg.png" alt="engagement_global1" id="footer-binder-image" class="img-responsive"></a>
+                    <a href="https://www.engagement-global.de/homepage.html" id="footer-binder-href" target="_blank" ><img src="/site-repo/assets/img/logo_eg.png" alt="engagement_global1" id="footer-binder-image" class="img-responsive"></a>
                     
                 </div>
             </div>
@@ -1151,7 +1156,7 @@ data-event-label="high"
                 <div id="bilder5" style="background-color:white;">
                     
                     <h5 style="margin-top: 3%; margin-bottom: 2%;">with its</h5>
-                    <a href="https://skew.engagement-global.de/home.html" target="_blank" ><img src="/site-repo/assets/img/logo_skew_en.png" alt="engagement_global2" id="footer-binder-image" class="img-responsive"></a>
+                    <a href="https://skew.engagement-global.de/home.html" id="footer-binder-href" target="_blank" ><img src="/site-repo/assets/img/logo_skew_en.png" alt="engagement_global2" id="footer-binder-image" class="img-responsive"></a>
                     
                 </div>
             </div>
@@ -1159,19 +1164,19 @@ data-event-label="high"
                 <div id="bilder2" style="background-color:white">
                     
                     <h5 style="margin-top: 2.5%; margin-bottom: 0%">On behalf of</h5>
-                    <a href="https://www.bmz.de/en" target="_blank" ><img src="/site-repo/assets/img/logo_BMZ.png" alt="bmz" id="footer-binder-image" class="img-responsive"></a>
+                    <a href="https://www.bmz.de/en" id="footer-binder-href" target="_blank" ><img src="/site-repo/assets/img/logo_BMZ.png" alt="bmz" id="footer-binder-image" class="img-responsive"></a>
                     
                 </div>
             </div>
             <div class="col-xs-3" id="footer-binder">
                 <div id="bilder" style="background-color:white;">
-                    <a href="http://www.berlin.de/ba-treptow-koepenick/" target="_blank" ><img src="/site-repo/assets/img/logo_tk.png" alt="treptow_koepenick" id="footer-binder-image" class="img-responsive"></a>
+                    <a href="http://www.berlin.de/ba-treptow-koepenick/" id="footer-binder-href" target="_blank" ><img src="/site-repo/assets/img/logo_tk.png" alt="treptow_koepenick" id="footer-binder-image" class="img-responsive"></a>
                 </div>
             </div>
             <div class="col-xs-3" id="footer-binder">
                 <div id="bilder4" style="background-color:white;">
                     
-                    <a href="https://www.htw-berlin.de/en/" target="_blank" ><img src="/site-repo/assets/img/logo_htw.png" alt="htw_berlin" id="footer-binder-image" class="img-responsive"></a>
+                    <a href="https://www.htw-berlin.de/en/" id="footer-binder-href" target="_blank"><img src="/site-repo/assets/img/logo_htw.png" alt="htw_berlin" id="footer-binder-image" class="img-responsive"></a>
                     
                 </div>
             </div>
@@ -1193,7 +1198,7 @@ data-event-label="high"
                                     
                                     </li>
                             <li style="color:white;margin: 15px;font-weight: bold;">
-                                    <a href="/site-repo/en/about/cookies-and-privacy/" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Cookies</a>
+                                    <a href="/site-repo/en/about/cookies-and-privacy/" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Impressum</a>
                                     
                                     </li>
                             
@@ -1214,7 +1219,7 @@ data-event-label="high"
                     <ul style="text-align: center;"
                     
                     <li style="color:white;margin: 15px;font-weight: bold;">
-                        <a href="https://open-sdg.org/" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;" >This website was created with Open SDG</a>
+                        <a href="https://open-sdg.org/" id="footerende-href" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;" >This website was created with Open SDG</a>
                     </li>
                     
                 </ul>
@@ -1249,12 +1254,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/site-repo/assets/js/sdg.js?v=20230214222909'></script>
+<script src='/site-repo/assets/js/sdg.js?v=20230217211159'></script>
 
 
     
     
-    <script src="/site-repo/assets/js/custom.js?v=20230214222909"></script><script>
+    <script src="/site-repo/assets/js/custom.js?v=20230217211159"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

@@ -125,7 +125,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site-repo/assets/css/style.css?v=20230214222909">
+        <link rel="stylesheet" href="/site-repo/assets/css/style.css?v=20230217211159">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -165,12 +165,13 @@ layout-goal
 
             <nav class="navbar navbar-expand-lg navbar-light flex-wrap align-items-center" id="narbar-container"> 
 
-                <a class="navbar-brand" href="/site-repo/" id="home">
-    <img src="/site-repo/assets/img/SDG_logo.png" alt="Ziele für Nachhaltige Entwicklung - 17 Ziele, um unsere Welt zu verändern" />
+                <!-- change image src on mouse hover to have darken effect-->
+
+<a class="navbar-brand" href="/site-repo/" id="home" aria-label="" title="">
+    <img src="/site-repo/assets/img/SDG_logo.png"
+    onmouseover="this.src='/site-repo/assets/img/SDG_logo_focus.png'"
+    onmouseout="this.src='/site-repo/assets/img/SDG_logo.png'" alt="Ziele für Nachhaltige Entwicklung - 17 Ziele, um unsere Welt zu verändern"/>
 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
 
                 
                 <h1 class="header">
@@ -179,6 +180,10 @@ layout-goal
                     Kommune X
                 </h1>
                 
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
                 <div class="d-flex flex-wrap w-100 justify-content-between"  id="navigation-search-bar">
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -337,7 +342,7 @@ data-event-label="high"
             </h3>
           </div>
           <div class="col goal-page-target-name">
-            <span class="target-name">Maßnahme - Verbesserung der Partizipation zur Umsetzung der Sustainable Development Goals</span>
+            <span class="target-name">Alle Formen der Gewalt und die gewaltbedingte Sterblichkeit überall deutlich verringern</span>
           </div>
           
       </div>
@@ -357,7 +362,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/16-1-1">Anzahl der partizipativen Veranstaltungen zum Thema SDGs des Bezirksamts Treptow-Köpenick pro Jahr</a></span>
+              <span class="indicator-name"><a href="/site-repo/16-1-1">Number of victims of intentional homicide per 100,000 population, by sex and age</a></span>
               
 
 
@@ -369,8 +374,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -397,7 +402,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/16-1-2">Konfliktbedingte  Todesfälle je 100.000 Einwohner, nach Geschlecht, Alter und Ursache</a></span>
+              <span class="indicator-name"><a href="/site-repo/16-1-2">Conflict-related deaths per 100,000 population, by sex, age and cause</a></span>
               
 
 
@@ -409,8 +414,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -437,7 +442,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/16-1-3">Anteil der Bevölkerung, die in den vergangenen 12 Monaten (a) körperlicher Gewalt, (b) psychischer Gewalt und (c) sexueller Gewalt ausgesetzt war</a></span>
+              <span class="indicator-name"><a href="/site-repo/16-1-3">Proportion of population subjected to (a) physical violence, (b) psychological violence and (c) sexual violence in the previous 12 months</a></span>
               
 
 
@@ -449,8 +454,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -477,7 +482,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/16-1-4">Anteil der Bevölkerung, die sich in ihrem Wohngebiet alleine sicher fühlt</a></span>
+              <span class="indicator-name"><a href="/site-repo/16-1-4">Proportion of population that feel safe walking alone around the area they live</a></span>
               
 
 
@@ -489,8 +494,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -512,7 +517,7 @@ data-event-label="high"
             </h3>
           </div>
           <div class="col goal-page-target-name">
-            <span class="target-name">Maßnahme - Den interreligiösen Dialog aufbauen durch Veranstaltungen wie Ausstellungen, Film- und Kochabende, Sprachcafes, interkulturelle Gärten, Repaircafes</span>
+            <span class="target-name">Missbrauch und Ausbeutung von Kindern, den Kinderhandel, Folter und alle Formen von Gewalt gegen Kinder beenden</span>
           </div>
           
       </div>
@@ -532,7 +537,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/16-2-1">Anzahl der interreligiösen Veranstaltungen pro Jahr</a></span>
+              <span class="indicator-name"><a href="/site-repo/16-2-1">Proportion of children aged 1–17 years who experienced any physical punishment and/or psychological aggression by caregivers in the past month</a></span>
               
 
 
@@ -544,8 +549,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -572,7 +577,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/16-2-2">Anzahl der Opfer von Menschenhandel je 100.000 Einwohner, nach Geschlecht, Alter und Art der Ausbeutung</a></span>
+              <span class="indicator-name"><a href="/site-repo/16-2-2">Number of victims of human trafficking per 100,000 population, by sex, age and form of exploitation</a></span>
               
 
 
@@ -584,8 +589,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -612,7 +617,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/16-2-3">Anteil der jungen Frauen und Männer im Alter von 18-29 Jahren, die bis zum Alter von 18 Jahren sexuelle Gewalt erlebt haben</a></span>
+              <span class="indicator-name"><a href="/site-repo/16-2-3">Proportion of young women and men aged 18–29 years who experienced sexual violence by age 18</a></span>
               
 
 
@@ -624,8 +629,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -647,7 +652,7 @@ data-event-label="high"
             </h3>
           </div>
           <div class="col goal-page-target-name">
-            <span class="target-name">SDG-Indikator - Anzahl rassistisch, antisemitisch, homophob, und rechtsextrem geprägter Vorfälle</span>
+            <span class="target-name">Die Rechtsstaatlichkeit auf nationaler und internationaler Ebene fördern und den gleichberechtigten Zugang aller zur Justiz gewährleisten</span>
           </div>
           
       </div>
@@ -667,7 +672,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/16-3-1">Anzahl der rassistisch, antisemitisch, homophob und rechtsextrem geprägter Vorfälle pro Jahr in Treptow-Köpenick</a></span>
+              <span class="indicator-name"><a href="/site-repo/16-3-1">Proportion of victims of violence in the previous 12 months who reported their victimization to competent authorities or other officially recognized conflict resolution mechanisms</a></span>
               
 
 
@@ -679,8 +684,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -707,7 +712,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/16-3-2">Nicht-verurteilte Häftlinge als Anteil an der gesamten Gefangenenpopulation</a></span>
+              <span class="indicator-name"><a href="/site-repo/16-3-2">Unsentenced detainees as a proportion of overall prison population</a></span>
               
 
 
@@ -719,8 +724,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -747,7 +752,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/16-3-3">Anteil der Bevölkerung, die in den letzten zwei Jahren einen Streitfall erlebt haben und einen formellen oder informellen Streitbeilegungsmechanismus in Anspruch genommen haben, nach Art des Mechanismus</a></span>
+              <span class="indicator-name"><a href="/site-repo/16-3-3">Proportion of the population who have experienced a dispute in the past two years and who accessed a formal or informal dispute resolution mechanism, by type of mechanism</a></span>
               
 
 
@@ -759,8 +764,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -782,7 +787,7 @@ data-event-label="high"
             </h3>
           </div>
           <div class="col goal-page-target-name">
-            <span class="target-name">SDG-Indikator - Informelle Bürgerbeteiligung</span>
+            <span class="target-name">Bis 2030 illegale Finanz- und Waffenströme deutlich verringern, die Wiedererlangung und Rückgabe gestohlener Vermögenswerte verstärken und alle Formen der organisierten Kriminalität bekämpfen</span>
           </div>
           
       </div>
@@ -802,7 +807,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/16-4-1">Anzahl der Strukturen der Bürgerbeteiligung und Akteursvernetzung in den Bezirksregionenprofilen</a></span>
+              <span class="indicator-name"><a href="/site-repo/16-4-1">Total value of inward and outward illicit financial flows (in current United States dollars)</a></span>
               
 
 
@@ -814,8 +819,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -842,7 +847,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/16-4-2">Anteil der beschlagnahmten, aufgegriffenen oder abgegebenen Waffen, deren illegale Herkunft oder Verwendung von einer zuständigen Behörde in Übereinstimmung mit internationalen Methoden nachverfolgt oder festgestellt wurde</a></span>
+              <span class="indicator-name"><a href="/site-repo/16-4-2">Proportion of seized, found or surrendered arms whose illicit origin or context has been traced or established by a competent authority in line with international instruments</a></span>
               
 
 
@@ -854,8 +859,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -897,7 +902,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/16-5-1">Anteil der Personen, die in den vergangenen 12 Monaten mindestens einen Kontakt zu einem öffentlichen Bediensteten hatten und diesem ein Bestechungsgeld gezahlt haben oder von diesen um eine Bestechung gebeten wurden</a></span>
+              <span class="indicator-name"><a href="/site-repo/16-5-1">Proportion of persons who had at least one contact with a public official and who paid a bribe to a public official, or were asked for a bribe by those public officials, during the previous 12 months</a></span>
               
 
 
@@ -909,8 +914,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -937,7 +942,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/16-5-2">Anteil der Unternehmen, die in den vergangenen 12 Monaten mindestens einen Kontakt mit einem öffentlichen Bediensteten hatten und diesem ein Bestechungsgeld gezahlt haben oder von diesen um eine Bestechung gebeten wurden</a></span>
+              <span class="indicator-name"><a href="/site-repo/16-5-2">Proportion of businesses that had at least one contact with a public official and that paid a bribe to a public official, or were asked for a bribe by those public officials during the previous 12 months</a></span>
               
 
 
@@ -949,8 +954,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -992,7 +997,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/16-6-1">Primärausgaben des Staates als Anteil am ursprünglich genehmigten Budget, nach Sektor (oder nach Haushaltscodes oder Ähnlichem)</a></span>
+              <span class="indicator-name"><a href="/site-repo/16-6-1">Primary government expenditures as a proportion of original approved budget, by sector (or by budget codes or similar)</a></span>
               
 
 
@@ -1004,8 +1009,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -1032,7 +1037,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/16-6-2">Anteil der Bevölkerung, die mit ihrer letzten Erfahrung mit öffentlichen Dienstleistungen zufrieden war</a></span>
+              <span class="indicator-name"><a href="/site-repo/16-6-2">Proportion of population satisfied with their last experience of public services</a></span>
               
 
 
@@ -1044,8 +1049,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -1087,7 +1092,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/16-7-1">Anteil der Stellen (nach Geschlecht, Alter, Personen mit Behinderungen und Bevölkerungsgruppen) in öffentlichen Institutionen (nationale und lokale Gesetzgebung, öffentlicher Dienst und Judikative) im Vergleich zur nationalen Verteilungen</a></span>
+              <span class="indicator-name"><a href="/site-repo/16-7-1">Proportions of positions in national and local institutions, including (a) the legislatures; (b) the public service; and (c) the judiciary, compared to national distributions, by sex, age, persons with disabilities and population groups</a></span>
               
 
 
@@ -1099,8 +1104,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -1127,7 +1132,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/16-7-2">Anteil der Bevölkerung, die glaubt, dass die Entscheidungsfindung inklusiv und bedarfsgesteuert ist, nach Geschlecht, Alter, Behinderung und Bevölkerungsgruppe</a></span>
+              <span class="indicator-name"><a href="/site-repo/16-7-2">Proportion of population who believe decision-making is inclusive and responsive, by sex, age, disability and population group</a></span>
               
 
 
@@ -1139,8 +1144,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -1182,7 +1187,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/16-8-1">Anteil der Mitglieder und Stimmrechte von Entwicklungsländern in internationalen Organisationen</a></span>
+              <span class="indicator-name"><a href="/site-repo/16-8-1">Proportion of members and voting rights of developing countries in international organizations</a></span>
               
 
 
@@ -1194,8 +1199,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -1237,7 +1242,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/16-9-1">Anteil der Kinder unter 5 Jahre, deren Geburt von einer Zivilbehörde registriert wurde, nach Alter</a></span>
+              <span class="indicator-name"><a href="/site-repo/16-9-1">Proportion of children under 5 years of age whose births have been registered with a civil authority, by age</a></span>
               
 
 
@@ -1249,8 +1254,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -1292,7 +1297,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/16-10-1">Anzahl der bestätigten Fälle von Tötung, Entführung, erzwungenem Verschwinden, willkürlicher Inhaftierung und Folter von Journalisten, zugehörigem Medienpersonal, Gewerkschaftern und Menschenrechtsanwälten in den vergangenen 12 Monaten</a></span>
+              <span class="indicator-name"><a href="/site-repo/16-10-1">Number of verified cases of killing, kidnapping, enforced disappearance, arbitrary detention and torture of journalists, associated media personnel, trade unionists and human rights advocates in the previous 12 months</a></span>
               
 
 
@@ -1304,8 +1309,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -1332,7 +1337,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/16-10-2">Anzahl der Staaten, die verfassungsrechtliche, gesetzliche und/oder politische Garantieren für den öffentlichen Zugang zu Informationen verabschiedet und umgesetzt haben</a></span>
+              <span class="indicator-name"><a href="/site-repo/16-10-2">Number of countries that adopt and implement constitutional, statutory and/or policy guarantees for public access to information</a></span>
               
 
 
@@ -1344,8 +1349,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -1387,7 +1392,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/16-a-1">Existenz von unabhängigen nationalen Menschenrechtsinstitutionen in Übereinstimmung mit den 'Pariser Grundsätzen</a></span>
+              <span class="indicator-name"><a href="/site-repo/16-a-1">Existence of independent national human rights institutions in compliance with the Paris Principles</a></span>
               
 
 
@@ -1399,8 +1404,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -1442,7 +1447,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/16-b-1">Anteil der Bevölkerung, die angibt sich in den vergangenen 12 Monaten persönlich auf Basis einer Diskriminierung, die nach internationalem Menschenrecht verboten ist, diskriminiert oder belästigt gefühlt zu haben</a></span>
+              <span class="indicator-name"><a href="/site-repo/16-b-1">Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law</a></span>
               
 
 
@@ -1454,8 +1459,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -1653,7 +1658,7 @@ data-event-label="high"
             <div class="col-xs-3" id="footer-binder">
                 <div id="bilder3" style="background-color:white;">
                     
-                    <a href="https://www.engagement-global.de/" target="_blank" ><img src="/site-repo/assets/img/logo_eg.png" alt="engagement_global1" id="footer-binder-image" class="img-responsive"></a>
+                    <a href="https://www.engagement-global.de/" id="footer-binder-href" target="_blank" ><img src="/site-repo/assets/img/logo_eg.png" alt="engagement_global1" id="footer-binder-image" class="img-responsive"></a>
                     
                 </div>
             </div>
@@ -1661,7 +1666,7 @@ data-event-label="high"
                 <div id="bilder5" style="background-color:white;">
                     
                     <h5 style="margin-top: 3%; margin-bottom: 2%;">mit ihrer</h5>
-                    <a href="https://skew.engagement-global.de/" target="_blank" ><img src="/site-repo/assets/img/logo_skew_de.png" alt="engagement_global2" id="footer-binder-image" class="img-responsive"></a>
+                    <a href="https://skew.engagement-global.de/" id="footer-binder-href" target="_blank" ><img src="/site-repo/assets/img/logo_skew_de.png" alt="engagement_global2" id="footer-binder-image" class="img-responsive"></a>
                     
                 </div>
             </div>
@@ -1669,19 +1674,19 @@ data-event-label="high"
                 <div id="bilder2" style="background-color:white">
                     
                     <h5 style="margin-top: 2.5%; margin-bottom: 0%">im Auftrag des</h5>
-                    <a href="https://www.bmz.de/de" target="_blank" ><img src="/site-repo/assets/img/logo_BMZ.png" alt="bmz" id="footer-binder-image" class="img-responsive"></a>
+                    <a href="https://www.bmz.de/de" id="footer-binder-href" target="_blank" ><img src="/site-repo/assets/img/logo_BMZ.png" alt="bmz" id="footer-binder-image" class="img-responsive"></a>
                     
                 </div>
             </div>
             <div class="col-xs-3" id="footer-binder">
                 <div id="bilder" style="background-color:white;">
-                    <a href="http://www.berlin.de/ba-treptow-koepenick/" target="_blank" ><img src="/site-repo/assets/img/logo_tk.png" alt="treptow_koepenick" id="footer-binder-image" class="img-responsive"></a>
+                    <a href="http://www.berlin.de/ba-treptow-koepenick/" id="footer-binder-href" target="_blank" ><img src="/site-repo/assets/img/logo_tk.png" alt="treptow_koepenick" id="footer-binder-image" class="img-responsive"></a>
                 </div>
             </div>
             <div class="col-xs-3" id="footer-binder">
                 <div id="bilder4" style="background-color:white;">
                     
-                    <a href="https://www.htw-berlin.de" target="_blank" ><img src="/site-repo/assets/img/logo_htw.png" alt="htw_berlin" id="footer-binder-image" class="img-responsive"></a>
+                    <a href="https://www.htw-berlin.de" id="footer-binder-href" target="_blank"><img src="/site-repo/assets/img/logo_htw.png" alt="htw_berlin" id="footer-binder-image" class="img-responsive"></a>
                     
                 </div>
             </div>
@@ -1724,7 +1729,7 @@ data-event-label="high"
                     <ul style="text-align: center;"
                     
                     <li style="color:white;margin: 15px;font-weight: bold;">
-                        <a href="https://open-sdg.org/" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;" >Diese Webseite wurde mit Open SDG erstellt</a>
+                        <a href="https://open-sdg.org/" id="footerende-href" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;" >Diese Webseite wurde mit Open SDG erstellt</a>
                     </li>
                     
                 </ul>
@@ -1759,12 +1764,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/site-repo/assets/js/sdg.js?v=20230214222909'></script>
+<script src='/site-repo/assets/js/sdg.js?v=20230217211159'></script>
 
 
     
     
-    <script src="/site-repo/assets/js/custom.js?v=20230214222909"></script><script>
+    <script src="/site-repo/assets/js/custom.js?v=20230217211159"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

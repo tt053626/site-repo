@@ -2511,7 +2511,16 @@ body.contrast-high #search-bar-on-page button:hover {
 body.contrast-high.layout-search form input, body.contrast-high.layout-search form label {
   color: black; }
 
-/* header */
+/*#0. header */
+/* a-tag style after clicked */
+#home:focus {
+  color: #0b0c0c !important;
+  outline: 3px solid transparent !important;
+  background-color: transparent !important;
+  outline-offset: 0 !important;
+  box-shadow: 0px 0px 0px 0px #0b0c0c !important;
+  text-decoration: none !important; }
+
 /* header color bar beneath */
 #color-bar-background {
   background: white url("../img/sdgbg.png") top left repeat-x;
@@ -2535,7 +2544,8 @@ h1.header {
   margin-bottom: 5px;
   padding: 0; }
   .navbar-brand img {
-    max-width: 100%; }
+    max-width: 100%;
+    text-decoration: none; }
   .navbar-brand:focus {
     background-color: transparent !important;
     outline: 7px solid transparent !important; }
@@ -2623,7 +2633,42 @@ h1.header {
     }
   }
 */
-/*#2.1 goal page */
+/*#1. cards on landing page*/
+.col-md-4 {
+  width: 30%; }
+
+.card1, .card2, .card3 {
+  margin-top: 10px !important;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+  transition: 0.3s;
+  height: 400px;
+  margin-left: 0px !important; }
+
+@media screen and (min-width: 450px) and (max-width: 992px) {
+  .card.col-md-4 {
+    width: 50% !important; } }
+.card1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+
+.card2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+
+.card3:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
+
+.cont {
+  margin-top: 20px;
+  padding: 2px 16px; }
+
+.card-img-top {
+  width: 100%;
+  height: 65%; }
+
+.card2 a, .card3 a {
+  color: #1d70b8 !important; }
+
+/*#2. goal page */
 /* goal-navigation-top */
 .goal-1 {
   /* main content for goals and indicators */ }
@@ -3155,12 +3200,11 @@ h1.header {
 body.contrast-high .goal-banner img {
   background-color: black !important; }
 
-/*#2.2 indicator page */
-#data-main-section {
-  height: 775px;
-  background: white; }
+/*#3. indicator page */
+#toolbar {
+  margin-top: 1.5rem !important; }
 
-/* goal-navigation-bottom */
+/*#4. goal-navigation-bottom */
 #contain {
   margin: auto;
   padding-bottom: 100px;
@@ -3213,7 +3257,7 @@ body.contrast-high .goal-banner img {
   transform: translateY(-50%);
   text-decoration: none !important; }
 
-/*Footer*/
+/*#5. Footer*/
 #footer-binder {
   width: 15em;
   height: 5.5em;
@@ -3224,6 +3268,21 @@ body.contrast-high .goal-banner img {
   max-width: 100%;
   width: 400;
   height: auto; }
+
+#footer-binder-href:focus {
+  color: transparent !important;
+  outline: 0px solid transparent !important;
+  background-color: transparent !important;
+  outline-offset: 0 !important;
+  box-shadow: 0px 0px 0px 0px #0b0c0c !important;
+  text-decoration: none !important; }
+
+#footerende-href {
+  color: white !important;
+  outline: 3px solid transparent !important;
+  outline-offset: 0 !important;
+  box-shadow: 0px 0px 0px 0px #0b0c0c !important;
+  text-decoration: none !important; }
 
 #kooperation {
   background-color: #19486a;
@@ -3248,18 +3307,6 @@ main {
   overflow: hidden;
   position: relative; }
 
-section {
-  width: 90%;
-  height: 190px;
-  background: #f4f4f4;
-  margin: 5px auto;
-  display: flex;
-  justify-content: left;
-  overflow-x: auto; }
-
-section::-webkit-scrollbar {
-  visibility: hidden; }
-
 .flexdirection {
   display: flex;
   flex-direction: row;
@@ -3277,37 +3324,3 @@ h5 {
 
   h5 {
     text-align: center; } }
-/*cards on landing page*/
-.col-md-4 {
-  width: 30%; }
-
-.card1, .card2, .card3 {
-  margin-top: 10px !important;
-  width: 100%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
-  transition: 0.3s;
-  height: 400px;
-  margin-left: 0px !important; }
-
-@media screen and (min-width: 450px) and (max-width: 992px) {
-  .card.col-md-4 {
-    width: 50% !important; } }
-.card1:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
-
-.card2:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
-
-.card3:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); }
-
-.cont {
-  margin-top: 20px;
-  padding: 2px 16px; }
-
-.card-img-top {
-  width: 100%;
-  height: 65%; }
-
-.card2 a, .card3 a {
-  color: #1d70b8 !important; }

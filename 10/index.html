@@ -125,7 +125,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site-repo/assets/css/style.css?v=20230214222909">
+        <link rel="stylesheet" href="/site-repo/assets/css/style.css?v=20230217211159">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -165,12 +165,13 @@ layout-goal
 
             <nav class="navbar navbar-expand-lg navbar-light flex-wrap align-items-center" id="narbar-container"> 
 
-                <a class="navbar-brand" href="/site-repo/" id="home">
-    <img src="/site-repo/assets/img/SDG_logo.png" alt="Ziele für Nachhaltige Entwicklung - 17 Ziele, um unsere Welt zu verändern" />
+                <!-- change image src on mouse hover to have darken effect-->
+
+<a class="navbar-brand" href="/site-repo/" id="home" aria-label="" title="">
+    <img src="/site-repo/assets/img/SDG_logo.png"
+    onmouseover="this.src='/site-repo/assets/img/SDG_logo_focus.png'"
+    onmouseout="this.src='/site-repo/assets/img/SDG_logo.png'" alt="Ziele für Nachhaltige Entwicklung - 17 Ziele, um unsere Welt zu verändern"/>
 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
 
                 
                 <h1 class="header">
@@ -179,6 +180,10 @@ layout-goal
                     Kommune X
                 </h1>
                 
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
                 <div class="d-flex flex-wrap w-100 justify-content-between"  id="navigation-search-bar">
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -337,7 +342,7 @@ data-event-label="high"
             </h3>
           </div>
           <div class="col goal-page-target-name">
-            <span class="target-name">Maßnahme - Mehrsprachigkeit in Informationsmaterialien und im Kundenkontakt im Bezirk und innerhalb des Bezirksamtes</span>
+            <span class="target-name">Bis 2030 nach und nach ein über dem nationalen Durchschnitt liegendes Einkommenswachstum der ärmsten 40 Prozent der Bevölkerung erreichen und aufrechterhalten</span>
           </div>
           
       </div>
@@ -357,7 +362,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/10-1-1">Anteil mehrsprachiger Informationsmaterialien</a></span>
+              <span class="indicator-name"><a href="/site-repo/10-1-1">Growth rates of household expenditure or income per capita among the bottom 40 per cent of the population and the total population</a></span>
               
 
 
@@ -369,8 +374,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -392,7 +397,7 @@ data-event-label="high"
             </h3>
           </div>
           <div class="col goal-page-target-name">
-            <span class="target-name">Maßnahme - Diversitätsorientierte Interkulturelle Öffnung</span>
+            <span class="target-name">Bis 2030 alle Menschen unabhängig von Alter, Geschlecht, Behinderung, Rasse, Ethnizität, Herkunft, Religion oder wirtschaftlichem oder sonstigem Status zu Selbstbestimmung befähigen und ihre soziale, wirtschaftliche und politische Inklusion fördern</span>
           </div>
           
       </div>
@@ -412,7 +417,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/10-2-1">Anzahl der angebotenen Fortbildungen innerhalb der Verwaltung</a></span>
+              <span class="indicator-name"><a href="/site-repo/10-2-1">Proportion of people living below 50 per cent of median income, by sex, age and persons with disabilities</a></span>
               
 
 
@@ -424,8 +429,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -447,7 +452,7 @@ data-event-label="high"
             </h3>
           </div>
           <div class="col goal-page-target-name">
-            <span class="target-name">Maßnahme - Einführung der Gemeinwohlökonomie in Treptow- Köpenick</span>
+            <span class="target-name">Chancengleichheit gewährleisten und Ungleichheit der Ergebnisse reduzieren, namentlich durch die Abschaffung diskriminierender Gesetze, Politiken und Praktiken und die Förderung geeigneter gesetzgeberischer, politischer und sonstiger Maßnahmen in dieser Hinsicht</span>
           </div>
           
       </div>
@@ -467,7 +472,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/10-3-1">Anzahl der Unternehmen in Treptow-Köpenick die eine Gemeinwohl-Bilanz durchführen</a></span>
+              <span class="indicator-name"><a href="/site-repo/10-3-1">Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law</a></span>
               
 
 
@@ -479,8 +484,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -502,7 +507,7 @@ data-event-label="high"
             </h3>
           </div>
           <div class="col goal-page-target-name">
-            <span class="target-name">SDG-Indikator - Gini-Koeffizient zur Einkommensverteilung</span>
+            <span class="target-name">Politische Maßnahmen beschließen, insbesondere fiskalische, lohnpolitische und den Sozialschutz betreffende Maßnahmen, und schrittweise größere Gleichheit erzielen</span>
           </div>
           
       </div>
@@ -522,7 +527,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/10-4-1">Gini-Koeffizient der Äquivalenzeinkommen in Treptow-Köpenick</a></span>
+              <span class="indicator-name"><a href="/site-repo/10-4-1">Labour share of GDP</a></span>
               
 
 
@@ -534,8 +539,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -562,7 +567,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/10-4-2">Umverteilungswirkung der Fiskalpolitik</a></span>
+              <span class="indicator-name"><a href="/site-repo/10-4-2">Redistributive impact of fiscal policy</a></span>
               
 
 
@@ -574,8 +579,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -597,7 +602,7 @@ data-event-label="high"
             </h3>
           </div>
           <div class="col goal-page-target-name">
-            <span class="target-name">SDG-Indikator - Anteil der kommunalen Mandate, die von Personen mit Einwanderungsgeschichte wahrgenommen werden</span>
+            <span class="target-name">Die Regulierung und Überwachung der globalen Finanzmärkte und -institutionen verbessern und die Anwendung der einschlägigen Vorschriften verstärken</span>
           </div>
           
       </div>
@@ -629,8 +634,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -672,7 +677,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/10-6-1">Anteil der Mitglieder und Stimmrechte der Entwicklungsländer  in internationalen Organisationen</a></span>
+              <span class="indicator-name"><a href="/site-repo/10-6-1">Proportion of members and voting rights of developing countries in international organizations</a></span>
               
 
 
@@ -684,8 +689,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -727,7 +732,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/10-7-1">Von Beschäftigten getragene Einstellungskosten als Anteil des Jahreseinkommens des Bestimmungslandes</a></span>
+              <span class="indicator-name"><a href="/site-repo/10-7-1">Recruitment cost borne by employee as a proportion of monthly income earned in country of destination</a></span>
               
 
 
@@ -739,8 +744,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -767,7 +772,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/10-7-2">Anzahl der Staaten mit gut umgesetzter Migrationspolitik</a></span>
+              <span class="indicator-name"><a href="/site-repo/10-7-2">Number of countries with migration policies that facilitate orderly, safe, regular and responsible migration and mobility of people</a></span>
               
 
 
@@ -779,8 +784,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -807,7 +812,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/10-7-3">Anzahl der Personen, die während des Migrationsprozesses in Richtung eines internationalen Ziels gestorben oder verschwunden sind</a></span>
+              <span class="indicator-name"><a href="/site-repo/10-7-3">Number of people who died or disappeared in the process of migration towards an international destinationi</a></span>
               
 
 
@@ -819,8 +824,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -847,7 +852,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/10-7-4">Anteil der Bevölkerung, die Flüchtlinge sind, nach Herkunftsland</a></span>
+              <span class="indicator-name"><a href="/site-repo/10-7-4">Proportion of the population who are refugees, by country of origin</a></span>
               
 
 
@@ -859,8 +864,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -902,7 +907,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/10-a-1">Anteil der Zolltarife auf Einfuhren aus den am wenigsten entwickelten Ländern sowie Entwicklungsländer mit Zollfreiheit</a></span>
+              <span class="indicator-name"><a href="/site-repo/10-a-1">Proportion of tariff lines applied to imports from least developed countries and developing countries with zero-tariff</a></span>
               
 
 
@@ -914,8 +919,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -957,7 +962,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/10-b-1">Gesamte Kapitalströme für Entwicklung, nach Nehmer- und Geberländern und Art des Zahlungsstroms (z. B. öffentliche Entwicklungszusammenarbeit, ausländische Direktinvestitionen und sonstige Geldströme)</a></span>
+              <span class="indicator-name"><a href="/site-repo/10-b-1">Total resource flows for development, by recipient and donor countries and type of flow (e.g. official development assistance, foreign direct investment and other flows)</a></span>
               
 
 
@@ -969,8 +974,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -1012,7 +1017,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site-repo/10-c-1">Überweisungskosten  als Anteil am überwiesenen Betrag</a></span>
+              <span class="indicator-name"><a href="/site-repo/10-c-1">Remittance costs as a proportion of the amount remitted</a></span>
               
 
 
@@ -1024,8 +1029,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datenquellenanalyse</span>
+<span class="status complete">
+    <span class="status-inner">Gemeldet</span>
 </span>
 
 
@@ -1223,7 +1228,7 @@ data-event-label="high"
             <div class="col-xs-3" id="footer-binder">
                 <div id="bilder3" style="background-color:white;">
                     
-                    <a href="https://www.engagement-global.de/" target="_blank" ><img src="/site-repo/assets/img/logo_eg.png" alt="engagement_global1" id="footer-binder-image" class="img-responsive"></a>
+                    <a href="https://www.engagement-global.de/" id="footer-binder-href" target="_blank" ><img src="/site-repo/assets/img/logo_eg.png" alt="engagement_global1" id="footer-binder-image" class="img-responsive"></a>
                     
                 </div>
             </div>
@@ -1231,7 +1236,7 @@ data-event-label="high"
                 <div id="bilder5" style="background-color:white;">
                     
                     <h5 style="margin-top: 3%; margin-bottom: 2%;">mit ihrer</h5>
-                    <a href="https://skew.engagement-global.de/" target="_blank" ><img src="/site-repo/assets/img/logo_skew_de.png" alt="engagement_global2" id="footer-binder-image" class="img-responsive"></a>
+                    <a href="https://skew.engagement-global.de/" id="footer-binder-href" target="_blank" ><img src="/site-repo/assets/img/logo_skew_de.png" alt="engagement_global2" id="footer-binder-image" class="img-responsive"></a>
                     
                 </div>
             </div>
@@ -1239,19 +1244,19 @@ data-event-label="high"
                 <div id="bilder2" style="background-color:white">
                     
                     <h5 style="margin-top: 2.5%; margin-bottom: 0%">im Auftrag des</h5>
-                    <a href="https://www.bmz.de/de" target="_blank" ><img src="/site-repo/assets/img/logo_BMZ.png" alt="bmz" id="footer-binder-image" class="img-responsive"></a>
+                    <a href="https://www.bmz.de/de" id="footer-binder-href" target="_blank" ><img src="/site-repo/assets/img/logo_BMZ.png" alt="bmz" id="footer-binder-image" class="img-responsive"></a>
                     
                 </div>
             </div>
             <div class="col-xs-3" id="footer-binder">
                 <div id="bilder" style="background-color:white;">
-                    <a href="http://www.berlin.de/ba-treptow-koepenick/" target="_blank" ><img src="/site-repo/assets/img/logo_tk.png" alt="treptow_koepenick" id="footer-binder-image" class="img-responsive"></a>
+                    <a href="http://www.berlin.de/ba-treptow-koepenick/" id="footer-binder-href" target="_blank" ><img src="/site-repo/assets/img/logo_tk.png" alt="treptow_koepenick" id="footer-binder-image" class="img-responsive"></a>
                 </div>
             </div>
             <div class="col-xs-3" id="footer-binder">
                 <div id="bilder4" style="background-color:white;">
                     
-                    <a href="https://www.htw-berlin.de" target="_blank" ><img src="/site-repo/assets/img/logo_htw.png" alt="htw_berlin" id="footer-binder-image" class="img-responsive"></a>
+                    <a href="https://www.htw-berlin.de" id="footer-binder-href" target="_blank"><img src="/site-repo/assets/img/logo_htw.png" alt="htw_berlin" id="footer-binder-image" class="img-responsive"></a>
                     
                 </div>
             </div>
@@ -1294,7 +1299,7 @@ data-event-label="high"
                     <ul style="text-align: center;"
                     
                     <li style="color:white;margin: 15px;font-weight: bold;">
-                        <a href="https://open-sdg.org/" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;" >Diese Webseite wurde mit Open SDG erstellt</a>
+                        <a href="https://open-sdg.org/" id="footerende-href" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;" >Diese Webseite wurde mit Open SDG erstellt</a>
                     </li>
                     
                 </ul>
@@ -1329,12 +1334,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/site-repo/assets/js/sdg.js?v=20230214222909'></script>
+<script src='/site-repo/assets/js/sdg.js?v=20230217211159'></script>
 
 
     
     
-    <script src="/site-repo/assets/js/custom.js?v=20230214222909"></script><script>
+    <script src="/site-repo/assets/js/custom.js?v=20230217211159"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
