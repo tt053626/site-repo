@@ -55,7 +55,7 @@
         },
         {
           "id": "1-5-1",
-          "title": "Anzahl der infolge von Katastrophen getöteten, vermissten und direkt betroffenen Personen, je 100.000 Einwohner",
+          "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population",
           "description": "",
           "keywords": "",
           "href": "/site-repo/1-5-1",
@@ -63,7 +63,7 @@
         },
         {
           "id": "1-5-2",
-          "title": "Unmittelbarer wirtschaftlicher Schaden infolge von Katastrophen, im Verhältnis zum globalen Bruttoinlandsprodukt (BIP)",
+          "title": "Direct economic loss attributed to disasters in relation to global gross domestic product (GDP)",
           "description": "",
           "keywords": "",
           "href": "/site-repo/1-5-2",
@@ -71,7 +71,7 @@
         },
         {
           "id": "1-5-3",
-          "title": "Anzahl der Staaten, die nationale Strategien zur Reduzierung des Katastrophenrisikos in Einklang mit dem Sendai-Rahmenwerk zur Katastrophenvorsorge 2015-2030 verabschiedet und umgesetzt haben",
+          "title": "Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030",
           "description": "",
           "keywords": "",
           "href": "/site-repo/1-5-3",
@@ -79,7 +79,7 @@
         },
         {
           "id": "1-5-4",
-          "title": "Anteil der lokalen Regierungen, die lokale Strategien zur Reduzierung des Katastrophenrisikos in Einklang mit den nationalen Strategien zur Katastrophenvorsorge verabschiedet und umgesetzt haben",
+          "title": "Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies",
           "description": "",
           "keywords": "",
           "href": "/site-repo/1-5-4",
@@ -87,7 +87,7 @@
         },
         {
           "id": "1-a-1",
-          "title": "Anteil der inländisch erwirtschafteten Ressourcen, die von der Regierung direkt für Programme zur Armutsbekämpfung bereitgestellt werden",
+          "title": "Total official development assistance grants from all donors that focus on poverty reduction as a share of the recipient country’s gross national income",
           "description": "",
           "keywords": "",
           "href": "/site-repo/1-a-1",
@@ -95,18 +95,10 @@
         },
         {
           "id": "1-a-2",
-          "title": "Anteil der gesamten staatlichen Ausgaben für Grundleistungen (Bildung, Gesundheit und soziale Sicherung)",
+          "title": "Proportion of total government spending on essential services (education, health and social protection)",
           "description": "",
           "keywords": "",
           "href": "/site-repo/1-a-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "1-b-1",
-          "title": "Anteil der wiederkehrenden staatlichen und Investitionsausgaben für Sektoren, die überdurchschnittlich Frauen, Arme und benachteiligte Gruppen begünstigen",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/1-b-1",
           "status": "notstarted"
         }]
     }
@@ -1935,7 +1927,7 @@
         },
         {
           "id": "17-1-2",
-          "title": "Anteil des Haushaltsbudgets, das durch inländische Steuern finanziert wird",
+          "title": "Proportion of domestic budget funded by domestic taxes",
           "description": "",
           "keywords": "",
           "href": "/site-repo/17-1-2",
@@ -1943,7 +1935,7 @@
         },
         {
           "id": "17-2-1",
-          "title": "Öffentliche Nettoentwicklungsausgaben, insgesamt und an am wenigsten entwickelte Länder, als Anteil am Bruttonationaleinkommen (BNE) der Geberländer des Ausschusses für Entwicklungshilfe der Organisation für wirtschaftliche Zusammenarbeit und Entwicklung (OECD)",
+          "title": "Net official development assistance, total and to least developed countries, as a proportion of the Organization for Economic Cooperation and Development (OECD) Development Assistance Committee donors’ gross national income (GNI)",
           "description": "",
           "keywords": "",
           "href": "/site-repo/17-2-1",
@@ -1951,7 +1943,7 @@
         },
         {
           "id": "17-3-1",
-          "title": "Ausländische Direktinvestitionen, öffentliche Entwicklungszusammenarbeit und Süd-Süd-Kooperationen als Anteil am gesamten Haushaltsbudget",
+          "title": "Additional financial resources mobilized for developing countries from multiple sources",
           "description": "",
           "keywords": "",
           "href": "/site-repo/17-3-1",
@@ -1959,7 +1951,7 @@
         },
         {
           "id": "17-3-2",
-          "title": "Volumen der (Rück-)Überweisungen (in US-Dollar) als Anteil am gesamten BIP",
+          "title": "Volume of remittances (in United States dollars) as a proportion of total GDP",
           "description": "",
           "keywords": "",
           "href": "/site-repo/17-3-2",
@@ -1967,7 +1959,7 @@
         },
         {
           "id": "17-4-1",
-          "title": "Schuldendienst als Anteil an Güter- und Dienstleistungsexporten",
+          "title": "Debt service as a proportion of exports of goods and services",
           "description": "",
           "keywords": "",
           "href": "/site-repo/17-4-1",
@@ -1975,7 +1967,7 @@
         },
         {
           "id": "17-5-1",
-          "title": "Anzahl der Staaten, die Investitionsförderprogramme für die am wenigsten entwickelten Länder einführen und umsetzen",
+          "title": "Number of countries that adopt and implement investment promotion regimes for developing countries, including the least developed countries",
           "description": "",
           "keywords": "",
           "href": "/site-repo/17-5-1",
@@ -1983,7 +1975,7 @@
         },
         {
           "id": "17-6-1",
-          "title": "Anzahl der Vereinbarungen und Programme über Wissenschafts- und/oder Technologie-Kooperationen zwischen Staaten, nach Art der Kooperation",
+          "title": "Fixed Internet broadband subscriptions per 100 inhabitants, by speed",
           "description": "",
           "keywords": "",
           "href": "/site-repo/17-6-1",
@@ -1991,7 +1983,7 @@
         },
         {
           "id": "17-7-1",
-          "title": "Gesamtbetrag der für Entwicklungsländer genehmigten Mittel zur Förderung der Entwicklung, des Transfers, der öffentlichen Bereitstellung und der Verbreitung umweltfreundlicher Technologien",
+          "title": "Total amount of funding for developing countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies",
           "description": "",
           "keywords": "",
           "href": "/site-repo/17-7-1",
@@ -1999,7 +1991,7 @@
         },
         {
           "id": "17-8-1",
-          "title": "Anteil der Einzelpersonen, die das Internet nutzen",
+          "title": "Proportion of individuals using the Internet",
           "description": "",
           "keywords": "",
           "href": "/site-repo/17-8-1",
@@ -2007,7 +1999,7 @@
         },
         {
           "id": "17-9-1",
-          "title": "Dollar-Wert der finanziellen und technischen Zusammenarbeit (einschließlich durch Nord-Süd-, Süd-Süd- und Dreieckskooperationen) mit Entwicklungsländern",
+          "title": "Dollar value of financial and technical assistance (including through North-South, South‑South and triangular cooperation) committed to developing countries",
           "description": "",
           "keywords": "",
           "href": "/site-repo/17-9-1",
@@ -2015,7 +2007,7 @@
         },
         {
           "id": "17-10-1",
-          "title": "Weltweit gewichtete durchschnittliche Zollsätze",
+          "title": "Worldwide weighted tariff-average",
           "description": "",
           "keywords": "",
           "href": "/site-repo/17-10-1",
@@ -2023,7 +2015,7 @@
         },
         {
           "id": "17-11-1",
-          "title": "Anteil der Entwicklungsländer und der am wenigsten entwickelten Länder an den weltweiten Exporten",
+          "title": "Developing countries’ and least developed countries’ share of global exports",
           "description": "",
           "keywords": "",
           "href": "/site-repo/17-11-1",
@@ -2031,7 +2023,7 @@
         },
         {
           "id": "17-12-1",
-          "title": "Durchschnittliche Zölle für Entwicklungsländer, am wenigsten entwickelte Länder und kleine Inselentwicklungsländer",
+          "title": "Weighted average tariffs faced by developing countries, least developed countries and small island developing States",
           "description": "",
           "keywords": "",
           "href": "/site-repo/17-12-1",
@@ -2039,7 +2031,7 @@
         },
         {
           "id": "17-13-1",
-          "title": "Makroökonomisches Dashboard",
+          "title": "Macroeconomic Dashboard",
           "description": "",
           "keywords": "",
           "href": "/site-repo/17-13-1",
@@ -2047,7 +2039,7 @@
         },
         {
           "id": "17-14-1",
-          "title": "Anzahl der Staaten mit Mechanismen zur Verbesserung der Politikkohärenz bezogen auf nachhaltige Entwicklung",
+          "title": "Number of countries with mechanisms in place to enhance policy coherence of sustainable development",
           "description": "",
           "keywords": "",
           "href": "/site-repo/17-14-1",
@@ -2055,7 +2047,7 @@
         },
         {
           "id": "17-15-1",
-          "title": "Umfang der Nutzung ländereigener Ergebnisrahmenwerke und Planungsinstrumente durch  Anbieter von Entwicklungszusammenarbeit",
+          "title": "Extent of use of country-owned results frameworks and planning tools by providers of development cooperation",
           "description": "",
           "keywords": "",
           "href": "/site-repo/17-15-1",
@@ -2063,7 +2055,7 @@
         },
         {
           "id": "17-16-1",
-          "title": "Anzahl der Staaten, die Fortschritte bei der Kontrolle der Multi-Stakeholder-Entwicklungswirksamkeit, die das Erreichen der Ziele für nachhaltige Entwicklung unterstützen, berichten",
+          "title": "Number of countries reporting progress in multi-stakeholder development effectiveness monitoring frameworks that support the achievement of the sustainable development goals",
           "description": "",
           "keywords": "",
           "href": "/site-repo/17-16-1",
@@ -2071,23 +2063,15 @@
         },
         {
           "id": "17-17-1",
-          "title": "Betrag an US-Dollar, der für (a) öffentlich-private Partnerschaften und (b) zivilgesellschaftliche Partnerschaften zugesagt wurde",
+          "title": "Amount in United States dollars committed to public-private partnerships for infrastructure",
           "description": "",
           "keywords": "",
           "href": "/site-repo/17-17-1",
           "status": "notstarted"
         },
         {
-          "id": "17-18-1",
-          "title": "Anteil der Nachhaltigkeitsindikatoren, die auf nationaler Ebene vollständig - sofern gemäß dem Unterziel relevant - disaggregiert sind, in Übereinstimmung mit den Grundprinzipien der amtlichen Statistik",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/17-18-1",
-          "status": "notstarted"
-        },
-        {
           "id": "17-18-2",
-          "title": "Anzahl der Staaten mit einer nationalen statistischen Gesetzgebung im Einklang mit den Grundprinzipien der amtlichen Statistik",
+          "title": "Number of countries that have national statistical legislation that complies with the Fundamental Principles of Official Statistics",
           "description": "",
           "keywords": "",
           "href": "/site-repo/17-18-2",
@@ -2095,7 +2079,7 @@
         },
         {
           "id": "17-18-3",
-          "title": "Anzahl der Staaten mit einem nationalen statistischen Plan, der vollständig finanziert ist und umgesetzt wird, nach Quelle der Finanzierung",
+          "title": "Number of countries with a national statistical plan that is fully funded and under implementation, by source of funding",
           "description": "",
           "keywords": "",
           "href": "/site-repo/17-18-3",
@@ -2103,7 +2087,7 @@
         },
         {
           "id": "17-19-1",
-          "title": "Dollar-Wert aller zur Verfügung gestellten Ressourcen zur Stärkung der statistischen Kapazität in Entwicklungsländern",
+          "title": "Dollar value of all resources made available to strengthen statistical capacity in developing countries",
           "description": "",
           "keywords": "",
           "href": "/site-repo/17-19-1",
@@ -2111,7 +2095,7 @@
         },
         {
           "id": "17-19-2",
-          "title": "Anteil der Staaten, die (a) in den letzten 10 Jahren mindestens eine Bevölkerungs- und Wohnungszählung durchgeführt haben und (b) 100% bei der Geburtenregistrierung sowie 80% bei der Registrierung der Sterbefälle erreicht haben",
+          "title": "Proportion of countries that (a) have conducted at least one population and housing census in the last 10 years; and (b) have achieved 100 per cent birth registration and 80 per cent death registration",
           "description": "",
           "keywords": "",
           "href": "/site-repo/17-19-2",

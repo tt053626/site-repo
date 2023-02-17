@@ -100,14 +100,6 @@
           "keywords": "",
           "href": "/site-repo/en/1-a-2",
           "status": "notstarted"
-        },
-        {
-          "id": "1-b-1",
-          "title": "Pro-poor public social spending",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/en/1-b-1",
-          "status": "notstarted"
         }]
     }
   },
@@ -1951,7 +1943,7 @@
         },
         {
           "id": "17-3-1",
-          "title": "Foreign direct investment, official development assistance and South-South cooperation as a proportion of gross national income",
+          "title": "Additional financial resources mobilized for developing countries from multiple sources",
           "description": "",
           "keywords": "",
           "href": "/site-repo/en/17-3-1",
@@ -2007,7 +1999,7 @@
         },
         {
           "id": "17-9-1",
-          "title": "Dollar value of financial and technical assistance (including through North-South, South‐South and triangular cooperation) committed to developing countries",
+          "title": "Dollar value of financial and technical assistance (including through North-South, South‑South and triangular cooperation) committed to developing countries",
           "description": "",
           "keywords": "",
           "href": "/site-repo/en/17-9-1",
@@ -2078,14 +2070,6 @@
           "status": "notstarted"
         },
         {
-          "id": "17-18-1",
-          "title": "Statistical capacity indicator for Sustainable Development Goal monitoring",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/en/17-18-1",
-          "status": "notstarted"
-        },
-        {
           "id": "17-18-2",
           "title": "Number of countries that have national statistical legislation that complies with the Fundamental Principles of Official Statistics",
           "description": "",
@@ -2111,7 +2095,7 @@
         },
         {
           "id": "17-19-2",
-          "title": "Proportion of countries that (a) have conducted at least one population and housing census in the last 10 years; and (b) have achieved 100 per cent birth registration and 80 per cent death registration",
+          "title": "Proportion of countries that (a) have conducted at least one population and housing census in the last 10 years; and (b) have achieved 100 per cent birth registration and 80 per cent death registration",
           "description": "",
           "keywords": "",
           "href": "/site-repo/en/17-19-2",
