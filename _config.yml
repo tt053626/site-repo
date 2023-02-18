@@ -4,20 +4,21 @@
 # baseurl with the name of this repository
 baseurl: "/site-repo"
 # URL of data repository
-remote_data_prefix: "https://mapetersen.github.io/data-repo/"
+remote_data_prefix: "https://tt053626.github.io/data-repo"
 
 # URL for the "Edit Data" button on indicators.
-data_edit_url: http://prose.io/#sdgs-treptow-koepenick/DataTK/edit/develop/data/indicator_[id].csv
+data_edit_url: http://prose.io/#tt053626/data-repo/edit/develop/data/indicator_[id].csv
 # URL for the "Edit Metadata" button on indicators.
-metadata_edit_url: http://prose.io/#sdgs-treptow-koepenick/DataTK/edit/develop/meta/[id].md
+metadata_edit_url: http://prose.io/#tt053626/data-repo/edit/develop/meta/[id].md
 
 languages:
   - de
 
 
 
+
 # Tell the Remote Theme plugin to use the Open SDG platform (Jekyll theme).
-remote_theme: open-sdg/open-sdg@1.6.0
+remote_theme: open-sdg/open-sdg@1.7.0
 
 # Replace this title as needed.
 title: general.site_title
