@@ -134,7 +134,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site-repo/assets/css/style.css?v=20230218132347">
+        <link rel="stylesheet" href="/site-repo/assets/css/style.css?v=20230218182846">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -268,7 +268,7 @@ data-event-label="high"
 
 
 <div class="heading goal-banner goal-11"> 
-  <div class="container">
+  <div class="container" id="goal-nav-top">
     <div class="row">
       <div class="Image">
         
@@ -282,12 +282,12 @@ data-event-label="high"
     
     <div class="previous-next-links row">
       <div class="col col-lg-2 pull-left">
-        <a href="/site-repo/11-1-2" class="btn btn-primary btn-block goal-11 navigation-btn btn-left goal-banner" role="button">
+        <a href="/site-repo/11-1-2" class="btn btn-primary goal-11 btn-left goal-banner" role="button">
           <i class="fa fa-chevron-left" aria-hidden="true" style="font-size: 45px;"></i> <span id="previous-link" class="hidden-sm hidden-xs"></span>
         </a>
       </div>
       <div class="col col-lg-2 pull-right">
-        <a href="/site-repo/11-2-2" class="btn btn-primary btn-block goal-11 navigation-btn btn-right goal-banner" role="button">
+        <a href="/site-repo/11-2-2" class="btn btn-primary goal-11 btn-right goal-banner" role="button">
           <i class="fa fa-chevron-right" aria-hidden="true" style="font-size: 45px;"></i><span id="next-link" class="hidden-sm hidden-xs"></span>
         </a>
       </div>
@@ -446,8 +446,6 @@ The farms have more security and the consumers are part of a transparent economi
   data-country="Treptow-Köpenick"
   data-charttitle="Number of pick-up points for CSA products"
   data-charttitles="null"
-  data-chartsubtitle=""
-  data-chartsubtitles="null"
   data-measurementunit="Number of pick-up points"
   data-xaxislabel=""
   data-showdata="true"
@@ -458,17 +456,13 @@ The farms have more security and the consumers are part of a transparent economi
   data-startvalues="null"
   data-graphlimits="null"
   data-stackeddisaggregation=""
-  data-showline=""
-  data-spangaps=""
   data-graphannotations="null"
   data-graphtargetlines="null"
   data-graphseriesbreaks="null"
-  data-grapherrorbars="null"
   data-indicatordownloads="null"
   data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;Ortsteil&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Alt-Treptow&quot;,&quot;Plänterwald&quot;,&quot;Baumschulenweg&quot;,&quot;Johannisthal&quot;,&quot;Niederschöneweide&quot;,&quot;Altglienicke&quot;,&quot;Adlershof&quot;,&quot;Bohnsdorf&quot;,&quot;Oberschöneweide&quot;,&quot;Köpenick&quot;,&quot;Friedrichshagen&quot;,&quot;Rahnsdorf&quot;,&quot;Grünau&quot;,&quot;Müggelheim&quot;,&quot;Schmöckwitz&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Ortsteil&quot;},{&quot;name&quot;:&quot;District&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Treptow-Köpenick&quot;,&quot;&quot;]},&quot;title&quot;:&quot;District&quot;},{&quot;name&quot;:&quot;GeoCode&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;GeoCode&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="null"
-  data-graphstepsize="null"
 >
   
   <span role="status" class="visually-hidden" id="indicator-data-view-status"></span>
@@ -1779,6 +1773,7 @@ data-event-label="Change to Sources tab"
 </div>
   </div>
 </div>
+
 </div>
 
 <!-- lower navigation bar -->
@@ -2077,12 +2072,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/site-repo/assets/js/sdg.js?v=20230218132347'></script>
+<script src='/site-repo/assets/js/sdg.js?v=20230218182846'></script>
 
 
     
     
-    <script src="/site-repo/assets/js/custom.js?v=20230218132347"></script><script>
+    <script src="/site-repo/assets/js/custom.js?v=20230218182846"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

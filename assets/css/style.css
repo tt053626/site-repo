@@ -2608,12 +2608,15 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
   color: black; }
 
 [href]:focus {
-  box-shadow: 0px 0px 0px 0px #0b0c0c !important; }
+  box-shadow: 0px 0px 0px 0px transparent !important; }
+
+#main-content .goal-tiles .goal-tile > a:focus {
+  outline: 0px transparent solid !important; }
 
 /*#0. header */
 /* a-tag style after clicked */
 #home:focus {
-  box-shadow: 0px 0px 0px 0px #0b0c0c !important; }
+  box-shadow: 0px 0px 0px 0px transparent !important; }
 
 /* header color bar beneath */
 #color-bar-background {
@@ -2786,18 +2789,6 @@ h1.header {
       position: relative;
       top: -175px;
       right: -730px; }
-    .goal-1.goal-banner .btn-left:is(:hover, :focus, :active) {
-      box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.2);
-      outline: 3px solid transparent !important;
-      background-color: transparent !important;
-      outline-offset: 0 !important;
-      text-decoration: none !important; }
-    .goal-1.goal-banner .btn-right:is(:hover, :focus, :active) {
-      box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.2);
-      outline: 3px solid transparent !important;
-      background-color: transparent !important;
-      outline-offset: 0 !important;
-      text-decoration: none !important; }
   .goal-1.goal-title-by-goal {
     color: #E52B3D;
     font-weight: 900;
@@ -2829,18 +2820,6 @@ h1.header {
       position: relative;
       top: -175px;
       right: -730px; }
-    .goal-2.goal-banner .btn-left:is(:hover, :focus, :active) {
-      box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.2);
-      outline: 3px solid transparent !important;
-      background-color: transparent !important;
-      outline-offset: 0 !important;
-      text-decoration: none !important; }
-    .goal-2.goal-banner .btn-right:is(:hover, :focus, :active) {
-      box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.2);
-      outline: 3px solid transparent !important;
-      background-color: transparent !important;
-      outline-offset: 0 !important;
-      text-decoration: none !important; }
   .goal-2.goal-title-by-goal {
     color: #DDA63A;
     font-weight: 900;
@@ -2872,18 +2851,6 @@ h1.header {
       position: relative;
       top: -175px;
       right: -730px; }
-    .goal-3.goal-banner .btn-left:is(:hover, :focus, :active) {
-      box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.2);
-      outline: 3px solid transparent !important;
-      background-color: transparent !important;
-      outline-offset: 0 !important;
-      text-decoration: none !important; }
-    .goal-3.goal-banner .btn-right:is(:hover, :focus, :active) {
-      box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.2);
-      outline: 3px solid transparent !important;
-      background-color: transparent !important;
-      outline-offset: 0 !important;
-      text-decoration: none !important; }
   .goal-3.goal-title-by-goal {
     color: #4C9F38;
     font-weight: 900;
@@ -2915,18 +2882,6 @@ h1.header {
       position: relative;
       top: -175px;
       right: -730px; }
-    .goal-4.goal-banner .btn-left:is(:hover, :focus, :active) {
-      box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.2);
-      outline: 3px solid transparent !important;
-      background-color: transparent !important;
-      outline-offset: 0 !important;
-      text-decoration: none !important; }
-    .goal-4.goal-banner .btn-right:is(:hover, :focus, :active) {
-      box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.2);
-      outline: 3px solid transparent !important;
-      background-color: transparent !important;
-      outline-offset: 0 !important;
-      text-decoration: none !important; }
   .goal-4.goal-title-by-goal {
     color: #C42130;
     font-weight: 900;
@@ -2958,18 +2913,6 @@ h1.header {
       position: relative;
       top: -175px;
       right: -730px; }
-    .goal-5.goal-banner .btn-left:is(:hover, :focus, :active) {
-      box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.2);
-      outline: 3px solid transparent !important;
-      background-color: transparent !important;
-      outline-offset: 0 !important;
-      text-decoration: none !important; }
-    .goal-5.goal-banner .btn-right:is(:hover, :focus, :active) {
-      box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.2);
-      outline: 3px solid transparent !important;
-      background-color: transparent !important;
-      outline-offset: 0 !important;
-      text-decoration: none !important; }
   .goal-5.goal-title-by-goal {
     color: #FF3E24;
     font-weight: 900;
@@ -3001,18 +2944,6 @@ h1.header {
       position: relative;
       top: -175px;
       right: -730px; }
-    .goal-6.goal-banner .btn-left:is(:hover, :focus, :active) {
-      box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.2);
-      outline: 3px solid transparent !important;
-      background-color: transparent !important;
-      outline-offset: 0 !important;
-      text-decoration: none !important; }
-    .goal-6.goal-banner .btn-right:is(:hover, :focus, :active) {
-      box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.2);
-      outline: 3px solid transparent !important;
-      background-color: transparent !important;
-      outline-offset: 0 !important;
-      text-decoration: none !important; }
   .goal-6.goal-title-by-goal {
     color: #28BCE1;
     font-weight: 900;
@@ -3044,18 +2975,6 @@ h1.header {
       position: relative;
       top: -175px;
       right: -730px; }
-    .goal-7.goal-banner .btn-left:is(:hover, :focus, :active) {
-      box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.2);
-      outline: 3px solid transparent !important;
-      background-color: transparent !important;
-      outline-offset: 0 !important;
-      text-decoration: none !important; }
-    .goal-7.goal-banner .btn-right:is(:hover, :focus, :active) {
-      box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.2);
-      outline: 3px solid transparent !important;
-      background-color: transparent !important;
-      outline-offset: 0 !important;
-      text-decoration: none !important; }
   .goal-7.goal-title-by-goal {
     color: #FCC30B;
     font-weight: 900;
@@ -3087,18 +3006,6 @@ h1.header {
       position: relative;
       top: -175px;
       right: -730px; }
-    .goal-8.goal-banner .btn-left:is(:hover, :focus, :active) {
-      box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.2);
-      outline: 3px solid transparent !important;
-      background-color: transparent !important;
-      outline-offset: 0 !important;
-      text-decoration: none !important; }
-    .goal-8.goal-banner .btn-right:is(:hover, :focus, :active) {
-      box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.2);
-      outline: 3px solid transparent !important;
-      background-color: transparent !important;
-      outline-offset: 0 !important;
-      text-decoration: none !important; }
   .goal-8.goal-title-by-goal {
     color: #A21942;
     font-weight: 900;
@@ -3130,18 +3037,6 @@ h1.header {
       position: relative;
       top: -175px;
       right: -730px; }
-    .goal-9.goal-banner .btn-left:is(:hover, :focus, :active) {
-      box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.2);
-      outline: 3px solid transparent !important;
-      background-color: transparent !important;
-      outline-offset: 0 !important;
-      text-decoration: none !important; }
-    .goal-9.goal-banner .btn-right:is(:hover, :focus, :active) {
-      box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.2);
-      outline: 3px solid transparent !important;
-      background-color: transparent !important;
-      outline-offset: 0 !important;
-      text-decoration: none !important; }
   .goal-9.goal-title-by-goal {
     color: #FD6925;
     font-weight: 900;
@@ -3173,18 +3068,6 @@ h1.header {
       position: relative;
       top: -175px;
       right: -730px; }
-    .goal-10.goal-banner .btn-left:is(:hover, :focus, :active) {
-      box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.2);
-      outline: 3px solid transparent !important;
-      background-color: transparent !important;
-      outline-offset: 0 !important;
-      text-decoration: none !important; }
-    .goal-10.goal-banner .btn-right:is(:hover, :focus, :active) {
-      box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.2);
-      outline: 3px solid transparent !important;
-      background-color: transparent !important;
-      outline-offset: 0 !important;
-      text-decoration: none !important; }
   .goal-10.goal-title-by-goal {
     color: #DD1367;
     font-weight: 900;
@@ -3216,18 +3099,6 @@ h1.header {
       position: relative;
       top: -175px;
       right: -730px; }
-    .goal-11.goal-banner .btn-left:is(:hover, :focus, :active) {
-      box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.2);
-      outline: 3px solid transparent !important;
-      background-color: transparent !important;
-      outline-offset: 0 !important;
-      text-decoration: none !important; }
-    .goal-11.goal-banner .btn-right:is(:hover, :focus, :active) {
-      box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.2);
-      outline: 3px solid transparent !important;
-      background-color: transparent !important;
-      outline-offset: 0 !important;
-      text-decoration: none !important; }
   .goal-11.goal-title-by-goal {
     color: #FD9C27;
     font-weight: 900;
@@ -3259,18 +3130,6 @@ h1.header {
       position: relative;
       top: -175px;
       right: -730px; }
-    .goal-12.goal-banner .btn-left:is(:hover, :focus, :active) {
-      box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.2);
-      outline: 3px solid transparent !important;
-      background-color: transparent !important;
-      outline-offset: 0 !important;
-      text-decoration: none !important; }
-    .goal-12.goal-banner .btn-right:is(:hover, :focus, :active) {
-      box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.2);
-      outline: 3px solid transparent !important;
-      background-color: transparent !important;
-      outline-offset: 0 !important;
-      text-decoration: none !important; }
   .goal-12.goal-title-by-goal {
     color: #BF8B2E;
     font-weight: 900;
@@ -3302,18 +3161,6 @@ h1.header {
       position: relative;
       top: -175px;
       right: -730px; }
-    .goal-13.goal-banner .btn-left:is(:hover, :focus, :active) {
-      box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.2);
-      outline: 3px solid transparent !important;
-      background-color: transparent !important;
-      outline-offset: 0 !important;
-      text-decoration: none !important; }
-    .goal-13.goal-banner .btn-right:is(:hover, :focus, :active) {
-      box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.2);
-      outline: 3px solid transparent !important;
-      background-color: transparent !important;
-      outline-offset: 0 !important;
-      text-decoration: none !important; }
   .goal-13.goal-title-by-goal {
     color: #417D46;
     font-weight: 900;
@@ -3345,18 +3192,6 @@ h1.header {
       position: relative;
       top: -175px;
       right: -730px; }
-    .goal-14.goal-banner .btn-left:is(:hover, :focus, :active) {
-      box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.2);
-      outline: 3px solid transparent !important;
-      background-color: transparent !important;
-      outline-offset: 0 !important;
-      text-decoration: none !important; }
-    .goal-14.goal-banner .btn-right:is(:hover, :focus, :active) {
-      box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.2);
-      outline: 3px solid transparent !important;
-      background-color: transparent !important;
-      outline-offset: 0 !important;
-      text-decoration: none !important; }
   .goal-14.goal-title-by-goal {
     color: #0A96D8;
     font-weight: 900;
@@ -3388,18 +3223,6 @@ h1.header {
       position: relative;
       top: -175px;
       right: -730px; }
-    .goal-15.goal-banner .btn-left:is(:hover, :focus, :active) {
-      box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.2);
-      outline: 3px solid transparent !important;
-      background-color: transparent !important;
-      outline-offset: 0 !important;
-      text-decoration: none !important; }
-    .goal-15.goal-banner .btn-right:is(:hover, :focus, :active) {
-      box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.2);
-      outline: 3px solid transparent !important;
-      background-color: transparent !important;
-      outline-offset: 0 !important;
-      text-decoration: none !important; }
   .goal-15.goal-title-by-goal {
     color: #57BE2F;
     font-weight: 900;
@@ -3431,18 +3254,6 @@ h1.header {
       position: relative;
       top: -175px;
       right: -730px; }
-    .goal-16.goal-banner .btn-left:is(:hover, :focus, :active) {
-      box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.2);
-      outline: 3px solid transparent !important;
-      background-color: transparent !important;
-      outline-offset: 0 !important;
-      text-decoration: none !important; }
-    .goal-16.goal-banner .btn-right:is(:hover, :focus, :active) {
-      box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.2);
-      outline: 3px solid transparent !important;
-      background-color: transparent !important;
-      outline-offset: 0 !important;
-      text-decoration: none !important; }
   .goal-16.goal-title-by-goal {
     color: #00689C;
     font-weight: 900;
@@ -3474,18 +3285,6 @@ h1.header {
       position: relative;
       top: -175px;
       right: -730px; }
-    .goal-17.goal-banner .btn-left:is(:hover, :focus, :active) {
-      box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.2);
-      outline: 3px solid transparent !important;
-      background-color: transparent !important;
-      outline-offset: 0 !important;
-      text-decoration: none !important; }
-    .goal-17.goal-banner .btn-right:is(:hover, :focus, :active) {
-      box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.2);
-      outline: 3px solid transparent !important;
-      background-color: transparent !important;
-      outline-offset: 0 !important;
-      text-decoration: none !important; }
   .goal-17.goal-title-by-goal {
     color: #1F4A6A;
     font-weight: 900;
@@ -3493,6 +3292,12 @@ h1.header {
   .goal-17.indicator-title-by-indicator {
     color: #1F4A6A;
     padding: 0; }
+
+.fa.fa-chevron-left:is(:hover) {
+  color: black; }
+
+.fa.fa-chevron-right:is(:hover) {
+  color: black; }
 
 /* goal-navigation-top.night mode*/
 body.contrast-high .goal-banner img {
