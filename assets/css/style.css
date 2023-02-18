@@ -2631,8 +2631,12 @@ body {
 
 /* page title */
 h1.header {
-  font-size: 23px;
-  margin-top: -5px; }
+  font-size: 21px;
+  margin-top: -5px;
+  margin-bottom: 0px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px; }
 
 /*  ab hier von open-sdg*/
 .navbar-brand {
