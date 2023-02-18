@@ -1,13 +1,23 @@
 // for all a href tags, remove thick black line after clicking (focus)
 [href]:focus {
-  box-shadow: 0px 0px 0px 0px $focusColor !important;
+  box-shadow: 0px 0px 0px 0px $focusBackgroundColor !important;
+}
+
+#main-content {
+  .goal-tiles {
+    .goal-tile {
+      & > a:focus {
+        outline: 0px $focusOutlineColor solid !important;
+      }
+    }
+  }
 }
 
 /*#0. header */
 
 /* a-tag style after clicked */
 #home:focus {
-  box-shadow: 0px 0px 0px 0px $focusColor !important;
+  box-shadow: 0px 0px 0px 0px $focusBackgroundColor !important;
 }
 
 /* header color bar beneath */
@@ -204,20 +214,6 @@ h1.header {
        position: relative;
        top: -175px;
        right: -730px;
-      }  
-      .btn-left:is(:hover, :focus, :active) {
-        box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.2);
-        outline: 3px solid transparent !important;
-        background-color: $focusBackgroundColor !important;
-        outline-offset: 0 !important;
-        text-decoration: none !important;
-      }
-      .btn-right:is(:hover, :focus, :active) {
-        box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.2);
-        outline: 3px solid transparent !important;
-        background-color: $focusBackgroundColor !important;
-        outline-offset: 0 !important;
-        text-decoration: none !important;
       }
     }
 
@@ -233,6 +229,37 @@ h1.header {
     }
   }
 }
+
+// .btn.goal-banner:hover {
+//   box-shadow: 3px 3px 6px 0 rgba(0,0,0,0.2);
+//   outline: 3px solid transparent !important;
+//   background-color: $focusBackgroundColor !important;
+//   outline-offset: 0 !important;
+//   text-decoration: none !important;
+// }
+
+// #goal-nav-top {
+//   .previous-next-links {
+//     .col {
+//       & > a[href]:is(:hover, :focus) {
+//         box-shadow: 3px 3px 6px 0 rgba(0,0,0,0.2);
+//         outline: 3px solid transparent !important;
+//         background-color: $focusBackgroundColor !important;
+//         outline-offset: 0 !important;
+//         text-decoration: none !important;
+//       }
+//     }
+//   }
+// }
+
+.fa.fa-chevron-left:is(:hover) {
+  color: black;
+}
+.fa.fa-chevron-right:is(:hover) {
+  color: black;
+}
+
+
 
 /* goal-navigation-top.night mode*/
 body.contrast-high {
