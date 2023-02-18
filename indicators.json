@@ -7,7 +7,7 @@
         
         {
           "id": "1-1-1",
-          "title": "Anteil der Bevölkerung, die unter der internationalen Armutsgrenze lebt, nach Geschlecht, Alter, Erwerbsstatus  und geographischer Lage (urban/rural)",
+          "title": "Anzahl der Personen die das Sozialhilfeportal nutzen",
           "description": "",
           "keywords": "",
           "href": "/site-repo/1-1-1",
@@ -15,91 +15,19 @@
         },
         {
           "id": "1-2-1",
-          "title": "Anteil der Bevölkerung, die unter der nationalen Armutsgrenze lebt, nach Geschlecht und Alter",
+          "title": "Anzahl der Repaircafes, Gemeinschaftswerkstätten und ReUse Shops in Treptow-Köpenick",
           "description": "",
           "keywords": "",
           "href": "/site-repo/1-2-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "1-2-2",
-          "title": "Anteil der Männer, Frauen und Kinder jeden Alters, die in Armut in all ihren Dimensionen gemäß nationaler Definitionen leben",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/1-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-3-1",
-          "title": "Anteil der Bevölkerung, die durch soziale Sicherungssysteme abgesichert sind, nach Geschlecht, untergliedert nach Kindern, Arbeitslosen, älteren Personen, Menschen mit Behinderungen, Schwangeren, Neugeborenen, Opfern von Arbeitsunfällen sowie Armen und Schwachen",
+          "title": "Armutsgefährdungsquote in Treptow-Köpenick",
           "description": "",
           "keywords": "",
           "href": "/site-repo/1-3-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "1-4-1",
-          "title": "Anteil der Bevölkerung, die in Haushalten mit Anschluss an die Grundversorgung lebt",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/1-4-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "1-4-2",
-          "title": "Anteil der erwachsenen Gesamtbevölkerung mit gesicherter Verfügungsgewalt über Grundeigentum, (a) mit gesetzlich anerkannter Dokumentation und (b) die ihr Eigentumsrecht als sicher erachten, nach Geschlecht und nach Art der Eigentumsverhältnisse",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/1-4-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "1-5-1",
-          "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/1-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "1-5-2",
-          "title": "Direct economic loss attributed to disasters in relation to global gross domestic product (GDP)",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/1-5-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "1-5-3",
-          "title": "Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/1-5-3",
-          "status": "notstarted"
-        },
-        {
-          "id": "1-5-4",
-          "title": "Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/1-5-4",
-          "status": "notstarted"
-        },
-        {
-          "id": "1-a-1",
-          "title": "Total official development assistance grants from all donors that focus on poverty reduction as a share of the recipient country’s gross national income",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/1-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "1-a-2",
-          "title": "Proportion of total government spending on essential services (education, health and social protection)",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/1-a-2",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
@@ -111,115 +39,27 @@
         
         {
           "id": "2-1-1",
-          "title": "Prävalenz von Unterernährung",
+          "title": "Öffentlich zugängliche Obstbäume und Beete",
           "description": "",
           "keywords": "",
           "href": "/site-repo/2-1-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "2-1-2",
-          "title": "Prävalenz mittlerer oder schwerer Ernährungsunsicherheit in der Bevölkerung, basierend auf der Erfahrungsskala für Ernährungsunsicherheit (FIES)",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/2-1-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-2-1",
-          "title": "Prävalenz von Kleinwuchs (Körpergröße zum Alter < -2 Standardabweichung vom Median des Wachstumsstandards für Kinder der Weltgesundheitsorganisation (WHO)) bei Kindern unter 5 Jahren",
+          "title": "Fair zertifizierte Lebensmittel in der Berliner Schulverpflegung",
           "description": "",
           "keywords": "",
           "href": "/site-repo/2-2-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "2-2-2",
-          "title": "Prävalenz von Fehlernährung (Gewicht zur Körpergröße > +2 oder < -2 Standardabweichung vom Median des Wachstumsstandards für Kinder der WHO) bei Kindern unter 5 Jahren, nach der Art (Auszehrung und Übergewicht)",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/2-2-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "2-2-3",
-          "title": "Prävalenz von Anämie bei Frauen im Alter von 15 bis 49 Jahren, nach Schwangerschaftsstatus (in Prozent)",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/2-2-3",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-3-1",
-          "title": "Produktionsvolumen je Arbeitskraft nach Unternehmensgrößenklassen der Betriebsgröße in Land-/Weide-/Forstwirtschaft",
+          "title": "Kilogramm gerettete Lebensmittel (Foodsharing)",
           "description": "",
           "keywords": "",
           "href": "/site-repo/2-3-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "2-3-2",
-          "title": "Durchschnittliches Einkommen kleiner Nahrungsmittelproduzenten, nach Geschlecht und indigenem Status",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/2-3-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "2-4-1",
-          "title": "Anteil der landwirtschaftlichen Fläche unter produktiver und nachhaltiger Bewirtschaftung",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/2-4-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "2-5-1",
-          "title": "Anzahl der pflanzlichen und tierischen genetischen Ressourcen für Ernährung und Landwirtschaft, die entweder in mittel- oder langfristigen Einrichtungen zu deren Erhalt gesichert sind",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/2-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "2-5-2",
-          "title": "Anteil der einheimischen Arten, die als gefährdet oder nicht gefährdet klassifiziert sind oder deren Gefährdungsgrad unbekannt ist",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/2-5-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "2-a-1",
-          "title": "Der Agriculture Orientation Index für staatliche Ausgaben",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/2-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "2-a-2",
-          "title": "Öffentliche Leistungen insgesamt (öffentliche Entwicklungszusammenarbeit plus sonstige öffentliche Ausgaben) für den Landwirtschaftssektor",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/2-a-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "2-b-1",
-          "title": "Ausfuhrsubventionen für landwirtschaftliche Güter",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/2-b-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "2-c-1",
-          "title": "Indikator zu Preisschwankungen bei Lebensmittelpreisen",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/2-c-1",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
@@ -231,227 +71,51 @@
         
         {
           "id": "3-1-1",
-          "title": "Müttersterblichkeitsrate",
+          "title": "Stadtradeln - Anzahl der Personen die teilnehmen",
           "description": "",
           "keywords": "",
           "href": "/site-repo/3-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-1-2",
-          "title": "Anteil der Geburten unter der Aufsicht von qualifiziertem Gesundheitspersonal",
+          "title": "Stadtradeln - Mit Fahrrad gefahrene Kilometer",
           "description": "",
           "keywords": "",
           "href": "/site-repo/3-1-2",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "3-1-3",
+          "title": "Stadtradeln - Kilogramm CO2 eingespart",
+          "description": "",
+          "keywords": "",
+          "href": "/site-repo/3-1-3",
+          "status": "complete"
         },
         {
           "id": "3-2-1",
-          "title": "Sterblichkeitsrate von Kindern unter 5 Jahren",
+          "title": "Relative Lärmbelastung in Treptow-Köpenick (Umweltgerechtigkeit)",
           "description": "",
           "keywords": "",
           "href": "/site-repo/3-2-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-2-2",
-          "title": "Sterblichkeitsrate von Neugeborenen",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/3-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-3-1",
-          "title": "Anzahl der HIV-Neuinfektionen je 1.000 nicht infizierter Einwohner, nach Geschlecht, Alter und Risikogruppen",
+          "title": "Relative Luftbelastung in Treptow-Köpenick (Umweltgerechtigkeit)",
           "description": "",
           "keywords": "",
           "href": "/site-repo/3-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-3-2",
-          "title": "Tuberkulose-Inzidenz je 100.000 Einwohner",
+          "title": "Grenzwertüberschreitungen Luftverschmutzung in Treptow-Köpenick",
           "description": "",
           "keywords": "",
           "href": "/site-repo/3-3-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-3-3",
-          "title": "Malaria-Inzidenz je 1.000 Einwohner",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/3-3-3",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-3-4",
-          "title": "Hepatitis-B-Inzidenz je 100.000 Einwohner",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/3-3-4",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-3-5",
-          "title": "Anzahl der Personen, die Maßnahmen gegen vernachlässigte Tropenkrankheiten benötigen",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/3-3-5",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-4-1",
-          "title": "Sterblichkeitsrate infolge von Herz-Kreislauf-Erkrankungen, Krebs, Diabetes oder chronischen Atemwegserkrankungen",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/3-4-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-4-2",
-          "title": "Sterblichkeitsrate bei Suizid",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/3-4-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-5-1",
-          "title": "Abdeckung durch Behandlungsmaßnahmen (pharmakologische, psychosoziale und Rehabilitations- und Nachsorgeleistungen) bei Substanzmissbrauch",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/3-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-5-2",
-          "title": "Schädlicher Alkoholkonsum, definiert gemäß den nationalen Gegebenheiten als Alkoholkonsum pro Kopf (15 Jahre und älter) innerhalb eines Kalenderjahres in Litern reinem Alkohol",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/3-5-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-6-1",
-          "title": "Sterblichkeitsrate aufgrund von Straßenverkehrsunfällen",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/3-6-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-7-1",
-          "title": "Anteil der Frauen im gebärfähigen Alter (15-49 Jahre), die ihren Anspruch auf Familienplanung durch moderne Methoden umsetzen können",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/3-7-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-7-2",
-          "title": "Geburtenrate von Jugendlichen (10-14 Jahre 15-19 Jahre) je 1.000 Frauen derselben Altersgruppe",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/3-7-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-8-1",
-          "title": "Abdeckung der grundlegenden Gesundheitsleistungen (definiert als durchschnittliche Abdeckung der grundlegenden Leistungen basierend auf Tracer-Interventionen, einschließlich reproduktiver, Mütter-, Neugeborenen- und Kindergesundheit, infektiöser Krankheiten und nicht übertragbarer Krankheiten sowie Kapazitäten und Zugang zu Serviceleistungen, innerhalb der allgemein und der überwiegend benachteiligten Bevölkerung)",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/3-8-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-8-2",
-          "title": "Anteil der Bevölkerung mit hohen Haushaltsausgaben für Gesundheit als Anteil an den gesamten Haushaltsausgaben oder -einkommen",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/3-8-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-9-1",
-          "title": "Sterblichkeitsrate infolge von Luftverschmutzung im Haushalt und der Umgebung",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/3-9-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-9-2",
-          "title": "Sterblichkeitsrate infolge von Kontakt mit verunreinigtem Wasser, unzureichenden sanitären Verhältnissen und mangelnder Hygiene (Kontakt mit unzureichenden 'Wasser, Sanitäreinrichtungen und Hygiene für alle'-Leistungen (WASH))",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/3-9-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-9-3",
-          "title": "Sterblichkeitsrate infolge von unbeabsichtigtem Vergiften",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/3-9-3",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-a-1",
-          "title": "Altersstandardisierte Prävalenz des aktuellen Tabakkonsums bei Personen im Alter von 15 Jahren und älter",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/3-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-b-1",
-          "title": "Anteil der Zielbevölkerung, die alle Impfungen laut nationalen Programm besitzt",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/3-b-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-b-2",
-          "title": "Gesamte öffentliche Netto-Entwicklungszusammenarbeit für medizinische Forschung und grundlegende Gesundheitsversorgung",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/3-b-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-b-3",
-          "title": "Anteil der Gesundheitseinrichtungen, die über einen Kernsatz relevanter und wichtiger Medikamente verfügen, die nachhaltig verfügbar und bezahlbar sind",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/3-b-3",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-c-1",
-          "title": "Dichte und Verteilung von medizinischem Fachpersonal",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/3-c-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-d-1",
-          "title": "Kapazitäten für internationale Gesundheitsvorschriften (IGV) und Gesundheitsnotfallvorsorge",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/3-d-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-d-2",
-          "title": "Prozentualer Anteil von Infektionen der Blutbahn durch ausgewählte antimikrobiell resistente Organismen",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/3-d-2",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
@@ -463,39 +127,23 @@
         
         {
           "id": "4-1-1",
-          "title": "Anteil der Kinder und Jugendlichen, die (a) in Klasse 2/3 (b) am Ende der Grundschule und (c) am Ende der Sekundarstufe I ein Mindestleistungsniveau in (i) Lesen und (ii) Mathematik erreichen, nach Geschlecht",
+          "title": "Anzahl der Schulen in Treptow-Köpenick die pro Jahr an der Lernkonferenz teilnehmen",
           "description": "",
           "keywords": "",
           "href": "/site-repo/4-1-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "4-1-2",
-          "title": "Abschlussquote (Grundschulbildung, Sekundarstufe I, Sekundarstufe II)",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/4-1-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-2-1",
-          "title": "Anteil der Kinder unter 5 Jahren mit einer altersgemäßen  Entwicklung hinsichtlich Gesundheit, Lernen und psycho-sozialem Wohlbefinden, nach Geschlecht",
+          "title": "Anzahl angebotener Fortbildungen zu 'Bildung für nachhaltige Entwicklung' (BNE) für das pädagogische Personal an Schulen in Treptow-Köpenick",
           "description": "",
           "keywords": "",
           "href": "/site-repo/4-2-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "4-2-2",
-          "title": "Teilnahmequote an frühkindlicher Bildung (ein Jahr vor dem offiziellen Einschulungsalter), nach Geschlecht",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/4-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-3-1",
-          "title": "Teilnahmequote von Jugendlichen und Erwachsenen an formaler und non-formaler Bildung und Ausbildung in den vergangenen 12 Monaten, nach Geschlecht",
+          "title": "Anzahl der Volkshochschul (VHS) Kurse zum Themenbereich Globales lernen, 'Bildung für nachhaltige Entwicklung' (BNE) und SDGs",
           "description": "",
           "keywords": "",
           "href": "/site-repo/4-3-1",
@@ -503,7 +151,7 @@
         },
         {
           "id": "4-4-1",
-          "title": "Anteil der Jugendlichen und Erwachsenen mit Kompetenzen in Informations- und Kommunikationstechnologie (IKT), nach Art der Kompetenz",
+          "title": "Noch zu definieren",
           "description": "",
           "keywords": "",
           "href": "/site-repo/4-4-1",
@@ -511,51 +159,11 @@
         },
         {
           "id": "4-5-1",
-          "title": "Paritäts-Indizes (weiblich/männlich, rural/urban, unterstes/oberstes Vermögensquantil und sonstige, wie z. B. Grad der Behinderung, indigene Bevölkerung und konfliktbetroffen, sobald Daten verfügbar werden) für alle Bildungsindikatoren dieser Liste, die disaggregiert werden können",
+          "title": "Projektteilnehmer des Projektes 'Umweltschule in Europa - Internationale Nachhaltigkeitsschule'",
           "description": "",
           "keywords": "",
           "href": "/site-repo/4-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "4-6-1",
-          "title": "Anteil der Bevölkerung einer bestimmten Altersgruppe, die über ein festes Mindestniveau an funktionalen (a) Lese- und (b) Rechenfähigkeiten verfügt, nach Geschlecht",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/4-6-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "4-7-1",
-          "title": "Umfang, in dem (i) Bildung zu globaler Staatsbürgerschaft und (ii) Bildung für nachhaltige Entwicklung, einschließlich der Geschlechtergleichstellung und der Menschenrechte, auf allen Ebenen in: (a) nationale Bildungspolitik, (b) Lehrpläne, (c) Lehrerausbildung und (d) Schulleistungsuntersuchung berücksichtigt werden",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/4-7-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "4-a-1",
-          "title": "Anteil der Schulen mit Zugang zu: (a) Strom (b) Internet für Unterrichtszwecke (c) Computern für Unterrichtszwecke (d) angepasste Infrastruktur und Materialien für Schüler mit Behinderungen (e) Trinkwasser (f) geschlechterspezifischen sanitären Anlagen und g) grundlegende Ausstattung zum Händewaschen (gemäß den WASH-Indikator-Definitionen)",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/4-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "4-b-1",
-          "title": "Umfang der Ausgaben öffentlicher Entwicklungszusammenarbeit für Stipendien nach Sektor und Art des Studiums",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/4-b-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "4-c-1",
-          "title": "Anteil der Lehrer in: (a) Vorschule (b) Grundschule (c ) Sekundarstufe I und (d) Sekundarstufe II, die vor oder während ihrer Tätigkeit mindestens die geforderte Grundausbildung (z. B. pädagogisches Training) zum Unterrichten für die entsprechende Klassenstufe im jeweiligen Land erhalten haben",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/4-c-1",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
@@ -567,7 +175,7 @@
         
         {
           "id": "5-1-1",
-          "title": "Existenz gesetzlicher Rahmenbedingungen, die Gleichstellung und Nicht-Diskriminierung aufgrund des Geschlechts fördern, durchsetzen und überwachen",
+          "title": "Anzahl der Schulen in die am Projekttag teilnehmen",
           "description": "",
           "keywords": "",
           "href": "/site-repo/5-1-1",
@@ -575,107 +183,35 @@
         },
         {
           "id": "5-2-1",
-          "title": "Anteil der Frauen und Mädchen im Alter von 15 Jahren und älter, die sich in ihrer jetzigen oder früheren Partnerschaft physischer, sexueller oder psychischer Gewalt durch ihren aktuellen oder früheren Intimpartner in den vergangenen 12 Monaten ausgesetzt waren, nach Art der Gewalt und Alter",
+          "title": "Anzahl der angebotenen Schulungen des Bezirksamts zum gendersensiblen Sprachgebrauch",
           "description": "",
           "keywords": "",
           "href": "/site-repo/5-2-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "5-2-2",
-          "title": "Anteil der Frauen und Mädchen im Alter von 15 Jahren und älter, die sexueller Gewalt durch andere Personen als einem Intimpartner in den vergangenen 12 Monaten ausgesetzt waren, nach Alter und Ort des Geschehens",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/5-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "5-3-1",
-          "title": "Anteil der 20- bis 24-jährigen Frauen, die vor einem Alter von 15 oder 18 Jahren verheiratet oder in einer vergleichbaren Verbindung waren",
+          "title": "Anzahl der Projekte, Anlaufpunkte und Beratungsangebote für Mädchen und junge Frauen in Treptow-Köpenick",
           "description": "",
           "keywords": "",
           "href": "/site-repo/5-3-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "5-3-2",
-          "title": "Anteil der Mädchen und Frauen im Alter von 15-49 Jahren, die weiblicher Genitalverstümmelung unterzogen wurden, nach Alter",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/5-3-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "5-4-1",
-          "title": "Anteil des Zeitaufwands für unbezahlte Haus- und Pflegearbeit, nach Geschlecht, Alter und Ort",
+          "title": "Frauenanteil in den Leitungspositionen des höheren Dienstes",
           "description": "",
           "keywords": "",
           "href": "/site-repo/5-4-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "5-5-1",
-          "title": "Frauenanteil in (a) nationalen Parlamenten und (b) lokalen Regierungen",
+          "title": "Frauenanteil in der Bezirksverordnetenversammlung (BVV) Treptow-Köpenicks",
           "description": "",
           "keywords": "",
           "href": "/site-repo/5-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "5-5-2",
-          "title": "Frauenanteil an  Führungspositionen",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/5-5-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "5-6-1",
-          "title": "Anteil der Frauen im Alter von 15-49 Jahren, die eigenständig fundierte Entscheidungen über sexuelle Beziehungen, Verhütung und reproduktive Gesundheitsversorgung treffen",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/5-6-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "5-6-2",
-          "title": "Anzahl der Staaten mit Gesetzen und Vorschriften, die einen uneingeschränkten und gleichberechtigten Zugang für Frauen und Männer im Alter von 15 Jahren und älter zu sexuellen und reproduktiven Gesundheitsleistungen, Information und Bildung garantieren",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/5-6-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "5-a-1",
-          "title": "(a) Anteil der gesamten landwirtschaftlichen Bevölkerung mit Eigentum oder sicheren Rechten an landwirtschaftlichen Flächen, nach Geschlecht und (b) Anteil der Frauen an den Eigentümern oder Rechteinhabern landwirtschaftlicher Flächen, nach Art der Besitzverhältnisse",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/5-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "5-a-2",
-          "title": "Anteil der Staaten, in denen der Rechtsrahmen (einschließlich Gewohnheitsrecht) Frauen die gleichen Rechte auf Landeigentum und/oder -nutzung garantiert",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/5-a-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "5-b-1",
-          "title": "Anteil der Personen, die ein Mobiltelefon besitzen, nach Geschlecht",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/5-b-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "5-c-1",
-          "title": "Anteil der Staaten mit Systemen zur transparenten Verfolgung und Veröffentlichung von Zuwendungen für Geschlechtergleichstellung und Stärkung der Rolle der Frau",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/5-c-1",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
@@ -687,91 +223,27 @@
         
         {
           "id": "6-1-1",
-          "title": "Anteil der Bevölkerung mit Zugang zu einer sicheren Trinkwasserversorgung",
+          "title": "Saprobie (organische Belastung) und Trophie (Nährstoffbelastung) des Müggelsee",
           "description": "",
           "keywords": "",
           "href": "/site-repo/6-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-2-1",
-          "title": "Anteil der Bevölkerung mit (a) Zugang zu sicherer Sanitärversorgung und (b) einem Handwaschbecken mit Seife und Wasser",
+          "title": "Anzahl außerschulischer Einrichtungen der Natur- und Umweltbildung / Bildung für Nachhaltige Entwicklung (BNE)",
           "description": "",
           "keywords": "",
           "href": "/site-repo/6-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-3-1",
-          "title": "Anteil des sicher behandelten Abwassers",
+          "title": "Badegewässerqualität der Badestellen innerhalb des Bezirks Treptow-Köpenick",
           "description": "",
           "keywords": "",
           "href": "/site-repo/6-3-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "6-3-2",
-          "title": "Anteil der Gewässer mit guter Wasserqualität",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/6-3-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "6-4-1",
-          "title": "Veränderung der Wassernutzungseffizienz im Zeitablauf",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/6-4-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "6-4-2",
-          "title": "Grad der Wasserknappheit: Süßwasserentnahme als Anteil an den verfügbaren Süßwasserressourcen",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/6-4-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "6-5-1",
-          "title": "Grad der Umsetzung eines integrierten Wasserressourcenmanagements (0-100)",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/6-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "6-5-2",
-          "title": "Anteil der grenzüberschreitenden Flussgebiete mit einer operativen Vereinbarung zur Wasserkooperation",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/6-5-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "6-6-1",
-          "title": "Veränderung des Umfangs wasserbezogener Ökosysteme im Zeitablauf",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/6-6-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "6-a-1",
-          "title": "Betrag der wasser- und sanitärbezogenen öffentlichen Entwicklungszusammenarbeit, die Teil eines geregelten öffentlichen Haushaltsplans ist",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/6-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "6-b-1",
-          "title": "Anteil der lokalen Verwaltungseinheiten mit etablierten und operativen Strategien und Verfahren zur Beteiligung der Gemeinden am Wasser- und Abwassermanagement",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/6-b-1",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
@@ -783,51 +255,51 @@
         
         {
           "id": "7-1-1",
-          "title": "Anteil der Bevölkerung mit Zugang zu Elektrizität",
+          "title": "Noch zu definieren",
           "description": "",
           "keywords": "",
           "href": "/site-repo/7-1-1",
           "status": "notstarted"
         },
         {
-          "id": "7-1-2",
-          "title": "Anteil der Bevölkerung mit überwiegender Abhängigkeit von sauberen Energieträgern und Technologien",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/7-1-2",
-          "status": "notstarted"
-        },
-        {
           "id": "7-2-1",
-          "title": "Anteil der erneuerbaren Energien am gesamten Endenergieverbrauch",
+          "title": "Anzahl der Photovoltaikanlagen auf bezirkseigenen Gebäuden",
           "description": "",
           "keywords": "",
           "href": "/site-repo/7-2-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "7-2-2",
+          "title": "Stromerzeugung auf bezirkseigenen Gebäuden (kWh/Jahr)",
+          "description": "",
+          "keywords": "",
+          "href": "/site-repo/7-2-2",
+          "status": "complete"
         },
         {
           "id": "7-3-1",
-          "title": "Energieintensität gemessen als Primärenergie zum BIP",
+          "title": "Photovoltaik - Summe der Anlagen im Bezirk",
           "description": "",
           "keywords": "",
           "href": "/site-repo/7-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
-          "id": "7-a-1",
-          "title": "Internationale Finanzströme an Entwicklungsländer zur Förderung von Forschung und Entwicklung im Bereich sauberer Energien sowie erneuerbarer Energieproduktion, einschließlich Hybridsystemen",
+          "id": "7-3-2",
+          "title": "Photovoltaik - Stromeinspeisung im Bezirk",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/7-a-1",
-          "status": "notstarted"
+          "href": "/site-repo/7-3-2",
+          "status": "complete"
         },
         {
-          "id": "7-b-1",
-          "title": "Investitionen in Energieeffizienz als Anteil am BIP und der Betrag der ausländischen Direktinvestitionen in Form von Finanzmitteln für Infrastruktur und Technologien der Dienstleistungen für nachhaltige Entwicklung",
+          "id": "7-3-3",
+          "title": "Solarthermie - Summe der Anlagen im Bezirk",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/7-b-1",
-          "status": "notstarted"
+          "href": "/site-repo/7-3-3",
+          "status": "complete"
         }]
     }
   },
@@ -839,131 +311,59 @@
         
         {
           "id": "8-1-1",
-          "title": "Jährliche Wachstumsrate des realen BIP pro Kopf",
+          "title": "Anzahl der Unternehmen in Treptow-Köpenick die über ein gültiges Testat einer Gemeinwohl-Bilanz verfügen",
           "description": "",
           "keywords": "",
           "href": "/site-repo/8-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-2-1",
-          "title": "Jährliche Wachstumsrate des realen BIP je Beschäftigten",
+          "title": "Anzahl der Teilnehmenden am Mentoringprogramm",
           "description": "",
           "keywords": "",
           "href": "/site-repo/8-2-1",
           "status": "notstarted"
         },
         {
+          "id": "8-2-2",
+          "title": "Anteil der Bewerber*innen mit Einwanderungsgeschichte",
+          "description": "",
+          "keywords": "",
+          "href": "/site-repo/8-2-2",
+          "status": "notstarted"
+        },
+        {
           "id": "8-3-1",
-          "title": "Anteil der informellen Beschäftigung an allen Beschäftigungsverhältnissen außerhalb der Landwirtschaft, nach Geschlecht",
+          "title": "Anteil der Beschäftigten mit Einwanderungsgeschichte",
           "description": "",
           "keywords": "",
           "href": "/site-repo/8-3-1",
           "status": "notstarted"
         },
         {
+          "id": "8-3-2",
+          "title": "Anteil der Beschäftigten mit Einwanderungsgeschichte in Führungspositionen der Kommunalverwaltung",
+          "description": "",
+          "keywords": "",
+          "href": "/site-repo/8-3-2",
+          "status": "notstarted"
+        },
+        {
           "id": "8-4-1",
-          "title": "Rohstoff-Fußabdruck, Rohstoff-Fußabdruck pro Kopf und Rohstoff-Fußabdruck pro BIP",
+          "title": "Anzahl der kommunalen Einrichtungen in Treptow-Köpenick die über ein gültiges Testat einer Gemeinwohl-Bilanz verfügen",
           "description": "",
           "keywords": "",
           "href": "/site-repo/8-4-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-4-2",
-          "title": "Inländische Materialverwendung, inländische Materialverwendung pro Kopf und inländische Materialverwendung pro BIP",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/8-4-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-5-1",
-          "title": "Durchschnittlicher Stundenlohn von weiblichen und männlichen Beschäftigten, nach Beruf, Alter und Personen mit Behinderungen",
+          "title": "Bruttostundenverdienste und Verdienstunterschiede zwischen Frauen und Männern (Gender Pay Gap unbereinigt)",
           "description": "",
           "keywords": "",
           "href": "/site-repo/8-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-5-2",
-          "title": "Arbeitslosenquote, nach Geschlecht, Alter und Personen mit Behinderungen",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/8-5-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-6-1",
-          "title": "Anteil der Jugendlichen (im Alter von 15-24 Jahren), die nicht in schulischer Ausbildung, in Beschäftigung oder Berufsaus- oder -weiterbildung sind",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/8-6-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-7-1",
-          "title": "Anteil und Anzahl der Kinder im Alter von 5-17 Jahren, die Kinderarbeit verrichten, nach Geschlecht und Alter",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/8-7-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-8-1",
-          "title": "Häufigkeitsraten von tödlichen und nicht-tödlichen Arbeitsunfällen, nach Geschlecht und Migrationsstatus",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/8-8-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-8-2",
-          "title": "Grad der nationalen Einhaltung der Arbeitnehmerrechte (Vereinigungsfreiheit und Tarifverhandlungen) basierend auf Textquellen der Internationalen Arbeitsorganisation (ILO) und nationaler Gesetzesgrundlagen, nach Geschlecht und Migrationsstatus",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/8-8-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-9-1",
-          "title": "Direktes BIP des Tourismus als Anteil am gesamten BIP und als Wachstumsrate",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/8-9-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-10-1",
-          "title": "(a) Anzahl der Bankfilialen je 100.000 Erwachsener und (b) Anzahl der Geldautomaten je 100.000 Erwachsener",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/8-10-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-10-2",
-          "title": "Anteil der Erwachsenen (15 Jahre und älter) mit einem Konto bei einer Bank oder einem anderen Finanzinstitut oder einem mobilen Geldleistungsanbiete",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/8-10-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-a-1",
-          "title": "Aid for Trade-Zusagen und -Auszahlungen",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/8-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-b-1",
-          "title": "Existenz einer entwickelten und operationalisierten nationalen Strategie zu Jugendbeschäftigung , als eigenständige Strategie oder als Teil einer nationalen Beschäftigungsstrategie",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/8-b-1",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
@@ -975,99 +375,35 @@
         
         {
           "id": "9-1-1",
-          "title": "Anteil der ländlichen Bevölkerung, die im Umkreis von 2 km entfernt an einer ganzjährig befahrbaren Straße lebt",
+          "title": "Anzahl der Ladestationen für E-Autos",
           "description": "",
           "keywords": "",
           "href": "/site-repo/9-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-1-2",
-          "title": "Passagiere und Frachtvolumen, nach der Art des Transports",
+          "title": "Stromverbrauch an Elektro-Ladesäulen",
           "description": "",
           "keywords": "",
           "href": "/site-repo/9-1-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-2-1",
-          "title": "Wertschöpfung des Verarbeitenden Gewerbes als Anteil am BIP und pro Kopf",
+          "title": "Anzahl öffentlicher Einrichtungen mit freiem WLAN Zugang",
           "description": "",
           "keywords": "",
           "href": "/site-repo/9-2-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "9-2-2",
-          "title": "Beschäftigung im Verarbeitenden Gewerbe als Anteil an der Beschäftigung insgesamt",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/9-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-3-1",
-          "title": "Anteil der kleiner Unternehmen an der gesamten Wertschöpfung der Industrie",
+          "title": "Breitband Verfügbarkeit Mbit/s in %",
           "description": "",
           "keywords": "",
           "href": "/site-repo/9-3-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "9-3-2",
-          "title": "Anteil kleiner Unternehmen mit einem Kredit oder einem Kreditrahmen",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/9-3-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "9-4-1",
-          "title": "CO2-Emissionen pro Wertschöpfungseinheit",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/9-4-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "9-5-1",
-          "title": "Ausgaben für Forschung und Entwicklung als Anteil am BIP",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/9-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "9-5-2",
-          "title": "Wissenschaftler (in Vollzeit-Äquivalenten) je eine Million Einwohner",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/9-5-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "9-a-1",
-          "title": "Gesamte öffentliche internationale Unterstützung (öffentliche Entwicklungszusammenarbeit und andere öffentliche Mittel) für Infrastruktu",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/9-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "9-b-1",
-          "title": "Anteil der Wertschöpfung der Medium- und High-Tech-Industrie an der Wertschöpfung insgesamt",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/9-b-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "9-c-1",
-          "title": "Anteil der Bevölkerung, die durch ein Mobilfunknetz abgedeckt ist, nach Technologie",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/9-c-1",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
@@ -1079,7 +415,7 @@
         
         {
           "id": "10-1-1",
-          "title": "Wachstumsraten der Haushaltsausgaben oder -einkommen pro Kopf der unteren 40 Prozent der Bevölkerung und der Gesamtbevölkerung",
+          "title": "Anteil mehrsprachiger Informationsmaterialien",
           "description": "",
           "keywords": "",
           "href": "/site-repo/10-1-1",
@@ -1087,7 +423,7 @@
         },
         {
           "id": "10-2-1",
-          "title": "Anteil der Bevölkerung, die mit weniger als 50% des Medianeinkommens leben, nach Geschlecht, Alter und Menschen mit Behinderung",
+          "title": "Anzahl der angebotenen Fortbildungen innerhalb der Verwaltung",
           "description": "",
           "keywords": "",
           "href": "/site-repo/10-2-1",
@@ -1095,99 +431,19 @@
         },
         {
           "id": "10-3-1",
-          "title": "Anteil der Bevölkerung, die angibt sich in den vergangenen 12 Monaten persönlich diskriminiert oder belästigt gefühlt zu haben basierend auf einem Diskriminierungsgrund, der nach internationalem Menschenrechtsgesetzen verboten ist",
+          "title": "Anzahl der Unternehmen in Treptow-Köpenick die eine Gemeinwohl-Bilanz durchführen",
           "description": "",
           "keywords": "",
           "href": "/site-repo/10-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "10-4-1",
-          "title": "Anteil des Arbeitsnehmerentgelts am BIP, bestehend aus Löhnen, Gehältern und Sozialversicherungsbeiträgen",
+          "title": "Gini-Koeffizient der Äquivalenzeinkommen in Treptow-Köpenick",
           "description": "",
           "keywords": "",
           "href": "/site-repo/10-4-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "10-4-2",
-          "title": "Umverteilungswirkung der Fiskalpolitik",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/10-4-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "10-5-1",
-          "title": "Financial Soundness Indicators",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/10-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "10-6-1",
-          "title": "Anteil der Mitglieder und Stimmrechte der Entwicklungsländer  in internationalen Organisationen",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/10-6-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "10-7-1",
-          "title": "Von Beschäftigten getragene Einstellungskosten als Anteil des Jahreseinkommens des Bestimmungslandes",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/10-7-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "10-7-2",
-          "title": "Anzahl der Staaten mit gut umgesetzter Migrationspolitik",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/10-7-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "10-7-3",
-          "title": "Anzahl der Personen, die während des Migrationsprozesses in Richtung eines internationalen Ziels gestorben oder verschwunden sind",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/10-7-3",
-          "status": "notstarted"
-        },
-        {
-          "id": "10-7-4",
-          "title": "Anteil der Bevölkerung, die Flüchtlinge sind, nach Herkunftsland",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/10-7-4",
-          "status": "notstarted"
-        },
-        {
-          "id": "10-a-1",
-          "title": "Anteil der Zolltarife auf Einfuhren aus den am wenigsten entwickelten Ländern sowie Entwicklungsländer mit Zollfreiheit",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/10-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "10-b-1",
-          "title": "Gesamte Kapitalströme für Entwicklung, nach Nehmer- und Geberländern und Art des Zahlungsstroms (z. B. öffentliche Entwicklungszusammenarbeit, ausländische Direktinvestitionen und sonstige Geldströme)",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/10-b-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "10-c-1",
-          "title": "Überweisungskosten  als Anteil am überwiesenen Betrag",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/10-c-1",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
@@ -1199,123 +455,75 @@
         
         {
           "id": "11-1-1",
-          "title": "Anteil der urbanen Bevölkerung, die in Slums, informellen Siedlungen oder unzureichenden Behausungen lebt",
+          "title": "Anzahl der kostenlos ausleihbaren Lastenräder im Bezirk",
           "description": "",
           "keywords": "",
           "href": "/site-repo/11-1-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "11-1-2",
+          "title": "Anzahl der Ausleihen von Lastenrädern",
+          "description": "",
+          "keywords": "",
+          "href": "/site-repo/11-1-2",
+          "status": "complete"
         },
         {
           "id": "11-2-1",
-          "title": "Anteil der Bevölkerung, der einen angemessenen Zugang zu öffentlichen Verkehrsmitteln hat, nach Geschlecht, Alter und Menschen mit Behinderung",
+          "title": "Anzahl der Abholstellen für Produkte Solidarischer Landwirtschaft (SoLaWi)",
           "description": "",
           "keywords": "",
           "href": "/site-repo/11-2-1",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "11-2-2",
+          "title": "Anzahl der Imker im Bezirk",
+          "description": "",
+          "keywords": "",
+          "href": "/site-repo/11-2-2",
+          "status": "complete"
+        },
+        {
+          "id": "11-2-3",
+          "title": "Anzahl der Bienenvölker im Bezirk",
+          "description": "",
+          "keywords": "",
+          "href": "/site-repo/11-2-3",
+          "status": "complete"
         },
         {
           "id": "11-3-1",
-          "title": "Verhältnis der Flächennutzungs- zur Bevölkerungswachstumsrate",
+          "title": "Anzahl Baumscheibenpatinnen und -paten",
           "description": "",
           "keywords": "",
           "href": "/site-repo/11-3-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-3-2",
-          "title": "Anteil der Städte mit einer direkten Beteiligungsstruktur der Zivilgesellschaft an der Stadtplanung und -verwaltung, die regelmäßig und demokratisch arbeiten",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/11-3-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "11-4-1",
-          "title": "Gesamtausgaben (öffentlich und privat) pro Kopf für die Bewahrung, den Schutz und die Erhaltung des Kultur- und Naturerbes, nach Art des Erbes (Kultur, Natur, gemischt und durch das Welterbezentrum ernannt), Regierungsebene (national, regional und lokal/kommunal), Art der Ausgabe (Betriebsausgabe/Investition) und Art der privaten Finanzierung (Sachspenden, privater gemeinnütziger Sektor und Förderer)",
+          "title": "Häufigkeit der auf Wegen genutzten Verkehrsmittel in Treptow-Köpenick",
           "description": "",
           "keywords": "",
           "href": "/site-repo/11-4-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "11-5-1",
-          "title": "Anzahl der infolge von Katastrophen getöteten, vermissten und direkt betroffenen Personen, je 100.000 Einwohner",
+          "title": "Sport-, Freizeit- und Erholungsfläche in Treptow-Köpenick",
           "description": "",
           "keywords": "",
           "href": "/site-repo/11-5-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "11-5-2",
-          "title": "Unmittelbarer wirtschaftlicher Schaden im Verhältnis zum globalen BIP, Schäden kritischer Infrastruktur und Anzahl der Ausfälle von Grundversorgungsleistungen infolge von Katastrophen",
+          "title": "Versorgung mit öffentlichen Grünflächen insgesamt",
           "description": "",
           "keywords": "",
           "href": "/site-repo/11-5-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-5-3",
-          "title": "(a) Damage to critical infrastructure and (b) number of disruptions to basic services, attributed to disasters",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/11-5-3",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-6-1",
-          "title": "Anteil der Siedlungsabfälle, die regelmäßig gesammelt und ordnungsgemäß entsorgt werden, an den insgesamt erzeugten Siedlungsabfällen, nach Städten",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/11-6-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-6-2",
-          "title": "Jahresmittelwerte für Feinstaub (z. B. PM2,5 und PM10) in Städten (bevölkerungsgewichtet)",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/11-6-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-7-1",
-          "title": "Durchschnittlicher Anteil der bebauten Fläche in Städten, die als Freifläche öffentlich zugänglich ist, nach Geschlecht, Alter und Personen mit Behinderungen",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/11-7-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-7-2",
-          "title": "Anteil der Personen, die in den vergangenen 12 Monaten Opfer körperlicher oder sexueller Belästigung wurden, nach Geschlecht, Alter, Behinderungsstatus und Ort des Geschehens",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/11-7-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-a-1",
-          "title": "Anteil der Bevölkerung in Städten, die Stadt- und Regionalentwicklungspläne unter Berücksichtigung der Bevölkerungsprognosen und des Ressourcenbedarfs umsetzen, nach Größe der Stadt",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/11-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-b-1",
-          "title": "Anzahl der Staaten, die nationale Strategien zur Reduzierung des Katastrophenrisikos in Einklang mit dem Sendai-Rahmenwerk zur Katastrophenvorsorge 2015-2030 verabschiedet und umgesetzt haben",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/11-b-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "11-b-2",
-          "title": "Anteil der lokalen Regierungen, die lokale Strategien zur Reduzierung des Katastrophenrisikos in Einklang mit den nationalen Strategien zur Katastrophenvorsorge verabschiedet und umgesetzt haben",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/11-b-2",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
@@ -1327,107 +535,43 @@
         
         {
           "id": "12-1-1",
-          "title": "Anzahl der Staaten mit nationalen Aktionsplänen zu nachhaltigem Konsum und Produktion (SCP) oder SCP, die als Priorität oder Ziel in nationale Politik aufgenommen wurden",
+          "title": "Anzahl der Fortbildungen zu nachhaltiger und fairer Beschaffung pro Jahr",
           "description": "",
           "keywords": "",
           "href": "/site-repo/12-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "12-2-1",
-          "title": "Rohstoff-Fußabdruck, Rohstoff-Fußabdruck pro Kopf und Rohstoff-Fußabdruck pro BIP",
+          "title": "Anzahl der Kirchengemeinden die Teil der Fairtrade Town Kampagne sind",
           "description": "",
           "keywords": "",
           "href": "/site-repo/12-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "12-2-2",
-          "title": "Inländische Materialverwendung, inländische Materialverwendung pro Kopf und inländische Materialverwendung pro BIP",
+          "title": "Anzahl der Kirchengemeinden mit dem Siegel 'Faire Gemeinde' im Bezirk",
           "description": "",
           "keywords": "",
           "href": "/site-repo/12-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "12-3-1",
-          "title": "Index zu globalen Nahrungsmittelverlusten",
+          "title": "Stand der Zertifizierung der Kommune als Fairtrade Town",
           "description": "",
           "keywords": "",
           "href": "/site-repo/12-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "12-4-1",
-          "title": "Anzahl der Vertragsparteien internationaler multilateraler Umweltabkommen über gefährliche Abfälle und andere Chemikalien, die ihren Bekenntnissen und Verpflichtungen nachkommen, indem sie die gemäß dem jeweiligen Übereinkommen geforderten Informationen übermitteln",
+          "title": "Anzahl der Fairtrade Schulen in Treptow-Köpenick",
           "description": "",
           "keywords": "",
           "href": "/site-repo/12-4-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-4-2",
-          "title": "Erzeugte gefährliche Abfälle pro Kopf und Anteil der behandelten gefährlichen Abfälle, nach Art der Behandlung",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/12-4-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-5-1",
-          "title": "Nationale Recyclingquote, Tonnen an recyceltem Material",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/12-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-6-1",
-          "title": "Anzahl der Unternehmen, die Nachhaltigkeitsberichte veröffentlichen",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/12-6-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-7-1",
-          "title": "Anzahl der Staaten, die nachhaltige öffentliche Beschaffungspolitik und Aktionspläne umsetzen",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/12-7-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-8-1",
-          "title": "Umfang, in dem (i) Bildung zu globaler Staatsbürgerschaft und (ii) Bildung für nachhaltige Entwicklung, einschließlich der Geschlechtergleichstellung und der Menschenrechte, auf allen Ebenen in: (a) nationale Bildungspolitik, (b) Lehrpläne, (c) Lehrerausbildung und (d) Schulleistungsuntersuchung berücksichtigt werden",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/12-8-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-a-1",
-          "title": "Umfang der Unterstützung für Entwicklungsländer bei Forschung und Entwicklung im Hinblick auf nachhaltigen Konsum und nachhaltige Produktion sowie umweltfreundliche Technologien",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/12-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-b-1",
-          "title": "Anzahl der Strategien oder Politiken für einen nachhaltigen Tourismus und umgesetzte Aktionspläne mit vereinbarten Kontroll- und Bewertungsinstrumenten",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/12-b-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "12-c-1",
-          "title": "Betrag der Subventionen für fossile Energieträger je Einheit BIP (Produktion und Konsum) und als Anteil an den gesamten nationalen Ausgaben für fossile Energieträger",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/12-c-1",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
@@ -1439,67 +583,51 @@
         
         {
           "id": "13-1-1",
-          "title": "Anzahl der infolge von Katastrophen getöteten, vermissten und direkt betroffenen Personen, je 100.000 Einwohner",
+          "title": "Stellenanteile für das Klimaschutzmanagement",
           "description": "",
           "keywords": "",
           "href": "/site-repo/13-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "13-1-2",
-          "title": "Anzahl der Staaten, die nationale Strategien zur Reduzierung des Katastrophenrisikos in Einklang mit dem Sendai-Rahmenwerk zur Katastrophenvorsorge 2015-2030 verabschiedet und umgesetzt haben",
+          "title": "Index Kommunaler Klimaschutz",
           "description": "",
           "keywords": "",
           "href": "/site-repo/13-1-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "13-1-3",
-          "title": "Anteil der lokalen Regierungen, die lokale Strategien zur Reduzierung des Katastrophenrisikos in Einklang mit den nationalen Strategien zur Katastrophenvorsorge verabschiedet und umgesetzt haben",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/13-1-3",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "13-2-1",
-          "title": "Anzahl der Staaten, die die Ausarbeitung oder Umsetzung einer/s integrierten Politik/Strategie/Plans verkündet haben, welche/r ihre Fähigkeit zur Anpassung an die negativen Auswirkungen des Klimawandels erhöht und die Widerstandsfähigkeit gegenüber Klimaänderungen als auch eine rückläufige Entwicklung der Treibhausgasemissionen fördert ohne die Nahrungsmittelproduktion zu gefährden (einschließlich eines nationalen Anpassungsplans, national festgelegten Beitrags, nationaler Kommunikation, zweijährlichen Aktualisierungsberichts oder anderer)",
+          "title": "Mittlere werktägliche Fahrradverkehrsstärke an der Zählstelle Treptow-Köpenick Kaisersteg",
           "description": "",
           "keywords": "",
           "href": "/site-repo/13-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "13-2-2",
-          "title": "Gesamte Treibhausgasemissionen pro Jahr",
+          "title": "Anzahl der kostenlos ausleihbaren Lastenräder im Bezirk",
           "description": "",
           "keywords": "",
           "href": "/site-repo/13-2-2",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "13-2-3",
+          "title": "Kilometer Radschnellwege im Bezirk",
+          "description": "",
+          "keywords": "",
+          "href": "/site-repo/13-2-3",
+          "status": "complete"
         },
         {
           "id": "13-3-1",
-          "title": "Anzahl der Staaten, die die Minderung, Anpassung, Reduzierung der Auswirkungen und Frühwarnsysteme in den primären, sekundären und tertiären Lehrplänen integriert haben",
+          "title": "CO2-Emissionen aus dem Endenergieverbrauch (Verursacherbilanz)",
           "description": "",
           "keywords": "",
           "href": "/site-repo/13-3-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "13-a-1",
-          "title": "Mobilisierter Betrag an US-Dollar pro Jahr zwischen 2020 und 2025, anrechenbar auf die Zusage von 100 Milliarden US-Dollar",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/13-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "13-b-1",
-          "title": "Anzahl der am wenigsten entwickelten Länder und kleinen Inselentwicklungsstaaten, die besondere Unterstützung erhalten und der Betrag der Unterstützung (Finanzmittel, Technologie und capacity-building umfassend) für Mechanismen zum Aufbau von Kapazitäten für eine wirksame klimawandelbezogene Planung und Verwaltung, mit Fokus auf Frauen, Jugendliche und lokale und marginalisierte Gemeinschaften",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/13-b-1",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
@@ -1511,15 +639,15 @@
         
         {
           "id": "14-1-1",
-          "title": "Index der Eutrophierung der Küsten und Konzentration des schwimmenden Plastikmülls",
+          "title": "Rote Liste Einstufung der in Berliner Gewässern vorkommenden Fischarten",
           "description": "",
           "keywords": "",
           "href": "/site-repo/14-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "14-2-1",
-          "title": "Anteil der nationalen ausschließlichen Wirtschaftszonen, die mit ökosystembasierten Ansätzen verwaltet werden",
+          "title": "Anzahl der Anwohnerinnen die an der Sprechstunde der Ranger teilnehmen",
           "description": "",
           "keywords": "",
           "href": "/site-repo/14-2-1",
@@ -1527,66 +655,10 @@
         },
         {
           "id": "14-3-1",
-          "title": "Durchschnittliche Versauerung der Meere (pH) gemessen an einer vereinbarten Reihe von repräsentativen Probeentnahmestationen",
+          "title": "Noch zu definieren",
           "description": "",
           "keywords": "",
           "href": "/site-repo/14-3-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "14-4-1",
-          "title": "Anteil der Fischbestände innerhalb des biologisch nachhaltigen Niveaus",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/14-4-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "14-5-1",
-          "title": "Abdeckung durch Schutzgebiete im Vergleich zu Meeresgebieten",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/14-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "14-6-1",
-          "title": "Fortschritt der Staaten hinsichtlich des Grades der Umsetzung internationaler Instrumente mit dem Ziel zur Bekämpfung illegaler, nicht gemeldeter und unregulierter Fischerei",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/14-6-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "14-7-1",
-          "title": "Nachhaltige Fischerei als Anteil am BIP in kleinen Inselentwicklungsstaaten, in den am wenigsten entwickelten Ländern und allen Ländern",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/14-7-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "14-a-1",
-          "title": "Anteil am gesamten Forschungsbudget für Forschung im Bereich der Meerestechnik",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/14-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "14-b-1",
-          "title": "Fortschritt der Staaten hinsichtlich der Umsetzung von gesetzlichen/ regulatorischen/ politischen/ institutionellen Rahmenwerken, die Zugangsrechte für kleine Fischereien anerkennen und schützen",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/14-b-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "14-c-1",
-          "title": "Anzahl der Staaten, die durch rechtliche, politische und institutionelle Rahmenbedingungen bei der Ratifizierung, Verabschiedung und Umsetzung meeresbezogener Instrumentarien, die internationales Recht zum Schutz und zur nachhaltigen Nutzung der Ozeane und ihrer Ressourcen (wie es dem Seerechtsübereinkommen der Vereinten Nationen entspricht) umsetzen, Fortschritte machen",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/14-c-1",
           "status": "notstarted"
         }]
     }
@@ -1594,119 +666,39 @@
   {
     "goal": {
       "id": "15",
-      "title": "Landökosysteme schützen, wiederherstellen und ihre nachhaltige Nutzung fördern, Wälder nachhaltig bewirtschaften, Wüstenbildung bekämpfen, Bodendegradation beenden und umkehren und",
+      "title": "Landökosysteme schützen, wiederherstellen und ihre nachhaltige Nutzung fördern, Wälder nachhaltig bewirtschaften, Wüstenbildung bekämpfen, Bodendegradation beenden und umkehren und dem Verlust der biologischen Vielfalt ein Ende setzen",
       "indicators": [
         
         {
           "id": "15-1-1",
-          "title": "Waldfläche als Anteil an der gesamten Landfläche",
+          "title": "Index Kommunale Klimaanpassung",
           "description": "",
           "keywords": "",
           "href": "/site-repo/15-1-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "15-1-2",
-          "title": "Anteil der bedeutenden Gebiete für Biodiversität an Land und im Süßwasser, die in Schutzgebieten liegen, nach Ökosystemtyp",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/15-1-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-2-1",
-          "title": "Fortschritt bei der nachhaltigen Waldbewirtschaftung",
+          "title": "Anzahl der Teilnahmen des Bezirks an Netzwerktreffen und Veranstaltungen des „Akteursnetzwerk biologische Vielfalt“ pro Jahr",
           "description": "",
           "keywords": "",
           "href": "/site-repo/15-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-3-1",
-          "title": "Anteil der Fläche, die von Bodendegradation betroffenen ist, an der gesamten Landfläche",
+          "title": "Naturschutzgebiete und Landschaftsschutzgebiete (Fläche in ha)",
           "description": "",
           "keywords": "",
           "href": "/site-repo/15-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-4-1",
-          "title": "Abdeckung der wichtigen Gebiete für Biodiversität in den Bergen durch Schutzgebiete",
+          "title": "Noch zu definieren",
           "description": "",
           "keywords": "",
           "href": "/site-repo/15-4-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "15-4-2",
-          "title": "Index der Grünbedeckung in den Bergen",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/15-4-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "15-5-1",
-          "title": "Rote Liste Index",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/15-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "15-6-1",
-          "title": "Anzahl der Staaten, die gesetzliche, administrative und politische Rahmenbedingungen geschaffen haben, um Vorteile gerecht und gleichmäßig zu verteilen",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/15-6-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "15-7-1",
-          "title": "Anteil der gehandelten Wildtiere, die gewildert oder geschmuggelt wurden",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/15-7-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "15-8-1",
-          "title": "Anteil der Staaten, die relevante nationale Rechtsvorschriften verabschiedet haben und Maßnahmen zur Vermeidung oder Bekämpfung von invasiven, gebietsfremden Arten angemessen finanzieren",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/15-8-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "15-9-1",
-          "title": "Fortschritte bei der Erreichung nationaler Ziele, die in Übereinstimmung mit dem Aichi-Biodiversitätsziel 2 des Strategischen Plans zur Biodiversität 2011-2020 beschlossen wurden",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/15-9-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "15-a-1",
-          "title": "Öffentliche Entwicklungszusammenarbeit und öffentliche Ausgaben für den Erhalt und die nachhaltige Nutzung biologischer Vielfalt und der Ökosysteme",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/15-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "15-b-1",
-          "title": "Öffentliche Entwicklungszusammenarbeit und öffentliche Ausgaben für den Erhalt und die nachhaltige Nutzung biologischer Vielfalt und der Ökosysteme",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/15-b-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "15-c-1",
-          "title": "Anteil der gehandelten Wildtiere, die gewildert oder geschmuggelt wurden",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/15-c-1",
           "status": "notstarted"
         }]
     }
@@ -1719,195 +711,35 @@
         
         {
           "id": "16-1-1",
-          "title": "Anzahl der Opfern vorsätzlicher Tötung je 100.000 Einwohner, nach Geschlecht und Alter",
+          "title": "Anzahl der partizipativen Veranstaltungen zum Thema SDGs des Bezirksamts Treptow-Köpenick pro Jahr",
           "description": "",
           "keywords": "",
           "href": "/site-repo/16-1-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-1-2",
-          "title": "Konfliktbedingte  Todesfälle je 100.000 Einwohner, nach Geschlecht, Alter und Ursache",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/16-1-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-1-3",
-          "title": "Anteil der Bevölkerung, die in den vergangenen 12 Monaten (a) körperlicher Gewalt, (b) psychischer Gewalt und (c) sexueller Gewalt ausgesetzt war",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/16-1-3",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-1-4",
-          "title": "Anteil der Bevölkerung, die sich in ihrem Wohngebiet alleine sicher fühlt",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/16-1-4",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-2-1",
-          "title": "Anteil der Kinder im Alter von 1-17 Jahren, die im vergangenen Monat eine körperliche Strafe und/oder psychische Aggression durch Betreuungspersonen erfahren haben",
+          "title": "Anzahl der interreligiösen Veranstaltungen pro Jahr",
           "description": "",
           "keywords": "",
           "href": "/site-repo/16-2-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-2-2",
-          "title": "Anzahl der Opfer von Menschenhandel je 100.000 Einwohner, nach Geschlecht, Alter und Art der Ausbeutung",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/16-2-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-2-3",
-          "title": "Anteil der jungen Frauen und Männer im Alter von 18-29 Jahren, die bis zum Alter von 18 Jahren sexuelle Gewalt erlebt haben",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/16-2-3",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-3-1",
-          "title": "Anteil der Opfer von Gewalttaten in den vergangenen 12 Monaten, die ihre Viktimisierung den zuständigen Behörden oder anderen offiziell anerkannten Stellen der Konfliktaufarbeitung gemeldet haben",
+          "title": "Anzahl der rassistisch, antisemitisch, homophob und rechtsextrem geprägter Vorfälle pro Jahr in Treptow-Köpenick",
           "description": "",
           "keywords": "",
           "href": "/site-repo/16-3-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-3-2",
-          "title": "Nicht-verurteilte Häftlinge als Anteil an der gesamten Gefangenenpopulation",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/16-3-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-3-3",
-          "title": "Anteil der Bevölkerung, die in den letzten zwei Jahren einen Streitfall erlebt haben und einen formellen oder informellen Streitbeilegungsmechanismus in Anspruch genommen haben, nach Art des Mechanismus",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/16-3-3",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-4-1",
-          "title": "Gesamtwert der ein- und ausgehenden illegalen Finanzströme (in aktuellen US-Dollar)",
+          "title": "Anzahl der Strukturen der Bürgerbeteiligung und Akteursvernetzung in den Bezirksregionenprofilen",
           "description": "",
           "keywords": "",
           "href": "/site-repo/16-4-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-4-2",
-          "title": "Anteil der beschlagnahmten, aufgegriffenen oder abgegebenen Waffen, deren illegale Herkunft oder Verwendung von einer zuständigen Behörde in Übereinstimmung mit internationalen Methoden nachverfolgt oder festgestellt wurde",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/16-4-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-5-1",
-          "title": "Anteil der Personen, die in den vergangenen 12 Monaten mindestens einen Kontakt zu einem öffentlichen Bediensteten hatten und diesem ein Bestechungsgeld gezahlt haben oder von diesen um eine Bestechung gebeten wurden",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/16-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-5-2",
-          "title": "Anteil der Unternehmen, die in den vergangenen 12 Monaten mindestens einen Kontakt mit einem öffentlichen Bediensteten hatten und diesem ein Bestechungsgeld gezahlt haben oder von diesen um eine Bestechung gebeten wurden",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/16-5-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-6-1",
-          "title": "Primärausgaben des Staates als Anteil am ursprünglich genehmigten Budget, nach Sektor (oder nach Haushaltscodes oder Ähnlichem)",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/16-6-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-6-2",
-          "title": "Anteil der Bevölkerung, die mit ihrer letzten Erfahrung mit öffentlichen Dienstleistungen zufrieden war",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/16-6-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-7-1",
-          "title": "Anteil der Stellen (nach Geschlecht, Alter, Personen mit Behinderungen und Bevölkerungsgruppen) in öffentlichen Institutionen (nationale und lokale Gesetzgebung, öffentlicher Dienst und Judikative) im Vergleich zur nationalen Verteilungen",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/16-7-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-7-2",
-          "title": "Anteil der Bevölkerung, die glaubt, dass die Entscheidungsfindung inklusiv und bedarfsgesteuert ist, nach Geschlecht, Alter, Behinderung und Bevölkerungsgruppe",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/16-7-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-8-1",
-          "title": "Anteil der Mitglieder und Stimmrechte von Entwicklungsländern in internationalen Organisationen",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/16-8-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-9-1",
-          "title": "Anteil der Kinder unter 5 Jahre, deren Geburt von einer Zivilbehörde registriert wurde, nach Alter",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/16-9-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-10-1",
-          "title": "Anzahl der bestätigten Fälle von Tötung, Entführung, erzwungenem Verschwinden, willkürlicher Inhaftierung und Folter von Journalisten, zugehörigem Medienpersonal, Gewerkschaftern und Menschenrechtsanwälten in den vergangenen 12 Monaten",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/16-10-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-10-2",
-          "title": "Anzahl der Staaten, die verfassungsrechtliche, gesetzliche und/oder politische Garantieren für den öffentlichen Zugang zu Informationen verabschiedet und umgesetzt haben",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/16-10-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-a-1",
-          "title": "Existenz von unabhängigen nationalen Menschenrechtsinstitutionen in Übereinstimmung mit den 'Pariser Grundsätzen",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/16-a-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-b-1",
-          "title": "Anteil der Bevölkerung, die angibt sich in den vergangenen 12 Monaten persönlich auf Basis einer Diskriminierung, die nach internationalem Menschenrecht verboten ist, diskriminiert oder belästigt gefühlt zu haben",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/16-b-1",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
@@ -1919,55 +751,71 @@
         
         {
           "id": "17-1-1",
-          "title": "Gesamte Staatseinnahmen als Anteil am BIP, nach Quelle",
+          "title": "Anzahl der Aktivitäten mit Partnerstädten und Veranstaltungen zum Thema Städtepartnerschaften des Bezirksamts Treptow-Köpenick pro Jahr",
           "description": "",
           "keywords": "",
           "href": "/site-repo/17-1-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-1-2",
-          "title": "Proportion of domestic budget funded by domestic taxes",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/17-1-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-2-1",
-          "title": "Net official development assistance, total and to least developed countries, as a proportion of the Organization for Economic Cooperation and Development (OECD) Development Assistance Committee donors’ gross national income (GNI)",
+          "title": "Menge verkaufter Packungen Fairtrade Kaffee 'Treptow-Köpenicker Bohne' pro Jahr",
           "description": "",
           "keywords": "",
           "href": "/site-repo/17-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-3-1",
-          "title": "Additional financial resources mobilized for developing countries from multiple sources",
+          "title": "Städtepartnerschaften",
           "description": "",
           "keywords": "",
           "href": "/site-repo/17-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-3-2",
-          "title": "Volume of remittances (in United States dollars) as a proportion of total GDP",
+          "title": "Gemeindeprojekte und -partnerschaften",
           "description": "",
           "keywords": "",
           "href": "/site-repo/17-3-2",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "17-3-3",
+          "title": "Schulpartnerschaften",
+          "description": "",
+          "keywords": "",
+          "href": "/site-repo/17-3-3",
+          "status": "complete"
+        },
+        {
+          "id": "17-3-4",
+          "title": "Weitere zivilgesellschaftliche Projekte",
+          "description": "",
+          "keywords": "",
+          "href": "/site-repo/17-3-4",
+          "status": "complete"
+        },
+        {
+          "id": "17-3-5",
+          "title": "Fairer Handel",
+          "description": "",
+          "keywords": "",
+          "href": "/site-repo/17-3-5",
+          "status": "complete"
         },
         {
           "id": "17-4-1",
-          "title": "Debt service as a proportion of exports of goods and services",
+          "title": "Eine-Welt-Projekte und Partnerschaften im Bezirk Treptow-Köpenick",
           "description": "",
           "keywords": "",
           "href": "/site-repo/17-4-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-5-1",
-          "title": "Number of countries that adopt and implement investment promotion regimes for developing countries, including the least developed countries",
+          "title": "Noch zu definieren",
           "description": "",
           "keywords": "",
           "href": "/site-repo/17-5-1",
@@ -1975,130 +823,10 @@
         },
         {
           "id": "17-6-1",
-          "title": "Fixed Internet broadband subscriptions per 100 inhabitants, by speed",
+          "title": "Öffentliche Ausgaben für Entwicklungszusammenarbeit (Official Development Assistance, ODA)",
           "description": "",
           "keywords": "",
           "href": "/site-repo/17-6-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-7-1",
-          "title": "Total amount of funding for developing countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/17-7-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-8-1",
-          "title": "Proportion of individuals using the Internet",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/17-8-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-9-1",
-          "title": "Dollar value of financial and technical assistance (including through North-South, South‑South and triangular cooperation) committed to developing countries",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/17-9-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-10-1",
-          "title": "Worldwide weighted tariff-average",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/17-10-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-11-1",
-          "title": "Developing countries’ and least developed countries’ share of global exports",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/17-11-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-12-1",
-          "title": "Weighted average tariffs faced by developing countries, least developed countries and small island developing States",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/17-12-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-13-1",
-          "title": "Macroeconomic Dashboard",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/17-13-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-14-1",
-          "title": "Number of countries with mechanisms in place to enhance policy coherence of sustainable development",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/17-14-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-15-1",
-          "title": "Extent of use of country-owned results frameworks and planning tools by providers of development cooperation",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/17-15-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-16-1",
-          "title": "Number of countries reporting progress in multi-stakeholder development effectiveness monitoring frameworks that support the achievement of the sustainable development goals",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/17-16-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-17-1",
-          "title": "Amount in United States dollars committed to public-private partnerships for infrastructure",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/17-17-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-18-2",
-          "title": "Number of countries that have national statistical legislation that complies with the Fundamental Principles of Official Statistics",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/17-18-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-18-3",
-          "title": "Number of countries with a national statistical plan that is fully funded and under implementation, by source of funding",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/17-18-3",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-19-1",
-          "title": "Dollar value of all resources made available to strengthen statistical capacity in developing countries",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/17-19-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-19-2",
-          "title": "Proportion of countries that (a) have conducted at least one population and housing census in the last 10 years; and (b) have achieved 100 per cent birth registration and 80 per cent death registration",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/17-19-2",
           "status": "notstarted"
         }]
     }
