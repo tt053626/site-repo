@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="de" class="no-js">
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://tt053626.github.io/data-repo/en',
+  remoteDataBaseUrl: 'https://tt053626.github.io/data-repo/de',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -26,8 +26,9 @@ var opensdg = {
   },
 
   // A hook which can be replaced to alter whether/how the values that are
-  // displayed on indicator tables/graphs get rounded.
-  dataRounding: function(value) {
+  // displayed on indicator tables/graphs get rounded. A "context" parameter
+  // is also passed which contains additional information.
+  dataRounding: function(value, context) {
     // Alterations go here.
     return value;
   },
@@ -38,7 +39,10 @@ var opensdg = {
     this.dataDisplayAlterations.push(callback);
   },
 
-  language: 'en',
+  // Disaggregations which should be ignored on indicator pages.
+  ignoredDisaggregations: null,
+
+  language: 'de',
 };
 
 </script>
@@ -101,9 +105,9 @@ var translations = {
         
     <title>
         
-        Indicator 4.5.1 -
+        Indikator 4.5.1 -
         
-        Parity indices (female/male, rural/urban, bottom/top wealth quintile and others such as disability status, indigenous peoples and conflict-affected, as data become available) for all education indicators on this list that can be disaggregated - Indicators For The Sustainable Development Goals
+        Projektteilnehmer des Projektes &quot;Umweltschule in Europa - Internationale Nachhaltigkeitsschule&quot; - Indikatoren für die nachhaltigen Entwicklungsziele
     </title>
 
 
@@ -130,7 +134,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site-repo/assets/css/style.css?v=20230218131356">
+        <link rel="stylesheet" href="/site-repo/assets/css/style.css?v=20230218132347">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -148,14 +152,14 @@ var translations = {
         
 
     </head>
-<body class="language-en
+<body class="language-de
 layout-indicator
 ">
 <!-- <div class="container"> -->
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+<script>translations['header'] = {"alpha":"Alpha-Version","default_contrast":"Standard kontrast","disable_high_contrast":"Hoher Kontrast deaktivieren","disclaimer":"Diese Seite befindet sich im Entwicklungsstadium.Wir freuen uns über Ihre <a href=\"mailto:%email_address\">Kommentare</a>.","enable_high_contrast":"Aktivieren Sie hohen Kontrast","high_contrast":"Hoher kontrast","skip_link":"Zum Hauptinhalt springen","tag_line":"17 Ziele, um unsere Welt zu verändern","toggle_menu":"Menü umschalten. Klicken Sie darauf, um das Menü zu erweitern oder zu reduzieren.","toggle_search":"Umschalten der Suche. Klicken Sie darauf, um die Suchleiste ein- oder auszublenden."};</script>
 
-<a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+<a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Zum Hauptinhalt springen</a>
 <div class="container internet-explorer-message">
     <h2 class="internet-explorer-message-title"></h2>
     <p class="internet-explorer-message-body"></p>
@@ -175,13 +179,13 @@ layout-indicator
 <a class="navbar-brand" href="/site-repo/" id="home" aria-label="" title="">
     <img src="/site-repo/assets/img/SDG_logo.png"
     onmouseover="this.src='/site-repo/assets/img/SDG_logo_focus.png'"
-    onmouseout="this.src='/site-repo/assets/img/SDG_logo.png'" alt="Sustainable Development Goals - 17 Goals to Transform our World"/>
+    onmouseout="this.src='/site-repo/assets/img/SDG_logo.png'" alt="Ziele für Nachhaltige Entwicklung - 17 Ziele, um unsere Welt zu verändern"/>
 </a>
 
                 
                 <h1 class="header">
-                    Monitoring of the <br>
-                    Municipal Sustainability Strategy <br>
+                    Monitoring der <br>
+                    Kommunalen Nachhaltigkeitsstrategie <br>
                     Kommune X
                 </h1>
                 
@@ -193,11 +197,11 @@ layout-indicator
                 <div class="d-flex flex-wrap w-100 justify-content-between"  id="navigation-search-bar">
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav" id="menu"><li class="nav-item ">
-    <a class="nav-link" href="/site-repo/goals">Goals</a>
+    <a class="nav-link" href="/site-repo/goals">Ziele</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/site-repo/reporting-status">Reporting Status</a>
+    <a class="nav-link" href="/site-repo/reporting-status">Berichtsstatus</a>
 </li><li class="nav-item ">
-    <a class="nav-link" href="/site-repo/about">About</a>
+    <a class="nav-link" href="/site-repo/about">Über uns</a>
 </li><li class="nav-item ">
     <a class="nav-link" href="/site-repo/faq">FAQ</a>
 </li></ul>
@@ -206,10 +210,10 @@ layout-indicator
                     <div class="d-flex header-toggle">
                         <form class="align-self-lg-end" id="search" action="/site-repo/search/">
     <div class="input-group">
-        <label class="visually-hidden" for="indicator_search">Search</label>
-        <input class="form-control" type="search" name="q" id="indicator_search" title="Search">
+        <label class="visually-hidden" for="indicator_search">Suche</label>
+        <input class="form-control" type="search" name="q" id="indicator_search" title="Suche">
         <span class="input-group-append">
-            <button class="btn btn-outline-secondary ms-n5" aria-label="Search" id="search-btn" type="submit">
+            <button class="btn btn-outline-secondary ms-n5" aria-label="" id="search-btn" type="submit">
                 <i class="fa fa-search"></i>
             </button>
         </span>
@@ -226,11 +230,11 @@ layout-indicator
   <div class="btn-group language-toggle-dropdown  dropdown">
     <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
       <i class="fa fa-globe"></i>
-      English
+      Deutsch
     </button>
     <ul class="dropdown-menu"><li>
-            <a class="dropdown-item" href="/site-repo/de/4-5-1/">
-              Deutsch
+            <a class="dropdown-item" href="/site-repo/en/4-5-1/">
+              English
             </a>
           </li></ul>
   </div>
@@ -240,12 +244,12 @@ layout-indicator
 
                         <span class="no-js-language-toggle"><div class="language-toggle-container d-flex">
     <i class="fa fa-globe language-toggle-globe-links"></i>
-    <ul class="language-toggle-links list-unstyled list-inline"><li class="language-option-de list-inline-item">
-            <a class="language-toggle-link" href="/site-repo/de/4-5-1/">
-                Deutsch
+    <ul class="language-toggle-links list-unstyled list-inline"><li class="language-option-en list-inline-item">
+            <a class="language-toggle-link" href="/site-repo/en/4-5-1/">
+                English
             </a>
         </li></ul>
-</div></span><a title="Enable high contrast" aria-label="Enable high contrast"
+</div></span><a title="Aktivieren Sie hohen Kontrast" aria-label="Aktivieren Sie hohen Kontrast"
     data-contrast-switch-to="" href="javascript:void(0)" data-on="click"
 data-event-category="Accessibility"
 data-event-action="Change contrast setting"
@@ -268,8 +272,8 @@ data-event-label="high"
     <div class="row">
       <div class="Image">
         
-        <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/4.png" alt="Quality education - Goal 4" id="goal-4"  />
         
+        <img src="/site-repo/assets/img/goals/de/4.png" alt="Hochwertige Bildung - Ziel 4" id="goal-4"  />
         
        
 
@@ -310,15 +314,15 @@ data-event-label="high"
       >
         <% if(allowedFields.indexOf(fieldItem.field) == -1) { %><h6><% } else { %><h5><% } %>
           <span aria-hidden="true"><%=translations.t(fieldItem.label)%><i class="fa fa-chevron-down"></i></span>
-          <span class="sr-only">Show sub-categories: <%=translations.t(fieldItem.label)%></span>
+          <span class="sr-only">Unterkategorien anzeigen: <%=translations.t(fieldItem.label)%></span>
         <% if(allowedFields.indexOf(fieldItem.field) == -1) { %></h6><% } else { %></h5><% } %>
       </button>
       <div class="variable-options">
         <fieldset>
-          <legend class="sr-only">Sub-categories - <%=translations.t(fieldItem.field)%></legend>
+          <legend class="sr-only">Disaggregationsdimensionen - <%=translations.t(fieldItem.field)%></legend>
           <div>
-            <button data-type="select">Select all</button>
-            <button data-type="clear">Clear all</button>
+            <button data-type="select">Alle auswählen</button>
+            <button data-type="clear">Auswahl aufheben</button>
           </div>
           <% _.each(fieldItem.values, function(item) { %>
             <label>
@@ -329,10 +333,10 @@ data-event-label="high"
       </div>
 
       <% if(allowedFields.indexOf(fieldItem.field) == -1) { %>
-        <div class="variable-hint" id="variable-hint-<%=fieldItem.field.replace(/ /g, '-')%>">Available when '<%= translations.t(_.find(edges, { To: fieldItem.field }).From) %>' is selected
+        <div class="variable-hint" id="variable-hint-<%=fieldItem.field.replace(/ /g, '-')%>">Verfügbar
         </div>
         <div class="no-data-hint" id="no-data-hint-<%=fieldItem.field.replace(/ /g, '-')%>">
-          No options available because of filters above
+          Aufgrund der bereits getroffenen Auswahl sind keine weiteren Auswahlmöglichkeiten verfügbar.
         </div>
       <% }%>
 
@@ -342,9 +346,9 @@ data-event-label="high"
 
 <script type="text/template" id="units_template">
   
-    <h4>Unit of Measurement</h4>
+    <h4>Einheit</h4>
     <fieldset>
-      <legend class="sr-only">Unit of Measurement</legend>
+      <legend class="sr-only">Einheit</legend>
       <% _.each(units, function(unitsItem, index) { %>
         <% var checked = (selectedUnit) ? (selectedUnit==unitsItem) : (index==0); %>
         <label><input type="radio" name="unit" value="<%=unitsItem%>" tabindex=0 <%=checked ? 'checked' : ''%> /> <%=translations.t(unitsItem)%></label>
@@ -355,9 +359,9 @@ data-event-label="high"
 
 <script type="text/template" id="series_template">
   
-    <h4>Series</h4>
+    <h4>Reihe</h4>
     <fieldset>
-      <legend class="sr-only">Series</legend>
+      <legend class="sr-only">Reihe</legend>
       <% _.each(serieses, function(seriesItem, index) { %>
         <% var checked = (selectedSeries) ? (selectedSeries==seriesItem) : (index==0); %>
         <label><input type="radio" name="series" value="<%=seriesItem%>" tabindex=0 <%=checked ? 'checked' : ''%> /> <%=translations.t(seriesItem)%></label>
@@ -366,9 +370,9 @@ data-event-label="high"
   
 </script>
 
-<script>translations['indicator'] = {"annotation_2030_target":"2030 indicator target","annotation_series_break":"Series break","announce_data_added":"Chart and table updated to include data.","announce_data_not_available":"Chart and table shows no data.","announce_data_removed":"Chart and table updated to exclude data.","chart":"Chart","chart_annotation":"Chart annotation","clear_all":"Clear all","clear_selections":"Clear selections","data_keyboard_navigation":"Press enter to browse data points with left and right arrow keys.","data_not_available":"This data is not available. Please choose alternative data to display.","data_tabular_alternative":"For tabular data alternative see Table tab.","dataset_size_warning":"There are too many datasets to show on the chart. Not all will be shown until you remove some selections.","download_chart":"Download Chart CSV","download_chart_image":"Download Chart Image","download_chart_image_title":"Download chart as image","download_csv":"Download CSV","download_csv_title":"Download as CSV","download_geojson":"Download GeoJSON","download_geojson_title":"Download as GeoJSON","download_headline":"Download Headline CSV","download_headline_title":"Download headline data as CSV","download_source":"Download Source CSV","download_source_sdmx":"Download Source SDMX","download_source_sdmx_title":"Download source data as SDMX","download_source_title":"Download source data as CSV","download_table":"Download Table CSV","edit":"Edit","edit_configuration":"Edit Configuration","edit_data":"Edit Data","edit_metadata":"Edit Metadata","footnote":"Footnote","geographical_area":"Geographical Area","global_metadata":"Global Metadata","global_metadata_blurb":"This table provides information on metadata for SDG indicators as defined by the UN Statistical Commission. <a href=\"https://unstats.un.org/sdgs/metadata/\">Complete global metadata</a> is provided by the UN Statistics Division.","legend_help":"Click on the legend to remove individual lines from the chart.","loading":"Loading","loading_map":"Loading map","map":"Map","map_search":"Search","map_search_hide":"Hide search","map_search_show":"Show search","map_year_slider":"Year slider","national_metadata":"National Metadata","national_metadata_blurb":"This table provides metadata for the actual indicator available from %country_name statistics closest to the corresponding global SDG indicator. Please note that even when the global SDG indicator is fully available from %country_adjective statistics, this table should be consulted for information on national methodology and other %country_adjective-specific metadata information.","next":"Next indicator","no_data_hint":"No options available because of filters above","plot_legend_description":"Plot legend: list of lines included in chart","previous":"Previous indicator","select_all":"Select all","series":"Series","series_help":"Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.","source":"Source","sources":"Sources","status":"Indicator status","sub_categories":"Sub-categories","sub_categories_show":"Show sub-categories:","table":"Table","table_column_sort":"Click to sort by this column","tags":"Tags","unit":"Unit","unit_of_measurement":"Unit of Measurement","units_type":"Units type","variable_hint":"Available when '%field' is selected","view_indicator_list":"View this goal's indicator list"};</script>
+<script>translations['indicator'] = {"annotation_2030_target":"2030 Ziel","announce_data_added":"Diagramm und Tabelle wurden aktualisiert, um die Daten einzubeziehen.","announce_data_not_available":"Diagramm und Tabelle zeigen keine Daten.","announce_data_removed":"Diagramm und Tabelle aktualisiert, um Daten auszuschließen.","chart":"Grafik","chart_annotation":"Diagramm-Anmerkung","clear_all":"Auswahl aufheben","clear_selections":"Auswahl aufheben","data_keyboard_navigation":"Drücken Sie die Eingabetaste, um mit den Pfeiltasten nach links und rechts durch die Datenpunkte zu blättern.","data_not_available":"Diese Daten sind nicht verfügbar. Bitte wählen Sie alternative Daten aus, die angezeigt werden sollen.","data_tabular_alternative":"Für tabellarische Daten alternativ siehe Registerkarte Tabelle.","dataset_size_warning":"Zu viele Zeitreihen ausgewählt um diese in einer Grafik darzustellen. Es können nicht alle Zeitreihen dargestellt werden.","download_chart":"Grafik im CSV-Format speichern","download_chart_image":"Grafik herunterladen","download_chart_image_title":"Grafik als Bild herunterladen","download_csv":"im CSV-Format speichern","download_csv_title":"im CSV-Format speichern","download_geojson":"im GeoJSON-Format speichern","download_geojson_title":"im GeoJSON-Format speichern","download_headline":"Speichern der Headline im CSV-Format","download_headline_title":"Speichern der Headline im CSV-Format","download_source":"Daten im CSV-Format speichern","download_source_sdmx":"Daten im SDMX-Format speichern","download_source_sdmx_title":"Daten im SDMX-Format speichern","download_source_title":"Daten im CSV-Format speichern","download_table":"Tabelle im CSV-Format speichern","edit":"Bearbeiten","edit_configuration":"Konfiguration bearbeiten","edit_data":"Daten bearbeiten","edit_metadata":"Metadaten bearbeiten","footnote":"Fußnote","geographical_area":"Geographische Abdeckung","global_metadata":"Globale Metadaten","global_metadata_blurb":"Diese Übersicht stellt weitere Informationen zu den Metadaten des jeweiligen Indikators bereit.","legend_help":"Klicken Sie auf die Legende um Zeitreihen aus der Grafik zu entfernen.","loading":"Laden","loading_map":"Karte wird geladen","map":"Karte","map_search":"Suche","map_search_hide":"Suche ausblenden","map_search_show":"Suche anzeigen","map_year_slider":"Jahr-Schieberegler","national_metadata":"Nationale Metadaten","national_metadata_blurb":"Im Folgenden werden die Metadaten zu den lokal verfügbaren Zeitreihen für Treptow-Köpenick zum jeweiligen Indikator bereitgestellt.","next":"Nächster Indikator","no_data_hint":"Aufgrund der bereits getroffenen Auswahl sind keine weiteren Auswahlmöglichkeiten verfügbar.","plot_legend_description":"Plot-Legende: Liste der im Diagramm enthaltenen Linien","previous":"Vorheriger Indikator","select_all":"Alle auswählen","series":"Reihe","series_help":"Wählen Sie aus den nachstehenden Dropdown-Listen Kategorien aus, um verschiedene Aufschlüsselungen der Daten anzuzeigen.","source":"Datenquelle","sources":"Datenquellen","status":"Status des Indikators","sub_categories":"Disaggregationsdimensionen","sub_categories_show":"Unterkategorien anzeigen:","table":"Tabelle","table_column_sort":"Klicken Sie auf , um nach dieser Spalte zu sortieren","tags":"Tags","unit":"Einheit","unit_of_measurement":"Einheit","units_type":"Einheit","variable_hint":"Verfügbar","view_indicator_list":"Zeigt die Indikatorenliste zum SDG-Ziel an"};</script>
 
-<script>translations['data'] = null;</script>
+<script>translations['data'] = {"data.Ausgezeichnet":"Ausgezeichnet","data.Ausreichend":"Ausreichend","data.Gut":"Gut","data.Mangelhaft":"Mangelhaft","data.ableism":"Behindertenfeindlichkeit","data.air":"Relative Luftbelastung","data.allewege":"Alle Wege","data.antisem":"Antisemitismus","data.antworten":"Antworten","data.area":"Fläche","data.availability":"Verfügbarkeit","data.bezirk":"Bezirksregion","data.binnen":"Binnenverkehr","data.einewelt":"Eine-Welt-Projekte","data.erhol":"Grün- und Erholungsanlagen (inkl. Spielplätze)","data.esek":"Emittentensektoren","data.freiz":"Sport-, Freizeit- und Erholungsfläche","data.friedh":"Friedhöfe","data.fuss":"Zu Fuß","data.gemeindep":"Gemeindeprojekte","data.gewerbe":"Verarbeitendes Gewerbe","data.group":"Gruppe","data.gruen":"Öffentliche Grünflächen","data.haushalte":"Haushalte, Gewerbe, Handel und Dienstleistungen, übrige Verbraucher","data.high":"Hoch","data.inB":"In Bewerbung","data.incident":"Art des Vorfalls","data.indoor":"Innenbereich","data.indu":"Industrie- und Gewerbefläche","data.ja":"Ja","data.kat":"Kategorie","data.keineB":"Keine Bewerbung","data.kleing":"Kleingärten","data.low":"Gering","data.luftg":"Luftgüte","data.m":"Männer","data.maintransport":"Hauptverkehrsmittel","data.medium":"Mittel","data.miv":"Motorisierter Individualverkehr","data.nat":"Naturschutzgebiete","data.nein":"Nein","data.no":"Keine Werte","data.noise":"Relative Lärmbelastung","data.offis":"Öffentlicher Verkehr","data.outdoor":"Außenbereich","data.ozonacht":"Ozon 8-Stundenwerte (gleitend)","data.ozonst":"Ozon Stundenwerte","data.partner":"Partnerstädte","data.pm":"Feinstaub (PM10)","data.polgeg":"Politische Gegner*innen","data.pow":"Leistungsklasse","data.private":"Öffentlich zugänglich - auf privatem Grund","data.protect":"Landschaftsschutzgebiete","data.public":"Öffentlicher Raum","data.qhostility":"LGBTIQ*-Feindlichkeit","data.quell":"Quell- u. Zielverkehr","data.racism":"Rassismus","data.rad":"Fahrrad","data.redlistcat":"Gefährdungskategorien","data.repcaf":"Repair Cafes","data.reuse":"ReUse Shops","data.rightwing":"Rechte und extrem Rechte Selbstdarstellung","data.rld":"Daten unzureichend","data.rldrei":"Gefährdet","data.rle":"Nicht bewertet","data.rleins":"Vom Aussterben bedroht","data.rlg":"Gefährdung unbekannten Ausmaßes","data.rlnull":"Ausgestorben oder verschollen","data.rlr":"Extrem selten","data.rlv":"Vorwarnliste","data.rlzwei":"Stark gefährdet","data.saprobie":"Saprobie","data.schulp":"Schulpartnerschaften","data.sex":"Geschlecht","data.sied":"Siedlungsfläche","data.sozch":"Sozialchauvinismus","data.spatialtypes":"Verkehrsströme","data.standort":"Standort","data.stapa":"Städtepartnerschaften","data.strgr":"Straßengrün","data.sumgr":"Summe öffentliche Grünflächen","data.tlu":"Ungefährdet","data.tot":"Gesamt","data.trivil":"NS-Verharmlosung und Verherrlichung","data.trophie":"Trophie","data.umwand":"Umwandlungssektor","data.verkehr":"Verkehr","data.w":"Frauen","data.wahlk":"Wahlkampf","data.weltl":"Weltläden","data.wohn":"Wohnbaufläche","data.workshops":"Gemeinschaftswerkstätten","data.zert":"Fairtrade-School zertifiziert","data.zertFG":"Siegel Faire Gemeinde","data.zertK":"Kein Siegel","data.zivip":"Zivilgesellschaftliche Projekte","data.zug":"Zugangspunkte","data.zustand":"Zustand"};</script>
 
 
 <div class="container">
@@ -377,14 +381,18 @@ data-event-label="high"
     <ol aria-label="breadcrumb" class="breadcrumb" style="--bs-breadcrumb-divider: '&rsaquo;';">
         
         <li class="breadcrumb-item">
-            <a href="/site-repo/">Home</a>
+            <a href="/site-repo/">Startseite</a>
         </li>
         <li class="breadcrumb-item">
-            <a href="/site-repo/goals">Goals</a>
+            <a href="/site-repo/goals">Ziele</a>
         </li>
         
         <li class="breadcrumb-item">
-            <a href="/site-repo/4" title="Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all">Goal 4</a>
+            <a href="/site-repo/4"
+               title="Ziel 4 - Hochwertige Bildung"
+               aria-label="Ziel  - ">
+               Ziel 4
+            </a>
         </li>
         
     </ol>
@@ -398,8 +406,8 @@ data-event-label="high"
         
             <div class="goal-titles">
                 
-                <h1 class="indicator-title-by-indicator goal-4">Indicator 4.5.1</h1>
-                <h1 class="indicator-title-by-indicator goal-4">Parity indices (female/male, rural/urban, bottom/top wealth quintile and others such as disability status, indigenous peoples and conflict-affected, as data become available) for all education indicators on this list that can be disaggregated</h1>
+                <h1 class="indicator-title-by-indicator goal-4">Indikator 4.5.1</h1>
+                <h1 class="indicator-title-by-indicator goal-4">Projektteilnehmer des Projektes "Umweltschule in Europa - Internationale Nachhaltigkeitsschule"</h1>
                 
             </div>
         </div>
@@ -462,8 +470,8 @@ data-event-label="high"
 <div id="units"></div>
 <div id="toolbar">
   <span id="series-help">
-    <h4>Sub-categories</h4>
-    <p>Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.</p>
+    <h4>Disaggregationsdimensionen</h4>
+    <p>Wählen Sie aus den nachstehenden Dropdown-Listen Kategorien aus, um verschiedene Aufschlüsselungen der Daten anzuzeigen.</p>
   </span>
   <div id="fields">
     <p class="async-loading" data-img="/site-repo/assets/img/loading-small.gif"></p>
@@ -482,9 +490,9 @@ data-event-label="high"
   <div id="datatables">
 
     
-    <a href="https://tt053626.github.io/data-repo/en/headline/4-5-1.csv" class="btn btn-primary btn-download" download="indicator_4-5-1.csv" tabindex="0" role="button">Download Headline CSV</a>
+    <a href="https://tt053626.github.io/data-repo/de/headline/4-5-1.csv" class="btn btn-primary btn-download" download="indicator_4-5-1.csv" tabindex="0" role="button">Speichern der Headline im CSV-Format</a>
     
-    <a href="https://tt053626.github.io/data-repo/en/data/4-5-1.csv" class="btn btn-primary btn-download" download='indicator_4-5-1.csv' tabindex='0' role='button'>Download Source CSV</a>
+    <a href="https://tt053626.github.io/data-repo/de/data/4-5-1.csv" class="btn btn-primary btn-download" download='indicator_4-5-1.csv' tabindex='0' role='button'>Daten im CSV-Format speichern</a>
 
     <p class="no-js-disaggregation-hint"></p>
 
@@ -609,13 +617,13 @@ data-event-label="high"
   
   <div id="datatableFooter">
     
-    <p>Source: Deutsche Gesellschaft für Umwelterziehung</p>
+    <p>Datenquelle: Deutsche Gesellschaft für Umwelterziehung</p>
     
     
-    <p>Geographical Area: Treptow-Köpenick</p>
+    <p>Geographische Abdeckung: Treptow-Köpenick</p>
     
     
-    <p>Unit of Measurement: Number of awards</p>
+    <p>Einheit: Number of awards</p>
     
     
   </div>
@@ -631,7 +639,7 @@ data-event-label="high"
   <div class="async-loaded mt-4" style="display:none;">
 
     <div style="display: none;">
-    <span id="table-alternative">For tabular data alternative see Table tab.</span>
+    <span id="table-alternative">Für tabellarische Daten alternativ siehe Registerkarte Tabelle.</span>
   </div>
   <ul class="nav nav-tabs non-stacking-tabs data-view" role="tablist">
     
@@ -657,7 +665,7 @@ data-event-action="Change data view"
 data-event-label="Change to Chart tab"
 
         
-      >Chart</button>
+      >Grafik</button>
     </li>
     
     <li role="presentation"
@@ -681,7 +689,7 @@ data-event-action="Change data view"
 data-event-label="Change to Table tab"
 
         
-      >Table</button>
+      >Tabelle</button>
     </li>
     
   </ul>
@@ -693,8 +701,8 @@ data-event-label="Change to Table tab"
           
 
     <div id="dataset-size-warning" style="display:none" role="alert">
-      <i class="fa fa-bolt"><span class="sr-only">Warning:</span></i>
-      There are too many datasets to show on the chart. Not all will be shown until you remove some selections.
+      <i class="fa fa-bolt"><span class="sr-only">Warnung:</span></i>
+      Zu viele Zeitreihen ausgewählt um diese in einer Grafik darzustellen. Es können nicht alle Zeitreihen dargestellt werden.
     </div>
 
     
@@ -720,16 +728,16 @@ data-event-label="Change to Table tab"
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-        <dt>Source:</dt>
+        <dt>Datenquelle:</dt>
         <dd>Deutsche Gesellschaft für Umwelterziehung</dd>
         
 
         
-        <dt>Geographical Area:</dt>
+        <dt>Geographische Abdeckung:</dt>
         <dd>Treptow-Köpenick</dd>
         
 
-        <dt class="data-controlled-footer-field unit-from-data">Unit of Measurement:</dt>
+        <dt class="data-controlled-footer-field unit-from-data">Einheit:</dt>
         <dd class="data-controlled-footer-field unit-from-data"></dd>
 
         
@@ -743,7 +751,7 @@ data-event-label="Change to Table tab"
         <dt
           class="data-controlled-footer-field"
           data-ts-attribute="COMMENT_TS"
-        >Footnote:</dt>
+        >Fußnote:</dt>
         <dd
           class="data-controlled-footer-field"
           data-ts-attribute="COMMENT_TS"
@@ -752,7 +760,7 @@ data-event-label="Change to Table tab"
         <dt
           class="data-controlled-footer-field"
           data-ts-attribute="DATA_LAST_UPDATE"
-        >Data last updated:</dt>
+        >Daten zuletzt aktualisiert am:</dt>
         <dd
           class="data-controlled-footer-field"
           data-ts-attribute="DATA_LAST_UPDATE"
@@ -765,9 +773,13 @@ data-event-label="Change to Table tab"
         </div>
       </figure>
       <div id="chartSelectionDownload" class="clearfix">
-        <button id="btnSave" title="Download chart as image" class='btn btn-primary btn-download'>
-          Download Chart Image
-        </button><!-- 
+        <button
+          id="btnSave"
+          title="Grafik als Bild herunterladen"
+          aria-label="Grafik als Bild herunterladen"
+          class='btn btn-primary btn-download'>
+          Grafik herunterladen
+        </button><!--
    --></div>
     </div>
 
@@ -779,7 +791,7 @@ data-event-label="Change to Table tab"
       
         <div role="tabpanel" class="tab-pane " id="tableview">
           <div style="display: none;">
-            <span id="column-sort-info">Click to sort by this column</span>
+            <span id="column-sort-info">Klicken Sie auf , um nach dieser Spalte zu sortieren</span>
           </div>
           <div id="selectionsTable"></div>
 <dl id="tableTargetLines" class="clearfix"></dl>
@@ -791,16 +803,16 @@ data-event-label="Change to Table tab"
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
-        <dt>Source:</dt>
+        <dt>Datenquelle:</dt>
         <dd>Deutsche Gesellschaft für Umwelterziehung</dd>
         
 
         
-        <dt>Geographical Area:</dt>
+        <dt>Geographische Abdeckung:</dt>
         <dd>Treptow-Köpenick</dd>
         
 
-        <dt class="data-controlled-footer-field unit-from-data">Unit of Measurement:</dt>
+        <dt class="data-controlled-footer-field unit-from-data">Einheit:</dt>
         <dd class="data-controlled-footer-field unit-from-data"></dd>
 
         
@@ -814,7 +826,7 @@ data-event-label="Change to Table tab"
         <dt
           class="data-controlled-footer-field"
           data-ts-attribute="COMMENT_TS"
-        >Footnote:</dt>
+        >Fußnote:</dt>
         <dd
           class="data-controlled-footer-field"
           data-ts-attribute="COMMENT_TS"
@@ -823,7 +835,7 @@ data-event-label="Change to Table tab"
         <dt
           class="data-controlled-footer-field"
           data-ts-attribute="DATA_LAST_UPDATE"
-        >Data last updated:</dt>
+        >Daten zuletzt aktualisiert am:</dt>
         <dd
           class="data-controlled-footer-field"
           data-ts-attribute="DATA_LAST_UPDATE"
@@ -854,7 +866,7 @@ data-event-label="Change to Table tab"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to National Metadata tab"
->National Metadata</button>
+>Nationale Metadaten</button>
 </li>
 
 <li role="presentation" class="nav-item">
@@ -862,7 +874,7 @@ data-event-label="Change to National Metadata tab"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to Global Metadata tab"
->Global Metadata</button>
+>Globale Metadaten</button>
 </li>
 
 <li role="presentation" class="nav-item">
@@ -870,13 +882,13 @@ data-event-label="Change to Global Metadata tab"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
 data-event-label="Change to Sources tab"
->Sources</button>
+>Datenquellen</button>
 </li>
   
     
     
         <li role="presentation" class="nav-item">
-            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#edit" aria-controls="edit" role="tab">Edit</a>
+            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#edit" aria-controls="edit" role="tab">Bearbeiten</a>
         </li>
     
 </ul>
@@ -890,9 +902,10 @@ data-event-label="Change to Sources tab"
             <p>
                 
                 
-                This table provides metadata for the actual indicator available from %country_name statistics closest to the corresponding global SDG indicator. Please note that even when the global SDG indicator is fully available from %country_adjective statistics, this table should be consulted for information on national methodology and other %country_adjective-specific metadata information.
+                Im Folgenden werden die Metadaten zu den lokal verfügbaren Zeitreihen für Treptow-Köpenick zum jeweiligen Indikator bereitgestellt.
             </p>
-            <table class="table">
+            <table class="table metadata-content">
+  <tbody>
   
   
   
@@ -900,13 +913,22 @@ data-event-label="Change to Sources tab"
   
   
   
+      
+      
+      
+        
+          
+          
+          
+          
+        
       
       
       <tr>
-        <th scope="row">Indicator available </th>
+        <th scope="row">Verfügbare Datenreihenbezeichnung </th>
         <td>
           
-            
+            <p><span class="empty-metadata-placeholder"></span></p>
 
           
         </td>
@@ -916,11 +938,20 @@ data-event-label="Change to Sources tab"
   
       
       
+      
+        
+          
+          
+          
+          
+        
+      
+      
       <tr>
-        <th scope="row">Indicator description </th>
+        <th scope="row">Indikatorenbeschreibung </th>
         <td>
           
-            
+            <p><span class="empty-metadata-placeholder"></span></p>
 
           
         </td>
@@ -930,8 +961,10 @@ data-event-label="Change to Sources tab"
   
       
       
+      
+      
       <tr>
-        <th scope="row">Geographical coverage </th>
+        <th scope="row">Geographische Abdeckung </th>
         <td>
           
             <p>Treptow-Köpenick</p>
@@ -944,8 +977,10 @@ data-event-label="Change to Sources tab"
   
       
       
+      
+      
       <tr>
-        <th scope="row">Unit of measurement </th>
+        <th scope="row">Einheit </th>
         <td>
           
             <p>Number of awards</p>
@@ -958,100 +993,20 @@ data-event-label="Change to Sources tab"
   
       
       
-      <tr>
-        <th scope="row">Definitions </th>
-        <td>
+      
+        
           
-            
-
           
-        </td>
-        </tr>
+          
+          
         
       
-  
-      
       
       <tr>
-        <th scope="row">Calculations </th>
+        <th scope="row">Definitionen </th>
         <td>
           
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row">Other information </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row">Quality assurance </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row">Comparability with international data/standards </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row">Comments and limitations </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
-        
-      
-  
-      
-      
-      <tr>
-        <th scope="row">Data last updated </th>
-        <td>
-          
-            
-            
-            
-            
-
-            
+            <p><span class="empty-metadata-placeholder"></span></p>
 
           
         </td>
@@ -1062,18 +1017,139 @@ data-event-label="Change to Sources tab"
       
       
       
-  
+        
+          
+          
+          
+          
+        
       
       
       <tr>
-        <th scope="row">Metadata last updated </th>
+        <th scope="row">Methodik </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">Weitere Informationen </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">Qualitätssicherung </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">Vergleichbarkeit mit internationalen Daten / Standards </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">Kommentare und Einschränkungen </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">Daten zuletzt aktualisiert am </th>
         <td>
           
             
             
             
             
-
+            
+              <span class="empty-metadata-placeholder"></span>
             
 
           
@@ -1085,8 +1161,57 @@ data-event-label="Change to Sources tab"
       
       
       
+        
+          
+          
+          
+          
+        
+      
+      
+      
   
+      
+      
+      
+        
+          
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">Metadaten zuletzt aktualisiert am </th>
+        <td>
+          
+            
+            
+            
+            
+            
+              <span class="empty-metadata-placeholder"></span>
+            
+
+          
+        </td>
+        </tr>
+        
+      
   
+      
+      
+      
+        
+          
+          
+          
+          
+        
+      
+      
+      
   
   
   
@@ -1168,6 +1293,9 @@ data-event-label="Change to Sources tab"
   
   
   
+  
+  
+  </tbody>
 </table>
 
         </article>
@@ -1177,20 +1305,23 @@ data-event-label="Change to Sources tab"
     <!-- Global Metadata -->
     <div>
         <article>
-            <p>This table provides information on metadata for SDG indicators as defined by the UN Statistical Commission. <a href="https://unstats.un.org/sdgs/metadata/">Complete global metadata</a> is provided by the UN Statistics Division.</p>
-            <table class="table">
+            <p>Diese Übersicht stellt weitere Informationen zu den Metadaten des jeweiligen Indikators bereit.</p>
+            <table class="table metadata-content">
+  <tbody>
   
   
   
   
   
+      
+      
       
       
       <tr>
-        <th scope="row">Indicator name </th>
+        <th scope="row">Indikatorenbezeichnung </th>
         <td>
           
-            <p>Parity indices (female/male, rural/urban, bottom/top wealth quintile and others such as disability status, indigenous peoples and conflict-affected, as data become available) for all education indicators on this list that can be disaggregated</p>
+            <p>Projektteilnehmer des Projektes “Umweltschule in Europa - Internationale Nachhaltigkeitsschule”</p>
 
           
         </td>
@@ -1200,8 +1331,10 @@ data-event-label="Change to Sources tab"
   
       
       
+      
+      
       <tr>
-        <th scope="row">Indicator number </th>
+        <th scope="row">Indikatorennummerierung </th>
         <td>
           
             <p>4.5.1</p>
@@ -1308,6 +1441,7 @@ data-event-label="Change to Sources tab"
   
   
   
+  </tbody>
 </table>
 
         </article>
@@ -1325,7 +1459,8 @@ data-event-label="Change to Sources tab"
     
     <div class="col-md-6">
       
-      <table class="table">
+      <table class="table metadata-content">
+  <tbody>
   
   
   
@@ -1358,6 +1493,8 @@ data-event-label="Change to Sources tab"
   
   
   
+      
+      
       
       
       <tr>
@@ -1374,11 +1511,20 @@ data-event-label="Change to Sources tab"
   
       
       
+      
+        
+          
+          
+          
+          
+        
+      
+      
       <tr>
-        <th scope="row">Periodicity </th>
+        <th scope="row">Periodizität </th>
         <td>
           
-            
+            <p><span class="empty-metadata-placeholder"></span></p>
 
           
         </td>
@@ -1388,11 +1534,20 @@ data-event-label="Change to Sources tab"
   
       
       
+      
+        
+          
+          
+          
+          
+        
+      
+      
       <tr>
-        <th scope="row">Earliest available data </th>
+        <th scope="row">Daten verfügbar seit </th>
         <td>
           
-            
+            <p><span class="empty-metadata-placeholder"></span></p>
 
           
         </td>
@@ -1402,11 +1557,20 @@ data-event-label="Change to Sources tab"
   
       
       
+      
+        
+          
+          
+          
+          
+        
+      
+      
       <tr>
-        <th scope="row">Geographical coverage </th>
+        <th scope="row">Geographische Abdeckung </th>
         <td>
           
-            
+            <p><span class="empty-metadata-placeholder"></span></p>
 
           
         </td>
@@ -1416,18 +1580,19 @@ data-event-label="Change to Sources tab"
   
       
       
+      
+      
       <tr>
-        <th scope="row">Link to data source </th>
+        <th scope="row">Link zur Datenquelle </th>
         <td>
           
             
             
             
             
-
             
               <a href="http://www.umwelterziehung.de/projekte/umweltschule/USETeilnehmer/Berlin.html" target="_blank">
-                http://www.umwelterziehung.de/projekte/umweltschule/USETeilnehmer/Berlin.html <span class="visuallyhidden">opens in a new window</span>
+                http://www.umwelterziehung.de/projekte/umweltschule/USETeilnehmer/Berlin.html <span class="visuallyhidden">in neuem Fenster öffnen</span>
               </a>
             
 
@@ -1440,27 +1605,25 @@ data-event-label="Change to Sources tab"
       
       
       
+      
+      
   
       
       
-      <tr>
-        <th scope="row">Release date </th>
-        <td>
+      
+        
           
-            
           
-        </td>
-        </tr>
+          
+          
         
       
-  
-      
       
       <tr>
-        <th scope="row">Next release </th>
+        <th scope="row">Veröffentlichungsdatum </th>
         <td>
           
-            
+            <p><span class="empty-metadata-placeholder"></span></p>
 
           
         </td>
@@ -1470,11 +1633,20 @@ data-event-label="Change to Sources tab"
   
       
       
+      
+        
+          
+          
+          
+          
+        
+      
+      
       <tr>
-        <th scope="row">Statistical classification </th>
+        <th scope="row">Nächste Veröffentlichung am </th>
         <td>
           
-            
+            <p><span class="empty-metadata-placeholder"></span></p>
 
           
         </td>
@@ -1484,11 +1656,20 @@ data-event-label="Change to Sources tab"
   
       
       
+      
+        
+          
+          
+          
+          
+        
+      
+      
       <tr>
-        <th scope="row">Contact details </th>
+        <th scope="row">Statistische Klassifizierung </th>
         <td>
           
-            
+            <p><span class="empty-metadata-placeholder"></span></p>
 
           
         </td>
@@ -1498,11 +1679,43 @@ data-event-label="Change to Sources tab"
   
       
       
+      
+        
+          
+          
+          
+          
+        
+      
+      
       <tr>
-        <th scope="row">Other information </th>
+        <th scope="row">Kontaktinformationen </th>
         <td>
           
-            
+            <p><span class="empty-metadata-placeholder"></span></p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+          
+          
+          
+        
+      
+      
+      <tr>
+        <th scope="row">Weitere Informationen </th>
+        <td>
+          
+            <p><span class="empty-metadata-placeholder"></span></p>
 
           
         </td>
@@ -1570,6 +1783,7 @@ data-event-label="Change to Sources tab"
   
   
   
+  </tbody>
 </table>
 
     </div>
@@ -1589,11 +1803,11 @@ data-event-label="Change to Sources tab"
   
 
 
-  <a class="btn btn-primary" href="http://prose.io/#tt053626/data-repo/edit/develop/data/indicator_4-5-1.csv">Edit Data</a>
+  <a class="btn btn-primary" href="http://prose.io/#tt053626/data-repo/edit/develop/data/indicator_4-5-1.csv">Daten bearbeiten</a>
   
 
   
-  <a class="btn btn-primary" href="http://prose.io/#tt053626/data-repo/edit/develop/meta/4-5-1.md">Edit Metadata</a>
+  <a class="btn btn-primary" href="http://prose.io/#tt053626/data-repo/edit/develop/meta/4-5-1.md">Metadaten bearbeiten</a>
   
 
   
@@ -1603,7 +1817,7 @@ data-event-label="Change to Sources tab"
         </div>
     
 </div>
-  
+
 </div>
   </div>
 </div>
@@ -1614,8 +1828,8 @@ data-event-label="Change to Sources tab"
     <div class="row">
         <div id="text">
             
-            <h2 style="margin-bottom: 20px ; font-size: 20pt; font-weight: 700;" align="center"  ><b> Discover more SDGS</b></h2>
-            <h4 style="margin-bottom: 10px; color: #adadad;" align="center">Click on the individual goals to view the data <br> of our local sustainable development indicators.</h4>
+            <h2 style="margin-bottom: 20px ; font-size: 20pt; font-weight: 700;" align="center"  ><b> Entdecke mehr SDGS</b></h2>
+            <h4 style="margin-bottom: 10px; color: #adadad;" align="center">Klicken Sie auf die einzelnen Ziele, um die Daten unserer lokalen <br> Indikatoren für nachhaltige Entwicklung anzuzeigen.</h4>
             
         </div>
         <div id="carouselLowerNavigation" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2500">
@@ -1624,7 +1838,7 @@ data-event-label="Change to Sources tab"
                     <div class="carousel-item active">
                         <div class="carousel-col" id="lower-nav-goal">
                             <a href="/site-repo/1">
-                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/1.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-1" alt="No poverty - Goal 1"/>
+                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/1.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-1" alt="Keine Armut - Ziel 1"/>
                             </a>
                         </div>
                     </div>
@@ -1632,7 +1846,7 @@ data-event-label="Change to Sources tab"
                     <div class="carousel-item ">
                         <div class="carousel-col" id="lower-nav-goal">
                             <a href="/site-repo/2">
-                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/2.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-2" alt="Zero hunger - Goal 2"/>
+                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/2.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-2" alt="Kein Hunger - Ziel 2"/>
                             </a>
                         </div>
                     </div>
@@ -1640,7 +1854,7 @@ data-event-label="Change to Sources tab"
                     <div class="carousel-item ">
                         <div class="carousel-col" id="lower-nav-goal">
                             <a href="/site-repo/3">
-                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/3.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-3" alt="Good health and well-being - Goal 3"/>
+                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/3.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-3" alt="Gesundheit und Wohlergehen - Ziel 3"/>
                             </a>
                         </div>
                     </div>
@@ -1648,7 +1862,7 @@ data-event-label="Change to Sources tab"
                     <div class="carousel-item ">
                         <div class="carousel-col" id="lower-nav-goal">
                             <a href="/site-repo/4">
-                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/4.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-4" alt="Quality education - Goal 4"/>
+                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/4.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-4" alt="Hochwertige Bildung - Ziel 4"/>
                             </a>
                         </div>
                     </div>
@@ -1656,7 +1870,7 @@ data-event-label="Change to Sources tab"
                     <div class="carousel-item ">
                         <div class="carousel-col" id="lower-nav-goal">
                             <a href="/site-repo/5">
-                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/5.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-5" alt="Gender equality - Goal 5"/>
+                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/5.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-5" alt="Geschlechtergleichstellung - Ziel 5"/>
                             </a>
                         </div>
                     </div>
@@ -1664,7 +1878,7 @@ data-event-label="Change to Sources tab"
                     <div class="carousel-item ">
                         <div class="carousel-col" id="lower-nav-goal">
                             <a href="/site-repo/6">
-                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/6.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-6" alt="Clean water and sanitation - Goal 6"/>
+                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/6.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-6" alt="Sauberes Wasser und Sanitärversorgung - Ziel 6"/>
                             </a>
                         </div>
                     </div>
@@ -1672,7 +1886,7 @@ data-event-label="Change to Sources tab"
                     <div class="carousel-item ">
                         <div class="carousel-col" id="lower-nav-goal">
                             <a href="/site-repo/7">
-                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/7.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-7" alt="Affordable and clean energy - Goal 7"/>
+                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/7.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-7" alt="Bezahlbare und saubere Energie - Ziel 7"/>
                             </a>
                         </div>
                     </div>
@@ -1680,7 +1894,7 @@ data-event-label="Change to Sources tab"
                     <div class="carousel-item ">
                         <div class="carousel-col" id="lower-nav-goal">
                             <a href="/site-repo/8">
-                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/8.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-8" alt="Decent jobs and economic growth - Goal 8"/>
+                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/8.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-8" alt="Menschenwürdige Arbeit und Wirtschaftswachstum - Ziel 8"/>
                             </a>
                         </div>
                     </div>
@@ -1688,7 +1902,7 @@ data-event-label="Change to Sources tab"
                     <div class="carousel-item ">
                         <div class="carousel-col" id="lower-nav-goal">
                             <a href="/site-repo/9">
-                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/9.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-9" alt="Industry, innovation and infrastructure - Goal 9"/>
+                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/9.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-9" alt="Industrie, Innovationen und Infrastruktur - Ziel 9"/>
                             </a>
                         </div>
                     </div>
@@ -1696,7 +1910,7 @@ data-event-label="Change to Sources tab"
                     <div class="carousel-item ">
                         <div class="carousel-col" id="lower-nav-goal">
                             <a href="/site-repo/10">
-                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/10.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-10" alt="Reduced inequalities - Goal 10"/>
+                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/10.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-10" alt="Weniger Ungleichheiten - Ziel 10"/>
                             </a>
                         </div>
                     </div>
@@ -1704,7 +1918,7 @@ data-event-label="Change to Sources tab"
                     <div class="carousel-item ">
                         <div class="carousel-col" id="lower-nav-goal">
                             <a href="/site-repo/11">
-                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/11.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-11" alt="Sustainable cities &amp; communities - Goal 11"/>
+                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/11.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-11" alt="Nachhaltige Städte und Gemeinden - Ziel 11"/>
                             </a>
                         </div>
                     </div>
@@ -1712,7 +1926,7 @@ data-event-label="Change to Sources tab"
                     <div class="carousel-item ">
                         <div class="carousel-col" id="lower-nav-goal">
                             <a href="/site-repo/12">
-                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/12.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-12" alt="Responsible consumption and production - Goal 12"/>
+                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/12.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-12" alt="Verantwortungsvolle Konsum- und Produktionsmuster - Ziel 12"/>
                             </a>
                         </div>
                     </div>
@@ -1720,7 +1934,7 @@ data-event-label="Change to Sources tab"
                     <div class="carousel-item ">
                         <div class="carousel-col" id="lower-nav-goal">
                             <a href="/site-repo/13">
-                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/13.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-13" alt="Climate action - Goal 13"/>
+                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/13.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-13" alt="Maßnahmen zum Klimaschutz - Ziel 13"/>
                             </a>
                         </div>
                     </div>
@@ -1728,7 +1942,7 @@ data-event-label="Change to Sources tab"
                     <div class="carousel-item ">
                         <div class="carousel-col" id="lower-nav-goal">
                             <a href="/site-repo/14">
-                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/14.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-14" alt="Life below water - Goal 14"/>
+                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/14.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-14" alt="Leben unter Wasser - Ziel 14"/>
                             </a>
                         </div>
                     </div>
@@ -1736,7 +1950,7 @@ data-event-label="Change to Sources tab"
                     <div class="carousel-item ">
                         <div class="carousel-col" id="lower-nav-goal">
                             <a href="/site-repo/15">
-                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/15.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-15" alt="Life on land - Goal 15"/>
+                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/15.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-15" alt="Leben an Land - Ziel 15"/>
                             </a>
                         </div>
                     </div>
@@ -1744,7 +1958,7 @@ data-event-label="Change to Sources tab"
                     <div class="carousel-item ">
                         <div class="carousel-col" id="lower-nav-goal">
                             <a href="/site-repo/16">
-                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/16.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-16" alt="Peace and justice - strong institutions - Goal 16"/>
+                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/16.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-16" alt="Frieden, Gerechtigkeit und starke Institutionen - Ziel 16"/>
                             </a>
                         </div>
                     </div>
@@ -1752,7 +1966,7 @@ data-event-label="Change to Sources tab"
                     <div class="carousel-item ">
                         <div class="carousel-col" id="lower-nav-goal">
                             <a href="/site-repo/17">
-                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/en/17.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-17" alt="Partnerships for the goals - Goal 17"/>
+                                <img src="https://open-sdg.org/sdg-translations/assets/img/goals/de/17.png" class="d-block w-100 goal-icon-image goal-icon-image-" id="goal-17" alt="Partnerschaften zur Erreichung der Ziele - Ziel 17"/>
                             </a>
                         </div>
                     </div>
@@ -1778,7 +1992,7 @@ data-event-label="Change to Sources tab"
             <div class="col-xs-12">
                 <div id="kooperation" >
                     
-                    <p>Our project partners</p>
+                    <p>Unsere Projektpartner</p>
                     
                 </div>
             </div>
@@ -1789,23 +2003,23 @@ data-event-label="Change to Sources tab"
             <div class="col-xs-3" id="footer-binder">
                 <div id="bilder3" style="background-color:white;">
                     
-                    <a href="https://www.engagement-global.de/homepage.html" id="footer-binder-href" target="_blank" ><img src="/site-repo/assets/img/logo_eg.png" alt="engagement_global1" id="footer-binder-image" class="img-responsive"></a>
+                    <a href="https://www.engagement-global.de/" id="footer-binder-href" target="_blank" ><img src="/site-repo/assets/img/logo_eg.png" alt="engagement_global1" id="footer-binder-image" class="img-responsive"></a>
                     
                 </div>
             </div>
             <div class="col-xs-3" id="footer-binder">
                 <div id="bilder5" style="background-color:white;">
                     
-                    <h5 style="margin-top: 3%; margin-bottom: 2%;">with its</h5>
-                    <a href="https://skew.engagement-global.de/home.html" id="footer-binder-href" target="_blank" ><img src="/site-repo/assets/img/logo_skew_en.png" alt="engagement_global2" id="footer-binder-image" class="img-responsive"></a>
+                    <h5 style="margin-top: 3%; margin-bottom: 2%;">mit ihrer</h5>
+                    <a href="https://skew.engagement-global.de/" id="footer-binder-href" target="_blank" ><img src="/site-repo/assets/img/logo_skew_de.png" alt="engagement_global2" id="footer-binder-image" class="img-responsive"></a>
                     
                 </div>
             </div>
             <div class="col-xs-3" id="footer-binder">
                 <div id="bilder2" style="background-color:white">
                     
-                    <h5 style="margin-top: 2.5%; margin-bottom: 0%">On behalf of</h5>
-                    <a href="https://www.bmz.de/en" id="footer-binder-href" target="_blank" ><img src="/site-repo/assets/img/logo_BMZ.png" alt="bmz" id="footer-binder-image" class="img-responsive"></a>
+                    <h5 style="margin-top: 2.5%; margin-bottom: 0%">im Auftrag des</h5>
+                    <a href="https://www.bmz.de/de" id="footer-binder-href" target="_blank" ><img src="/site-repo/assets/img/logo_BMZ.png" alt="bmz" id="footer-binder-image" class="img-responsive"></a>
                     
                 </div>
             </div>
@@ -1817,7 +2031,7 @@ data-event-label="Change to Sources tab"
             <div class="col-xs-3" id="footer-binder">
                 <div id="bilder4" style="background-color:white;">
                     
-                    <a href="https://www.htw-berlin.de/en/" id="footer-binder-href" target="_blank"><img src="/site-repo/assets/img/logo_htw.png" alt="htw_berlin" id="footer-binder-image" class="img-responsive"></a>
+                    <a href="https://www.htw-berlin.de" id="footer-binder-href" target="_blank"><img src="/site-repo/assets/img/logo_htw.png" alt="htw_berlin" id="footer-binder-image" class="img-responsive"></a>
                     
                 </div>
             </div>
@@ -1836,15 +2050,15 @@ data-event-label="Change to Sources tab"
                                     </li>
                             <li style="color:white;margin: 15px;font-weight: bold;">
                                     
-                                        <a href="mailto:nachhaltigkeit@ba-tk.berlin.de" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Contact us</a>
+                                        <a href="mailto:nachhaltigkeit@ba-tk.berlin.de" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Kontakt</a>
                                     
                                     </li>
                             <li style="color:white;margin: 15px;font-weight: bold;">
-                                    <a href="/site-repo/about/cookies-and-privacy/" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Cookies</a>
+                                    <a href="/site-repo/about/cookies-and-privacy/" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Impressum</a>
                                     
                                     </li>
                             <li style="color:white;margin: 15px;font-weight: bold;">
-                                    <a href="/site-repo/guidance" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Guidance</a>
+                                    <a href="/site-repo/guidance" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Technische Hinweise</a>
                                     
                                     </li>
                             
@@ -1861,7 +2075,7 @@ data-event-label="Change to Sources tab"
                     <ul style="text-align: center;"
                     
                     <li style="color:white;margin: 15px;font-weight: bold;">
-                        <a href="https://open-sdg.org/" id="footerende-href" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;" >This website was created with Open SDG</a>
+                        <a href="https://open-sdg.org/" id="footerende-href" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;" >Diese Webseite wurde mit Open SDG erstellt</a>
                     </li>
                     
                 </ul>
@@ -1870,12 +2084,12 @@ data-event-label="Change to Sources tab"
         </div>
     </div>
 </footer>
-<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/1.11.5/js/dataTables.bootstrap5.min.js"></script>
 <script src="//cdn.datatables.net/fixedcolumns/3.2.3/js/dataTables.fixedColumns.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js" integrity="sha512-90vH1Z83AJY9DmlWa8WkjkV79yfS2n2Oxhsi2dZbIv0nC4E6m5AbH8Nh156kkM7JePmqD6tcZsfad1ueoaovww==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.0/dist/chart.min.js" integrity="sha256-Y26AMvaIfrZ1EQU49pf6H4QzVTrOI8m9wQYKkftBt4s=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/patternomaly@1.3.2/dist/patternomaly.js"></script>
 
@@ -1891,17 +2105,17 @@ data-event-label="Change to Sources tab"
 
 
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'hide';</script>
+    translations['general']['hide'] = 'ausblenden';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = 'Suche';</script>
 
-<script src='/site-repo/assets/js/sdg.js?v=20230218131356'></script>
+<script src='/site-repo/assets/js/sdg.js?v=20230218132347'></script>
 
 
     
     
-    <script src="/site-repo/assets/js/custom.js?v=20230218131356"></script><script>
+    <script src="/site-repo/assets/js/custom.js?v=20230218132347"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
