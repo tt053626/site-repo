@@ -41,10 +41,6 @@ var opensdg = {
   language: 'de',
 };
 
-// For backwards compatibility, some of these might need to be global.
-// @TODO: Remove these eventually.
-var remoteDataBaseUrl = opensdg.remoteDataBaseUrl;
-
 </script>
 
         <script>
@@ -118,22 +114,18 @@ var translations = {
         <script src="/site-repo/assets/js/lib/classList.js"></script>
         <![endif]-->
 
-        
-
-
-
-
-<link rel="shortcut icon" type="image/ico" href="/site-repo/assets/img/favicons/favicon.ico">
-<link rel="icon" type="image/png" href="/site-repo/assets/img/favicons/favicon.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/site-repo/assets/img/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/site-repo/assets/img/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/site-repo/assets/img/favicons/favicon-16x16.png">
+<link rel="icon" type="image/x-icon" href="/site-repo/assets/img/favicons/favicon.ico" />
 
 
         
-        
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
-        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site-repo/assets/css/style.css?v=20230218122047">
+        <link rel="stylesheet" href="/site-repo/assets/css/style.css?v=20230218131356">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -144,6 +136,10 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css" crossorigin=""/>
         
 
+        <!--[if IE]>
+        <link rel="stylesheet" href="/site-repo/assets/css/ie.css">
+        <![endif]-->
+
         
 
     </head>
@@ -152,162 +148,139 @@ layout-news
 ">
 <!-- <div class="container"> -->
 
-
-
 <script>translations['header'] = {"alpha":"Alpha-Version","default_contrast":"Standard kontrast","disable_high_contrast":"Hoher Kontrast deaktivieren","disclaimer":"Diese Seite befindet sich im Entwicklungsstadium.Wir freuen uns über Ihre <a href=\"mailto:%email_address\">Kommentare</a>.","enable_high_contrast":"Aktivieren Sie hohen Kontrast","high_contrast":"Hoher kontrast","skip_link":"Zum Hauptinhalt springen","tag_line":"17 Ziele, um unsere Welt zu verändern","toggle_menu":"Menü umschalten. Klicken Sie darauf, um das Menü zu erweitern oder zu reduzieren.","toggle_search":"Umschalten der Suche. Klicken Sie darauf, um die Suchleiste ein- oder auszublenden."};</script>
 
-  <a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Zum Hauptinhalt springen</a>
-  
+<a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Zum Hauptinhalt springen</a>
+<div class="container internet-explorer-message">
+    <h2 class="internet-explorer-message-title"></h2>
+    <p class="internet-explorer-message-body"></p>
+</div>
 
-<div style="position: sticky; position: -webkit-sticky; top: 15px; z-index:3; background: white;">
-  <div class="search-and-desktop-widgets" >
-    <header role="banner" class="header-menu-left-aligned" 
-            style="background: #2f53a7; 
-                   color: white; 
-                   position: relative; 
-                   top: -15px;">
 
-        <div class="container">
-            <div    class="logo-and-mobile-widgets"
-                      style=" height: 80px;
-                              display: -webkit-flex;
-                              display: -webkit-box;
-                              display: -ms-flexbox;
-                              display: flex;
-                              -webkit-align-items: center;
-                              -webkit-box-align: center;
-                              -ms-flex-align: center;
-                              align-items: center;">
+<div style="position: sticky;  position: -webkit-sticky; top: 15px; z-index:3; background-color: white;">
+    <div id="color-bar-background"  style="position: relative;"> </div>
 
-                  <div id="SDGlogo">
-                        <a class="navbar-brand" href="/site-repo/" id="home">
-    <img src="/site-repo/assets/img/SDG_logo.png" alt="Ziele für Nachhaltige Entwicklung - 17 Ziele, um unsere Welt zu verändern" />
+    <header role="banner" class="">
+        <div class="container" style="top: 0px;">
+
+            <nav class="navbar navbar-expand-lg navbar-light flex-wrap align-items-center" id="narbar-container"> 
+
+                <!-- change image src on mouse hover to have darken effect-->
+
+<a class="navbar-brand" href="/site-repo/de/" id="home" aria-label="" title="">
+    <img src="/site-repo/assets/img/SDG_logo.png"
+    onmouseover="this.src='/site-repo/assets/img/SDG_logo_focus.png'"
+    onmouseout="this.src='/site-repo/assets/img/SDG_logo.png'" alt="Ziele für Nachhaltige Entwicklung - 17 Ziele, um unsere Welt zu verändern"/>
 </a>
-                  </div>
-                  
-                  <h1 class="header"
-                      style=" text-align: left;
-                              position: relative;
-                              left: -1em;
-                              padding-bottom: 15px;">
-                                Monitoring der <br>
-                                Kommunalen Nachhaltigkeitsstrategie <br>
-                                Kreis Nordfriesland
-                  </h1>
-                  
 
-            </div>
-        </div>
-    </header>
-    <div id="banner" style="position: relative; top: -15px;"> </div>
+                
+                <h1 class="header">
+                    Monitoring der <br>
+                    Kommunalen Nachhaltigkeitsstrategie <br>
+                    Kommune X
+                </h1>
+                
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="d-flex flex-wrap w-100 justify-content-between"  id="navigation-search-bar">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav" id="menu"><li class="nav-item ">
+    <a class="nav-link" href="/site-repo/de/goals">Ziele</a>
+</li><li class="nav-item ">
+    <a class="nav-link" href="/site-repo/de/reporting-status">Berichtsstatus</a>
+</li><li class="nav-item ">
+    <a class="nav-link" href="/site-repo/de/about">Über uns</a>
+</li><li class="nav-item ">
+    <a class="nav-link" href="/site-repo/de/faq">FAQ</a>
+</li></ul>
+    
+                    </div>
+                    <div class="d-flex header-toggle">
+                        <form class="align-self-lg-end" id="search" action="/site-repo/de/search/">
+    <div class="input-group">
+        <label class="visually-hidden" for="indicator_search">Suche</label>
+        <input class="form-control" type="search" name="q" id="indicator_search" title="Suche">
+        <span class="input-group-append">
+            <button class="btn btn-outline-secondary ms-n5" aria-label="Suche" id="search-btn" type="submit">
+                <i class="fa fa-search"></i>
+            </button>
+        </span>
+    </div>
+</form>
+
+
+
+
+
+
+  <div class="language-toggle-container">
+  
+  <div class="btn-group language-toggle-dropdown  dropdown">
+    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="fa fa-globe"></i>
+      Deutsch
+    </button>
+    <ul class="dropdown-menu"><li>
+            <a class="dropdown-item" href="/site-repo/news/">
+              English
+            </a>
+          </li></ul>
+  </div>
 </div>
-    <header role="banner" class="header-menu-left-aligned" style="margin-top: -90px; z-index:2;">
-      <div class="container">
-        <div class="search-and-desktop-widgets" style="display: inline-flex; ">
-          <div id="search" class="menu-target">
-  <form action="/site-repo/search/">
-    <label class="sr-only" for="indicator_search">Suche</label>
-    <input type="text" name="q" id="indicator_search" title="Suche" /><!--
-    --><button aria-label="Suche" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
-  </form>
-</div>
-
-          <div class="navbar navbar-default widgets-without-menu">
-            <ul class="nav navbar-nav contrast-switcher"></ul>
-          </div>
-        </div>
-
-        <div class="navbar navbar-default menu-without-widgets" id="main-nav">
-          <ul class="top-level">
-    <li id="menuToggle"
-        aria-label="Menü umschalten. Klicken Sie darauf, um das Menü zu erweitern oder zu reduzieren."
-        aria-haspopup="true">
-        <button data-target="menu-mobile" aria-expanded="false">Menü</button>
-        <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/site-repo/goals">Ziele</a>
-</li><li class="nav-link ">
-    <a href="/site-repo/reporting-status">Berichtsstatus</a>
-</li><li class="nav-link ">
-    <a href="/site-repo/about">Über uns</a>
-</li><li class="nav-link ">
-    <a href="/site-repo/faq">FAQ</a>
-</li>
 
 
 
-    <li class="nav-link contrast contrast-default contrast-type-default">
-        <a title="Hoher Kontrast deaktivieren"
-           aria-label="Hoher Kontrast deaktivieren"
-           data-contrast-switch-to="default"
-           href="javascript:void(0)"
-           data-on="click"
-data-event-category="Accessibility"
-data-event-action="Change contrast setting"
-data-event-label="default"
-
-        >A</a>
-    </li>
-    <li class="nav-link contrast contrast-high contrast-type-default">
-        <a title="Aktivieren Sie hohen Kontrast"
-           aria-label="Aktivieren Sie hohen Kontrast"
-           data-contrast-switch-to="high"
-           href="javascript:void(0)"
-           data-on="click"
+                        <span class="no-js-language-toggle"><div class="language-toggle-container d-flex">
+    <i class="fa fa-globe language-toggle-globe-links"></i>
+    <ul class="language-toggle-links list-unstyled list-inline"><li class="language-option-en list-inline-item">
+            <a class="language-toggle-link" href="/site-repo/news/">
+                English
+            </a>
+        </li></ul>
+</div></span><a title="Aktivieren Sie hohen Kontrast" aria-label="Aktivieren Sie hohen Kontrast"
+    data-contrast-switch-to="" href="javascript:void(0)" data-on="click"
 data-event-category="Accessibility"
 data-event-action="Change contrast setting"
 data-event-label="high"
+>A</a>
 
-        >A</a>
-    </li>
-
-
-
-</ul>
-
-    </li>
-    <li id="searchToggle"
-        aria-label="Umschalten der Suche. Klicken Sie darauf, um die Suchleiste ein- oder auszublenden."
-        aria-haspopup="true">
-        <button data-target="search-mobile" aria-expanded="false">Suche</button>
-        <div id="search-mobile" class="menu-target">
-  <form action="/site-repo/search/">
-    <label class="sr-only" for="indicator_search-mobile">Suche</label>
-    <input type="text" name="q" id="indicator_search-mobile" title="Suche" /><!--
-    --><button aria-label="Suche" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
-  </form>
-</div>
-
-    </li>
-</ul>
-
-          <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
-    <a href="/site-repo/goals">Ziele</a>
-</li><li class="nav-link ">
-    <a href="/site-repo/reporting-status">Berichtsstatus</a>
-</li><li class="nav-link ">
-    <a href="/site-repo/about">Über uns</a>
-</li><li class="nav-link ">
-    <a href="/site-repo/faq">FAQ</a>
-</li>
-
-</ul>
-
+                    </div>
+                </div>
+            </nav>
         </div>
     </header>
+
 </div>
- <div id="top" tabindex=-1</div>
+<div id="top" tabindex=-1></div>
 
 
 
 
-
+<div class="container">
+  <nav>
+    <ol aria-label="breadcrumb" class="breadcrumb" style="--bs-breadcrumb-divider: '&rsaquo;';">
+        <li class="breadcrumb-item" >
+            <a href="/site-repo/de/">Startseite</a>
+        </li>
+        <li class="breadcrumb-item active">Neuigkeiten und Veranstaltungen</li>
+    </ol>
+</nav>
+</div>
 <div id="main-content" class="container newslist" role="main">
   <div class="row">
     <div class="col-md-9 push-md-3">
       
       <h1>Neuigkeiten und Veranstaltungen</h1>
       
-      <p>Auf dieser Seite finden Sie Neuigkeiten zur Berichterstattung über unser Nachhaltigkeitsmonitoring, zu Veranstaltungen und zu Möglichkeiten, einen Beitrag zur Messung der Erreichung der Ziele für nachhaltige Entwicklung zu leisten.</p>
+      
+
+
+    <p>Auf dieser Seite finden Sie Neuigkeiten zur Berichterstattung über unser Nachhaltigkeitsmonitoring, zu Veranstaltungen und zu Möglichkeiten, einen Beitrag zur Messung der Erreichung der Ziele für nachhaltige Entwicklung zu leisten.</p>
+
+
 
       
       
@@ -324,25 +297,7 @@ data-event-label="high"
     </div>
     
     <ul class="post-categories small-text"><li>
-                <a href="/site-repo/categories/#Update" title="Alle Beiträge in der Kategorie „Update“ anzeigen">Update</a></li></ul>
-    
-</article>
-
-      
-        <article class="post-listing">
-    <h2 class="post-title">
-        <a href="/site-repo/update0922/">Update for the indicators 2.2.1, 3.1.1, 3.1.2, 3.1.3, 11.1.1, 11.5.1</a>
-    </h2>
-    <div class="post-excerpt">
-        <p>There is new data</p>
-
-    </div>
-    <div class="post-date small-text">
-        <time datetime="2022-09-06T00:00:00+00:00">Sep 06, 2022</time>
-    </div>
-    
-    <ul class="post-categories small-text"><li>
-                <a href="/site-repo/categories/#Update" title="Alle Beiträge in der Kategorie „Update“ anzeigen">Update</a></li></ul>
+                <a href="/site-repo/de/categories/#Update" title="Alle Beiträge in der Kategorie „Update“ anzeigen">Update</a></li></ul>
     
 </article>
 
@@ -360,25 +315,7 @@ data-event-label="high"
     </div>
     
     <ul class="post-categories small-text"><li>
-                <a href="/site-repo/categories/#Events" title="Alle Beiträge in der Kategorie „Events“ anzeigen">Events</a></li></ul>
-    
-</article>
-
-      
-        <article class="post-listing">
-    <h2 class="post-title">
-        <a href="/site-repo/test-post-1/">Website Launch</a>
-    </h2>
-    <div class="post-excerpt">
-        <p>The launch of the website will take place on 28.2.2022.</p>
-
-    </div>
-    <div class="post-date small-text">
-        <time datetime="2022-02-19T00:00:00+00:00">Feb 19, 2022</time>
-    </div>
-    
-    <ul class="post-categories small-text"><li>
-                <a href="/site-repo/categories/#Events" title="Alle Beiträge in der Kategorie „Events“ anzeigen">Events</a></li></ul>
+                <a href="/site-repo/de/categories/#Events" title="Alle Beiträge in der Kategorie „Events“ anzeigen">Events</a></li></ul>
     
 </article>
 
@@ -392,12 +329,12 @@ data-event-label="high"
     
       
       <li>
-        <a href="/site-repo/categories/#Events" title="Alle Beiträge in der Kategorie „Events“ anzeigen">Events</a>
+        <a href="/site-repo/de/categories/#Events" title="Alle Beiträge in der Kategorie „Events“ anzeigen">Events</a>
       </li>
     
       
       <li>
-        <a href="/site-repo/categories/#Update" title="Alle Beiträge in der Kategorie „Update“ anzeigen">Update</a>
+        <a href="/site-repo/de/categories/#Update" title="Alle Beiträge in der Kategorie „Update“ anzeigen">Update</a>
       </li>
     
   </ul>
@@ -408,65 +345,7 @@ data-event-label="high"
   </div>
 </div>
 
-<style>
-    #kooperation {
-        background-color: #19486A;
-        color: white;
-        padding-top: 30px;
-        padding-bottom: 15px;
-        font-size: 20px;
-        text-align: center;
-        font-weight: bold;
-    }
-    * {
-        padding: 0;
-        margin: 0;
-    }
-    main {
-        width: 85%;
-        height: 200px;
-        margin: 200px, auto;
-        margin-left: 125px;
-        padding-top: 150px;
-        padding-bottom: 199px;
-        overflow: hidden;
-        position: relative;
-    }
-    section {
-        width: 90%;
-        height: 190px;
-        background: #F4F4F4;
-        margin: 5px auto;
-        display: flex;
-        justify-content: left;
-        overflow-x: auto;
-    }
-    section::-webkit-scrollbar {
-        visibility: hidden;
-    }
-    
-    .flexdirection {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
 
-    h5 {    
-        font-size: 0.65em; 
-        font-weight: 500;
-    }
-
-    @media screen and (max-width: 760px) {
-        .flexdirection {
-            flex-direction: column;
-            align-items: center;
-            margin-top: 5%;
-        }
-        h5 {  
-            text-align: center;
-        }
-    } 
-</style>
 <footer role="contentinfo" style="padding-top: 65px;">
     <div class="container">
         <div class="row" style="padding: 0px;">
@@ -481,38 +360,38 @@ data-event-label="high"
     </div>
     <div class="container">
         <div class="row flexdirection" style="padding: 1em; margin-bottom: 2%;">
-            <div class="col-xs-3" style="width: 15em; height: 5.5em; margin-top: 5%; margin-bottom: 0.3%;">
+            <div class="col-xs-3" id="footer-binder">
                 <div id="bilder3" style="background-color:white;">
                     
-                    <a href="https://www.engagement-global.de/" target="_blank" ><img src="/site-repo/assets/img/logo_eg.png" alt="engagement_global1" width="400" height="400" class="img-responsive" style="max-width: 100%;"></a>
+                    <a href="https://www.engagement-global.de/" id="footer-binder-href" target="_blank" ><img src="/site-repo/assets/img/logo_eg.png" alt="engagement_global1" id="footer-binder-image" class="img-responsive"></a>
                     
                 </div>
             </div>
-            <div class="col-xs-3" style="width: 15em; height: 5.5em; margin-top: 4%; margin-bottom: 2%;">
+            <div class="col-xs-3" id="footer-binder">
                 <div id="bilder5" style="background-color:white;">
                     
                     <h5 style="margin-top: 3%; margin-bottom: 2%;">mit ihrer</h5>
-                    <a href="https://skew.engagement-global.de/" target="_blank" ><img src="/site-repo/assets/img/logo_skew_de.png" alt="engagement_global2" width="400" height="400" class="img-responsive" style="max-width: 100%;"></a>
+                    <a href="https://skew.engagement-global.de/" id="footer-binder-href" target="_blank" ><img src="/site-repo/assets/img/logo_skew_de.png" alt="engagement_global2" id="footer-binder-image" class="img-responsive"></a>
                     
                 </div>
             </div>
-            <div class="col-xs-3" style="width: 15em; height: 5.5em; margin-top: 3%; margin-bottom: 2%;">
+            <div class="col-xs-3" id="footer-binder">
                 <div id="bilder2" style="background-color:white">
                     
                     <h5 style="margin-top: 2.5%; margin-bottom: 0%">im Auftrag des</h5>
-                    <a href="https://www.bmz.de/de" target="_blank" ><img src="/site-repo/assets/img/logo_BMZ.png" alt="bmz" width="400" height="400" class="img-responsive" style="max-width: 100%;"></a>
+                    <a href="https://www.bmz.de/de" id="footer-binder-href" target="_blank" ><img src="/site-repo/assets/img/logo_BMZ.png" alt="bmz" id="footer-binder-image" class="img-responsive"></a>
                     
                 </div>
             </div>
-            <div class="col-xs-3" style="width: 13em; height: 5em; margin-top: 5%; margin-bottom: 0%;">
+            <div class="col-xs-3" id="footer-binder">
                 <div id="bilder" style="background-color:white;">
-                    <a href="http://www.berlin.de/ba-treptow-koepenick/" target="_blank" ><img src="/site-repo/assets/img/logo_tk.png" alt="treptow_koepenick" width="400" height="400" class="img-responsive" style="max-width: 100%;"></a>
+                    <a href="http://www.berlin.de/ba-treptow-koepenick/" id="footer-binder-href" target="_blank" ><img src="/site-repo/assets/img/logo_tk.png" alt="treptow_koepenick" id="footer-binder-image" class="img-responsive"></a>
                 </div>
             </div>
-            <div class="col-xs-3" style="width: 13em; height: 5em; margin-top: 4%; margin-bottom: 0%;">
+            <div class="col-xs-3" id="footer-binder">
                 <div id="bilder4" style="background-color:white;">
                     
-                    <a href="https://www.htw-berlin.de" target="_blank" ><img src="/site-repo/assets/img/logo_htw.png" alt="htw_berlin" width="400" height="400" class="img-responsive"  style="max-width: 100%;"></a>
+                    <a href="https://www.htw-berlin.de" id="footer-binder-href" target="_blank"><img src="/site-repo/assets/img/logo_htw.png" alt="htw_berlin" id="footer-binder-image" class="img-responsive"></a>
                     
                 </div>
             </div>
@@ -535,11 +414,11 @@ data-event-label="high"
                                     
                                     </li>
                             <li style="color:white;margin: 15px;font-weight: bold;">
-                                    <a href="/site-repo/about/cookies-and-privacy/" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Impressum</a>
+                                    <a href="/site-repo/de/about/cookies-and-privacy/" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Impressum</a>
                                     
                                     </li>
                             <li style="color:white;margin: 15px;font-weight: bold;">
-                                    <a href="/site-repo/guidance" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Technische Hinweise</a>
+                                    <a href="/site-repo/de/guidance" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;">Technische Hinweise</a>
                                     
                                     </li>
                             
@@ -556,7 +435,7 @@ data-event-label="high"
                     <ul style="text-align: center;"
                     
                     <li style="color:white;margin: 15px;font-weight: bold;">
-                        <a href="https://open-sdg.org/" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;" >Diese Webseite wurde mit Open SDG erstellt</a>
+                        <a href="https://open-sdg.org/" id="footerende-href" target="_blank" style="text-decoration: none;color:white;margin: 10px;font-size: 15px;" >Diese Webseite wurde mit Open SDG erstellt</a>
                     </li>
                     
                 </ul>
@@ -566,16 +445,12 @@ data-event-label="high"
     </div>
 </footer>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-<script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
-<script src="//cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.11.5/js/dataTables.bootstrap5.min.js"></script>
 <script src="//cdn.datatables.net/fixedcolumns/3.2.3/js/dataTables.fixedColumns.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js" integrity="sha512-90vH1Z83AJY9DmlWa8WkjkV79yfS2n2Oxhsi2dZbIv0nC4E6m5AbH8Nh156kkM7JePmqD6tcZsfad1ueoaovww==" crossorigin="anonymous"></script>
-
-<script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.0/dist/chart.min.js" integrity="sha256-Y26AMvaIfrZ1EQU49pf6H4QzVTrOI8m9wQYKkftBt4s=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/patternomaly@1.3.2/dist/patternomaly.js"></script>
 
 
@@ -595,12 +470,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Suche';</script>
 
-<script src='/site-repo/assets/js/sdg.js?v=20230218122047'></script>
+<script src='/site-repo/assets/js/sdg.js?v=20230218131356'></script>
 
 
     
     
-    <script src="/site-repo/assets/js/custom.js?v=20230218122047"></script><script>
+    <script src="/site-repo/assets/js/custom.js?v=20230218131356"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

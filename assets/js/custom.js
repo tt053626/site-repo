@@ -1,17 +1,19 @@
-// Add any custom javascript here.
-$('.carousel[data-type="multi"] .item').each(function() {
-	var next = $(this).next();
-	if (!next.length) {
-		next = $(this).siblings(':first');
-	}
-	next.children(':first-child').clone().appendTo($(this));
+// // Javascript for the lower navigation carousel --> scroll prev and next
 
-	for (var i = 0; i < 2; i++) {
-		next = next.next();
-		if (!next.length) {
-			next = $(this).siblings(':first');
+// source: https://www.codeply.com/p/0CWffz76Q9
+let items = document.querySelectorAll('.carousel .carousel-item')
+
+items.forEach((el) => {
+	const minPerSlide = 4
+	let next = el.nextElementSibling
+	for (var i=1; i<minPerSlide; i++) {
+		if (!next) {
+			// wrap carousel by using first child
+			next = items[0]
 		}
-
-		next.children(':first-child').clone().appendTo($(this));
+		let cloneChild = next.cloneNode(true)
+		el.appendChild(cloneChild.children[0])
+		next = next.nextElementSibling
 	}
-});
+})
+
