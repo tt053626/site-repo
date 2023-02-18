@@ -215,6 +215,12 @@ h1.header {
        top: -175px;
        right: -730px;
       }
+      .fa-chevron-left:is(:hover) {
+        color: black;
+      }
+      .fa-chevron-right:is(:hover) {
+        color: black;
+      }
     }
 
     /* main content for goals and indicators */
@@ -252,12 +258,7 @@ h1.header {
 //   }
 // }
 
-.fa.fa-chevron-left:is(:hover) {
-  color: black;
-}
-.fa.fa-chevron-right:is(:hover) {
-  color: black;
-}
+
 
 
 
