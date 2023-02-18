@@ -1,30 +1,28 @@
 ---
-title: About
-language: en
-permalink: /en/about/
+
+title: Über uns
+language: de
+permalink: /about/
 layout: page
+
 ---
 
+Der Berliner Bezirk Treptow-Köpenick beschäftigt sich schon lange mit nachhaltiger Entwicklung auf kommunaler Ebene. Bereits 2004 wurde die „Lokale Agenda 21 Treptow-Köpenick“ verabschiedet, welche ein Leitbild und eine Vorgehensweise zur Umsetzung einer zukunftsfähigen Entwicklung im Bezirk Treptow-Köpenick umfasste. <br>
 
-The Berlin district of Treptow-Köpenick has long been concerned with sustainable development at the municipal level. As early as 2004, the "Local Agenda 21 Treptow-Köpenick" was adopted, which included a mission statement and a procedure for implementing sustainable development in the district of Treptow-Köpenick. 
-From 2018 to 2020, this mission statement was revised, aligning it with the United Nations' Agenda 2030 and its 17 global Sustainable Development Goals (SDGs). <br>
+Von 2018 bis 2020 wurde dieses Leitbild überarbeitet und dabei an der Agenda 2030 der Vereinten Nationen mit ihren 17 globalen Nachhaltigkeitszielen (SDGs) ausgerichtet. All das fand in einem praxisorientierten und partizipativen Prozess mit verschiedenen Akteuren des Bezirks statt, welche sich in insgesamt 8 Workshops vernetzen und konkrete Maßnahmen entwickeln konnten. Der erste Workshop wurde bereits im September 2018 durchgeführt, während der letzte Workshop aufgrund der Covid-19 Pandemie leider bis in den September 2020 verschoben werden musste. Jeder Workshop folgte einem ähnlichen Schema: Nach einem Vortrag von Themenpaten\*innen und Themenpaten, wurden von allen Teilnehmenden zunächst allgemeine Ideen zur Erreichung des jeweiligen SDG gesammelt. Diese Ideensammlung wurde dann in Kleingruppen aufgegriffen und in konkrete Maßnahmen überführt. <br>
 
-All of this took place in a practice-oriented and participatory process with various actors in the district, who were able to network and develop concrete measures in a total of 8 workshops. The first workshop was already held in September 2018, while the last one unfortunately had to be postponed until September 2020 due to the Covid-19 pandemic. Each workshop followed a similar pattern: after a presentation by topic mentors, general ideas for achieving the respective SDG were first collected from all participants. This collection of ideas was then taken up in small groups and translated into concrete measures. <br>
+Das Ergebnis ist die Kommunale Nachhaltigkeitsstrategie, welche 2021 verabschiedet wurde und neben den konkreten Maßnahmen auch ein Indikatoren-basiertes Monitoring umfasst. Dieses Monitoring ist hier, in einem webbasierten Format, veröffentlicht. <br>
 
-The result is a municipal sustainability strategy that was adopted in 2021 and, in addition to the concrete measures, also includes an indicator-based monitoring. 
-This monitoring is published here, in a web-based format. <br>
+Das Monitoringsystem besteht dabei aus zwei Bereichen: Die "Maßnahmen-Indikatoren" sollen die Ergebnisse und Wirkungen der beschlossenen Maßnahmen sichtbar machen, während die "SDG-Indikatoren" umfassendere Daten für die Erreichung der Agenda 2030 Ziele auf Bezirksebene abbilden. 
+Die Maßnahmen-Indikatoren wurden dabei direkt aus den beschlossenen Maßnahmen abgeleitet. Hier finden sich auch viele Daten, die von verschiedenen Akteuren des Bezirks zur Verfügung gestellt wurden. Ohne diese Datenkooperationen wären die beschlossenen Maßnahmen kaum abzubilden. 
+Bei der Auswahl der allgemeineren, gesamtbezirklichen SDG-Indikatoren wurde sich hingegen vor allem an gängigen (in der Literatur verbreiteten) Nachhaltigkeitsindikatoren orientiert, welche dann in einen Kontext zur Nachhaltigkeitsstrategie Treptow-Köpenicks gesetzt wurden. Hier finden auch viele amtliche Daten Verwendung. <br>
 
-The monitoring system consists of two areas: The "measure indicators" are intended to make the results and effects of the adopted measures visible, while the "SDG indicators" represent more comprehensive data for the achievement of the Agenda 2030 goals at the district level. 
-The "measure indicators" were derived directly from the adopted measures. Here you can also find a lot of data which was provided by different actors of the district. Without these data collaborations, it would be difficult to map the adopted measures. 
-The selection of the more general, district-wide SDG indicators, on the other hand, was based primarily on common sustainability indicators (widely used in the literature), which were then placed in the context of Treptow-Köpenick's sustainability strategy. Official data is primarily used here. <br>
+Die Website selbst basiert auf der Plattform Open-SDG und wurde in Zusammenarbeit mit Studentinnen der Hochschule für Technik und Wirtschaft Berlin (HTW Berlin) weiter entwickelt. Ein großer Dank gilt deshalb: Marlene Bueltemann, Grace Dodi, Lucia Feddersen, Christina Gottschalk, Neslihan Kilic, Mia Lohe, Mahulome Pede and Hatice Pinar. <br>
 
-The website itself is based on the Open-SDG platform and was further developed in cooperation with students of the HTW Berlin. Many thanks therefore go to: Marlene Bueltemann, Grace Dodi, Lucia Feddersen, Christina Gottschalk, Neslihan Kilic, Mia Lohe, Mahulome Pede and Hatice Pinar. <br>
+An der wissenschafltlichen Begleitung des Projekts waren Prof. Florian Koch, Sarah Beyer und Chih-Yu Chen von der HTW Berlin beteiligt. <br>
 
-Prof. Florian Koch, Sarah Beyer and Chih-Yu Chen from HTW Berlin were involved in the scientific support of the project. <br>
+Verantwortlicher des Bezirksamts Treptow-Köpenick ist der Koordinator für kommunale Entwicklungspolitik Dennis Lumme. <br>
 
-The person responsible for the Treptow-Köpenick district office is Dennis Lumme, the municipal development policy officer. <br>
+Harald Oehlerking war für das Design der Nachhaltigkeitsstrategie zuständig. <br>
 
-Harald Oehlerking was responsible for the design of the sustainability strategy. <br>
-
-The entire project was funded by the "Servicestelle Kommunen in der Einen Welt" as part of the INDIKON and DATAKON projects.
-
+Das gesamte Vorhaben wurde von der  Servicestelle Kommunen in der Einen Welt (SKEW) im Rahmen der Projekte INDIKON und DATAKON gefördert.

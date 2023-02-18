@@ -9,8 +9,8 @@ data_edit_url: http://prose.io/#tt053626/data-repo/edit/develop/data/indicator_[
 metadata_edit_url: http://prose.io/#tt053626/data-repo/edit/develop/meta/[id].md
 
 languages:
-  - en
   - de
+  - en
 
 country: # or place name
   name: Australia
@@ -158,4 +158,4 @@ plugins:
   - jekyll-remote-theme
   - jekyll-open-sdg-plugins
 
-remote_theme: open-sdg/open-sdg@2.0.0
+remote_theme: open-sdg/open-sdg@2.1.0

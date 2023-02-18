@@ -1,10 +1,11 @@
 ---
 layout: page
-title: Contact
-language: en
-permalink: /en/contact/
+title: Kontakt
+language: de
+permalink: /contact/
+
 ---
-### We are interested in your feedback regarding this website and its contents.
 
+### Wir sind an Ihrem Feedback zu dieser Website und ihren Inhalten interessiert.
 
-If you have questions about the statistics, data sources, or metadata provided; or if you have suggestions regarding additional site content or data sources, as well as suggestions on how to improve the functionality of this website, including data accessibility, please contact <a href="mailto:nachhaltigkeit@ba-tk.berlin.de">nachhaltigkeit@ba-tk.berlin.de</a>.
+Wenn Sie Fragen zu den bereitgestellten Statistiken, Datenquellen oder Metadaten haben, oder wenn Sie Vorschläge zu zusätzlichen Inhalten oder Datenquellen sowie Vorschläge zur Verbesserung der Funktionalität dieser Website haben, wenden Sie sich bitte an <a href="mailto:{{site.email_contacts.questions}}">{{site.email_contacts.questions}}</a>.

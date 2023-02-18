@@ -1,22 +1,23 @@
 ---
-title: Technical references
-language: en
-permalink: /en/guidance/
+
+title: Technische Hinweise
+language: de
+permalink: /guidance/
 layout: page
+
 ---
 
-This page provides information for users of this website and for countries, cities and municipalities that wish to make a copy of the website.
+Auf dieser Seite werden Informationen für die Nutzer\*innen und Nutzer dieser Website und für Länder, Städte und Gemeinden, die eine Kopie der Website erstellen möchten, bereitgestellt.
 
-## The platform
+## Die Plattform
 
-This site is built and hosted using an open-source platform with 100% free software and services. For detailed documentation on the underlying platform, including information for developers, data providers, and policy makers, see [here](https://open-sdg.readthedocs.io).
+Diese Website wird auf einer Open-Source-Plattform mit 100 % kostenloser Software und Diensten erstellt und gehostet. Eine ausführliche Dokumentation über die zugrunde liegende Plattform, einschließlich Informationen für Entwickler, Datenanbieter und politische Entscheidungsträger, finden Sie [hier](https://open-sdg.readthedocs.io).
 
-## Using this website
+## Nutzung dieser Website
 
-Answers to some specific questions about the website are included in our [Frequently Asked Questions]({{ site.baseurl }}/faq/) page.
+Antworten auf einige spezifische Fragen zur Website finden Sie auf unserer Seite [FAQ]({{ site.baseurl }}/faq/) page.
 
-## Creating a copy of this website
+## Erstellen einer Kopie dieser Website
 
-Other countries, cities and municipalities wishing to implement a version of this platform are welcome to do so for free.
-
-The platform documentation includes [technical information and instructions for developers](https://open-sdg.readthedocs.io/en/latest/quick-start/).
+Andere Länder, Städte oder Gemeinden, die eine Version dieser Plattform implementieren möchten, können dies gerne kostenlos tun.
+Die Dokumentation der Plattform enthält [technische Informationen und Anleitungen für Entwickler](https://open-sdg.readthedocs.io/en/latest/quick-start/).

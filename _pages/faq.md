@@ -1,37 +1,38 @@
 ---
-title: Frequently Asked Questions (FAQ)
-language: en
-permalink: /en/faq/
+
+title: Häufig gestellte Fragen
+language: de
+permalink: /faq/
 layout: page
 
 ---
 
-## How do I suggest new or different data sources?
+## Wie kann ich neue oder andere Datenquellen vorschlagen?
 
-If you have feedback on the data sources we have used or have suggestions for new data sources then please email us at <a href="mailto:{{site.email_contacts.questions}}">{{site.email_contacts.questions}}</a>.
+Wenn Sie Feedback zu den von uns verwendeten Datenquellen oder Vorschläge für neue Datenquellen haben, senden Sie uns bitte eine E-Mail an <a href="mailto:{{site.email_contacts.questions}}">{{site.email_contacts.questions}}</a>.
 
-## What does the reporting status mean?
+## Was bedeutet der Berichtsstatus?
 
-We have used three different types of reporting status for an indicator, which are also colour coded:
+Wir haben drei verschiedene Arten von Berichtsstatus für einen Indikator verwendet, die auch farblich gekennzeichnet sind:
 
-* Reported online (black) – the data for this indicator is available on this website, but the data might not be fully disaggregated yet. 
-* Statistics in progress (grey) – we have found a suitable source of data for this indicator or a relevant proxy. We are currently quality assuring the data and preparing it for publication.
-* Exploring data sources (white) – we are still looking for a suitable data source for this indicator.
+* Gemeldet (schwarz) – die Daten für diesen Indikator sind auf dieser Website verfügbar, sie sind aber möglicherweise noch nicht vollständig aufgeschlüsselt. 
+* In Arbeit (grau) - wir haben eine geeignete Datenquelle für diesen Indikator oder einen entsprechenden Proxy gefunden. Wir sind dabei, die Qualität der Daten zu sichern und diese für die Veröffentlichung vorzubereiten.
+* Datenquellenanalyse (weiß) - wir suchen noch nach einer geeigneten Datenquelle für diesen Indikator.
 
-Where there is additional information about the status of indicator data collection and reporting, this will be displayed at the top of the indicator page.
+Wenn es zusätzliche Informationen über den Status der Datenerhebung und -berichterstattung für den Indikator gibt, werden diese oben auf der Seite des Indikators angezeigt.
 
-## How often will new data be added to this site?
+## Wie oft werden neue Daten auf dieser Seite hinzugefügt?
 
-We will add data as soon as it has been sourced and checked. This includes new data as well as updates to data we have already published. We will continue to collect data from existing sources where possible.
+Wir fügen Daten hinzu, sobald sie beschafft und überprüft worden sind. Dies gilt sowohl für neue Daten als auch für Aktualisierungen bereits veröffentlichter Daten. Wir werden auch weiterhin Daten aus bestehenden Quellen sammeln.
 
-## What are you doing to fill data gaps?
+## Was tun Sie, um Datenlücken zu schließen?
 
-Data gaps still exist for individual indicators. For example, if certain measures have not yet been implemented or data still need to be collected. At the same time, we are also in discussion with other actors in the district for possible data cooperation.
+Datenlücken bestehen noch für einzelne Indikatoren. Beispielsweise wenn einzelne Maßnahmen noch nicht angelaufen sind oder Daten noch erhoben werden müssen. Zeitgleich sind wir auch im Gespräch mit weiteren Akteuren im Bezirk für mögliche Datenkooperationen.
 
-## How accessible is this website?
+## Wie zugänglich ist diese Website?
 
-Our aim is to make this website as accessible and usable as possible for every user. Open-SDG is working towards meeting AA level of the [Web Content Accessibility Guidelines (WCAG 2.0)](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag-20).
+Unser Ziel ist es, diese Website so zugänglich und benutzbar wie möglich für jeden Nutzer zu machen. Open-SDG arbeitet daran, die Stufe AA der Web Content Accessibility Guidelines (WCAG 2.0) zu erreichen.
 
-## Can other countries, cities or municipalities copy this website?
+## Können andere Länder, Städte oder Kommunen diese Website kopieren?
 
-Yes. This site is built and hosted using 100% free software and services, so other countries and localities can freely and easily reuse our code. Technical guidance on implementing this platform is available [here](https://open-sdg.readthedocs.io). 
+Ja. Diese Website wird mit 100 % kostenloser Software und Diensten erstellt und gehostet, so dass Andere unseren Code frei und einfach weiterverwenden können. Eine technische Anleitung zur Implementierung dieser Plattform finden Sie [hier](https://open-sdg.readthedocs.io).
