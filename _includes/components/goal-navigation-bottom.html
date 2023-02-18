@@ -1,0 +1,36 @@
+<!-- lower navigation bar -->
+<div class="carousel-container" id="contain">
+    <div class="row">
+        <div id="text">
+            {% if page.language == 'de' %}
+            <h2 style="margin-bottom: 20px ; font-size: 20pt; font-weight: 700;" align="center"  ><b> Entdecke mehr SDGS</b></h2>
+            <h4 style="margin-bottom: 10px; color: #adadad;" align="center">Klicken Sie auf die einzelnen Ziele, um die Daten unserer lokalen <br> Indikatoren für nachhaltige Entwicklung anzuzeigen.</h4>
+            {% elsif page.language == 'en' %}
+            <h2 style="margin-bottom: 20px ; font-size: 20pt; font-weight: 700;" align="center"  ><b> Discover more SDGS</b></h2>
+            <h4 style="margin-bottom: 10px; color: #adadad;" align="center">Click on the individual goals to view the data <br> of our local sustainable development indicators.</h4>
+            {% endif %}
+        </div>
+        <div id="carouselLowerNavigation" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2500">
+            <div class="carousel-inner">
+                {% for goal in page.goals %}
+                    <div class="carousel-item {% if forloop.first %}active{% endif %}">
+                        <div class="carousel-col" id="lower-nav-goal">
+                            <a href="{{ goal.url }}">
+                                <img src="{{ goal.icon }}" class="d-block w-100 goal-icon-image goal-icon-image-{{ site.goal_image_extension }}" id="goal-{{ goal.number }}" alt="{{ goal.short | escape }} - {{ page.t.general.goal }} {{ goal.number }}"/>
+                            </a>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+            
+            <a class="carousel-control-prev" role="button" data-bs-target="#carouselLowerNavigation" data-bs-slide="prev">
+                <span class="fa fa-chevron-left" id="nav-arrow" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" role="button" data-bs-target="#carouselLowerNavigation" data-bs-slide="next">
+                <span class="fa fa-chevron-right" id="nav-arrow" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+    </div>
+</div>

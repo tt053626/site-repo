@@ -1,71 +1,26 @@
 # Jekyll configuration for Open SDG platform
-# Comment
 
-# baseurl with the name of this repository
-baseurl: "/site-repo"
-# URL of data repository
+# primary settings:
+baseurl: "/site-repo" # change here!
 remote_data_prefix: "https://tt053626.github.io/data-repo"
 
-# URL for the "Edit Data" button on indicators.
+# URL for the "Edit Data" and "Edit Metadata" button on indicators.
 data_edit_url: http://prose.io/#tt053626/data-repo/edit/develop/data/indicator_[id].csv
-# URL for the "Edit Metadata" button on indicators.
 metadata_edit_url: http://prose.io/#tt053626/data-repo/edit/develop/meta/[id].md
 
 languages:
+  - en
   - de
 
+country: # or place name
+  name: Australia
+  adjective: Australian
 
-
-
-# Tell the Remote Theme plugin to use the Open SDG platform (Jekyll theme).
-remote_theme: open-sdg/open-sdg@1.8.0
-
-
-# Replace this title as needed.
-title: general.site_title
-url: ""
-environment: staging
-
-# Automatically create indicator pages, goal pages,
-# and some other required pages.
-create_indicators:
-  layout: indicator
-create_goals:
-  layout: goal-by-target-vertical
-create_pages:
-  pages:
-    - folder: /
-      layout: frontpage-alt
-    - folder: /goals
-      layout: goals
-    - folder: /reporting-status
-      layout: reportingstatus
-    - filename: indicators.json
-      folder: /
-      layout: indicator-json
-    - folder: /search
-      layout: search
-
-analytics:
-  ga_prod: ''
-
-# Sticky share buttons (facebook, twitter and email)
-#sharethis_property: '5d279253faeee40012f195e1'
-
-# Replace the email addresses below.
 email_contacts:
   questions: nachhaltigkeit@ba-tk.berlin.de
   suggestions: nachhaltigkeit@ba-tk.berlin.de
   functional: nachhaltigkeit@ba-tk.berlin.de
 
-# International Support
-# Eg name: Australia and adjective: Australian
-country:
-  name: Australia
-  adjective: Australian
-
-# Optionally set a title/body for the frontpage banner. The defaults below point to a standard
-# translation, but feel free to change it as needed.
 frontpage_introduction_banner:
  title: frontpage.intro_title
  description: frontpage.intro_body
@@ -74,10 +29,31 @@ frontpage_goals_grid:
   title: my-custom-translations.my-goals-grid-title
   description: my-custom-translations.my-goals-grid-description
 
-frontpage_cards:
-  - include: components/card.html
+title: general.site_title
+url: ""
+environment: staging
 
-# Pages
+# other settings are alphabetically ordered:
+analytics:
+  ga_prod: ''
+
+breadcrumbs:
+  post:
+  - label: general.home
+    path: /
+  - label: menu.updates
+    path: /news
+  goal:
+  - label: general.home
+    path: /
+  - label: general.goals
+    path: /goals
+  indicator:
+  - label: general.home
+    path: /
+  - label: general.goals
+    path: /goals
+
 collections:
   pages:
     output: true
@@ -90,47 +66,27 @@ collections:
   goals:
     output: true
 
-# Menu
-menu:
-  # Use these to customise the main navigation.
-  - path: /goals
-    # The "translation_key" refers to the key in the SDG Translations repository.
-    translation_key: general.goals
-  - path: /reporting-status
-    translation_key: menu.reporting_status
-  - path: /about
-    translation_key: menu.about
-  - path: /faq
-    translation_key: menu.faq
- 
-footer_menu:
-  - path: https://sdgs-treptow-koepenick.github.io/DataTK/en/zip/all_indicators.zip
-    translation_key: Download
-  - path: mailto:nachhaltigkeit@ba-tk.berlin.de
-    translation_key: menu.contact_us
-  - path: /about/cookies-and-privacy/
-    translation_key: menu.cookies
-#   - path: /about/cookies-and-privacy/
-#     translation_key: Impressum
-  - path: /guidance
-    translation_key: menu.guidance
+create_indicators:
+  layout: indicator
+create_goals:
+  previous_next_links: false
+  goals: []
+create_pages:
+  - filename: ''
+    folder: /goals
+    layout: goals
+    title: general.goals
+  - filename: ''
+    folder: /reporting-status
+    layout: reportingstatus
+    title: status.reporting_status
+  - filename: ''
+    folder: /search
+    layout: search
+    title: search.search
 
-
-
-# Configure the text (or "translation key") to be used on the
-# non-global metadata tab.
-non_global_metadata: indicator.national_metadata
-
-# Set a base for all goal image URLs. Note that the full goal image path will be
-# the base below, completed with: /[language]/[number].png (eg, /fr/6.png).
-goal_image_base: https://open-sdg.org/sdg-translations/assets/img/goals
-
-# Tell Jekyll to use the Remote Theme plugin.
-plugins:
-  - jekyll-remote-theme
-  - jekyll-open-sdg-plugins
-
-# Exclude some files/folders.
+custom_js:
+  - /assets/js/custom.js
 exclude:
   - vendor
   - scripts
@@ -141,9 +97,26 @@ exclude:
   - README.md
   - LICENSE
 
-# Optionally uncomment and update the settings below to control the mapping functionality.
-# These are only a few of the possible settings. For more details, see:
-# https://open-sdg.readthedocs.io/en/latest/maps/
+footer_language_toggle: none
+footer_menu:
+  - path: https://sdgs-treptow-koepenick.github.io/DataTK/en/zip/all_indicators.zip
+    translation_key: Download
+  - path: mailto:nachhaltigkeit@ba-tk.berlin.de
+    translation_key: menu.contact_us
+  - path: /about/cookies-and-privacy/
+    translation_key: menu.cookies
+  #   - path: /about/cookies-and-privacy/
+  #     translation_key: Impressum
+  - path: /guidance
+    translation_key: menu.guidance
+
+# frontpage_cards:
+#   - include: components/card.html
+
+goal_image_base: https://open-sdg.org/sdg-translations/assets/img/goals
+graph_color_set: accessible
+header_language_toggle: dropdown
+
 map_options:
  minZoom: 5
  maxZoom: 20
@@ -155,69 +128,34 @@ map_layers:
    max_zoom: 30
    subfolder: districts
    label: District
-   
    # Control the choropleth color range. See https://gka.github.io/chroma.js/#chroma-brewer
    colorRange: chroma.brewer.BuGn
    # Set the color for boundaries that have no data.
    noValueColor: #f0f0f0
-   # For documentation on the style options below, see here:
    # https://leafletjs.com/reference-1.4.0.html#path-option
-   # Set the default style for boundaries in the map:
    styleNormal:
      weight: 1
      opacity: 1
      color: #888888
      fillOpacity: 0.7
-   # Set the style for boundaries that have been selected/highlighted:
    styleHighlighted:
      weight: 1
      opacity: 1
      color: #111111
      fillOpacity: 0.7
 
+menu:
+  - path: /goals
+    translation_key: general.goals
+  - path: /reporting-status
+    translation_key: menu.reporting_status
+  - path: /about
+    translation_key: menu.about
+  - path: /faq
+    translation_key: menu.faq
 
-# Recommend accessibility improvements.
-accessible_tabs: true
-accessible_charts: true
-graph_color_set: accessible
+plugins:
+  - jekyll-remote-theme
+  - jekyll-open-sdg-plugins
 
-# Specify any custom javascript files.
-custom_js:
-  - /assets/js/custom.js
-
-# Specify the format of the language toggles. Choices are:
-# "dropdown", "links", or "none"
-header_language_toggle: dropdown
-footer_language_toggle: none
-
-# Configure the header style.
-header:
-  include: header-menu-left-aligned.html
-
-# Specify whether the Series disaggregation should be a toggle (like units).
-series_toggle: true
-
-# Control the behavior of breadcrumbs for certain types of content.
-breadcrumbs:
-  post:
-    - label: general.home
-      path: /
-    - label: menu.updates
-      path: /news
-  goal:
-    - label: general.home
-      path: /
-    - label: general.goals
-      path: /goals
-  indicator:
-    - label: general.home
-      path: /
-    - label: general.goals
-      path: /goals
-
-# Specify the style of header to use.
-header:
-  include: header-menu-left-aligned.html
-
-# Use an accessible color-set for charts.
-graph_color_set: accessible
+remote_theme: open-sdg/open-sdg@2.0.0

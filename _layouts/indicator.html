@@ -1,15 +1,30 @@
 {% include head.html %}
 {% include header.html %}
+{% include components/goal-navigation-top.html %}
+
 {% include components/indicator/fields-template.html %}
 {% include components/indicator/units-template.html %}
 {% include components/indicator/series-template.html %}
 {% include multilingual-js.html key="indicator" %}
 {% include multilingual-js.html key="data" %}
 
-
-{% include components/indicator/header.html %}
 <div class="container">
     {% include components/indicator/breadcrumbs.html %}
+
+    <div class="row">
+        {% unless page.indicator.standalone %}
+        <div class="col-8 col-md-9 col-lg-10 indicator-details">
+        {% else %}
+        <div class="col-12 indicator-details">
+        {% endunless %}
+            <div class="goal-titles">
+                {% unless page.indicator.standalone %}
+                <h1 class="indicator-title-by-indicator goal-{{ page.goal.number }}">{{ page.t.general.indicator }} {{ page.indicator.number }}</h1>
+                <h1 class="indicator-title-by-indicator goal-{{ page.goal.number }}">{{ page.indicator.name }}</h1>
+                {% endunless %}
+            </div>
+        </div>
+    </div>
 </div>
 <div id="main-content" class="container goal-{{ page.goal.number }}" role="main">
     {% include components/indicator/data-notice.html %}
@@ -18,4 +33,5 @@
     {% include components/indicator/indicator-main.html %}
 </div>
 
+{% include components/goal-navigation-bottom.html %}
 {% include footer.html %}

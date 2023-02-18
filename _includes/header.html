@@ -1,0 +1,55 @@
+{% include multilingual-js.html key="header" %}
+<a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">{{ page.t.header.skip_link }}</a>
+{% include components/header/internet-explorer-message.html %}
+
+
+<div style="position: sticky;  position: -webkit-sticky; top: 15px; z-index:3; background-color: white;">
+    <div id="color-bar-background"  style="position: relative;"> </div>
+
+    <header role="banner" class="">
+        <div class="container" style="top: 0px;">
+
+            <nav class="navbar navbar-expand-lg navbar-light flex-wrap align-items-center" id="narbar-container"> 
+
+                {% include components/header/logo.html %}
+
+                {% if page.language == 'de' %}
+                <h1 class="header">
+                    Monitoring der <br>
+                    Kommunalen Nachhaltigkeitsstrategie <br>
+                    Kommune X
+                </h1>
+                {% else %}
+                <h1 class="header">
+                    Monitoring of the <br>
+                    Municipal Sustainability Strategy <br>
+                    Kommune X
+                </h1>
+                {% endif %}
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ page.t.header.show_menu }}">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="d-flex flex-wrap w-100 justify-content-between"  id="navigation-search-bar">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        {% include navigation.html dropdowns=true %}
+                    </div>
+                    <div class="d-flex header-toggle">
+                        {% include search.html %}
+
+                        {%- if site.languages.size > 1 and site.header_language_toggle != 'none' -%}
+                        {% include components/language-toggle.html %}
+                        <span class="no-js-language-toggle">{% include components/language-toggle-links.html %}</span>
+                        {%- endif -%}
+                        {% include components/contrast-toggle.html %}
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+</div>
+{% include components/page-top.html %}
+

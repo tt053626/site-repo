@@ -1,0 +1,51 @@
+<style>
+    .site-intro {
+      background: none!important;
+      padding-right: 0px!important;
+      text-align: justify;}
+</style>
+
+{% include head.html %}
+<!-- custom header. Design specified in _sass/custom.scss -->
+{% include header.html %}
+<div id="main-content" class="container" role="main">
+
+    {% if site.frontpage_introduction_banner %}
+        {% if page.language == 'en' %}
+        <div class="site-intro">
+        <h1>17 goals to transform our world </h1>
+        <div class="lead-copy"><p>The 17 Sustainable Development Goals (SDGs) are intended to initiate sustainable development on an economic, social and ecological level and were ratified by all UN member states in 2015 as part of the 2030 Agenda. In order to advance the global goals at the municipal level as well, the Berlin district Treptow-Köpenick adopted a Municipal Sustainability Strategy in 2021, which was developed together with various stakeholders in the district. This municipal sustainability strategy was supplemented by a SDG-monitoring, for which the indicators and data can be found here.</p></div>
+        </div>
+        {% else %}
+        <div class="site-intro">
+        <h1>17 Ziele, um unsere Welt zu verändern</h1>
+        <div class="lead-copy"><p> Die 17 Ziele für nachhaltige Entwicklung (SDGs) sollen weltweit eine nachhaltige Entwicklung auf ökonomischer, sozialer und ökologischer Ebene anstoßen und wurden 2015 von allen UN-Mitgliedsstaaten als Teil der Agenda 2030 ratifiziert.
+            Um die weltweiten Ziele auch auf kommunaler Ebene voranzubringen, hat der Berliner Bezirk Treptow-Köpenick 2021 eine Kommunale Nachhaltigkeitsstrategie verabschiedet, welche gemeinsam mit verschiedenen Akteuren des Bezirks erarbeitet wurde.
+            Diese Kommunale Nachhaltigkeitsstrategie wurde um ein SDG-Monitoring ergänzt, zu  welchem sich an dieser Stelle die Indikatoren und Daten finden.</p></div>
+        </div>
+        {% endif %}
+    {% endif %}
+
+    {% if site.frontpage_goals_grid %}
+    <div class="frontpage-goals-grid">
+
+        {% if site.frontpage_goals_grid.title %}
+        <h2 class="frontpage-goals-grid-title">{{ site.frontpage_goals_grid.title | t }}</h2>
+        {% endif %}
+
+        {% if site.frontpage_goals_grid.description %}
+        <div class="frontpage-goals-grid-description">{{ site.frontpage_goals_grid.description | t | markdownify }}</div>
+        {% endif %}
+
+        {% include components/goal-tiles.html %}
+    </div>
+    {% endif %}
+    
+    <!-- cards -->
+    <div class="row">
+        {% include components/card.html card=card %}
+    </div>
+</div>
+
+<!-- footer incl. binder logos -->
+{% include footer.html %}
