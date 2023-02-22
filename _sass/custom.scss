@@ -222,16 +222,6 @@ h1.header {
       .container{
         height: 200px;
       }
-      .btn-left{
-        position: relative;
-        top: -175px;
-        left: 250px;
-      }
-      .btn-right{
-       position: relative;
-       top: -175px;
-       right: -730px;
-      }
       .fa-chevron-left:is(:hover, :focus, :active) {
         color: darken($background-c,75%);
       }
