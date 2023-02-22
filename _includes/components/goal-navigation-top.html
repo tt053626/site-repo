@@ -13,13 +13,14 @@
       </div>
     </div>
     {% if page.previous and page.next %}
-    <div class="previous-next-links row">
-      <div class="col col-lg-2 pull-left">
+    <div class="previous-next-links row justify-content-md-center">
+      <div class="col col-lg-2 float-start">
         <a href="{{ page.previous.url }}" class="btn btn-primary goal-{{ page.goal.number }} btn-left goal-banner" role="button">
           <i class="fa fa-chevron-left" aria-hidden="true" style="font-size: 45px;"></i> <span id="previous-link" class="hidden-sm hidden-xs">{{ include.previous_label | t }}</span>
         </a>
       </div>
-      <div class="col col-lg-2 pull-right">
+      <div class="col col-md-auto"></div>
+      <div class="col col-lg-2 float-end">
         <a href="{{ page.next.url  }}" class="btn btn-primary goal-{{ page.goal.number }} btn-right goal-banner" role="button">
           <i class="fa fa-chevron-right" aria-hidden="true" style="font-size: 45px;"></i><span id="next-link" class="hidden-sm hidden-xs">{{ include.next_label | t }}</span>
         </a>
