@@ -2607,9 +2607,6 @@ body.contrast-high #search-bar-on-page button:hover {
 body.contrast-high.layout-search form input, body.contrast-high.layout-search form label {
   color: black; }
 
-[href]:focus {
-  box-shadow: 0px 0px 0px 0px transparent !important; }
-
 #main-content .goal-tiles .goal-tile > a:focus {
   outline: 0px transparent solid !important; }
 
@@ -2631,7 +2628,7 @@ body {
 
 /* page title */
 h1.header {
-  font-size: 21px;
+  font-size: 20px;
   margin-top: -5px;
   margin-bottom: 0px;
   font-weight: 500;
@@ -2734,6 +2731,11 @@ h1.header {
     }
   }
 */
+.site-intro {
+  background: none !important;
+  padding-right: 0px !important;
+  text-align: justify; }
+
 /*#1. cards on landing page*/
 .col-md-4 {
   width: 30%; }
@@ -2793,9 +2795,9 @@ h1.header {
       position: relative;
       top: -175px;
       right: -730px; }
-    .goal-1.goal-banner .fa-chevron-left:is(:hover) {
+    .goal-1.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
-    .goal-1.goal-banner .fa-chevron-right:is(:hover) {
+    .goal-1.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
       color: black; }
   .goal-1.goal-title-by-goal {
     color: #E52B3D;
@@ -2828,9 +2830,9 @@ h1.header {
       position: relative;
       top: -175px;
       right: -730px; }
-    .goal-2.goal-banner .fa-chevron-left:is(:hover) {
+    .goal-2.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
-    .goal-2.goal-banner .fa-chevron-right:is(:hover) {
+    .goal-2.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
       color: black; }
   .goal-2.goal-title-by-goal {
     color: #DDA63A;
@@ -2863,9 +2865,9 @@ h1.header {
       position: relative;
       top: -175px;
       right: -730px; }
-    .goal-3.goal-banner .fa-chevron-left:is(:hover) {
+    .goal-3.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
-    .goal-3.goal-banner .fa-chevron-right:is(:hover) {
+    .goal-3.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
       color: black; }
   .goal-3.goal-title-by-goal {
     color: #4C9F38;
@@ -2898,9 +2900,9 @@ h1.header {
       position: relative;
       top: -175px;
       right: -730px; }
-    .goal-4.goal-banner .fa-chevron-left:is(:hover) {
+    .goal-4.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
-    .goal-4.goal-banner .fa-chevron-right:is(:hover) {
+    .goal-4.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
       color: black; }
   .goal-4.goal-title-by-goal {
     color: #C42130;
@@ -2933,9 +2935,9 @@ h1.header {
       position: relative;
       top: -175px;
       right: -730px; }
-    .goal-5.goal-banner .fa-chevron-left:is(:hover) {
+    .goal-5.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
-    .goal-5.goal-banner .fa-chevron-right:is(:hover) {
+    .goal-5.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
       color: black; }
   .goal-5.goal-title-by-goal {
     color: #FF3E24;
@@ -2968,9 +2970,9 @@ h1.header {
       position: relative;
       top: -175px;
       right: -730px; }
-    .goal-6.goal-banner .fa-chevron-left:is(:hover) {
+    .goal-6.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
-    .goal-6.goal-banner .fa-chevron-right:is(:hover) {
+    .goal-6.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
       color: black; }
   .goal-6.goal-title-by-goal {
     color: #28BCE1;
@@ -3003,9 +3005,9 @@ h1.header {
       position: relative;
       top: -175px;
       right: -730px; }
-    .goal-7.goal-banner .fa-chevron-left:is(:hover) {
+    .goal-7.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
-    .goal-7.goal-banner .fa-chevron-right:is(:hover) {
+    .goal-7.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
       color: black; }
   .goal-7.goal-title-by-goal {
     color: #FCC30B;
@@ -3038,9 +3040,9 @@ h1.header {
       position: relative;
       top: -175px;
       right: -730px; }
-    .goal-8.goal-banner .fa-chevron-left:is(:hover) {
+    .goal-8.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
-    .goal-8.goal-banner .fa-chevron-right:is(:hover) {
+    .goal-8.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
       color: black; }
   .goal-8.goal-title-by-goal {
     color: #A21942;
@@ -3073,9 +3075,9 @@ h1.header {
       position: relative;
       top: -175px;
       right: -730px; }
-    .goal-9.goal-banner .fa-chevron-left:is(:hover) {
+    .goal-9.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
-    .goal-9.goal-banner .fa-chevron-right:is(:hover) {
+    .goal-9.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
       color: black; }
   .goal-9.goal-title-by-goal {
     color: #FD6925;
@@ -3108,9 +3110,9 @@ h1.header {
       position: relative;
       top: -175px;
       right: -730px; }
-    .goal-10.goal-banner .fa-chevron-left:is(:hover) {
+    .goal-10.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
-    .goal-10.goal-banner .fa-chevron-right:is(:hover) {
+    .goal-10.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
       color: black; }
   .goal-10.goal-title-by-goal {
     color: #DD1367;
@@ -3143,9 +3145,9 @@ h1.header {
       position: relative;
       top: -175px;
       right: -730px; }
-    .goal-11.goal-banner .fa-chevron-left:is(:hover) {
+    .goal-11.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
-    .goal-11.goal-banner .fa-chevron-right:is(:hover) {
+    .goal-11.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
       color: black; }
   .goal-11.goal-title-by-goal {
     color: #FD9C27;
@@ -3178,9 +3180,9 @@ h1.header {
       position: relative;
       top: -175px;
       right: -730px; }
-    .goal-12.goal-banner .fa-chevron-left:is(:hover) {
+    .goal-12.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
-    .goal-12.goal-banner .fa-chevron-right:is(:hover) {
+    .goal-12.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
       color: black; }
   .goal-12.goal-title-by-goal {
     color: #BF8B2E;
@@ -3213,9 +3215,9 @@ h1.header {
       position: relative;
       top: -175px;
       right: -730px; }
-    .goal-13.goal-banner .fa-chevron-left:is(:hover) {
+    .goal-13.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
-    .goal-13.goal-banner .fa-chevron-right:is(:hover) {
+    .goal-13.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
       color: black; }
   .goal-13.goal-title-by-goal {
     color: #417D46;
@@ -3248,9 +3250,9 @@ h1.header {
       position: relative;
       top: -175px;
       right: -730px; }
-    .goal-14.goal-banner .fa-chevron-left:is(:hover) {
+    .goal-14.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
-    .goal-14.goal-banner .fa-chevron-right:is(:hover) {
+    .goal-14.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
       color: black; }
   .goal-14.goal-title-by-goal {
     color: #0A96D8;
@@ -3283,9 +3285,9 @@ h1.header {
       position: relative;
       top: -175px;
       right: -730px; }
-    .goal-15.goal-banner .fa-chevron-left:is(:hover) {
+    .goal-15.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
-    .goal-15.goal-banner .fa-chevron-right:is(:hover) {
+    .goal-15.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
       color: black; }
   .goal-15.goal-title-by-goal {
     color: #57BE2F;
@@ -3318,9 +3320,9 @@ h1.header {
       position: relative;
       top: -175px;
       right: -730px; }
-    .goal-16.goal-banner .fa-chevron-left:is(:hover) {
+    .goal-16.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
-    .goal-16.goal-banner .fa-chevron-right:is(:hover) {
+    .goal-16.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
       color: black; }
   .goal-16.goal-title-by-goal {
     color: #00689C;
@@ -3353,9 +3355,9 @@ h1.header {
       position: relative;
       top: -175px;
       right: -730px; }
-    .goal-17.goal-banner .fa-chevron-left:is(:hover) {
+    .goal-17.goal-banner .fa-chevron-left:is(:hover, :focus, :active) {
       color: black; }
-    .goal-17.goal-banner .fa-chevron-right:is(:hover) {
+    .goal-17.goal-banner .fa-chevron-right:is(:hover, :focus, :active) {
       color: black; }
   .goal-17.goal-title-by-goal {
     color: #1F4A6A;
@@ -3364,6 +3366,67 @@ h1.header {
   .goal-17.indicator-title-by-indicator {
     color: #1F4A6A;
     padding: 0; }
+
+.layout-goal .goal-page-indicator-number {
+  margin-left: 0px; }
+
+@media screen and (min-width: 769px) {
+  .layout-goal {
+    min-height: 80px;
+    position: relative; }
+    .layout-goal .indicator-name {
+      width: 75%; } }
+@media screen and (min-width: 992px) {
+  .layout-goal {
+    min-height: auto; }
+    .layout-goal .status {
+      width: auto; } }
+.layout-goal .status {
+  display: block;
+  float: right;
+  clear: left;
+  color: #0b0c0c;
+  font-weight: normal;
+  border: none;
+  padding: 4px;
+  font-size: 12px;
+  margin-bottom: 10px;
+  margin-top: -5px; }
+  .layout-goal .status .status-inner {
+    padding: 0 2px;
+    border-radius: 5px; }
+  .layout-goal .status.complete {
+    color: white;
+    border: 1px solid transparent;
+    background-color: #2B2B2B;
+    background: #2B2B2B; }
+    .layout-goal .status.complete .status-inner {
+      background-color: #2B2B2B;
+      background: #2B2B2B; }
+  .layout-goal .status.inprogress {
+    color: white;
+    border: 1px solid transparent;
+    background-color: #757575;
+    background: #757575; }
+    .layout-goal .status.inprogress .status-inner {
+      background-color: #757575;
+      background: #757575; }
+  .layout-goal .status.notstarted {
+    color: #0b0c0c;
+    border: 1px solid #0b0c0c;
+    background-color: white;
+    background: white; }
+    .layout-goal .status.notstarted .status-inner {
+      background-color: white;
+      background: white; }
+  .layout-goal .status.notapplicable {
+    color: #0b0c0c;
+    border: 1px solid #0b0c0c;
+    background-color: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px);
+    background: repeating-linear-gradient(135deg, #757575, white 10px, #757575 10px, white 20px); }
+    .layout-goal .status.notapplicable .status-inner {
+      background-color: rgba(255, 255, 255, 0.8);
+      background: rgba(255, 255, 255, 0.8); }
 
 /* goal-navigation-top.night mode*/
 body.contrast-high .goal-banner img {
@@ -3486,3 +3549,5 @@ h5 {
 
   h5 {
     text-align: center; } }
+[href]:focus {
+  box-shadow: 0px 0px 0px 0px transparent !important; }
