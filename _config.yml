@@ -1,20 +1,19 @@
 # Jekyll configuration for Open SDG platform
 
 # primary settings:
-baseurl: "/site-repo" # change here!
-remote_data_prefix: "https://tt053626.github.io/data-repo"
+baseurl: "/sdg-enz-staging-site" # change here!
+remote_data_prefix: "https://DrJannisHoek.github.io/sdg-enz-staging-data/"
 
 # URL for the "Edit Data" and "Edit Metadata" button on indicators.
-data_edit_url: http://prose.io/#tt053626/data-repo/edit/develop/data/indicator_[id].csv
-metadata_edit_url: http://prose.io/#tt053626/data-repo/edit/develop/meta/[id].md
+data_edit_url: http://prose.io/#DrJannisHoek/sdg-enz-staging-data/edit/develop/data/indicator_[id].csv
+metadata_edit_url: http://prose.io/#DrJannisHoek/sdg-enz-staging-data/edit/develop/meta/[id].md
 
 languages:
   - de
-  - en
 
 country: # or place name
-  name: Australia
-  adjective: Australian
+  name: Enzkreis
+  adjective: Enzkreis
 
 email_contacts:
   questions: nachhaltigkeit@ba-tk.berlin.de

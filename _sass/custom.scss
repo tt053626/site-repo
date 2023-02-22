@@ -1,8 +1,3 @@
-// for all a href tags, remove thick black line after clicking (focus)
-[href]:focus {
-  box-shadow: 0px 0px 0px 0px $focusBackgroundColor !important;
-}
-
 #main-content {
   .goal-tiles {
     .goal-tile {
@@ -16,9 +11,9 @@
 /*#0. header */
 
 /* a-tag style after clicked */
-#home:focus {
-  box-shadow: 0px 0px 0px 0px $focusBackgroundColor !important;
-}
+// #home:focus {
+//   box-shadow: 0px 0px 0px 0px $focusBackgroundColor !important;
+// }
 
 /* header color bar beneath */
 #color-bar-background {
@@ -30,11 +25,13 @@
 body{
   background: white;
   padding-top: -15px;
+  
+  font-size: 14pt;
 }
 
 /* page title */
 h1.header {
-  font-size: 21px;
+  font-size: 20px;
   margin-top: -5px;
   margin-bottom: 0px;
   font-weight: 500;
@@ -148,6 +145,12 @@ h1.header {
 */
 
 
+.site-intro {
+  background: none!important;
+  padding-right: 0px!important;
+  text-align: justify;
+}
+
 
 /*#1. cards on landing page*/
 .col-md-4 {
@@ -219,11 +222,11 @@ h1.header {
        top: -175px;
        right: -730px;
       }
-      .fa-chevron-left:is(:hover) {
-        color: black;
+      .fa-chevron-left:is(:hover, :focus, :active) {
+        color: darken($background-c,75%);
       }
-      .fa-chevron-right:is(:hover) {
-        color: black;
+      .fa-chevron-right:is(:hover, :focus, :active) {
+        color: darken($background-c,75%);
       }
     }
 
@@ -238,6 +241,42 @@ h1.header {
       padding: 0;
     }
   }
+}
+
+
+.layout-goal {
+  @media screen and (min-width: 769px) {
+    min-height: 80px;
+    position: relative;
+    .indicator-name {
+      width: 75%;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    min-height: auto;
+    .status {
+      width: auto;
+    }
+  }
+
+  .goal-page-indicator-number {
+    margin-left: 0px;
+  }
+  .goal-indicator {
+    margin-top: 0px;
+  }
+  // .goal-page-target-rule, .goal-page-column-header-rule {
+  //   border-top: 0px solid transparent;
+  // }
+  .status {
+    display: block;
+    float: right;
+    clear: left;
+    @include status;
+    margin-bottom: 10px;
+    margin-top: -5px;
+  }
+
 }
 
 // .btn.goal-banner:hover {
@@ -262,10 +301,6 @@ h1.header {
 //   }
 // }
 
-
-
-
-
 /* goal-navigation-top.night mode*/
 body.contrast-high {
   .goal-banner {
@@ -274,6 +309,7 @@ body.contrast-high {
       }
   }
 }
+
 
 
 
@@ -427,3 +463,7 @@ h5 {
 
 
 
+// for all a href tags, remove thick black line after clicking (focus)
+[href]:focus {
+  box-shadow: 0px 0px 0px 0px $focusBackgroundColor !important;
+}

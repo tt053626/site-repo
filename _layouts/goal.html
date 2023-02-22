@@ -83,7 +83,7 @@
               {% if indicator.placeholder and indicator.placeholder != '' %}
               <span class="indicator-name">{{ indicator.placeholder }}</span>
               {% else %}
-              <span class="indicator-name"><a href="{{ indicator.url }}">{{ indicator.name }}</a></span>
+              <span class="indicator-name"><a href="{{ indicator.url }}" id="indicator-list">{{ indicator.name }}</a></span>
               {% include components/indicator/tags.html tags=indicator.tags reporting_status=true indicator=indicator %}
             </div>
             {% if indicator_has_progress %}
