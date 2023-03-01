@@ -2,54 +2,37 @@
 <a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">{{ page.t.header.skip_link }}</a>
 {% include components/header/internet-explorer-message.html %}
 
+<header>
+    <div class="container">
 
-<div style="position: sticky;  position: -webkit-sticky; top: 15px; z-index:3; background-color: white;">
-    <div id="color-bar-background"  style="position: relative;"> </div>
-
-    <header role="banner" class="">
-        <div class="container" style="top: 0px;">
-
-            <nav class="navbar navbar-expand-lg navbar-light flex-wrap align-items-center" id="narbar-container"> 
-
-                {% include components/header/logo.html %}
-
-                {% if page.language == 'de' %}
-                <h1 class="header">
-                    Monitoring der <br>
-                    Kommunalen Nachhaltigkeitsstrategie <br>
-                    Enzkreis
-                </h1>
-                {% else %}
-                <h1 class="header">
-                    Monitoring of the <br>
-                    Municipal Sustainability Strategy <br>
-                    Enzkreis
-                </h1>
-                {% endif %}
-
+        <div align="right">
+            <nav class="navbar navbar-expand-lg navbar-light float-end" id="narbar-container">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ page.t.header.show_menu }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="d-flex flex-wrap w-100 justify-content-between"  id="navigation-search-bar">
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        {% include navigation.html dropdowns=true %}
-                    </div>
-                    <div class="d-flex header-toggle">
-                        {% include search.html %}
-
-                        {%- if site.languages.size > 1 and site.header_language_toggle != 'none' -%}
-                        {% include components/language-toggle.html %}
-                        <span class="no-js-language-toggle">{% include components/language-toggle-links.html %}</span>
-                        {%- endif -%}
-                        {% include components/contrast-toggle.html %}
-
-                    </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    {% include navigation.html dropdowns=true %}
                 </div>
             </nav>
         </div>
-    </header>
+        <div style="position:relative; top:15%;">
+            <a class="navbar-brand" href="{{ page.baseurl }}" id="home">
+                <img src="{{ site.baseurl }}/assets/img/Logo-MissionN_V3.png"
+                onmouseover="this.src='{{ site.baseurl }}/assets/img/Logo-MissionN_V3.png'"
+                onmouseout="this.src='{{ site.baseurl }}/assets/img/Logo-MissionN_V3.png'"/>
+            </a>
+            <a class="navbar-brand" href="https://www.enzkreis.de/" id="enz-logo">
+                <img src="{{ site.baseurl }}/assets/img/enzkreis_logo.png"
+                onmouseover="this.src='{{ site.baseurl }}/assets/img/enzkreis_logo.png'"
+                onmouseout="this.src='{{ site.baseurl }}/assets/img/enzkreis_logo.png'"/>
+            </a>
+        </div>
+    </div>
+</header>
+<div id="color-bar-background"  style="position: relative; top:0px;"> </div>
 
-</div>
+
+<!--
 {% include components/page-top.html %}
-
+ -->

@@ -1,63 +1,41 @@
 
-<footer role="contentinfo" style="padding-top: 65px;">
+<footer class="wide-background " style="width: 100%; margin-top: 6rem; padding-top: 5rem;">
     <div class="container">
         <div class="row" style="padding: 0px;">
             <div class="col-xs-12">
                 <div id="kooperation" >
-                    {% if page.language == 'de' %}
                     <p>Unsere Projektpartner</p>
-                    {% else %}
-                    <p>Our project partners</p>
-                    {% endif %}
                 </div>
             </div>
         </div>
     </div>
     <div class="container">
-        <div class="row flexdirection" style="padding: 1em; margin-bottom: 2%;">
+        <div class="row flexdirection">
             <div class="col-xs-3" id="footer-binder">
                 <div id="bilder3" style="background-color:white;">
-                    {% if page.language == 'de' %}
                     <a href="https://www.engagement-global.de/" id="footer-binder-href" target="_blank" ><img src="{{ site.baseurl }}/assets/img/logo_eg.png" alt="engagement_global1" id="footer-binder-image" class="img-responsive"></a>
-                    {% else %}
-                    <a href="https://www.engagement-global.de/homepage.html" id="footer-binder-href" target="_blank" ><img src="{{ site.baseurl }}/assets/img/logo_eg.png" alt="engagement_global1" id="footer-binder-image" class="img-responsive"></a>
-                    {% endif %}
                 </div>
             </div>
             <div class="col-xs-3" id="footer-binder">
                 <div id="bilder5" style="background-color:white;">
-                    {% if page.language == 'de' %}
                     <h5 style="margin-top: 3%; margin-bottom: 2%;">mit ihrer</h5>
                     <a href="https://skew.engagement-global.de/" id="footer-binder-href" target="_blank" ><img src="{{ site.baseurl }}/assets/img/logo_skew_de.png" alt="engagement_global2" id="footer-binder-image" class="img-responsive"></a>
-                    {% else %}
-                    <h5 style="margin-top: 3%; margin-bottom: 2%;">with its</h5>
-                    <a href="https://skew.engagement-global.de/home.html" id="footer-binder-href" target="_blank" ><img src="{{ site.baseurl }}/assets/img/logo_skew_en.png" alt="engagement_global2" id="footer-binder-image" class="img-responsive"></a>
-                    {% endif %}
                 </div>
             </div>
             <div class="col-xs-3" id="footer-binder">
                 <div id="bilder2" style="background-color:white">
-                    {% if page.language == 'de' %}
                     <h5 style="margin-top: 2.5%; margin-bottom: 0%">im Auftrag des</h5>
                     <a href="https://www.bmz.de/de" id="footer-binder-href" target="_blank" ><img src="{{ site.baseurl }}/assets/img/logo_BMZ.png" alt="bmz" id="footer-binder-image" class="img-responsive"></a>
-                    {% else %}
-                    <h5 style="margin-top: 2.5%; margin-bottom: 0%">On behalf of</h5>
-                    <a href="https://www.bmz.de/en" id="footer-binder-href" target="_blank" ><img src="{{ site.baseurl }}/assets/img/logo_BMZ.png" alt="bmz" id="footer-binder-image" class="img-responsive"></a>
-                    {% endif %}
                 </div>
             </div>
             <div class="col-xs-3" id="footer-binder">
                 <div id="bilder" style="background-color:white;">
-                    <a href="http://www.berlin.de/ba-treptow-koepenick/" id="footer-binder-href" target="_blank" ><img src="{{ site.baseurl }}/assets/img/logo_tk.png" alt="treptow_koepenick" id="footer-binder-image" class="img-responsive"></a>
+                    <a href="https://www.enzkreis.de/" id="footer-binder-href" target="_blank" ><img src="{{ site.baseurl }}/assets/img/enzkreis_logo.png" alt="enzkreis" id="footer-binder-image" class="img-responsive"></a>
                 </div>
             </div>
             <div class="col-xs-3" id="footer-binder">
                 <div id="bilder4" style="background-color:white;">
-                    {% if page.language == 'de' %}
                     <a href="https://www.htw-berlin.de" id="footer-binder-href" target="_blank"><img src="{{ site.baseurl }}/assets/img/logo_htw.png" alt="htw_berlin" id="footer-binder-image" class="img-responsive"></a>
-                    {% else %}
-                    <a href="https://www.htw-berlin.de/en/" id="footer-binder-href" target="_blank"><img src="{{ site.baseurl }}/assets/img/logo_htw.png" alt="htw_berlin" id="footer-binder-image" class="img-responsive"></a>
-                    {% endif %}
                 </div>
             </div>
          </div>
@@ -65,7 +43,7 @@
     <div class="container">
         <div class="row" style="padding: 0px;text-align: center;">
             <div class="col-xs-12">
-                <div id="footerLinks" style="background-color:#19486a;color:white;padding: 10px;margin-bottom: 1px;">
+                <div id="footerLinks" style="background-color:#248096;color:white;padding: 10px;margin-bottom: 1px;">
                     <ul style="text-align: center;">
                         {% if site.footer_menu %}
                             {% for item in site.footer_menu %}
@@ -104,7 +82,7 @@
     <div class="container">
         <div class="row" style="padding: 0px;text-align:center">
             <div class="col-xs-12">
-                <div id="footerende" style="background-color:#19486a;color:white;padding: 10px;margin-bottom:1px; text-align: center;">
+                <div id="footerende" style="background-color:#248096;color:white;padding: 10px;margin-bottom:1px; text-align: center;">
                     <ul style="text-align: center;"
                     {% if page.language == 'de' %}
                     <li style="color:white;margin: 15px;font-weight: bold;">

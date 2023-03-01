@@ -146,12 +146,9 @@ map_layers:
 menu:
   - path: /goals
     translation_key: general.goals
-  - path: /reporting-status
-    translation_key: menu.reporting_status
   - path: /about
     translation_key: menu.about
-  - path: /faq
-    translation_key: menu.faq
+
 
 plugins:
   - jekyll-remote-theme

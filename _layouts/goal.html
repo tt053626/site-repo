@@ -1,14 +1,15 @@
 {% include head.html %}
 {% include header.html %}
 
-<!-- add upper navigation bar -->
-{% include components/goal-navigation-top.html %}
 <div class="container">
   {% include components/goal/breadcrumbs.html %}
   {% if site.create_goals.previous_next_links %}
     {% include components/previous-next-links.html previous_label=page.t.goal.previous next_label=page.t.goal.next %}
   {% endif %}
 </div>
+
+<!-- add upper navigation bar -->
+{% include components/goal-navigation-top.html %}
 
 {% assign goal_indicators = page.indicators | where: 'goal_number', page.goal.number | group_by: 'target_number' %}
 {% assign show_progress = false %}

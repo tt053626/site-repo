@@ -8,33 +8,40 @@
 {% include head.html %}
 <!-- custom header. Design specified in _sass/custom.scss -->
 {% include header.html %}
+<div class="container">
+    <div style="padding-top: 1rem; padding-left: 70%">
+        {% include search.html %}
+    </div>
+</div>
+
 <div id="main-content" class="container" role="main">
 
     {% if site.frontpage_introduction_banner %}
-        {% if page.language == 'en' %}
-        <div class="site-intro">
-        <h1>17 goals to transform our world </h1>
-        <div class="lead-copy"><p>The 17 Sustainable Development Goals (SDGs) are intended to initiate sustainable development on an economic, social and ecological level and were ratified by all UN member states in 2015 as part of the 2030 Agenda. In order to advance the global goals at the municipal level as well, the Berlin district Treptow-Köpenick adopted a Municipal Sustainability Strategy in 2021, which was developed together with various stakeholders in the district. This municipal sustainability strategy was supplemented by a SDG-monitoring, for which the indicators and data can be found here.</p></div>
+    <div class="site-intro">
+        <h1 style="font-weight: 700; color: #248096">Monitoring der Nachhaltigkeitsstrategie<br>
+            für den Enzkreis</h1>
+        <div class="lead-copy">
+            <p style="font-style:italic;"><img src=".../assets/img/Bastian Rosenau 3.jpg">
+            Der Enzkreis hat sich per Beschluss des Kreistags zu den Zielen der Agenda 2030 der Vereinten Nationen und damit zum Grundsatz der Nachhaltigkeit bekannt. Das im Sinne der Agenda 2030 überarbeitete Leitbild hat der Kreistag im Dezember 2018 beschlossen. Damit sind die 17 Agenda-Ziele in der normativen Zielsetzung von Kreistag und Verwaltung berücksichtigt. Ausgehend vom Leitbild wurde die Nachhaltigkeitsstrategie erarbeitet und dem Kreistag am 4. April 2022 vorgelegt. Sie füllt das Leitbild des Enzkreises mit Leben, unterlegt die 17 Agenda-Ziele mit konkreten Maßnahmen und macht die nachhaltige Entwicklung über SDG-Indikatoren mess- und steuerbar. <br>
+            Mit den nun vorliegenden Indikatoren messen wir die Erreichung der in der Nachhaltigkeitsstrategie formulierten Ziele für eine nachhaltige Kreisentwicklung mit konkreten Zahlen. Diese zeigen, wo wir bereits gut aufgestellt sind und in welchen Sektoren nachgesteuert werden muss. Sie sind ebenso ein Steuerungsinstrument zur Kreisentwicklung für den Kreistag des Enzkreises und für die Verwaltungsspitze im Landratsamt.<br>
+            In den meisten Bereichen sind wir auf einem guten Weg, auch dies zeigen die vorliegenden Indikatoren für den Enzkreis. Die Zahlen bilden den Trend der vergangenen Jahre ab. Auf dieser Grundlage können wir uns landes- und deutschlandweit mit anderen Kommunen vergleichen.<br>
+            Ob Gesundheit und soziale Gerechtigkeit, ob Biodiversität und eine schadstofffreie Umwelt, ob Energie- und Verkehrswende, ob erfolgreiche Unternehmen oder eine nachhaltige Agrarwirtschaft und Nahrungsmittelproduktion: die nachhaltige Entwicklung des Enzkreises ist eine wichtige Zukunftsaufgabe, der wir uns mit diesen Indikatoren stellen. Lassen Sie uns gemeinsam an einer nachhaltigen, enkeltauglichen Zukunft arbeiten. <br>
+            
+            Ihr <br>
+            </p>
+            <img src=".../assets/img/major_signature.png" style="width: 30%">
         </div>
-        {% else %}
-        <div class="site-intro">
-        <h1>17 Ziele, um unsere Welt zu verändern</h1>
-        <div class="lead-copy"><p> Die 17 Ziele für nachhaltige Entwicklung (SDGs) sollen weltweit eine nachhaltige Entwicklung auf ökonomischer, sozialer und ökologischer Ebene anstoßen und wurden 2015 von allen UN-Mitgliedsstaaten als Teil der Agenda 2030 ratifiziert.
-            Um die weltweiten Ziele auch auf kommunaler Ebene voranzubringen, hat der Berliner Bezirk Treptow-Köpenick 2021 eine Kommunale Nachhaltigkeitsstrategie verabschiedet, welche gemeinsam mit verschiedenen Akteuren des Bezirks erarbeitet wurde.
-            Diese Kommunale Nachhaltigkeitsstrategie wurde um ein SDG-Monitoring ergänzt, zu  welchem sich an dieser Stelle die Indikatoren und Daten finden.</p></div>
-        </div>
-        {% endif %}
+    </div>
     {% endif %}
 
     {% if site.frontpage_goals_grid %}
     <div class="frontpage-goals-grid">
-
         {% if site.frontpage_goals_grid.title %}
-        <h2 class="frontpage-goals-grid-title">{{ site.frontpage_goals_grid.title | t }}</h2>
+        <h2 class="frontpage-goals-grid-title" style="font-size: 32px; font-weight: 700; color: #248096">{{ site.frontpage_goals_grid.title | t }}</h2>
         {% endif %}
 
         {% if site.frontpage_goals_grid.description %}
-        <div class="frontpage-goals-grid-description">{{ site.frontpage_goals_grid.description | t | markdownify }}</div>
+        <div class="frontpage-goals-grid-description" style="font-size: 22px; color: #226c7e">{{ site.frontpage_goals_grid.description | t | markdownify }}</div>
         {% endif %}
 
         {% include components/goal-tiles.html %}
@@ -42,7 +49,7 @@
     {% endif %}
     
     <!-- cards -->
-    <div class="row">
+    <div class="row frontpage-card">
         {% include components/card.html card=card %}
     </div>
 </div>

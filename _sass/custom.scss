@@ -5,48 +5,58 @@
         outline: 0px $focusOutlineColor solid !important;
       }
     }
+    padding-top: 1rem;
   }
 }
 
+
 /*#0. header */
+/* replace original body setting --> hide by setting background transparent */
+body{
+  background: transparent;
+  padding-top: 0px;
+}
 
-/* a-tag style after clicked */
-// #home:focus {
-//   box-shadow: 0px 0px 0px 0px $focusBackgroundColor !important;
-// }
-
-/* header color bar beneath */
+/* header color bar --> hide by pushing over page-top boundary */
 #color-bar-background {
   background: $backgroundColor url('../img/sdgbg.png') top left repeat-x;
-  top: -15px;
-  height: 15px;
-}
-/* replace original body setting */
-body{
-  background: white;
-  padding-top: -15px;
-  
-  font-size: 14pt;
+  top: 0px;
+  height: 9px;
 }
 
-/* page title */
-h1.header {
-  font-size: 20px;
-  margin-top: -5px;
-  margin-bottom: 0px;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-} 
+header {
+  display: block;
+  // position: sticky;  
+  // position: -webkit-sticky; 
+  padding-bottom: 1rem;
+  top: 0px; 
+  z-index:3; 
+  background-color: #248096;
+  background-image: url('../img/bg_site-header.png');
+  background-position: top -600px left -400px;
+  background-repeat: no-repeat;
+}
+
+#home{
+  position: relative;
+  max-width:100%;
+}
+#enz-logo {
+  position: absolute;
+  right: -64%;
+  top: 44%;
+  max-width: 78%;
+}
+
 
 /*  ab hier von open-sdg*/
 .navbar-brand {
   width: calc(100% - 75px);
-  max-width: 80px;
-  margin-bottom: 5px;
+  max-width: 160px;
+  margin-bottom: 0px;
   padding:0;
   img {
-      max-width: 100%;
+      max-width: 18%;
       text-decoration: none;
   }
   &:focus {
@@ -55,9 +65,17 @@ h1.header {
   }
 }
 
+.navbar {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
 .navbar.navbar-nav.nav-item.nav-link {
   font-size: 15px;
 }
+.navbar .navbar-nav > .nav-item > .nav-link {
+  color: white;
+}
+
 
 /* search field*/
 #search-btn {
@@ -150,6 +168,36 @@ h1.header {
   padding-right: 0px!important;
   text-align: justify;
 }
+.lead-copy {
+  padding-top: 2rem;
+}
+p > img {
+    float: right;
+    width: 40%;
+    padding-left: 1.5em;
+    padding-bottom: 0.5em;
+}
+
+.frontpage-goals-grid .frontpage-goals-grid-title {
+  margin-top: 5rem;
+  margin-bottom: 14px;
+}
+
+.row.frontpage-card {
+  margin-top:6rem;
+  // border-top: 2px solid #ccc; 
+}
+#main-content {
+  .frontpage-card:before {
+    content:"";
+    background-color:#efeeeb;
+    position: absolute;
+    height: 100%;
+    width: 200vw;
+    left: -100vw;
+    z-index: -1;
+  }
+}
 
 
 /*#1. cards on landing page*/
@@ -164,6 +212,7 @@ h1.header {
   margin-left: 0px!important;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
   transition: 0.3s;
+  background-color: white;
 }
 @media screen and (min-width: 450px) and (max-width: 992px) {
   .card.col-md-4 {
@@ -233,7 +282,7 @@ h1.header {
     /* main content for goals and indicators */
     &.goal-title-by-goal {
       color: $background-c;
-      font-weight: 900;
+      font-weight: 700;
       margin-top: 30px;
     }
     &.indicator-title-by-indicator {
@@ -389,8 +438,18 @@ transform: translateX(0);
 
  
 /*#5. Footer*/
+footer{
+  position:relative;
+  width:100%;
+  height: auto; //your desired height
+  //background-color: #363636;
+  //background-image: url('../img/bg_site-header.png');
+  //background-position: top -150px left -500px;
+  background-repeat: no-repeat;
+}
+
 #footer-binder {
-  width: 13.5em; 
+  width: 13em; 
   height: 5.5em; 
   margin-top: 4%; 
   margin-bottom: 2%;
@@ -414,7 +473,7 @@ transform: translateX(0);
 
 
 #kooperation {
-      background-color: #19486a;
+      background-color: #248096;
       color: white;
       padding-top: 30px;
       padding-bottom: 15px;
