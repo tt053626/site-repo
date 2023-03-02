@@ -9,6 +9,9 @@
   }
 }
 
+.row {
+  margin-left: 0px;
+}
 
 /*#0. header */
 /* replace original body setting --> hide by setting background transparent */
@@ -28,7 +31,7 @@ header {
   display: block;
   // position: sticky;  
   // position: -webkit-sticky; 
-  padding-bottom: 1rem;
+  padding-bottom: 1.8rem;
   top: 0px; 
   z-index:3; 
   background-color: #248096;
@@ -38,32 +41,36 @@ header {
 }
 
 #home{
+  display: inline-block;
   position: relative;
-  max-width:100%;
+  max-width: 33%;
+  text-decoration: none;
 }
 #enz-logo {
-  position: absolute;
-  right: -64%;
-  top: 44%;
-  max-width: 78%;
+  display: inline-block;
+  width: 90%;
+  position: relative;
+  top: -6%;
+  right: 2%;
 }
-
 
 /*  ab hier von open-sdg*/
 .navbar-brand {
   width: calc(100% - 75px);
   max-width: 160px;
   margin-bottom: 0px;
+  margin-right: 0px;
   padding:0;
-  img {
-      max-width: 18%;
-      text-decoration: none;
-  }
   &:focus {
       background-color: transparent !important;
       outline: 7px solid $focusOutlineColor !important;
   }
 }
+
+// a:hover{
+//   text-decoration-color: white;
+// }
+
 
 .navbar {
   padding-top: .5rem;
@@ -76,7 +83,6 @@ header {
   color: white;
 }
 
-
 /* search field*/
 #search-btn {
   background-color: #eeeeee !important;
@@ -85,7 +91,6 @@ header {
   padding-top: 0.7rem;
   padding-bottom: 0.7em;
 }
-
 
 /* ab hier nichts geaendert */
   .header-toggles {
@@ -173,9 +178,9 @@ header {
 }
 p > img {
     float: right;
-    width: 40%;
-    padding-left: 1.5em;
-    padding-bottom: 0.5em;
+    width: 45%;
+    padding-left: 3rem;
+    padding-bottom: 2rem;
 }
 
 .frontpage-goals-grid .frontpage-goals-grid-title {
@@ -202,47 +207,52 @@ p > img {
 
 /*#1. cards on landing page*/
 .col-md-4 {
-  width: 32%;
+  // width: 32%;
   height: max-content;
 }
 .card1, .card2, .card3{
-  width: 100%;
-  height:450px;
-  margin-top: 10px!important;
-  margin-left: 0px!important;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
+  // width: 33%;
+  height:28rem;
+  // margin-top: 10px!important;
+  // margin-left: 0px!important;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  background-color: white;
+  background-color: #248096;
 }
-@media screen and (min-width: 450px) and (max-width: 992px) {
-  .card.col-md-4 {
-    width: 50%!important;
-    height: max-content;
-  }
-}
+// @media screen and (min-width: 450px) and (max-width: 992px) {
+//   .card.col-md-4 {
+//     width: 50%!important;
+//     height: max-content;
+//   }
+// }
 .card1:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.7);
 }
 .card2:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.7);
 }
 .card3:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.7);
 }
 .cont{
-  margin-top: 20px;
-  padding: 2px 16px;
+  margin-top: 1.5rem;
+  padding: 0px 16px 2px 20px ;
+  color: white;
 }
 .card-img-top{
   width:100%;
   height:65%;
 }
-.card2 a, .card3 a {
-  color: #1d70b8!important;
-}
+
+
 
 
 /*#2. goal page */
+.breadcrumb {
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+}
+
 .previous-next-links.row {
   position: relative;
   top: -170px;
@@ -502,6 +512,7 @@ footer{
   display: flex;
   flex-direction: row;
   align-items: center;
+  row-gap: 1rem;
 }
 
 h5 {    

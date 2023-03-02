@@ -146,7 +146,7 @@ map_layers:
 menu:
   - path: /goals
     translation_key: general.goals
-  - path: /about
+  - path: "https://www.enzkreis.de/Landkreis-Politik/Leitbild-Agenda-2030/"
     translation_key: menu.about
 
 

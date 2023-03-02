@@ -18,18 +18,21 @@
 
     {% if site.frontpage_introduction_banner %}
     <div class="site-intro">
-        <h1 style="font-weight: 700; color: #248096">Monitoring der Nachhaltigkeitsstrategie<br>
+        <h1 style="font-weight: 700; color: #444444">Monitoring der Nachhaltigkeitsstrategie<br>
             für den Enzkreis</h1>
         <div class="lead-copy">
-            <p style="font-style:italic;"><img src="{{ site.baseurl }}/assets/img/Bastian Rosenau 3.jpg">
-            Der Enzkreis hat sich per Beschluss des Kreistags zu den Zielen der Agenda 2030 der Vereinten Nationen und damit zum Grundsatz der Nachhaltigkeit bekannt. Das im Sinne der Agenda 2030 überarbeitete Leitbild hat der Kreistag im Dezember 2018 beschlossen. Damit sind die 17 Agenda-Ziele in der normativen Zielsetzung von Kreistag und Verwaltung berücksichtigt. Ausgehend vom Leitbild wurde die Nachhaltigkeitsstrategie erarbeitet und dem Kreistag am 4. April 2022 vorgelegt. Sie füllt das Leitbild des Enzkreises mit Leben, unterlegt die 17 Agenda-Ziele mit konkreten Maßnahmen und macht die nachhaltige Entwicklung über SDG-Indikatoren mess- und steuerbar. <br>
-            Mit den nun vorliegenden Indikatoren messen wir die Erreichung der in der Nachhaltigkeitsstrategie formulierten Ziele für eine nachhaltige Kreisentwicklung mit konkreten Zahlen. Diese zeigen, wo wir bereits gut aufgestellt sind und in welchen Sektoren nachgesteuert werden muss. Sie sind ebenso ein Steuerungsinstrument zur Kreisentwicklung für den Kreistag des Enzkreises und für die Verwaltungsspitze im Landratsamt.<br>
-            In den meisten Bereichen sind wir auf einem guten Weg, auch dies zeigen die vorliegenden Indikatoren für den Enzkreis. Die Zahlen bilden den Trend der vergangenen Jahre ab. Auf dieser Grundlage können wir uns landes- und deutschlandweit mit anderen Kommunen vergleichen.<br>
-            Ob Gesundheit und soziale Gerechtigkeit, ob Biodiversität und eine schadstofffreie Umwelt, ob Energie- und Verkehrswende, ob erfolgreiche Unternehmen oder eine nachhaltige Agrarwirtschaft und Nahrungsmittelproduktion: die nachhaltige Entwicklung des Enzkreises ist eine wichtige Zukunftsaufgabe, der wir uns mit diesen Indikatoren stellen. Lassen Sie uns gemeinsam an einer nachhaltigen, enkeltauglichen Zukunft arbeiten. <br>
-            
-            Ihr <br>
-            </p>
+            <p ><img src="{{ site.baseurl }}/assets/img/Bastian Rosenau 3.jpg">
+            Der Enzkreis hat sich per Beschluss des Kreistags zu den Zielen der Agenda 2030 der Vereinten Nationen und damit zum Grundsatz der Nachhaltigkeit bekannt. Das im Sinne der Agenda 2030 überarbeitete Leitbild hat der Kreistag im Dezember 2018 beschlossen. Damit sind die 17 Agenda-Ziele in der normativen Zielsetzung von Kreistag und Verwaltung berücksichtigt. Ausgehend vom Leitbild wurde die Nachhaltigkeitsstrategie erarbeitet und dem Kreistag am 4. April 2022 vorgelegt. Sie füllt das Leitbild des Enzkreises mit Leben, unterlegt die 17 Agenda-Ziele mit konkreten Maßnahmen und macht die nachhaltige Entwicklung über SDG-Indikatoren mess- und steuerbar.
+            <br><br>
+            Mit den nun vorliegenden Indikatoren messen wir die Erreichung der in der Nachhaltigkeitsstrategie formulierten Ziele für eine nachhaltige Kreisentwicklung mit konkreten Zahlen. Diese zeigen, wo wir bereits gut aufgestellt sind und in welchen Sektoren nachgesteuert werden muss. Sie sind ebenso ein Steuerungsinstrument zur Kreisentwicklung für den Kreistag des Enzkreises und für die Verwaltungsspitze im Landratsamt.
+            <br><br>
+            In den meisten Bereichen sind wir auf einem guten Weg, auch dies zeigen die vorliegenden Indikatoren für den Enzkreis. Die Zahlen bilden den Trend der vergangenen Jahre ab. Auf dieser Grundlage können wir uns landes- und deutschlandweit mit anderen Kommunen vergleichen.
+            <br><br>
+            Ob Gesundheit und soziale Gerechtigkeit, ob Biodiversität und eine schadstofffreie Umwelt, ob Energie- und Verkehrswende, ob erfolgreiche Unternehmen oder eine nachhaltige Agrarwirtschaft und Nahrungsmittelproduktion: die nachhaltige Entwicklung des Enzkreises ist eine wichtige Zukunftsaufgabe, der wir uns mit diesen Indikatoren stellen. Lassen Sie uns gemeinsam an einer nachhaltigen, enkeltauglichen Zukunft arbeiten.
+            <br><br>
+            Ihr<br> </p>
             <img src="{{ site.baseurl }}/assets/img/major_signature.png" style="width: 30%">
+            <p>Landrat</p>
         </div>
     </div>
     {% endif %}
@@ -37,11 +40,11 @@
     {% if site.frontpage_goals_grid %}
     <div class="frontpage-goals-grid">
         {% if site.frontpage_goals_grid.title %}
-        <h2 class="frontpage-goals-grid-title" style="font-size: 32px; font-weight: 700; color: #248096">{{ site.frontpage_goals_grid.title | t }}</h2>
+        <h2 class="frontpage-goals-grid-title" style="font-size: 32px; font-weight: 700; color: #444444">Daten und Beschreibungen zu den SDG-Indikatoren im Enzkreis</h2>
         {% endif %}
 
         {% if site.frontpage_goals_grid.description %}
-        <div class="frontpage-goals-grid-description" style="font-size: 22px; color: #226c7e">{{ site.frontpage_goals_grid.description | t | markdownify }}</div>
+        <div class="frontpage-goals-grid-description" style="font-size: 22px; color: #444444">Klicken Sie auf die einzelnen Ziele, um den Stand einer nachhaltigen Entwicklung im Enzkreis anzuzeigen</div>
         {% endif %}
 
         {% include components/goal-tiles.html %}
@@ -49,7 +52,7 @@
     {% endif %}
     
     <!-- cards -->
-    <div class="row frontpage-card">
+    <div class="row frontpage-card" style="padding-left: -calc(var(--bs-gutter-x) * -.5)">
         {% include components/card.html card=card %}
     </div>
 </div>
