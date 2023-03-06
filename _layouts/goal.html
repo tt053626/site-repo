@@ -3,9 +3,6 @@
 
 <div class="container">
   {% include components/goal/breadcrumbs.html %}
-  {% if site.create_goals.previous_next_links %}
-    {% include components/previous-next-links.html previous_label=page.t.goal.previous next_label=page.t.goal.next %}
-  {% endif %}
 </div>
 
 <!-- add upper navigation bar -->
@@ -33,7 +30,7 @@
     </h1>
 
   <div class="container g-0 {% if show_progress %}goal-showing-progress{% endif %}">
-    <div class="row align-items-end">
+    <div class="row align-items-end" style="margin-bottom: 1rem;">
       <div class="col">
         <h2 class="goal-page-heading">{{ page.t.general.targets_and_indicators }}</h2>
       </div>
@@ -43,7 +40,7 @@
       </div>
       {% endif %}
     </div>
-    <hr class="goal-page-column-header-rule">
+    <!-- <hr class="goal-page-column-header-rule"> -->
     {% for group in goal_indicators %}
       {% assign target = group.name | sdg_lookup %}
       <div class="row align-items-start goal-target">
@@ -73,18 +70,18 @@
             {% assign indicator_has_progress = true %}
           {% endif %}
 
-          <div class="row align-items-start goal-indicator">
+          <div class="row g-4 align-items-start goal-indicator">
           
-            <div class="col-auto goal-page-indicator-number">
-              <h4 style="font-size:14pt;">
-                <span class="indicator-number"><span class="visually-hidden">{{ page.t.general.indicator }}</span> {{ indicator.number }}</span>
-              </h4>
+            <div class="col-1 goal-page-indicator-number">
+              <a>
+                <span class="indicator-number" style="text-decoration: none;color:#444444;margin: 0.3rem; padding:0.5rem 0rem; font-size: 1.4rem; font-weight: 500;"><span class="visually-hidden">{{ page.t.general.indicator }}</span> {{ indicator.number }}</span>
+              </a>
             </div>
             <div class="col goal-page-indicator-name">
               {% if indicator.placeholder and indicator.placeholder != '' %}
               <span class="indicator-name">{{ indicator.placeholder }}</span>
               {% else %}
-              <span class="indicator-name"><a href="{{ indicator.url }}">{{ indicator.name }}</a></span>
+              <span class="indicator-name"><a href="{{ indicator.url }}" style="text-decoration: none;color:#444444;margin: 0.3rem; padding:0.5rem 0rem; font-size: 1.4rem; font-weight: 500;">{{ indicator.name }}</a></span>
               {% include components/indicator/tags.html tags=indicator.tags reporting_status=true indicator=indicator %}
             </div>
             {% if indicator_has_progress %}
@@ -96,7 +93,7 @@
             {% endif %}
           </div>
         {% endfor %}
-        <hr class="goal-page-target-rule" />
+        <!-- <hr class="goal-page-target-rule" /> -->
     {% endfor %}
   </div>
   {% include back-to-top.html %}

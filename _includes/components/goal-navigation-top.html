@@ -1,33 +1,25 @@
 <div class="heading goal-banner goal-{{ page.goal.number }}"> 
   <div class="container" id="goal-nav-top">
-    <div class="row">
-      <div class="Image">
-        {% if page.language == 'en' %}
-        <img src="{{ page.goal.icon }}" alt="{{ page.goal.short | escape }} - {{ page.t.general.goal }} {{ page.goal.number }}" id="goal-{{ page.goal.number }}"  />
-        {% endif %}
-        {% if page.language == 'de' %}
-        <img src="{{ site.baseurl }}/assets/img/goals/de/{{ page.goal.number }}.png" alt="{{ page.goal.short | escape }} - {{ page.t.general.goal }} {{ page.goal.number }}" id="goal-{{ page.goal.number }}"  />
-        {% endif %}
-       
 
-      </div>
-    </div>
     {% if page.previous and page.next %}
-    <div class="previous-next-links row justify-content-md-center">
-      <div class="col col-lg-2 float-start">
+    <div class="previous-next-links row d-flex align-items-center justify-content-evenly">
+      <div class="col text-center">
         <a href="{{ page.previous.url }}" class="btn btn-primary goal-{{ page.goal.number }} btn-left goal-banner" role="button">
-          <i class="fa fa-chevron-left" aria-hidden="true" style="font-size: 45px;"></i> <span id="previous-link" class="hidden-sm hidden-xs">{{ include.previous_label | t }}</span>
+          <i class="fa fa-chevron-left" aria-hidden="true" style="font-size: 2.8vw;"></i> <span id="previous-link" class="hidden-sm hidden-xs">{{ include.previous_label | t }}</span>
         </a>
       </div>
-      <div class="col col-md-auto"></div>
-      <div class="col col-lg-2 float-end">
-        <a href="{{ page.next.url  }}" class="btn btn-primary goal-{{ page.goal.number }} btn-right goal-banner" role="button">
-          <i class="fa fa-chevron-right" aria-hidden="true" style="font-size: 45px;"></i><span id="next-link" class="hidden-sm hidden-xs">{{ include.next_label | t }}</span>
+      <div class="Image col-4">
+        <img class="img-fluid" src="{{ site.baseurl }}/assets/img/goals/de/{{ page.goal.number }}.png" alt="{{ page.goal.short | escape }} - {{ page.t.general.goal }} {{ page.goal.number }}" id="goal-{{ page.goal.number }}"  />
+      </div>
+      <div class="col text-center">
+        <a href="{{ page.next.url }}" class="btn btn-primary goal-{{ page.goal.number }} btn-right goal-banner" role="button">
+          <i class="fa fa-chevron-right" aria-hidden="true" style="font-size: 2.8vw;"></i><span id="next-link" class="hidden-sm hidden-xs">{{ include.next_label | t }}</span>
         </a>
       </div>
     </div>
     {% endif %}
-  </div>
+
+    </div>
   </div>
 
 

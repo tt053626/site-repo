@@ -4,36 +4,71 @@
 <h4 style="font-size: 22px; color: #444444; margin-bottom: 20px;">Bleibe auf dem Laufenden...</h4>
 <br>
 
-<div class="row flexdirection" style="padding-left: -calc(var(--bs-gutter-x) * -.5)">
-    <div class="col-xl-4 col-lg-6 ">
-        <a href="https://www.enzkreis.de/Landkreis-Politik/Leitbild-Agenda-2030/" target="_blank" style="text-decoration: none;">
-        <div class="card1 border">
-            <img class="card-img-top" src='{{ site.baseurl }}/assets/img/3397_5_1_m.jpg' alt="include.card.title">
-            <div class="cont">
-                <h4 style="font-weight: 500; font-size: 1.125em;; line-height: 1.5;"><br>Agenda 2030 im Enzkreis</h4>
+<div id="carouselCard" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2500">
+    
+    <div class="carousel-inner" style="margin-right: -10px;">
+        <div class="carousel-item active card-gap" style="overflow:visible">
+            <div class="col">
+                <div class="card border">
+                    <a href="https://www.enzkreis.de/Landkreis-Politik/Leitbild-Agenda-2030/" target="_blank" style="text-decoration: none;">
+                        <img class="card-img-top" src='{{ site.baseurl }}/assets/img/thumbnail_Agenda2030_Enzkreis.png' alt="include.card.title">
+                        <div class="cont">
+                            <h4 style="font-weight: 600; font-size: 12vm; line-height: 1.5;">Agenda 2030 im Enzkreis</h4>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
-        </a>
-    </div>
-    <div class="col-xl-4 col-lg-6">
-        <a href="https://www.enzkreis.de/Landkreis-Politik/Leitbild-Agenda-2030/" target="_blank" style="text-decoration: none;">
-            <div class="card2 border">
-                <img class="card-img-top" src="{{ site.baseurl }}/assets/img/3397_5_1_m.jpg" alt="include.card.title">
-                <div class="cont">
-                    <h4 style="font-weight: 500; font-size: 1.125em;; line-height: 1.5; padding-top: 0.57rem">Agenda 2030 für Städte und Gemeinden</h4>
+
+        <div class="carousel-item card-gap">
+            <div class="col">                  
+                <div class="card border">
+                    <a href="https://www.enzkreis.de/output/download.php?fid=3397.2189.1.PDF" target="_blank" style="text-decoration: none;">
+                        <img class="card-img-top" src="{{ site.baseurl }}/assets/img/thumbnail_Agenda2030_StaedteundGemeinden.png" alt="include.card.title">
+                        <div class="cont">
+                            <h4 style="font-weight: 600; font-size: 12vm; line-height: 1.5; padding-top: 0.57rem;">Agenda 2030 für Städte und Gemeinden</h4>
+                        </div>
+                    </a>
                 </div>
             </div>
-        </a>
+        </div>
+
+        <div class="carousel-item card-gap">
+            <div class="col">
+                <div class="card border">
+                    <a href="" target="_blank" style="text-decoration: none;">
+                        <img class="card-img-top"src="{{ site.baseurl }}/assets/img/3397_5_1_m.jpg" alt="include.card.title">
+                        <div class="cont">
+                            <h4 style="font-weight: 600; font-size: 12vm; line-height: 1.5;">Deutsches Jugendinstitut e.V (DJI) - Podcast "Transfer für die Ohren" (Interview mit Dr. Jannis Hoek)</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-item card-gap">
+            <div class="col">
+                <div class="card border">
+                    <a href="" target="_blank" style="text-decoration: none;">
+                        <img class="card-img-top"src="{{ site.baseurl }}/assets/img/thumbnail_indikatorenbericht2023.png" alt="include.card.title">
+                        <div class="cont">
+                            <h4 style="font-weight: 600; font-size: 12vm; line-height: 1.5;">Indikatorenbericht 2023 (Downloadlink folgt nach Veröffentlichung)</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
     </div>
 
-    <div class="col-xl-4 col-lg-6">
-        <a href="https://www.enzkreis.de/Landkreis-Politik/Leitbild-Agenda-2030/" target="_blank" style="text-decoration: none;">
-            <div class="card3 border">
-                <img class="card-img-top"src="{{ site.baseurl }}/assets/img/3397_5_1_m.jpg" alt="include.card.title">
-                <div class="cont">
-                    <h4 style="font-weight: 500; font-size: 1.125em;; line-height: 1.5;">Deutsches Jugendinstitut e.V (DJI) - Podcast "Transfer für die Ohren" (Interview mit Dr. Jannis Hoek)</h4>
-                </div>
-            </div>
-        </a>
-    </div>
+    <a class="carousel-card-prev float-start" role="button" data-bs-target="#carouselCard" data-bs-slide="prev" style="color:white">
+        <span class="fa fa-chevron-left" id="nav-arrow" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-card-next float-end" role="button" data-bs-target="#carouselCard" data-bs-slide="next" style="color:white">
+        <span class="fa fa-chevron-right" id="nav-arrow" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </a>
+
 </div>
+

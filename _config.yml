@@ -36,22 +36,22 @@ environment: staging
 analytics:
   ga_prod: ''
 
-breadcrumbs:
-  post:
-  - label: general.home
-    path: /
-  - label: menu.updates
-    path: /news
-  goal:
-  - label: general.home
-    path: /
-  - label: general.goals
-    path: /goals
-  indicator:
-  - label: general.home
-    path: /
-  - label: general.goals
-    path: /goals
+# breadcrumbs:
+#   post:
+#   - label: general.home
+#     path: /
+#   - label: menu.updates
+#     path: /news
+#   goal:
+#   - label: general.home
+#     path: /
+#   - label: general.goals
+#     path: /goals
+#   indicator:
+#   - label: general.home
+#     path: /
+#   - label: general.goals
+#     path: /goals
 
 collections:
   pages:
@@ -116,32 +116,32 @@ goal_image_base: https://open-sdg.org/sdg-translations/assets/img/goals
 graph_color_set: accessible
 header_language_toggle: dropdown
 
-map_options:
- minZoom: 5
- maxZoom: 20
- tileURL: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
- tileOptions:
-   attribution: '<a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
-map_layers:
- - min_zoom: 0
-   max_zoom: 30
-   subfolder: districts
-   label: District
-   # Control the choropleth color range. See https://gka.github.io/chroma.js/#chroma-brewer
-   colorRange: chroma.brewer.BuGn
-   # Set the color for boundaries that have no data.
-   noValueColor: #f0f0f0
-   # https://leafletjs.com/reference-1.4.0.html#path-option
-   styleNormal:
-     weight: 1
-     opacity: 1
-     color: #888888
-     fillOpacity: 0.7
-   styleHighlighted:
-     weight: 1
-     opacity: 1
-     color: #111111
-     fillOpacity: 0.7
+# map_options:
+#  minZoom: 5
+#  maxZoom: 20
+#  tileURL: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
+#  tileOptions:
+#    attribution: '<a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
+# map_layers:
+#  - min_zoom: 0
+#    max_zoom: 30
+#    subfolder: districts
+#    label: District
+#    # Control the choropleth color range. See https://gka.github.io/chroma.js/#chroma-brewer
+#    colorRange: chroma.brewer.BuGn
+#    # Set the color for boundaries that have no data.
+#    noValueColor: #f0f0f0
+#    # https://leafletjs.com/reference-1.4.0.html#path-option
+#    styleNormal:
+#      weight: 1
+#      opacity: 1
+#      color: #888888
+#      fillOpacity: 0.7
+#    styleHighlighted:
+#      weight: 1
+#      opacity: 1
+#      color: #111111
+#      fillOpacity: 0.7
 
 menu:
   - path: /goals
