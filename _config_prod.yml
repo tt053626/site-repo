@@ -14,8 +14,8 @@
 baseurl: ""
 environment: production
 # Replace my-github-org and open-sdg-data-starter as needed.
-remote_data_prefix: "https://sdgs-treptow-koepenick.github.io/DataTK/"
+remote_data_prefix: "https://sdg-enz-site.github.io/sdg-enz-data/"
 
 analytics:
   # For production, you likely want to enter a Google Analytics code below.
-  ga_prod: 'UA-224069752-1'
+  # ga_prod: ''

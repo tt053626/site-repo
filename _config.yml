@@ -98,11 +98,11 @@ exclude:
 
 footer_language_toggle: none
 footer_menu:
-  - path: https://sdgs-treptow-koepenick.github.io/DataTK/en/zip/all_indicators.zip
+  - path: https://sdg-enz-site.github.io/sdg-enz-data/de/zip/all_indicators.zip
     translation_key: Download
-  - path: mailto:nachhaltigkeit@ba-tk.berlin.de
+  - path: https://www.enzkreis.de/Landkreis-Politik/Leitbild-Agenda-2030/
     translation_key: menu.contact_us
-  - path: /about/cookies-and-privacy/
+  - path: https://www.enzkreis.de/Sonstiges/Impressum/
     translation_key: menu.cookies
   #   - path: /about/cookies-and-privacy/
   #     translation_key: Impressum
