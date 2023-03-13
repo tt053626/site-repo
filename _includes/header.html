@@ -6,27 +6,25 @@
     <div class="container d-flex justify-content-between">
 
         <div>
-            <a class="navbar-brand" href="{{ page.baseurl }}" id="home" style="position:relative; top:0.7rem; bottom: 0.5rem;">
+            <a class="navbar-brand" href="{{ page.baseurl }}" id="home">
                 <img src="{{ site.baseurl }}/assets/img/Mission_logo.png"
                 onmouseover="this.src='{{ site.baseurl }}/assets/img/Mission_logo.png'"
                 onmouseout="this.src='{{ site.baseurl }}/assets/img/Mission_logo.png'"/>
             </a>
         </div>
-        <div style="display: flex; flex-direction: column;">
-            <nav class="navbar navbar-expand-lg navbar-light float-end" id="narbar-container">
+        <div class="header-right">
+            <div class="navbar navbar-expand-lg navbar-dark" id="narbar-container">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ page.t.header.show_menu }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="d-flex flex-wrap w-100 justify-contentt-end"  id="navigation-search-bar">
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        {% include navigation.html dropdowns=true %}
-                    </div>
+                <div class="d-flex w-100 justify-contentt-end" id="header-navigation-links">
+                    {% include navigation.html dropdowns=true %}
                 </div>
-            </nav>
+            </div>
 
-            <div>
-                <a class="navbar-brand" href="https://www.enzkreis.de/" id="enz-logo">
+            <div style="height: 5rem;">
+                <a class="navbar-brand" href="https://www.enzkreis.de/" target="_blank" id="enz-logo">
                     <img src="{{ site.baseurl }}/assets/img/Enzkreis_logo.png"
                     onmouseover="this.src='{{ site.baseurl }}/assets/img/Enzkreis_logo.png'"
                     onmouseout="this.src='{{ site.baseurl }}/assets/img/Enzkreis_logo.png'"/>
@@ -36,8 +34,13 @@
 
     </div>
 </header>
-<div id="color-bar-background"  style="position: relative; top:0px;"> </div>
+<div id="color-bar-background"> </div>
 
+<div class="header-navigation-dropdown">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        {% include navigation.html dropdowns=true %}
+    </div>
+</div>
 
 <!--
 {% include components/page-top.html %}

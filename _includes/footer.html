@@ -45,7 +45,7 @@
                             {% for item in site.footer_menu %}
                                 {%- assign item_path = item.path | t -%}
                                 <li style="color:white;margin: 15px;font-weight: bold;">
-                                    {% if item_path contains "all_indicators" %}
+                                    {% if item_path contains "http" %}
                                         <a href="{{ item_path }}" target="_blank" style="text-decoration: none;color:white;margin: 10px; padding:0.5rem 0rem; font-size: 1.1rem; font-weight: 600;">{{ item.translation_key | t }}</a>
                                         {% elsif item_path contains ":" %}
                                         <a href="{{ item_path }}" target="_blank" style="text-decoration: none;color:white;margin: 10px; padding:0.5rem 0rem;font-size: 1.1rem; font-weight: 600;">{{ item.translation_key | t }}</a>
@@ -54,22 +54,11 @@
                                         {%- if item_path_first == '/' -%}
                                             {%- assign item_path = item_path | slice: 1, item_path.size -%}
                                         {%- endif -%}
-                                        <a href="{{ page.baseurl }}{{ item_path }}" target="_blank"  style="text-decoration: none;color:white;margin: 10px; padding:0.5rem 0rem;font-size: 1.1rem; font-weight: 600;">{{ item.translation_key | t }}</a>
+                                        <a href="{{ page.baseurl }}{{ item_path }}" style="text-decoration: none;color:white;margin: 10px; padding:0.5rem 0rem;font-size: 1.1rem; font-weight: 600;">{{ item.translation_key | t }}</a>
                                     {% endif %}
                                     </li>
                             {% endfor %}
                         {% endif %}
-                        {% if site.environment == 'staging' and site.site_config_form.enabled %}
-                        <li style="color:white;margin: 15px;font-weight: bold;">
-                            <a style="text-decoration: none;color:white;margin: 10px;font-size: 1.1rem;" href="{{ page.baseurl }}config">Configuration</a>
-                        </li>
-                        {% endif %}
-                        {%- if site.languages.size > 1 and site.footer_language_toggle and site.footer_language_toggle
-                        != 'none' -%}
-                        <li class="language-toggle-menu-footer" style="color:white;margin: 15px;font-weight: bold;">
-                            {% include components/language-toggle.html location="footer" %}
-                        </li>
-                        {%- endif -%}
                     </ul>
                 </div>
             </div>

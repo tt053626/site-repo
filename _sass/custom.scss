@@ -1,3 +1,11 @@
+h1 {
+  font-size: 2.35vw;
+  text-align: start;
+  @media screen and (max-width: 992px) {
+    font-size: 3.75vw;
+  }
+}
+
 #main-content {
   .goal-tiles {
     .goal-tile {
@@ -24,6 +32,7 @@ body{
 /* header color bar --> hide by pushing over page-top boundary */
 #color-bar-background {
   background: $backgroundColor url('../img/sdgbg.png') top left repeat-x;
+  position: relative;
   top: 0px;
   height: 9px;
 }
@@ -32,8 +41,8 @@ header {
   display: block;
   // position: sticky;  
   // position: -webkit-sticky; 
-  padding-bottom: 1.8rem;
   top: 0px; 
+  max-height: fit-content;
   z-index:3; 
   background-color: #248096;
   background-image: url('../img/bg_site-header.png');
@@ -44,8 +53,13 @@ header {
 #home{
   display: inline-block;
   position: relative;
-  max-width: 33%;
+  padding-top:0.7rem; 
+  padding-bottom: 1rem;
+  max-width: 17rem;
   text-decoration: none;
+  @media screen and (max-width: 768px) {
+    max-width: 15rem;
+  }
 }
 #enz-logo {
   display: inline-block;
@@ -53,6 +67,11 @@ header {
   position: relative;
   top: 10%;
   right: 2%;
+  @media screen and (max-width: 992px) {
+    top: 25%;
+    width:80%;
+    right: -10%;
+  }
 }
 
 /*  ab hier von open-sdg*/
@@ -68,23 +87,85 @@ header {
   }
 }
 
-// a:hover{
-//   text-decoration-color: white;
-// }
+// second logo and navbar-toggler on the right
+.header-right {
+  @media screen and (min-width: 992px) {
+    display: flex; 
+    flex-direction: column;
+  }
 
+  @media screen and (max-width: 992px) {
+    display: flex; 
+    flex-direction: row-reverse;
+    margin-top: auto;
+  }
+}
 .navbar {
-  padding-top: .5rem;
-  padding-bottom: .5rem;
+  justify-content: flex-end; // space out brand from logo
 }
-.navbar.navbar-nav.nav-item.nav-link {
-  font-size: 15px;
-}
+// set navigation links (upper right) to white
 .navbar .navbar-nav > .nav-item > .nav-link {
   color: white;
 }
 .navbar .navbar-nav > .nav-item > .nav-link:hover {
   border-bottom: 3px solid white;
 }
+// hide navigation links (upper right) when screen is small
+@media screen and (max-width: 992px) {
+  #header-navigation-links {
+    display: none !important;;
+  }
+}
+
+// small screen --> hamburger icon and dropdown menu
+@media screen and (min-width: 992px) {
+  // show navigation dropdown when screen is small
+  .header-navigation-dropdown {
+    display: none;
+  }
+}
+@media screen and (max-width: 992px) {
+  .navbar {
+    // hamburger icon
+    .navbar-toggler .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='	rgb(255,255,255)' stroke-width='2.5' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+      font-size: 0.8rem;
+    }
+    .navbar-toggler {
+      border-color: rgb(255,255,255);
+      background-color: #248096;
+      margin-top: 0px;
+    } 
+    .navbar-toggler[aria-expanded="true"] {
+      background-color: #7d7900;
+    } 
+
+    .navbar-toggler:hover,
+    .navbar-toggler:focus {
+      border-color: rgb(255,255,255);
+      background-color: #7d7900;
+      box-shadow: 0px 0px 0px 0px $focusBackgroundColor !important;
+    } 
+  }
+  // dropdown menu under color bar
+  .header-navigation-dropdown {
+    .nav-item {
+      background-color: #226c7e;
+    } 
+    .nav-item:hover {
+      background-color: #7d7900;
+    }
+    .navbar-nav .nav-link {
+      color: white;
+      padding-left: 1rem;
+    }
+  }
+}
+
+
+
+
+
 
 /* search field*/
 #search-btn {
@@ -119,11 +200,14 @@ header {
 .lead-copy {
   padding-top: 2rem;
 }
-p > img {
-    float: right;
-    width: 45%;
+.col-lg-5 {
+  @media screen and (min-width: 992px) {
     padding-left: 3rem;
-    padding-bottom: 2rem;
+    width: 41%;
+  }
+  width: auto;
+  height: max-content;
+  padding-bottom: 2rem;
 }
 
 .frontpage-goals-grid .frontpage-goals-grid-title {
