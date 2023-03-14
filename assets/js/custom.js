@@ -20,15 +20,15 @@ items.forEach((el) => {
 // cards carousel on frontpage
 let width = screen.width;
 let cards = document.querySelectorAll('#carouselCard .carousel-item');
-let minSlide;
+let minSlide = 3;
 
-if (width >= 1200) {
-	minSlide = 3;
-} else if (width >= 768 && width < 1200 ) {
-	minSlide = 2;
-} else {
-	minSlide = 1;
-}
+// if (width >= 1200) {
+// 	minSlide = 3;
+// } else if (width >= 768 && width < 1200 ) {
+// 	minSlide = 2;
+// } else {
+// 	minSlide = 1;
+// }
 
 cards.forEach((cc) => {
 	let next = cc.nextElementSibling
@@ -44,28 +44,38 @@ cards.forEach((cc) => {
 })
 
 
-// change number of cards per slide according to screen width
-$(window).resize(function() {
-	if (width >= 1200) {
-		minSlide = 3;
-	} else if (width >= 768 && width < 1200 ) {
-		minSlide = 2;
-	} else {
-		minSlide = 1;
-	}
+// // change number of cards per slide according to screen width
+// $(document).ready(function(){
+// 	$(window).resize(function() {
+// 		cards.forEach((cc) => {
+// 			while (cc.childElementCount > 1) {
+// 				cc.removeChild(cc.lastChild);
+// 			}
+// 		})
 
-	cards.forEach((cc) => {
-		let next = cc.nextElementSibling
-		for (var i=1; i<minSlide; i++) {
-			if (!next) {
-				// wrap carousel by using first child
-				next = cards[0]
-			}
-			let cloneChild = next.cloneNode(true)
-			cc.appendChild(cloneChild.children[0])
-			next = next.nextElementSibling
-		}
-	})
-	
+// 		let width = screen.width;
+		
+// 		if (width >= 1200) {
+// 			minSlide = 3;
+// 		} else if (width >= 768 && width < 1200 ) {
+// 			minSlide = 2;
+// 		} else {
+// 			minSlide = 1;
+// 		}
 
-});
+// 		cards = document.querySelectorAll('#carouselCard .carousel-item');
+// 		cards.forEach((cc) => {
+// 			let next = cc.nextElementSibling
+// 			for (var i=1; i<minSlide; i++) {
+// 				if (!next) {
+// 					// wrap carousel by using first child
+// 					next = cards[0]
+// 				}
+// 				let cloneChild = next.cloneNode(true)
+// 				cc.appendChild(cloneChild.children[0])
+// 				next = next.nextElementSibling
+// 			}
+// 		})
+
+// 	})
+// });

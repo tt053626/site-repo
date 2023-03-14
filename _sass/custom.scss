@@ -1,10 +1,26 @@
+// for all a href tags, remove thick black line after clicking (focus)
+[href]:focus {
+  box-shadow: 0px 0px 0px 0px $focusBackgroundColor !important;
+}
+
 h1 {
-  font-size: 2.35vw;
+  font-size: 2.5rem;
   text-align: start;
   @media screen and (max-width: 992px) {
-    font-size: 3.75vw;
+    font-size: 1.75rem;
+  }
+  @media screen and (max-width: 576px) {
+    font-size: 1.5rem;
   }
 }
+h2 {
+  font-size: 2rem;
+  text-align: start;
+  @media screen and (max-width: 992px) {
+    font-size: 1.25rem;
+  }
+}
+
 
 #main-content {
   .goal-tiles {
@@ -199,6 +215,10 @@ header {
 }
 .lead-copy {
   padding-top: 2rem;
+  font-size: 1.4rem;
+  @media screen and (max-width: 992px) {
+    font-size: 1.25rem;
+  }
 }
 .col-lg-5 {
   @media screen and (min-width: 992px) {
@@ -242,7 +262,7 @@ header {
   transition: 0.3s;
   background-color: #248096;
 
-  .cont{
+  .cont {
     display: table-cell;
     vertical-align: middle;
     height: 8rem;
@@ -255,7 +275,7 @@ header {
   }
   .card-img-top{
     width: 100%;
-    height: 414px;
+    height: max-content;
   } 
 }
 .card:hover {
@@ -268,6 +288,21 @@ header {
   margin-right: 1rem;
   margin-left: 1rem;
   text-decoration: none !important;
+}
+// small screen: md > lg
+@media (min-width: 768px) and (max-width: 992px) {
+  #carouselCard {
+    .carousel-inner .carousel-item > div { display: none; }
+    .carousel-inner .carousel-item > div:first-child { display: block; }
+    .carousel-inner .carousel-item > div:first-child + div { display: block; }
+  }
+}
+// for small screens: > md
+@media (max-width: 768px) {
+  #carouselCard {
+    .carousel-inner .carousel-item > div { display: none; }
+    .carousel-inner .carousel-item > div:first-child { display: block; }
+  }
 }
 
 
@@ -284,17 +319,22 @@ header {
 
   /* goal-navigation-top */
   .goal-#{$i} {
+    padding-top: 3vw;
+    padding-bottom: 3vw;
     &.goal-banner {
       background-color: $background-c;
       padding-top: 0px;
       padding-bottom: 0px;
-      .Image{
+      & > .Image{
         display: block;
-        margin: auto;
         text-align: center;
         width: 25%;
         height: 100%;
         z-index: 1;
+      }
+      .fa-chevron-left,
+      .fa-chevron-right {
+        font-size: calc(1rem + ((2vw) * 0.6944));
       }
       .fa-chevron-left:is(:hover, :focus, :active) {
         color: darken($background-c,50%); //white
@@ -303,12 +343,19 @@ header {
         color: darken($background-c,50%); //white
       }
     }
-
+    .Image.col-2 {
+      @media screen and (max-width: 992px) {
+        width: 10rem;
+      }
+      @media screen and (max-width: 576px) {
+        width: 8rem;
+      }
+    }
     /* main content for goals and indicators */
     &.goal-title-by-goal {
       color: $background-c;
       font-weight: 700;
-      margin-top: 30px;
+      margin-top: 3vw;
     }
     &.indicator-title-by-indicator {
       color: $background-c;
@@ -335,16 +382,47 @@ header {
 //   }
 // }
 
-
 .layout-goal {
+  .goal-page-indicator-number {
+    margin-left: 0px;
+    padding-right: 70px;
+    .indicator-number {
+      font-size: 1.4rem; 
+      font-weight: 500;
+      color:#444444; 
+      text-decoration: none;
+      padding:0.5rem 0rem; 
+      @media screen and (max-width: 992px) {
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  .indicator-name {
+    a {
+      font-size: 1.4rem; 
+      font-weight: 500;
+      color:#444444;
+      text-decoration: none;
+      padding:0.5rem 0rem; 
+      margin: 0.3rem; 
+
+      @media screen and (max-width: 768px) {
+        padding: 0rem 0rem;
+      }
+      @media screen and (max-width: 992px) {
+        font-size: 1.2rem;
+      }
+    }
+    a:hover {
+      border-bottom: 3px solid #444444;
+    }
+  }
   @media screen and (min-width: 769px) {
     min-height: 80px;
     position: relative;
     .indicator-name {
       width: 75%;
-      a:hover {
-        border-bottom: 3px solid #444444;
-      }
     }
   }
   @media screen and (min-width: 992px) {
@@ -354,9 +432,7 @@ header {
     }
   }
 
-  .goal-page-indicator-number {
-    margin-left: 0px;
-  }
+
   .goal-indicator {
     margin-top: 0px;
   }
@@ -393,7 +469,6 @@ header {
 
 
 
-
 /*#4. goal-navigation-bottom */
 #contain{
   margin: auto;
@@ -405,37 +480,54 @@ header {
     padding-bottom: 20px;
 }
 
-@media (max-width: 767px) {
-  .carousel-inner .carousel-item > div {
-      display: none;
-  }
-  .carousel-inner .carousel-item > div:first-child {
-      display: block;
+// small screen: xs
+@media (max-width: 576px) {
+  #carouselLowerNavigation {
+    .carousel-inner .carousel-item > div { display: none; }
+    .carousel-inner .carousel-item > div:first-child { display: block; }
   }
 }
+// small screen: sm > md
+@media (min-width: 576px) and (max-width: 768px) {
+  #carouselLowerNavigation {
+    .carousel-inner .carousel-item > div { display: none; }
+    .carousel-inner .carousel-item > div:first-child { display: block; }
+    .carousel-inner .carousel-item > div:first-child + div { display: block; }
+  }
+}
+// small screen: md > lg
+@media (min-width: 768px) and (max-width: 992px) {
+  #carouselLowerNavigation {
+    .carousel-inner .carousel-item > div { display: none; }
+    .carousel-inner .carousel-item > div:first-child { display: block; }
+    .carousel-inner .carousel-item > div:first-child + div { display: block; }
+    .carousel-inner .carousel-item > div:first-child + div + div { display: block; }
+  }
+}
+// for frontpage cards and goal-navigation-bottom
 .carousel-inner .carousel-item.active,
 .carousel-inner .carousel-item-next,
 .carousel-inner .carousel-item-prev {
   display: flex;
 }
 
-#carouselLowerNavigation {
-  // large screen
-  @media (min-width: 768px) {
-    .carousel-inner .carousel-item-end.active,
-    .carousel-inner .carousel-item-next {
-      transform: translateX(25%);
-    }
-      .carousel-inner .carousel-item-start.active, 
-    .carousel-inner .carousel-item-prev {
-      transform: translateX(-25%);
-    }
-  }
-  .carousel-inner .carousel-item-end,
-  .carousel-inner .carousel-item-start { 
-  transform: translateX(0);
-}
-}
+// #carouselLowerNavigation {
+//   // large screen
+//   @media (min-width: 768px) {
+//     .carousel-inner .carousel-item-end.active,
+//     .carousel-inner .carousel-item-next {
+//       transform: translateX(25%);
+//     }
+//       .carousel-inner .carousel-item-start.active, 
+//     .carousel-inner .carousel-item-prev {
+//       transform: translateX(-25%);
+//     }
+//   }
+//   .carousel-inner .carousel-item-end,
+//   .carousel-inner .carousel-item-start { 
+//   transform: translateX(0);
+// }
+// }
 
 // drop shadow
 .carousel-col {
@@ -460,6 +552,7 @@ header {
   transform: translateY(-50%);
   text-decoration: none !important;
 }
+
 
 
 
@@ -555,9 +648,3 @@ h5 {
   }
 } 
 
-
-
-// for all a href tags, remove thick black line after clicking (focus)
-[href]:focus {
-  box-shadow: 0px 0px 0px 0px $focusBackgroundColor !important;
-}
