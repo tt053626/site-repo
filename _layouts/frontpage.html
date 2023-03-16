@@ -9,8 +9,8 @@
 <!-- custom header. Design specified in _sass/custom.scss -->
 {% include header.html %}
 <div class="container">
-    <div style="padding-top: 1rem; padding-left: 70%">
-        {% include search.html %}
+    <div class="d-flex justify-content-end" style="padding-top: 1rem; padding-bottom: 20px; ">
+        {% include frontpage-search.html %}
     </div>
 </div>
 
@@ -34,8 +34,8 @@
             Ob Gesundheit und soziale Gerechtigkeit, ob Biodiversität und eine schadstofffreie Umwelt, ob Energie- und Verkehrswende, ob erfolgreiche Unternehmen oder eine nachhaltige Agrarwirtschaft und Nahrungsmittelproduktion: die nachhaltige Entwicklung des Enzkreises ist eine wichtige Zukunftsaufgabe, der wir uns mit diesen Indikatoren stellen. Lassen Sie uns gemeinsam an einer nachhaltigen, enkeltauglichen Zukunft arbeiten.
             <br><br>
             Ihr<br> </p>
-            <img src="{{ site.baseurl }}/assets/img/major_signature.png" style="width: 30%">
-            <p>Landrat</p>
+            <img src="{{ site.baseurl }}/assets/img/major_signature.png" id="landrat-sign">
+            <p>Bastian Rosenau,<br>Landrat</p>
         </div>
     </div>
     {% endif %}
@@ -55,7 +55,7 @@
     {% endif %}
     
     <!-- cards -->
-    <div class="row frontpage-card">
+    <div class="row g-0 frontpage-card">
         {% include components/card.html card=card %}
     </div>
 </div>

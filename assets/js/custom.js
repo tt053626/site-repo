@@ -81,3 +81,8 @@ cards.forEach((cc) => {
 // });
 
 
+// $( "#search-field-close" ).click(function() {
+// 	$( "#search-field-close" ).attr("data-toggle", "false");
+// });
+
+

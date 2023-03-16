@@ -1,0 +1,44 @@
+<form class="search-field" id="{{ include.id | default: 'search' }}" action="{{ page.baseurl }}search/">
+    <div class="input-group">
+        <label class="visually-hidden" for="indicator_{{ include.id | default: 'search' }}">{{ page.t.search.search }}</label>
+        <input class="form-control" type="search" placeholder="Indikator suchen" name="q" id="indicator_{{ include.id | default: 'search' }}" title="{{ page.t.search.search }}">
+        <span class="input-group-append">
+            <button class="btn btn-outline-secondary ms-n5" aria-label="{{ page.t.search.site_search }}" id="{{ include.id | default: 'search' }}-btn" type="submit">
+                <i class="fa fa-search"></i>
+            </button>
+        </span>
+    </div>
+</form>
+
+<div class="align-items-center" id="navbar-search-md" style="z-index: 10;">
+    <button class="btn hide-btn" id="search-btn-collapse" onclick="showSearchField()" type="button" data-bs-toggle="collapse" data-bs-target="#search-field-input" aria-controls="search-field" aria-expanded="false" aria-label="{{ page.t.header.show_menu }}">
+        <i class="fa fa-search"></i>
+    </button>
+    <div class="collapse" id="search-field-input">
+        <form class="search-field float-start" id="search-md" action="{{ page.baseurl }}search/">
+            <div class="input-group">
+                <label class="visually-hidden" for="indicator_{{ include.id | default: 'search' }}">{{ page.t.search.search }}</label>
+                <input class="form-control" type="search" placeholder="Indikator suchen" name="q" id="indicator_{{ include.id | default: 'search' }}" title="{{ page.t.search.search }}">
+            </div>
+        </form>
+        <span class="float-end" >
+            <button id="search-field-close" onclick="hideSearchField()">
+                <i class="fa fa-close" style="padding: 0.45em"></i>
+            </button>
+        </span>
+    </div>
+</div>
+
+
+<script>
+    function hideSearchField() {
+        var x = document.getElementById( "search-field-input" )
+    }
+    function hideSearchField() {
+        var x = document.getElementById( "search-field-input" )
+        var y = document.getElementById( "search-btn-collapse" )
+
+        x.classList.remove("show");
+        y.setAttribute("aria-expanded", "false");
+    }
+</script>
