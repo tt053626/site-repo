@@ -1,8 +1,4 @@
 // for all a href tags, remove thick black line after clicking (focus)
-[href]:focus {
-  box-shadow: 0px 0px 0px 0px $focusBackgroundColor !important;
-}
-
 h1 {
   font-size: 2.5rem;
   text-align: start;
@@ -156,28 +152,6 @@ header {
   }
 }
 @media screen and (max-width: 992px) {
-  .navbar {
-    // hamburger icon
-    .navbar-toggler .navbar-toggler-icon {
-      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='	rgb(255,255,255)' stroke-width='2.5' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-      font-size: 0.8rem;
-    }
-    .navbar-toggler {
-      border-color: rgb(255,255,255);
-      background-color: #248096;
-      margin-top: 0px;
-    } 
-    .navbar-toggler[aria-expanded="true"] {
-      background-color: #7d7900;
-    } 
-
-    .navbar-toggler:hover,
-    .navbar-toggler:focus {
-      border-color: rgb(255,255,255);
-      background-color: #7d7900;
-      box-shadow: 0px 0px 0px 0px $focusBackgroundColor !important;
-    } 
-  }
   // dropdown menu under color bar
   .header-navigation-dropdown {
     .nav-item {
@@ -192,7 +166,32 @@ header {
     }
   }
 }
+.navbar {
+  // hamburger icon
+  .navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='	rgb(255,255,255)' stroke-width='2.5' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    font-size: 0.8rem;
+  }
+  .navbar-toggler {
+    border-color: rgb(255,255,255);
+    background-color: #248096;
+    margin-top: 0px;
+  } 
 
+  .navbar-toggler:hover {
+    border-color: rgb(255,255,255);
+    background-color: #7d7900;
+    box-shadow: 0px 0px 0px 0px transparent !important;
+  } 
+  .navbar-toggler:focus {
+    border-color: rgb(255,255,255);
+    box-shadow: 0px 0px 0px 0px transparent !important;
+  }
+  .navbar-toggler[aria-expanded="true"] {
+    background-color: #7d7900;
+  }
+
+}
 
 
 
@@ -389,7 +388,7 @@ header {
 //       & > a[href]:is(:hover, :focus) {
 //         box-shadow: 3px 3px 6px 0 rgba(0,0,0,0.2) !important;
 //         outline: 3px solid transparent !important;
-//         background-color: $focusBackgroundColor !important;
+//         background-color: transparent !important;
 //         outline-offset: 0 !important;
 //         text-decoration: none !important;
 //       }
@@ -480,6 +479,11 @@ header {
 #toolbar {
   margin-top: 1.5rem !important;
 }
+button[role=tab]:focus {
+  background-color: transparent !important;
+}
+
+
 
 
 
@@ -664,3 +668,9 @@ h5 {
   }
 } 
 
+
+// href color after click
+[href]:focus {
+  box-shadow: 0px 0px 0px 0px transparent !important;
+  background-color: transparent !important;
+}
