@@ -214,7 +214,7 @@ header {
     color: #444444 !important;
     border-color: #ced4da !important;
     padding-top: 0.7rem;
-    padding-bottom: 0.7em;
+    padding-bottom: 0.7rem;
   }
   button:focus {
     color: white !important;
@@ -237,12 +237,13 @@ header {
   }
 }
 // search bar on search-result page (does not change)
-#search-bar-on-page .input-group {
+#search-bar-on-page {
   button {
     right: 0px;
     height: auto;
-    padding-top: 0.4em;
-    padding-bottom: 0.4em;
+    font-size: initial;
+    // padding-top: 0.7rem;
+    // padding-bottom: 0.7rem;
   }
   input { height: auto; }
 }
