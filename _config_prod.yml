@@ -14,7 +14,7 @@
 baseurl: ""
 environment: production
 # Replace my-github-org and open-sdg-data-starter as needed.
-remote_data_prefix: "http://agenda2030.enzkreis.de/sdg-enz-data"
+remote_data_prefix: "https://agenda2030.enzkreis.de/sdg-enz-data"
 
 analytics:
   # For production, you likely want to enter a Google Analytics code below.
