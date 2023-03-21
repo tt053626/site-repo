@@ -407,22 +407,48 @@ header {
   margin-left: 1rem;
   text-decoration: none !important;
 }
-// small screen: md > lg
-@media (min-width: 768px) and (max-width: 992px) {
-  #carouselCard {
-    .carousel-inner .carousel-item > div { display: none; }
-    .carousel-inner .carousel-item > div:first-child { display: block; }
-    .carousel-inner .carousel-item > div:first-child + div { display: block; }
-  }
-}
-// for small screens: > md
+// small screen: xs /show 1 card
 @media (max-width: 768px) {
   #carouselCard {
     .carousel-inner .carousel-item > div { display: none; }
     .carousel-inner .carousel-item > div:first-child { display: block; }
   }
 }
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
 
+// small screen: md > lg /show 2 cards
+@media (min-width: 768px) and (max-width: 992px) {
+  #carouselCard {
+    .carousel-inner .carousel-item > div { display: none; }
+    .carousel-inner .carousel-item > div:first-child { display: block; }
+    .carousel-inner .carousel-item > div:first-child + div { display: block; }
+    // shift starting position by 1/2
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next { transform: translateX(51%); }
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev { transform: translateX(-51%); }
+  }
+}
+// large screen /show 3 cards
+@media (min-width: 992px) {
+  // shift starting position by 1/3
+  #carouselCard {
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next { transform: translateX(33.8%); }
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev { transform: translateX(-33.8%); }
+  }
+}
+@media (min-width: 768px) {
+  #carouselCard {
+    .carousel-inner .carousel-item-end,
+    .carousel-inner .carousel-item-start {  transform: translateX(0); }
+  }
+}
 
 
 
@@ -601,36 +627,62 @@ button[role=tab]:focus {
     padding-bottom: 20px;
 }
 
-// small screen: xs
+// small screen: xs /show 1 item
 @media (max-width: 576px) {
   #carouselLowerNavigation {
     .carousel-inner .carousel-item > div { display: none; }
     .carousel-inner .carousel-item > div:first-child { display: block; }
   }
 }
-// small screen: sm > md
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+// small screen: sm > md /show 2 items
 @media (min-width: 576px) and (max-width: 768px) {
   #carouselLowerNavigation {
     .carousel-inner .carousel-item > div { display: none; }
     .carousel-inner .carousel-item > div:first-child { display: block; }
     .carousel-inner .carousel-item > div:first-child + div { display: block; }
+    // shift starting position by 1/2
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next { transform: translateX(50%); }
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev { transform: translateX(-50%); }
   }
 }
-// small screen: md > lg
+// small screen: md > lg /show 3 items
 @media (min-width: 768px) and (max-width: 992px) {
   #carouselLowerNavigation {
     .carousel-inner .carousel-item > div { display: none; }
     .carousel-inner .carousel-item > div:first-child { display: block; }
     .carousel-inner .carousel-item > div:first-child + div { display: block; }
     .carousel-inner .carousel-item > div:first-child + div + div { display: block; }
+    // shift starting position by 1/3
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next { transform: translateX(33.33%); }
+      .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev { transform: translateX(-33.33%); }
   }
 }
-// for frontpage cards and goal-navigation-bottom
-.carousel-inner .carousel-item.active,
-.carousel-inner .carousel-item-next,
-.carousel-inner .carousel-item-prev {
-  display: flex;
+// large screen /show 4 items
+@media (min-width: 992px) {
+  // shift starting position by 1/4
+  #carouselLowerNavigation {
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next { transform: translateX(25%); }
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev { transform: translateX(-25%); }
+  }
 }
+@media (min-width: 576px) {
+  #carouselLowerNavigation {
+    .carousel-inner .carousel-item-end,
+    .carousel-inner .carousel-item-start { transform: translateX(0); }
+  }
+}
+
 
 // #carouselLowerNavigation {
 //   // large screen

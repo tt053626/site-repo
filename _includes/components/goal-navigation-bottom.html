@@ -6,26 +6,28 @@
             <h4 class="text-center" style="margin-bottom: 10px; color: #adadad;">Klicken Sie auf die einzelnen Ziele, um die Daten unserer lokalen <br> Indikatoren für nachhaltige Entwicklung anzuzeigen.</h4>
         </div>
         <div id="carouselLowerNavigation" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2500">
+            <!-- iterate over a specified list: create the initial carousel-item and modify them in custom.js -->
             <div class="carousel-inner">
                 {% for goal in page.goals %}
-                    <div class="carousel-item {% if forloop.first %}active{% endif %}">
-                        <div class="carousel-col" id="lower-nav-goal">
-                            <a href="{{ goal.url }}">
-                                <img src="{{ goal.icon }}" class="d-block w-100 goal-icon-image goal-icon-image-{{ site.goal_image_extension }}" id="goal-{{ goal.number }}" alt="{{ goal.short | escape }} - {{ page.t.general.goal }} {{ goal.number }}"/>
-                            </a>
-                        </div>
+                <div class="carousel-item {% if forloop.first %}active{% endif %}">
+                    <div class="carousel-col" id="lowerNavGoalHide">
+                        <a href="{{ goal.url }}">
+                            <img src="{{ goal.icon }}" class="d-block w-100 goal-icon-image goal-icon-image-{{ site.goal_image_extension }}" id="goal-{{ goal.number }}" alt="{{ goal.short | escape }} - {{ page.t.general.goal }} {{ goal.number }}"/>
+                        </a>
                     </div>
+                </div>
                 {% endfor %}
             </div>
             
-            <a class="carousel-control-prev" role="button" data-bs-target="#carouselLowerNavigation" data-bs-slide="prev">
+            <a class="carousel-control-prev" role="button" data-bs-target="#carouselLowerNavigation" data-bs-slide="next">
                 <span class="fa fa-chevron-left" id="nav-arrow" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </a>
-            <a class="carousel-control-next" role="button" data-bs-target="#carouselLowerNavigation" data-bs-slide="next">
+            <a class="carousel-control-next" role="button" data-bs-target="#carouselLowerNavigation" data-bs-slide="prev">
                 <span class="fa fa-chevron-right" id="nav-arrow" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </a>
         </div>
+
     </div>
 </div>
