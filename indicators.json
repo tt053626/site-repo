@@ -6,27 +6,27 @@
       "indicators": [
         
         {
-          "id": "1-1-1",
-          "title": "Anzahl der Personen die das Sozialhilfeportal nutzen",
+          "id": "1-1",
+          "title": "SGB II-/SGB XII-Quote",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/1-1-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "1-2-1",
-          "title": "Anzahl der Repaircafes, Gemeinschaftswerkstätten und ReUse Shops in Treptow-Köpenick",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/1-2-1",
+          "href": "/sdg-enz-staging-site/1-1",
           "status": "complete"
         },
         {
-          "id": "1-3-1",
-          "title": "Armutsgefährdungsquote in Treptow-Köpenick",
+          "id": "1-2-a",
+          "title": "Armut bei Kindern und Jugendlichen",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/1-3-1",
+          "href": "/sdg-enz-staging-site/1-2-a",
+          "status": "complete"
+        },
+        {
+          "id": "1-2-b",
+          "title": "Armut bei Älteren (> 65 Jahre)",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-enz-staging-site/1-2-b",
           "status": "complete"
         }]
     }
@@ -38,27 +38,27 @@
       "indicators": [
         
         {
-          "id": "2-1-1",
-          "title": "Öffentlich zugängliche Obstbäume und Beete",
+          "id": "2-1",
+          "title": "Kinder mit Fehlernährung",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/2-1-1",
+          "href": "/sdg-enz-staging-site/2-1",
           "status": "complete"
         },
         {
-          "id": "2-2-1",
-          "title": "Fair zertifizierte Lebensmittel in der Berliner Schulverpflegung",
+          "id": "2-2",
+          "title": "Landwirtschaftliche Betriebsführung",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/2-2-1",
+          "href": "/sdg-enz-staging-site/2-2",
           "status": "complete"
         },
         {
-          "id": "2-3-1",
-          "title": "Kilogramm gerettete Lebensmittel (Foodsharing)",
+          "id": "2-3",
+          "title": "Stickstoffüberschuss aus der Landwirtschaft",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/2-3-1",
+          "href": "/sdg-enz-staging-site/2-3",
           "status": "complete"
         }]
     }
@@ -70,51 +70,107 @@
       "indicators": [
         
         {
-          "id": "3-1-1",
-          "title": "Stadtradeln - Anzahl der Personen die teilnehmen",
+          "id": "3-1",
+          "title": "Wohnungsnahe Grundversorgung - Psychotherapeuten, Haus- und Fachärzte",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/3-1-1",
+          "href": "/sdg-enz-staging-site/3-1",
           "status": "complete"
         },
         {
-          "id": "3-1-2",
-          "title": "Stadtradeln - Mit Fahrrad gefahrene Kilometer",
+          "id": "3-2",
+          "title": "Krankenhausversorgung",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/3-1-2",
+          "href": "/sdg-enz-staging-site/3-2",
           "status": "complete"
         },
         {
-          "id": "3-1-3",
-          "title": "Stadtradeln - Kilogramm CO2 eingespart",
+          "id": "3-3",
+          "title": "Vorzeitige Sterblichkeit",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/3-1-3",
+          "href": "/sdg-enz-staging-site/3-3",
           "status": "complete"
         },
         {
-          "id": "3-2-1",
-          "title": "Relative Lärmbelastung in Treptow-Köpenick (Umweltgerechtigkeit)",
+          "id": "3-4",
+          "title": "Alkoholbedingte Krankenhausaufenthalte von Jugendlichen",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/3-2-1",
+          "href": "/sdg-enz-staging-site/3-4",
           "status": "complete"
         },
         {
-          "id": "3-3-1",
-          "title": "Relative Luftbelastung in Treptow-Köpenick (Umweltgerechtigkeit)",
+          "id": "3-5-a",
+          "title": "Todesfälle nach psychischen und Verhaltensstörungen",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/3-3-1",
+          "href": "/sdg-enz-staging-site/3-5-a",
           "status": "complete"
         },
         {
-          "id": "3-3-2",
-          "title": "Grenzwertüberschreitungen Luftverschmutzung in Treptow-Köpenick",
+          "id": "3-5-b",
+          "title": "Selbsttötung und Selbstschädigung mit Todesfolge",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/3-3-2",
+          "href": "/sdg-enz-staging-site/3-5-b",
+          "status": "complete"
+        },
+        {
+          "id": "3-5-c",
+          "title": "Sterbefälle nach bösartiger Neubildung (Primärtumore)",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-enz-staging-site/3-5-c",
+          "status": "complete"
+        },
+        {
+          "id": "3-6-a",
+          "title": "Pflegebedürftige und benötigte Pflegeleistungen",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-enz-staging-site/3-6-a",
+          "status": "complete"
+        },
+        {
+          "id": "3-6-b",
+          "title": "Ambulante Pflegeleistungen",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-enz-staging-site/3-6-b",
+          "status": "complete"
+        },
+        {
+          "id": "3-6-c",
+          "title": "Teilstationäre und stationäre Pflegeleistungen",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-enz-staging-site/3-6-c",
+          "status": "complete"
+        },
+        {
+          "id": "3-7",
+          "title": "Maserninfektionen",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-enz-staging-site/3-7",
+          "status": "complete"
+        },
+        {
+          "id": "3-8-a",
+          "title": "Luftqualität: Feinstaub- (PM10) / Abriebemissionen",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-enz-staging-site/3-8-a",
+          "status": "complete"
+        },
+        {
+          "id": "3-8-b",
+          "title": "Luftqualität: Stickstoffoxid-Emissionen (NOX)",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-enz-staging-site/3-8-b",
           "status": "complete"
         }]
     }
@@ -126,43 +182,75 @@
       "indicators": [
         
         {
-          "id": "4-1-1",
-          "title": "Anzahl der Schulen in Treptow-Köpenick die pro Jahr an der Lernkonferenz teilnehmen",
+          "id": "4-1-a",
+          "title": "Betreuungsquote von Kleinkindern - unter 3 Jahre",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/4-1-1",
+          "href": "/sdg-enz-staging-site/4-1-a",
           "status": "complete"
         },
         {
-          "id": "4-2-1",
-          "title": "Anzahl angebotener Fortbildungen zu 'Bildung für nachhaltige Entwicklung' (BNE) für das pädagogische Personal an Schulen in Treptow-Köpenick",
+          "id": "4-1-b",
+          "title": "Betreuungsquote von Kindern - 3 Jahre bis Schuleintritt",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/4-2-1",
+          "href": "/sdg-enz-staging-site/4-1-b",
           "status": "complete"
         },
         {
-          "id": "4-3-1",
-          "title": "Anzahl der Volkshochschul (VHS) Kurse zum Themenbereich Globales lernen, 'Bildung für nachhaltige Entwicklung' (BNE) und SDGs",
+          "id": "4-2",
+          "title": "Schulabbrecherquote",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/4-3-1",
-          "status": "notstarted"
+          "href": "/sdg-enz-staging-site/4-2",
+          "status": "complete"
         },
         {
-          "id": "4-4-1",
-          "title": "Noch zu definieren",
+          "id": "4-3",
+          "title": "Schulabschlüsse",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/4-4-1",
-          "status": "notstarted"
+          "href": "/sdg-enz-staging-site/4-3",
+          "status": "complete"
         },
         {
-          "id": "4-5-1",
-          "title": "Projektteilnehmer des Projektes 'Umweltschule in Europa - Internationale Nachhaltigkeitsschule'",
+          "id": "4-4",
+          "title": "Auszubildende (nach Sektoren)",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/4-5-1",
+          "href": "/sdg-enz-staging-site/4-4",
+          "status": "complete"
+        },
+        {
+          "id": "4-5",
+          "title": "Bildungswanderungen",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-enz-staging-site/4-5",
+          "status": "complete"
+        },
+        {
+          "id": "4-6",
+          "title": "Familienwanderungen",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-enz-staging-site/4-6",
+          "status": "complete"
+        },
+        {
+          "id": "4-7",
+          "title": "Integrative Kindertageseinrichtungen",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-enz-staging-site/4-7",
+          "status": "complete"
+        },
+        {
+          "id": "4-8",
+          "title": "Kooperationen und Inklusion",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-enz-staging-site/4-8",
           "status": "complete"
         }]
     }
@@ -174,43 +262,35 @@
       "indicators": [
         
         {
-          "id": "5-1-1",
-          "title": "Anzahl der Schulen in die am Projekttag teilnehmen",
+          "id": "5-1",
+          "title": "Verhältnis der Beschäftigungsquote von Frauen und Männern",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/5-1-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "5-2-1",
-          "title": "Anzahl der angebotenen Schulungen des Bezirksamts zum gendersensiblen Sprachgebrauch",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/5-2-1",
+          "href": "/sdg-enz-staging-site/5-1",
           "status": "complete"
         },
         {
-          "id": "5-3-1",
-          "title": "Anzahl der Projekte, Anlaufpunkte und Beratungsangebote für Mädchen und junge Frauen in Treptow-Köpenick",
+          "id": "5-2",
+          "title": "Medianeinkommen und Verdienstabstand (Gender Pay Gap)",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/5-3-1",
+          "href": "/sdg-enz-staging-site/5-2",
           "status": "complete"
         },
         {
-          "id": "5-4-1",
-          "title": "Frauenanteil in den Leitungspositionen des höheren Dienstes",
+          "id": "5-3",
+          "title": "Relative Armut von Frauen und Männern",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/5-4-1",
+          "href": "/sdg-enz-staging-site/5-3",
           "status": "complete"
         },
         {
-          "id": "5-5-1",
-          "title": "Frauenanteil in der Bezirksverordnetenversammlung (BVV) Treptow-Köpenicks",
+          "id": "5-4",
+          "title": "Politische Partizipation von Frauen",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/5-5-1",
+          "href": "/sdg-enz-staging-site/5-4",
           "status": "complete"
         }]
     }
@@ -222,27 +302,19 @@
       "indicators": [
         
         {
-          "id": "6-1-1",
-          "title": "Saprobie (organische Belastung) und Trophie (Nährstoffbelastung) des Müggelsee",
+          "id": "6-1",
+          "title": "Ausweisung von Wasserschutzgebieten",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/6-1-1",
+          "href": "/sdg-enz-staging-site/6-1",
           "status": "complete"
         },
         {
-          "id": "6-2-1",
-          "title": "Anzahl außerschulischer Einrichtungen der Natur- und Umweltbildung / Bildung für Nachhaltige Entwicklung (BNE)",
+          "id": "6-2",
+          "title": "Wiederherstellung der Durchgängigkeit in den Fließgewässern",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/6-2-1",
-          "status": "complete"
-        },
-        {
-          "id": "6-3-1",
-          "title": "Badegewässerqualität der Badestellen innerhalb des Bezirks Treptow-Köpenick",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/6-3-1",
+          "href": "/sdg-enz-staging-site/6-2",
           "status": "complete"
         }]
     }
@@ -254,51 +326,35 @@
       "indicators": [
         
         {
-          "id": "7-1-1",
-          "title": "Noch zu definieren",
+          "id": "7-1-a",
+          "title": "Endenergieverbrauch der Liegenschaften des Landratsamts Enzkreis",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/7-1-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "7-2-1",
-          "title": "Anzahl der Photovoltaikanlagen auf bezirkseigenen Gebäuden",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/7-2-1",
+          "href": "/sdg-enz-staging-site/7-1-a",
           "status": "complete"
         },
         {
-          "id": "7-2-2",
-          "title": "Stromerzeugung auf bezirkseigenen Gebäuden (kWh/Jahr)",
+          "id": "7-1-b",
+          "title": "Endenergieverbrauch im Enzkreis",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/7-2-2",
+          "href": "/sdg-enz-staging-site/7-1-b",
           "status": "complete"
         },
         {
-          "id": "7-3-1",
-          "title": "Photovoltaik - Summe der Anlagen im Bezirk",
+          "id": "7-2",
+          "title": "Anteil erneuerbarer Energiequellen am Stromverbrauch im Enzkreis",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/7-3-1",
+          "href": "/sdg-enz-staging-site/7-2",
           "status": "complete"
         },
         {
-          "id": "7-3-2",
-          "title": "Photovoltaik - Stromeinspeisung im Bezirk",
+          "id": "7-3",
+          "title": "Ladepunkte im Enzkreis",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/7-3-2",
-          "status": "complete"
-        },
-        {
-          "id": "7-3-3",
-          "title": "Solarthermie - Summe der Anlagen im Bezirk",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/7-3-3",
+          "href": "/sdg-enz-staging-site/7-3",
           "status": "complete"
         }]
     }
@@ -310,59 +366,35 @@
       "indicators": [
         
         {
-          "id": "8-1-1",
-          "title": "Anzahl der Unternehmen in Treptow-Köpenick die über ein gültiges Testat einer Gemeinwohl-Bilanz verfügen",
+          "id": "8-1",
+          "title": "Bruttoinlandsprodukt",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/8-1-1",
+          "href": "/sdg-enz-staging-site/8-1",
           "status": "complete"
         },
         {
-          "id": "8-2-1",
-          "title": "Anzahl der Teilnehmenden am Mentoringprogramm",
+          "id": "8-2",
+          "title": "Beschäftigungsquote",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/8-2-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-2-2",
-          "title": "Anteil der Bewerber*innen mit Einwanderungsgeschichte",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/8-2-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-3-1",
-          "title": "Anteil der Beschäftigten mit Einwanderungsgeschichte",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/8-3-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-3-2",
-          "title": "Anteil der Beschäftigten mit Einwanderungsgeschichte in Führungspositionen der Kommunalverwaltung",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/8-3-2",
-          "status": "notstarted"
-        },
-        {
-          "id": "8-4-1",
-          "title": "Anzahl der kommunalen Einrichtungen in Treptow-Köpenick die über ein gültiges Testat einer Gemeinwohl-Bilanz verfügen",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/8-4-1",
+          "href": "/sdg-enz-staging-site/8-2",
           "status": "complete"
         },
         {
-          "id": "8-5-1",
-          "title": "Bruttostundenverdienste und Verdienstunterschiede zwischen Frauen und Männern (Gender Pay Gap unbereinigt)",
+          "id": "8-3",
+          "title": "Langzeitarbeitslosenquote",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/8-5-1",
+          "href": "/sdg-enz-staging-site/8-3",
+          "status": "complete"
+        },
+        {
+          "id": "8-4",
+          "title": "Erwerbsaufstocker",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-enz-staging-site/8-4",
           "status": "complete"
         }]
     }
@@ -374,35 +406,67 @@
       "indicators": [
         
         {
-          "id": "9-1-1",
-          "title": "Anzahl der Ladestationen für E-Autos",
+          "id": "9-1",
+          "title": "Existenzgründungen",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/9-1-1",
+          "href": "/sdg-enz-staging-site/9-1",
           "status": "complete"
         },
         {
-          "id": "9-1-2",
-          "title": "Stromverbrauch an Elektro-Ladesäulen",
+          "id": "9-2",
+          "title": "Unternehmensinsolvenzen",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/9-1-2",
+          "href": "/sdg-enz-staging-site/9-2",
           "status": "complete"
         },
         {
-          "id": "9-2-1",
-          "title": "Anzahl öffentlicher Einrichtungen mit freiem WLAN Zugang",
+          "id": "9-3",
+          "title": "Innovationsindex",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/9-2-1",
+          "href": "/sdg-enz-staging-site/9-3",
           "status": "complete"
         },
         {
-          "id": "9-3-1",
-          "title": "Breitband Verfügbarkeit Mbit/s in %",
+          "id": "9-4",
+          "title": "Hochqualifizierte",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/9-3-1",
+          "href": "/sdg-enz-staging-site/9-4",
+          "status": "complete"
+        },
+        {
+          "id": "9-5-a",
+          "title": "Beschäftigtenanteil je Sektor",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-enz-staging-site/9-5-a",
+          "status": "complete"
+        },
+        {
+          "id": "9-5-b",
+          "title": "Beschäftigungsanteil in unternehmensorientierten Dienstleistungsberufen",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-enz-staging-site/9-5-b",
+          "status": "complete"
+        },
+        {
+          "id": "9-6-a",
+          "title": "Breitbandversorgung (private Haushalte) – Anschlussgrad",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-enz-staging-site/9-6-a",
+          "status": "complete"
+        },
+        {
+          "id": "9-6-b",
+          "title": "Breitbandversorgung (private Haushalte) – Hausanschlüsse und Vorstreckungen im Zweckverband",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-enz-staging-site/9-6-b",
           "status": "complete"
         }]
     }
@@ -414,35 +478,35 @@
       "indicators": [
         
         {
-          "id": "10-1-1",
-          "title": "Anteil mehrsprachiger Informationsmaterialien",
+          "id": "10-1",
+          "title": "Einkommensverteilung",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/10-1-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "10-2-1",
-          "title": "Anzahl der angebotenen Fortbildungen innerhalb der Verwaltung",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/10-2-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "10-3-1",
-          "title": "Anzahl der Unternehmen in Treptow-Köpenick die eine Gemeinwohl-Bilanz durchführen",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/10-3-1",
+          "href": "/sdg-enz-staging-site/10-1",
           "status": "complete"
         },
         {
-          "id": "10-4-1",
-          "title": "Gini-Koeffizient der Äquivalenzeinkommen in Treptow-Köpenick",
+          "id": "10-2",
+          "title": "Relative Beschäftigungsquote bei Ausländern/-innen",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/10-4-1",
+          "href": "/sdg-enz-staging-site/10-2",
+          "status": "complete"
+        },
+        {
+          "id": "10-3",
+          "title": "Relative Schulabbrecherquote von Ausländern/-innen",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-enz-staging-site/10-3",
+          "status": "complete"
+        },
+        {
+          "id": "10-4",
+          "title": "Einbürgerungen",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-enz-staging-site/10-4",
           "status": "complete"
         }]
     }
@@ -454,75 +518,83 @@
       "indicators": [
         
         {
-          "id": "11-1-1",
-          "title": "Anzahl der kostenlos ausleihbaren Lastenräder im Bezirk",
+          "id": "11-1-a",
+          "title": "Mietpreisentwicklung",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/11-1-1",
+          "href": "/sdg-enz-staging-site/11-1-a",
           "status": "complete"
         },
         {
-          "id": "11-1-2",
-          "title": "Anzahl der Ausleihen von Lastenrädern",
+          "id": "11-1-b",
+          "title": "Preisentwicklung für Bauland",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/11-1-2",
+          "href": "/sdg-enz-staging-site/11-1-b",
           "status": "complete"
         },
         {
-          "id": "11-2-1",
-          "title": "Anzahl der Abholstellen für Produkte Solidarischer Landwirtschaft (SoLaWi)",
+          "id": "11-2",
+          "title": "Neubauaktivität",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/11-2-1",
+          "href": "/sdg-enz-staging-site/11-2",
           "status": "complete"
         },
         {
-          "id": "11-2-2",
-          "title": "Anzahl der Imker im Bezirk",
+          "id": "11-3",
+          "title": "Wohnflächeninanspruchnahme pro Person",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/11-2-2",
+          "href": "/sdg-enz-staging-site/11-3",
           "status": "complete"
         },
         {
-          "id": "11-2-3",
-          "title": "Anzahl der Bienenvölker im Bezirk",
+          "id": "11-4",
+          "title": "Fertiggestellte Wohngebäude mit erneuerbarer Heizenergie",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/11-2-3",
+          "href": "/sdg-enz-staging-site/11-4",
           "status": "complete"
         },
         {
-          "id": "11-3-1",
-          "title": "Anzahl Baumscheibenpatinnen und -paten",
+          "id": "11-5",
+          "title": "Flächeninanspruchnahme",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/11-3-1",
+          "href": "/sdg-enz-staging-site/11-5",
           "status": "complete"
         },
         {
-          "id": "11-4-1",
-          "title": "Häufigkeit der auf Wegen genutzten Verkehrsmittel in Treptow-Köpenick",
+          "id": "11-6",
+          "title": "Kfz-Dichte",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/11-4-1",
+          "href": "/sdg-enz-staging-site/11-6",
           "status": "complete"
         },
         {
-          "id": "11-5-1",
-          "title": "Sport-, Freizeit- und Erholungsfläche in Treptow-Köpenick",
+          "id": "11-7",
+          "title": "Modal Split",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/11-5-1",
+          "href": "/sdg-enz-staging-site/11-7",
           "status": "complete"
         },
         {
-          "id": "11-5-2",
-          "title": "Versorgung mit öffentlichen Grünflächen insgesamt",
+          "id": "11-8",
+          "title": "Verunglückte im Straßenverkehr",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/11-5-2",
+          "href": "/sdg-enz-staging-site/11-8",
+          "status": "complete"
+        },
+        {
+          "id": "11-9",
+          "title": "Öffentlicher Personennahverkehr",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-enz-staging-site/11-9",
           "status": "complete"
         }]
     }
@@ -534,43 +606,51 @@
       "indicators": [
         
         {
-          "id": "12-1-1",
-          "title": "Anzahl der Fortbildungen zu nachhaltiger und fairer Beschaffung pro Jahr",
+          "id": "12-1",
+          "title": "Trinkwasserabgabe und -verbrauch",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/12-1-1",
+          "href": "/sdg-enz-staging-site/12-1",
           "status": "complete"
         },
         {
-          "id": "12-2-1",
-          "title": "Anzahl der Kirchengemeinden die Teil der Fairtrade Town Kampagne sind",
+          "id": "12-2",
+          "title": "Abfallaufkommen",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/12-2-1",
+          "href": "/sdg-enz-staging-site/12-2",
           "status": "complete"
         },
         {
-          "id": "12-2-2",
-          "title": "Anzahl der Kirchengemeinden mit dem Siegel 'Faire Gemeinde' im Bezirk",
+          "id": "12-3",
+          "title": "Unterstützer der WIN-Charta",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/12-2-2",
+          "href": "/sdg-enz-staging-site/12-3",
           "status": "complete"
         },
         {
-          "id": "12-3-1",
-          "title": "Stand der Zertifizierung der Kommune als Fairtrade Town",
+          "id": "12-4",
+          "title": "Fairtrade Towns im Enzkreis",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/12-3-1",
+          "href": "/sdg-enz-staging-site/12-4",
           "status": "complete"
         },
         {
-          "id": "12-4-1",
-          "title": "Anzahl der Fairtrade Schulen in Treptow-Köpenick",
+          "id": "12-5",
+          "title": "Recyclingpapier in der Kreisverwaltung",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/12-4-1",
+          "href": "/sdg-enz-staging-site/12-5",
+          "status": "complete"
+        },
+        {
+          "id": "12-6",
+          "title": "Nachhaltige Antriebstechniken im Verwaltungsfuhrpark",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-enz-staging-site/12-6",
           "status": "complete"
         }]
     }
@@ -582,51 +662,35 @@
       "indicators": [
         
         {
-          "id": "13-1-1",
-          "title": "Stellenanteile für das Klimaschutzmanagement",
+          "id": "13-1-a",
+          "title": "Treibhausgasemissionen – Landratsamt Enzkreis (mit Ökostrom und PV-Einspeisung)",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/13-1-1",
+          "href": "/sdg-enz-staging-site/13-1-a",
           "status": "complete"
         },
         {
-          "id": "13-1-2",
-          "title": "Index Kommunaler Klimaschutz",
+          "id": "13-1-b",
+          "title": "Treibhausgasemissionen – Landratsamt Enzkreis (mit Bundesstrommix)",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/13-1-2",
+          "href": "/sdg-enz-staging-site/13-1-b",
           "status": "complete"
         },
         {
-          "id": "13-2-1",
-          "title": "Mittlere werktägliche Fahrradverkehrsstärke an der Zählstelle Treptow-Köpenick Kaisersteg",
+          "id": "13-2",
+          "title": "Treibhausgasemissionen – Enzkreis (Landkreis)",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/13-2-1",
+          "href": "/sdg-enz-staging-site/13-2",
           "status": "complete"
         },
         {
-          "id": "13-2-2",
-          "title": "Anzahl der kostenlos ausleihbaren Lastenräder im Bezirk",
+          "id": "13-3",
+          "title": "Unterstützer des Klimaschutzpaktes Baden-Württemberg",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/13-2-2",
-          "status": "complete"
-        },
-        {
-          "id": "13-2-3",
-          "title": "Kilometer Radschnellwege im Bezirk",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/13-2-3",
-          "status": "complete"
-        },
-        {
-          "id": "13-3-1",
-          "title": "CO2-Emissionen aus dem Endenergieverbrauch (Verursacherbilanz)",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/13-3-1",
+          "href": "/sdg-enz-staging-site/13-3",
           "status": "complete"
         }]
     }
@@ -638,28 +702,12 @@
       "indicators": [
         
         {
-          "id": "14-1-1",
-          "title": "Rote Liste Einstufung der in Berliner Gewässern vorkommenden Fischarten",
+          "id": "14-1",
+          "title": "Abwasserbehandlung in Kläranlagen",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/14-1-1",
+          "href": "/sdg-enz-staging-site/14-1",
           "status": "complete"
-        },
-        {
-          "id": "14-2-1",
-          "title": "Anzahl der Anwohnerinnen die an der Sprechstunde der Ranger teilnehmen",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/14-2-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "14-3-1",
-          "title": "Noch zu definieren",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/14-3-1",
-          "status": "notstarted"
         }]
     }
   },
@@ -670,36 +718,44 @@
       "indicators": [
         
         {
-          "id": "15-1-1",
-          "title": "Index Kommunale Klimaanpassung",
+          "id": "15-1",
+          "title": "Landschaftsqualität (Hemerobie-Index)",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/15-1-1",
+          "href": "/sdg-enz-staging-site/15-1",
           "status": "complete"
         },
         {
-          "id": "15-2-1",
-          "title": "Anzahl der Teilnahmen des Bezirks an Netzwerktreffen und Veranstaltungen des „Akteursnetzwerk biologische Vielfalt“ pro Jahr",
+          "id": "15-2",
+          "title": "Unzerschnittene Freiraumflächen",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/15-2-1",
+          "href": "/sdg-enz-staging-site/15-2",
           "status": "complete"
         },
         {
-          "id": "15-3-1",
-          "title": "Naturschutzgebiete und Landschaftsschutzgebiete (Fläche in ha)",
+          "id": "15-3",
+          "title": "Streuobstwiesenfläche",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/15-3-1",
+          "href": "/sdg-enz-staging-site/15-3",
           "status": "complete"
         },
         {
-          "id": "15-4-1",
-          "title": "Noch zu definieren",
+          "id": "15-4",
+          "title": "Naturschutzflächen",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/15-4-1",
-          "status": "notstarted"
+          "href": "/sdg-enz-staging-site/15-4",
+          "status": "complete"
+        },
+        {
+          "id": "15-5",
+          "title": "Schutzgebietsflächen im Wald",
+          "description": "",
+          "keywords": "",
+          "href": "/sdg-enz-staging-site/15-5",
+          "status": "complete"
         }]
     }
   },
@@ -710,35 +766,35 @@
       "indicators": [
         
         {
-          "id": "16-1-1",
-          "title": "Anzahl der partizipativen Veranstaltungen zum Thema SDGs des Bezirksamts Treptow-Köpenick pro Jahr",
+          "id": "16-1",
+          "title": "Straftaten",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/16-1-1",
+          "href": "/sdg-enz-staging-site/16-1",
           "status": "complete"
         },
         {
-          "id": "16-2-1",
-          "title": "Anzahl der interreligiösen Veranstaltungen pro Jahr",
+          "id": "16-2",
+          "title": "Realisiertes Steuerpotenzial je Einwohner",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/16-2-1",
+          "href": "/sdg-enz-staging-site/16-2",
           "status": "complete"
         },
         {
-          "id": "16-3-1",
-          "title": "Anzahl der rassistisch, antisemitisch, homophob und rechtsextrem geprägter Vorfälle pro Jahr in Treptow-Köpenick",
+          "id": "16-3",
+          "title": "Ordentliche Aufwendungen und Verschuldung im Kernhaushalt",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/16-3-1",
+          "href": "/sdg-enz-staging-site/16-3",
           "status": "complete"
         },
         {
-          "id": "16-4-1",
-          "title": "Anzahl der Strukturen der Bürgerbeteiligung und Akteursvernetzung in den Bezirksregionenprofilen",
+          "id": "16-4",
+          "title": "Wahlbeteiligung bei Kreistagswahlen",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/16-4-1",
+          "href": "/sdg-enz-staging-site/16-4",
           "status": "complete"
         }]
     }
@@ -750,84 +806,28 @@
       "indicators": [
         
         {
-          "id": "17-1-1",
-          "title": "Anzahl der Aktivitäten mit Partnerstädten und Veranstaltungen zum Thema Städtepartnerschaften des Bezirksamts Treptow-Köpenick pro Jahr",
+          "id": "17-1",
+          "title": "Entwicklungspolitische Projekte",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/17-1-1",
+          "href": "/sdg-enz-staging-site/17-1",
           "status": "complete"
         },
         {
-          "id": "17-2-1",
-          "title": "Menge verkaufter Packungen Fairtrade Kaffee 'Treptow-Köpenicker Bohne' pro Jahr",
+          "id": "17-2",
+          "title": "Ausgaben für kommunale Entwicklungsleistung",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/17-2-1",
+          "href": "/sdg-enz-staging-site/17-2",
           "status": "complete"
         },
         {
-          "id": "17-3-1",
-          "title": "Städtepartnerschaften",
+          "id": "17-3",
+          "title": "Zeichnungskommunen der Agenda 2030 im Enzkreis",
           "description": "",
           "keywords": "",
-          "href": "/site-repo/17-3-1",
+          "href": "/sdg-enz-staging-site/17-3",
           "status": "complete"
-        },
-        {
-          "id": "17-3-2",
-          "title": "Gemeindeprojekte und -partnerschaften",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/17-3-2",
-          "status": "complete"
-        },
-        {
-          "id": "17-3-3",
-          "title": "Schulpartnerschaften",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/17-3-3",
-          "status": "complete"
-        },
-        {
-          "id": "17-3-4",
-          "title": "Weitere zivilgesellschaftliche Projekte",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/17-3-4",
-          "status": "complete"
-        },
-        {
-          "id": "17-3-5",
-          "title": "Fairer Handel",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/17-3-5",
-          "status": "complete"
-        },
-        {
-          "id": "17-4-1",
-          "title": "Eine-Welt-Projekte und Partnerschaften im Bezirk Treptow-Köpenick",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/17-4-1",
-          "status": "complete"
-        },
-        {
-          "id": "17-5-1",
-          "title": "Noch zu definieren",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/17-5-1",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-6-1",
-          "title": "Öffentliche Ausgaben für Entwicklungszusammenarbeit (Official Development Assistance, ODA)",
-          "description": "",
-          "keywords": "",
-          "href": "/site-repo/17-6-1",
-          "status": "notstarted"
         }]
     }
   }]
