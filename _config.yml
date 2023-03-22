@@ -1,8 +1,8 @@
 # Jekyll configuration for Open SDG platform
 
 # primary settings:
-baseurl: "/sdg-enz-staging-site" # change here!
-remote_data_prefix: "https://DrJannisHoek.github.io/sdg-enz-staging-data/"
+baseurl: "/site-repo" # change here!
+remote_data_prefix: "https://tt053626.github.io/data-repo/"
 
 # URL for the "Edit Data" and "Edit Metadata" button on indicators.
 data_edit_url: http://prose.io/#DrJannisHoek/sdg-enz-staging-data/edit/develop/data/indicator_[id].csv
